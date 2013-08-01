@@ -128,7 +128,7 @@ namespace Chummer
 			{
 				_objDictionary.Clear();
 				XmlDocument objEnglishDocument = new XmlDocument();
-                string strFilePath = Path.Combine(GlobalOptions.ApplicationPath(), "lang");
+				string strFilePath = Path.Combine(GlobalOptions.ApplicationPath(), "lang");
 				strFilePath = Path.Combine(strFilePath, "en-us.xml");
 				objEnglishDocument.Load(strFilePath);
 				foreach (XmlNode objNode in objEnglishDocument.SelectNodes("/chummer/strings/string"))
@@ -139,8 +139,8 @@ namespace Chummer
 					_objDictionary.Add(objNode["key"].InnerText, objNode["text"].InnerText);
 				}
 
-                if (GlobalOptions.Instance.Language != "en-us")
-                    LoadTranslatedString();
+				if (GlobalOptions.Instance.Language != "en-us")
+					LoadTranslatedString();
 
 				_blnLoaded = true;
 			}
@@ -151,55 +151,55 @@ namespace Chummer
 			}
 		}
 
-        /// <summary>
-        /// Load the non-English strings from the translation file.
-        /// </summary>
-        public static void LoadTranslatedString()
-        {
-            string strFilePath = "";
-            try
-            {
-                XmlDocument objLanguageDocument = new XmlDocument();
-                strFilePath = Path.Combine(GlobalOptions.ApplicationPath(), "lang");
-                strFilePath = Path.Combine(strFilePath, GlobalOptions.Instance.Language + ".xml");
-                objLanguageDocument.Load(strFilePath);
-                _objXmlDocument.Load(strFilePath);
-                foreach (XmlNode objNode in objLanguageDocument.SelectNodes("/chummer/strings/string"))
-                {
-                    // Look for the English version of the found string. If it has been found, replace the English contents with the contents from this file.
-                    // If the string was not found, then someone has inserted a Key that should not exist and is ignored.
-                    try
-                    {
-                        if (_objDictionary[objNode["key"].InnerText] != null)
-                            _objDictionary[objNode["key"].InnerText] = objNode["text"].InnerText;
-                    }
-                    catch
-                    {
-                    }
-                }
-            }
-            catch (Exception)
-            {
-                MessageBox.Show("Language file " + strFilePath + " could not be loaded.", "Cannot Load Language", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
+		/// <summary>
+		/// Load the non-English strings from the translation file.
+		/// </summary>
+		public static void LoadTranslatedString()
+		{
+			string strFilePath = "";
+			try
+			{
+				XmlDocument objLanguageDocument = new XmlDocument();
+				strFilePath = Path.Combine(GlobalOptions.ApplicationPath(), "lang");
+				strFilePath = Path.Combine(strFilePath, GlobalOptions.Instance.Language + ".xml");
+				objLanguageDocument.Load(strFilePath);
+				_objXmlDocument.Load(strFilePath);
+				foreach (XmlNode objNode in objLanguageDocument.SelectNodes("/chummer/strings/string"))
+				{
+					// Look for the English version of the found string. If it has been found, replace the English contents with the contents from this file.
+					// If the string was not found, then someone has inserted a Key that should not exist and is ignored.
+					try
+					{
+						if (_objDictionary[objNode["key"].InnerText] != null)
+							_objDictionary[objNode["key"].InnerText] = objNode["text"].InnerText;
+					}
+					catch
+					{
+					}
+				}
+			}
+			catch (Exception)
+			{
+				MessageBox.Show("Language file " + strFilePath + " could not be loaded.", "Cannot Load Language", MessageBoxButtons.OK, MessageBoxIcon.Error);
+				return;
+			}
 
-            // Check to see if the data translation file for the selected language exists.
-            string strDataPath = Path.Combine(GlobalOptions.ApplicationPath(), "lang");
-            strDataPath = Path.Combine(strDataPath, GlobalOptions.Instance.Language + "_data.xml");
-            if (File.Exists(strDataPath))
-            {
-                try
-                {
-                    _objXmlDataDocument = new XmlDocument();
-                    _objXmlDataDocument.Load(strDataPath);
-                }
-                catch
-                {
-                    // Failing to load the data translation file should not render the application unusable.
-                }
-            }
-        }
+			// Check to see if the data translation file for the selected language exists.
+			string strDataPath = Path.Combine(GlobalOptions.ApplicationPath(), "lang");
+			strDataPath = Path.Combine(strDataPath, GlobalOptions.Instance.Language + "_data.xml");
+			if (File.Exists(strDataPath))
+			{
+				try
+				{
+					_objXmlDataDocument = new XmlDocument();
+					_objXmlDataDocument.Load(strDataPath);
+				}
+				catch
+				{
+					// Failing to load the data translation file should not render the application unusable.
+				}
+			}
+		}
 
 		/// <summary>
 		/// Load the selected XML file and its associated custom file.
@@ -453,7 +453,7 @@ namespace Chummer
 			// Load the English version.
 			List<LanguageString> lstEnglish = new List<LanguageString>();
 			XmlDocument objEnglishDocument = new XmlDocument();
-            string strFilePath = Path.Combine(GlobalOptions.ApplicationPath(), "lang");
+			string strFilePath = Path.Combine(GlobalOptions.ApplicationPath(), "lang");
 			strFilePath = Path.Combine(strFilePath, "en-us.xml");
 			objEnglishDocument.Load(strFilePath);
 			foreach (XmlNode objNode in objEnglishDocument.SelectNodes("/chummer/strings/string"))
@@ -467,7 +467,7 @@ namespace Chummer
 			// Load the selected language version.
 			List<LanguageString> lstLanguage = new List<LanguageString>();
 			XmlDocument objLanguageDocument = new XmlDocument();
-            string strLangPath = Path.Combine(GlobalOptions.ApplicationPath(), "lang");
+			string strLangPath = Path.Combine(GlobalOptions.ApplicationPath(), "lang");
 			strLangPath = Path.Combine(strLangPath, strLanguage + ".xml");
 			objLanguageDocument.Load(strLangPath);
 			foreach (XmlNode objNode in objLanguageDocument.SelectNodes("/chummer/strings/string"))

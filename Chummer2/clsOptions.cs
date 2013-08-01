@@ -326,10 +326,10 @@ namespace Chummer
             string[] strArgs = Environment.GetCommandLineArgs();
             if (strArgs.GetUpperBound(0) > 0)
             {
-                if (strArgs[0].Contains("vstest"))
-                    return "D:\\source\\Chummer2\\Chummer2\\bin\\Debug";
-                else
-                    return Application.StartupPath;
+				if (strArgs[0].Contains("vstest"))
+					return AppDomain.CurrentDomain.BaseDirectory;
+				else
+					return Application.StartupPath;
             }
             else
                 return Application.StartupPath;
