@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Export for Squad Manager (http://stauder-online.de/sr/english.htm) -->
-<!-- Version -997 -->
+<!-- Version -999 -->
 <!-- ext:xml -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.stauer-online.de/sr/characters.xsd">
 	<xsl:output method="xml" version="1.0" encoding="utf-8" indent="yes"/>

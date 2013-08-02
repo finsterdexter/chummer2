@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <chummer>
-	<version>-918</version>
+	<version>-999</version>
 	<categories>
 		<category>Advanced</category>
 		<category>ARE Programs</category>
@@ -20,7 +20,7 @@
 			<maxrating />
 			<capacity>Rating/2</capacity>
 			<complexform>yes</complexform>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>232</page>
 		</program>
 		<program>
@@ -30,7 +30,7 @@
 			<maxrating />
 			<capacity>Rating/2</capacity>
 			<complexform>yes</complexform>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>232</page>
 		</program>
 		<program>
@@ -40,7 +40,7 @@
 			<maxrating />
 			<capacity>Rating/2</capacity>
 			<complexform>yes</complexform>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>232</page>
 		</program>
 		<program>
@@ -50,7 +50,7 @@
 			<maxrating />
 			<capacity>Rating/2</capacity>
 			<complexform>yes</complexform>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>233</page>
 		</program>
 		<program>
@@ -60,7 +60,7 @@
 			<maxrating />
 			<capacity>Rating/2</capacity>
 			<complexform>yes</complexform>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>233</page>
 		</program>
 		<program>
@@ -80,7 +80,7 @@
 			<maxrating />
 			<capacity>Rating/2</capacity>
 			<complexform>yes</complexform>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>233</page>
 		</program>
 		<program>
@@ -90,7 +90,7 @@
 			<maxrating />
 			<capacity>Rating/2</capacity>
 			<complexform>yes</complexform>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>233</page>
 		</program>
 		<program>
@@ -140,7 +140,7 @@
 			<maxrating />
 			<capacity>Rating/2</capacity>
 			<complexform>yes</complexform>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>233</page>
 		</program>
 		<program>
@@ -154,7 +154,7 @@
 				<tag>Attack</tag>
 			</tags>
 			<complexform>yes</complexform>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>233</page>
 		</program>
 		<program>
@@ -168,7 +168,7 @@
 				<tag>Black</tag>
 			</tags>
 			<complexform>yes</complexform>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>233</page>
 		</program>
 		<program>
@@ -182,7 +182,7 @@
 				<tag>Black</tag>
 			</tags>
 			<complexform>yes</complexform>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>233</page>
 		</program>
 		<program>
@@ -206,7 +206,7 @@
 				<tag>Bomb</tag>
 			</tags>
 			<complexform>yes</complexform>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>233</page>
 		</program>
 		<program>
@@ -216,7 +216,7 @@
 			<maxrating />
 			<capacity>Rating/2</capacity>
 			<complexform>yes</complexform>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>233</page>
 		</program>
 		<program>
@@ -226,7 +226,7 @@
 			<maxrating />
 			<capacity>Rating/2</capacity>
 			<complexform>yes</complexform>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>233</page>
 		</program>
 		<program>
@@ -246,7 +246,7 @@
 			<maxrating />
 			<capacity>Rating/2</capacity>
 			<complexform>yes</complexform>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>233</page>
 		</program>
 		<program>
@@ -256,7 +256,7 @@
 			<maxrating />
 			<capacity>Rating/2</capacity>
 			<complexform>yes</complexform>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>233</page>
 		</program>
 		<program>
@@ -266,7 +266,7 @@
 			<maxrating />
 			<capacity>Rating/2</capacity>
 			<complexform>yes</complexform>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>233</page>
 		</program>
 		<program>
@@ -289,7 +289,7 @@
 			<maxrating />
 			<capacity>Rating/2</capacity>
 			<complexform>yes</complexform>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>234</page>
 		</program>
 		<program>
@@ -299,7 +299,7 @@
 			<maxrating />
 			<capacity>Rating/2</capacity>
 			<complexform>yes</complexform>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>234</page>
 		</program>
 		<program>
@@ -309,7 +309,7 @@
 			<maxrating />
 			<capacity>Rating/2</capacity>
 			<complexform>yes</complexform>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>234</page>
 		</program>
 		<program>
@@ -319,7 +319,7 @@
 			<maxrating />
 			<capacity>Rating/2</capacity>
 			<complexform>yes</complexform>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>234</page>
 		</program>
 		<program>
@@ -366,7 +366,7 @@
 			<bonus>
 				<selectskill />
 			</bonus>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>330</page>
 		</program>
 		<program>
@@ -383,7 +383,7 @@
 			<bonus>
 				<selecttext />
 			</bonus>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>330</page>
 		</program>
 		<program>
@@ -400,7 +400,7 @@
 			<bonus>
 				<selecttext />
 			</bonus>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>330</page>
 		</program>
 		<program>
@@ -410,7 +410,7 @@
 			<maxrating>1</maxrating>
 			<capacity>0</capacity>
 			<complexform>yes</complexform>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>331</page>
 		</program>
 		<program>
@@ -420,7 +420,7 @@
 			<maxrating>1</maxrating>
 			<capacity>0</capacity>
 			<complexform>yes</complexform>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>331</page>
 		</program>
 		<program>
@@ -430,7 +430,7 @@
 			<maxrating>1</maxrating>
 			<capacity>0</capacity>
 			<complexform>yes</complexform>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>331</page>
 		</program>
 		<program>
@@ -440,7 +440,7 @@
 			<maxrating>1</maxrating>
 			<capacity>0</capacity>
 			<complexform>yes</complexform>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>331</page>
 		</program>
 		<program>
@@ -450,7 +450,7 @@
 			<maxrating>1</maxrating>
 			<capacity>0</capacity>
 			<complexform>yes</complexform>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>331</page>
 		</program>
 		<program>
@@ -460,7 +460,7 @@
 			<maxrating>1</maxrating>
 			<capacity>0</capacity>
 			<complexform>yes</complexform>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>331</page>
 		</program>
 		<program>

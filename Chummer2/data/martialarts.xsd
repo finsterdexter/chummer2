@@ -289,7 +289,8 @@
                             <xs:complexType>
                               <xs:sequence>
                                 <xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1" />
-                                <xs:element ref="bonus" minOccurs="0" maxOccurs="1" />
+                                <xs:element ref="bonus" minOccurs="1" maxOccurs="1" />
+								<xs:element name="conditional" minOccurs="1" maxOccurs="1" />
                               </xs:sequence>
                             </xs:complexType>
                           </xs:element>

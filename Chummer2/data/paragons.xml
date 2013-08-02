@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <chummer>
-	<version>-925</version>
+	<version>-999</version>
 	<categories>
 		<category>Resonance</category>
 		<category>Disonance</category>
@@ -356,7 +356,7 @@
 			<name>Noise</name>
 			<category>Disonance</category>
 			<advantage>+2 dice to Threading Tests</advantage>
-			<disadvantage>Noise technomancers rely on the buzz of Matrix more so than others, and suffer double the modifiers applied to Matrix and non-Matrix actions when caught in static or dead zones (see p. 210, SR4).</disadvantage>
+			<disadvantage>Noise technomancers rely on the buzz of Matrix more so than others, and suffer double the modifiers applied to Matrix and non-Matrix actions when caught in static or dead zones (see p. 210, SR5).</disadvantage>
 			<choices>
 				<choice>
 					<name>+1 die for dissonant Courier sprites</name>

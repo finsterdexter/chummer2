@@ -18,14 +18,7 @@
 		</xs:element>
 		<xs:element name="adeptlinguistics" type="xs:string" minOccurs="0" maxOccurs="1" />
 		<xs:element name="adeptpowerpoints" type="xs:integer" minOccurs="0" maxOccurs="1" />
-        <xs:element name="armor" minOccurs="0" maxOccurs="1">
-		  <xs:complexType>
-		    <xs:sequence>
-		      <xs:element name="b" type="xs:string" minOccurs="0" maxOccurs="1" />
-			  <xs:element name="i" type="xs:string" minOccurs="0" maxOccurs="1" />
-			</xs:sequence>
-		  </xs:complexType>
-		</xs:element>
+        <xs:element name="armorvalue" type="xs:string" minOccurs="0" maxOccurs="1" />
 		<xs:element name="armorencumbrancepenalty" type="xs:string" minOccurs="0" maxOccurs="1" />
 		<xs:element name="basicbiowareessmultiplier" minOccurs="0" maxOccurs="1" />
 		<xs:element name="basiclifestylecost" type="xs:string" minOccurs="0" maxOccurs="1" />
@@ -318,7 +311,7 @@
 		<xs:element name="firewall" type="xs:integer" minOccurs="0" maxOccurs="1" />
 		<xs:element name="system" type="xs:integer" minOccurs="0" maxOccurs="1" />
 		<xs:element name="signal" type="xs:integer" minOccurs="0" maxOccurs="1" />
-		<xs:element name="gearname" type="xs:string" minOccurs="1" maxOccurs="1" />
+		<xs:element name="givenname" type="xs:string" minOccurs="1" maxOccurs="1" />
 		<xs:element name="includedinparent" type="xs:string" minOccurs="1" maxOccurs="1" />
 		<xs:element name="maxskillrating" type="xs:integer" minOccurs="0" maxOccurs="1" />
 		<xs:element name="childcostmultiplier" type="xs:integer" minOccurs="0" maxOccurs="1" />
@@ -373,9 +366,9 @@
 		<xs:element name="suppressive" type="xs:integer" minOccurs="1" maxOccurs="1" />
 		<xs:element name="source" type="xs:string" minOccurs="1" maxOccurs="1" />
 		<xs:element name="page" type="xs:string" minOccurs="1" maxOccurs="1" />
-		<xs:element name="weaponname" type="xs:string" minOccurs="1" maxOccurs="1" />
+		<xs:element name="givenname" type="xs:string" minOccurs="1" maxOccurs="1" />
 		<xs:element name="included" type="xs:string" minOccurs="1" maxOccurs="1" />
-		<xs:element name="installed" type="xs:string" minOccurs="1" maxOccurs="1" />
+		<xs:element name="equipped" type="xs:string" minOccurs="1" maxOccurs="1" />
 		<xs:element name="accessories" minOccurs="0" maxOccurs="1">
 		  <xs:complexType>
 		    <xs:sequence>
@@ -394,7 +387,7 @@
 					<xs:element name="avail" type="xs:string" minOccurs="1" maxOccurs="1" />
 					<xs:element name="cost" type="xs:string" minOccurs="1" maxOccurs="1" />
 					<xs:element name="included" type="xs:string" minOccurs="1" maxOccurs="1" />
-					<xs:element name="installed" type="xs:string" minOccurs="1" maxOccurs="1" />
+					<xs:element name="equipped" type="xs:string" minOccurs="1" maxOccurs="1" />
 					<xs:element name="allowgear" minOccurs="0" maxOccurs="1">
 						<xs:complexType>
 							<xs:sequence>
@@ -437,7 +430,7 @@
 					<xs:element name="conceal" type="xs:integer" minOccurs="1" maxOccurs="1" />
 					<xs:element name="cost" type="xs:string" minOccurs="1" maxOccurs="1" />
 					<xs:element name="included" type="xs:string" minOccurs="1" maxOccurs="1" />
-					<xs:element name="installed" type="xs:string" minOccurs="1" maxOccurs="1" />
+					<xs:element name="equipped" type="xs:string" minOccurs="1" maxOccurs="1" />
 					<xs:element name="rating" type="xs:integer" minOccurs="1" maxOccurs="1" />
 					<xs:element name="ammobonus" type="xs:integer" minOccurs="0" maxOccurs="1" />
 					<xs:element name="ammoreplace" type="xs:string" minOccurs="0" maxOccurs="1" />
@@ -531,7 +524,9 @@
 		<xs:element name="metatypebp" type="xs:integer" minOccurs="1" maxOccurs="1" />
 		<xs:element name="metavariant" type="xs:string" minOccurs="1" maxOccurs="1" />
 		<xs:element name="metatypecategory" type="xs:string" minOccurs="1" maxOccurs="1" />
-		<xs:element name="movement" type="xs:string" minOccurs="1" maxOccurs="1" />
+		<xs:element name="walk" type="xs:string" minOccurs="1" maxOccurs="1" />
+		<xs:element name="run" type="xs:string" minOccurs="1" maxOccurs="1" />
+		<xs:element name="sprint" type="xs:string" minOccurs="1" maxOccurs="1" />
 		<xs:element name="mutantcritterbaseskills" type="xs:integer" minOccurs="1" maxOccurs="1" />
 		<xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1" />
 		<xs:element name="mugshot" type="xs:string" minOccurs="1" maxOccurs="1" />
@@ -942,18 +937,16 @@
 				    <xs:element name="guid" type="xs:string" minOccurs="1" maxOccurs="1" />
 					<xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1" />
 					<xs:element name="category" type="xs:string" minOccurs="1" maxOccurs="1" />
-					<xs:element name="b" type="xs:string" minOccurs="1" maxOccurs="1" />
-					<xs:element name="i" type="xs:string" minOccurs="1" maxOccurs="1" />
+					<xs:element name="armorvalue" type="xs:string" minOccurs="1" maxOccurs="1" />
 					<xs:element name="armorcapacity" type="xs:string" minOccurs="1" maxOccurs="1" />
 					<xs:element name="avail" type="xs:string" minOccurs="1" maxOccurs="1" />
 					<xs:element name="cost" type="xs:integer" minOccurs="1" maxOccurs="1" />
 					<xs:element name="source" type="xs:string" minOccurs="1" maxOccurs="1" />
 					<xs:element name="page" type="xs:string" minOccurs="1" maxOccurs="1" />
-					<xs:element name="armorname" type="xs:string" minOccurs="1" maxOccurs="1" />
+					<xs:element name="givenname" type="xs:string" minOccurs="1" maxOccurs="1" />
 					<xs:element name="equipped" type="xs:string" minOccurs="1" maxOccurs="1" />
 					<xs:element name="extra" type="xs:string" minOccurs="1" maxOccurs="1" />
-					<xs:element name="bdamage" type="xs:integer" minOccurs="1" maxOccurs="1" />
-					<xs:element name="idamage" type="xs:integer" minOccurs="1" maxOccurs="1" />
+					<xs:element name="damage" type="xs:integer" minOccurs="1" maxOccurs="1" />
 					<xs:element name="armormods" minOccurs="1" maxOccurs="1">
 					  <xs:complexType>
 					    <xs:sequence>
@@ -963,8 +956,7 @@
 							    <xs:element name="guid" type="xs:string" minOccurs="1" maxOccurs="1" />
 								<xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1" />
 								<xs:element name="category" type="xs:string" minOccurs="1" maxOccurs="1" />
-								<xs:element name="b" type="xs:string" minOccurs="1" maxOccurs="1" />
-								<xs:element name="i" type="xs:string" minOccurs="1" maxOccurs="1" />
+								<xs:element name="armorvalue" type="xs:string" minOccurs="1" maxOccurs="1" />
 								<xs:element name="armorcapacity" type="xs:string" minOccurs="1" maxOccurs="1" />
 								<xs:element name="maxrating" type="xs:integer" minOccurs="1" maxOccurs="1" />
 								<xs:element name="rating" type="xs:integer" minOccurs="1" maxOccurs="1" />
@@ -1112,7 +1104,7 @@
 					<xs:element name="speed" type="xs:integer" minOccurs="1" maxOccurs="1" />
 					<xs:element name="pilot" type="xs:integer" minOccurs="1" maxOccurs="1" />
 					<xs:element name="body" type="xs:integer" minOccurs="1" maxOccurs="1" />
-					<xs:element name="armor" type="xs:integer" minOccurs="1" maxOccurs="1" />
+					<xs:element name="armorvalue" type="xs:integer" minOccurs="1" maxOccurs="1" />
 					<xs:element name="sensor" type="xs:integer" minOccurs="1" maxOccurs="1" />
 					<xs:element name="devicerating" type="xs:integer" minOccurs="1" maxOccurs="1" />
 					<xs:element name="avail" type="xs:string" minOccurs="1" maxOccurs="1" />
@@ -1121,7 +1113,7 @@
 					<xs:element name="source" type="xs:string" minOccurs="1" maxOccurs="1" />
 					<xs:element name="page" type="xs:string" minOccurs="1" maxOccurs="1" />
 					<xs:element name="physicalcmfilled" type="xs:integer" minOccurs="1" maxOccurs="1" />
-					<xs:element name="vehiclename" type="xs:string" minOccurs="1" maxOccurs="1" />
+					<xs:element name="givenname" type="xs:string" minOccurs="1" maxOccurs="1" />
 					<xs:element name="homenode" type="xs:string" minOccurs="1" maxOccurs="1" />
 					<xs:element name="mods" minOccurs="1" maxOccurs="1">
 					  <xs:complexType>
@@ -1147,7 +1139,7 @@
 								<xs:element name="source" type="xs:string" minOccurs="1" maxOccurs="1" />
 								<xs:element name="page" type="xs:string" minOccurs="1" maxOccurs="1" />
 								<xs:element name="included" type="xs:string" minOccurs="1" maxOccurs="1" />
-								<xs:element name="installed" type="xs:string" minOccurs="1" maxOccurs="1" />
+								<xs:element name="equipped" type="xs:string" minOccurs="1" maxOccurs="1" />
 								<xs:element name="subsystems" type="xs:string" minOccurs="1" maxOccurs="1" />
 								<xs:element name="weapons" minOccurs="1" maxOccurs="1">
 								  <xs:complexType>
@@ -1160,7 +1152,7 @@
 								  <xs:complexType>
 								    <xs:sequence>
 										<xs:element name="accel" type="xs:string" minOccurs="0" maxOccurs="1" />
-										<xs:element name="armor" type="xs:string" minOccurs="0" maxOccurs="1" />
+										<xs:element name="armorvalue" type="xs:string" minOccurs="0" maxOccurs="1" />
 										<xs:element name="body" type="xs:string" minOccurs="0" maxOccurs="1" />
 										<xs:element name="handling" type="xs:string" minOccurs="0" maxOccurs="1" />
 										<xs:element name="speed" type="xs:string" minOccurs="0" maxOccurs="1" />

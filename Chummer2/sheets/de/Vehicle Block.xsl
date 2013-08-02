@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- Vehicle sheet based on the Shadowrun 4th Edition Character Sheet -->
+<!-- Vehicle sheet based on the Shadowrun 5th Edition Character Sheet -->
 <!-- Created by KeyMasterOfGozer -->
-<!-- Version -994 -->
+<!-- Version -999 -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
 	<xsl:include href="ConditionMonitor.xslt"/>
 	<xsl:template match="/characters/character">
@@ -262,7 +262,7 @@
               </tr>
               <tr>
                 <td class="AttribName">Name</td>
-                <td class="AttribValue"><xsl:value-of select="vehiclename" /></td>
+                <td class="AttribValue"><xsl:value-of select="givenname" /></td>
                 <td class="AttribName">Firewall</td>
                 <td class="AttribValue"><xsl:value-of select="firewall" /></td>
               </tr>
@@ -541,8 +541,8 @@
 												</xsl:if>
 												<td width="20%" valign="top">
 													<xsl:value-of select="name" />
-													<xsl:if test="weaponname != ''">
-														("<xsl:value-of select="weaponname" />")
+													<xsl:if test="givenname != ''">
+														("<xsl:value-of select="givenname" />")
 													</xsl:if>
 												</td>
 												<td width="15%" style="text-align:center;" valign="top">
@@ -608,8 +608,8 @@
 												</xsl:if>
 												<td width="20%" valign="top">
 													Und. <xsl:value-of select="underbarrel/weapon/name" />
-													<xsl:if test="underbarrel/weapon/weaponname != ''">
-														("<xsl:value-of select="underbarrel/weapon/weaponname" />")
+													<xsl:if test="underbarrel/weapon/givenname != ''">
+														("<xsl:value-of select="underbarrel/weapon/givenname" />")
 													</xsl:if>
 												</td>
 												<td width="15%" style="text-align:center;" valign="top">

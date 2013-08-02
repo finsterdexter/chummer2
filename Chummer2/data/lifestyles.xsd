@@ -10,6 +10,7 @@
               <xs:element name="lifestyle" minOccurs="0" maxOccurs="unbounded">
                 <xs:complexType>
                   <xs:sequence>
+					<xs:element name="id" type="xs:string" minOccurs="1" maxOccurs="1" />
                     <xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1" />
                     <xs:element name="cost" type="xs:string" minOccurs="1" maxOccurs="1" />
                     <xs:element name="dice" type="xs:string" minOccurs="1" maxOccurs="1" />

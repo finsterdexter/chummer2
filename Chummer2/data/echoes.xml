@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <chummer>
-	<version>-920</version>
+	<version>-999</version>
 	<echoes>
 		<echo>
 			<name>Firewall Upgrade</name>
@@ -10,7 +10,7 @@
 					<firewall>1</firewall>
 				</livingpersona>
 			</bonus>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>243</page>
 		</echo>
 		<echo>
@@ -21,7 +21,7 @@
 					<biofeedback>1</biofeedback>
 				</livingpersona>
 			</bonus>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>243</page>
 		</echo>
 		<echo>
@@ -32,12 +32,12 @@
 				</livingpersona>
 				<matrixinitiativepassadd>1</matrixinitiativepassadd>
 			</bonus>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>244</page>
 		</echo>
 		<echo>
 			<name>Resonance Link</name>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>244</page>
 		</echo>
 		<echo>
@@ -48,7 +48,7 @@
 					<system>1</system>
 				</livingpersona>
 			</bonus>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>244</page>
 		</echo>
 		<echo>

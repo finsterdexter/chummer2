@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <chummer>
-	<version>-922</version>
+	<version>-999</version>
 	<metamagics>
 		<metamagic>
 			<name>Centering</name>
 			<adept>no</adept>
 			<magician>yes</magician>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>198</page>
 		</metamagic>
 		<metamagic>
 			<name>Adept Centering</name>
 			<adept>yes</adept>
 			<magician>no</magician>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>198</page>
 		</metamagic>
 		<metamagic>
 			<name>Flexible Signature</name>
 			<adept>yes</adept>
 			<magician>yes</magician>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>198</page>
 		</metamagic>
 		<metamagic>
 			<name>Masking</name>
 			<adept>yes</adept>
 			<magician>yes</magician>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>198</page>
 		</metamagic>
 		<metamagic>
@@ -37,14 +37,14 @@
 			<bonus>
 				<quickeningmetamagic />
 			</bonus>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>198</page>
 		</metamagic>
 		<metamagic>
 			<name>Shielding</name>
 			<adept>no</adept>
 			<magician>yes</magician>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>198</page>
 		</metamagic>
 		<metamagic>

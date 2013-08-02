@@ -1,70 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <chummer>
-	<version>-923</version>
+	<version>-999</version>
 	<lifestyles>
 		<lifestyle>
+			<id>bf7be148-f387-4214-aa61-37237d3393fd</id>
 			<name>Street</name>
 			<cost>0</cost>
 			<dice>1</dice>
-			<multiplier>10</multiplier>
-			<source>SR4</source>
-			<page>268</page>
+			<multiplier>30</multiplier>
+			<source>SR5</source>
+			<page>95</page>
 		</lifestyle>
 		<lifestyle>
+			<id>4ba8e64b-55dd-409e-bdf3-add174da0113</id>
 			<name>Squatter</name>
 			<cost>500</cost>
 			<dice>2</dice>
-			<multiplier>20</multiplier>
-			<source>SR4</source>
-			<page>268</page>
+			<multiplier>40</multiplier>
+			<source>SR5</source>
+			<page>95</page>
 		</lifestyle>
 		<lifestyle>
+			<id>f2009ab2-65bb-4ed9-a0ce-fbbf77bdf1db</id>
 			<name>Low</name>
 			<cost>2000</cost>
 			<dice>3</dice>
-			<multiplier>50</multiplier>
-			<source>SR4</source>
-			<page>268</page>
+			<multiplier>60</multiplier>
+			<source>SR5</source>
+			<page>95</page>
 		</lifestyle>
 		<lifestyle>
+			<id>25e7fe19-0dc2-4d2b-b134-035259ea321a</id>
 			<name>Middle</name>
 			<cost>5000</cost>
 			<dice>4</dice>
 			<multiplier>100</multiplier>
-			<source>SR4</source>
-			<page>268</page>
+			<source>SR5</source>
+			<page>95</page>
 		</lifestyle>
 		<lifestyle>
+			<id>141d339c-d514-44e6-aab4-94768e68cac3</id>
 			<name>High</name>
 			<cost>10000</cost>
-			<dice>4</dice>
+			<dice>5</dice>
 			<multiplier>500</multiplier>
-			<source>SR4</source>
-			<page>268</page>
+			<source>SR5</source>
+			<page>95</page>
 		</lifestyle>
 		<lifestyle>
-			<name>Full Immersion</name>
-			<cost>30000</cost>
-			<dice>4</dice>
-			<multiplier>100</multiplier>
-			<source>UN</source>
-			<page>38</page>
-		</lifestyle>
-		<lifestyle>
+			<id>43141722-bea8-496f-bdd6-4e4e858e1269</id>
 			<name>Luxury</name>
 			<cost>100000</cost>
-			<dice>4</dice>
+			<dice>6</dice>
 			<multiplier>1000</multiplier>
-			<source>SR4</source>
-			<page>267</page>
-		</lifestyle>
-		<lifestyle>
-			<name>Cyberzombie Lifestyle Addition</name>
-			<cost>2000</cost>
-			<dice>0</dice>
-			<multiplier>0</multiplier>
-			<source>AU</source>
-			<page>157</page>
+			<source>SR5</source>
+			<page>95</page>
 		</lifestyle>
 	</lifestyles>
 	<comforts>

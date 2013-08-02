@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- Dossier character summary sheet -->
-<!-- Created by Jeff Halket, modified by Keith Rudolph, krudolph@gmail.com -->
-<!-- Version -910 -->
+<!-- Created by Jeff Halket, modified by Keith Rudolph, nebular@shaw.ca -->
+<!-- Version -999 -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	
 	<xsl:template match="/characters">

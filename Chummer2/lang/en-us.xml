@@ -1,9 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <chummer>
-	<version>-908</version>
+	<version>-906</version>
 	<name>English (US)</name>
 	<strings>
 		<!-- Common Strings -->
+		<string>
+			<key>String_Points</key>
+			<text>points</text>
+		</string>
+		<string>
+			<key>String_Walk</key>
+			<text>Walk</text>
+		</string>
+		<string>
+			<key>String_Run</key>
+			<text>Run</text>
+		</string>
+		<string>
+			<key>String_Sprint</key>
+			<text>Sprint</text>
+		</string>
+		<string>
+			<key>String_Meter</key>
+			<text>m</text>
+		</string>
+		<string>
+			<key>String_Hit</key>
+			<text>hit</text>
+		</string>
 		<string>
 			<key>String_BP</key>
 			<text>BP</text>
@@ -11,6 +35,10 @@
 		<string>
 			<key>String_Karma</key>
 			<text>Karma</text>
+		</string>
+		<string>
+			<key>String_Priority</key>
+			<text>Priority</text>
 		</string>
 		<string>
 			<key>String_Page</key>
@@ -153,6 +181,10 @@
 			<text>Avail:</text>
 		</string>
 		<string>
+			<key>Label_Accuracy</key>
+			<text>Acc:</text>
+		</string>
+		<string>
 			<key>Label_Cost</key>
 			<text>Cost:</text>
 		</string>
@@ -269,22 +301,6 @@
 			<text>Maximum Capacity allowed:</text>
 		</string>
 		<string>
-			<key>Label_BallisticArmorShort</key>
-			<text>Ballistic:</text>
-		</string>
-		<string>
-			<key>Label_BallisticArmorLong</key>
-			<text>Ballistic Armor:</text>
-		</string>
-		<string>
-			<key>Label_ImpactArmorShort</key>
-			<text>Impact:</text>
-		</string>
-		<string>
-			<key>Label_ImpactArmorLong</key>
-			<text>Impact Armor:</text>
-		</string>
-		<string>
 			<key>Label_Test</key>
 			<text>Test:</text>
 		</string>
@@ -353,16 +369,16 @@
 			<text>hours</text>
 		</string>
 		<string>
-			<key>String_BallisticEncumbrance</key>
-			<text>Ballistic Encumbrance</text>
-		</string>
-		<string>
-			<key>String_ImpactEncumbrance</key>
-			<text>Impact Encumbrance</text>
+			<key>String_ArmorEncumbrance</key>
+			<text>Armor Encumbrance</text>
 		</string>
 		<string>
 			<key>String_StackedFocus</key>
 			<text>Stacked Focus</text>
+		</string>
+		<string>
+			<key>String_EssenceLoss</key>
+			<text>Essence Loss</text>
 		</string>
 		<!-- Printout Strings -->
 		<string>
@@ -404,6 +420,22 @@
 		<string>
 			<key>String_MountBarrel</key>
 			<text>Barrel</text>
+		</string>
+		<string>
+			<key>String_MentalLimit</key>
+			<text>Mental Limit</text>
+		</string>
+		<string>
+			<key>String_PhysicalLimit</key>
+			<text>Physical Limit</text>
+		</string>
+		<string>
+			<key>String_SocialLimit</key>
+			<text>Social Limit</text>
+		</string>
+		<string>
+			<key>String_AstralLimit</key>
+			<text>Astral Limit</text>
 		</string>
 		<!-- Common Message Boxes -->
 		<string>
@@ -1542,6 +1574,10 @@
 			<text>You cannot spend more than {0} on Attributes.</text>
 		</string>
 		<string>
+			<key>Message_SpecialAttributeBuildPoints</key>
+			<text>You cannot spend more than {0} on Special Attributes.</text>
+		</string>
+		<string>
 			<key>MessageTitle_Attribute</key>
 			<text>Attribute Rule</text>
 		</string>
@@ -2623,8 +2659,20 @@
 			<text>Name:</text>
 		</string>
 		<string>
+			<key>Label_Attributes</key>
+			<text>Attributes:</text>
+		</string>
+		<string>
+			<key>Label_Special</key>
+			<text>Special:</text>
+		</string>
+		<string>
 			<key>Label_Metatype</key>
 			<text>Metatype:</text>
+		</string>
+		<string>
+			<key>Label_Skills</key>
+			<text>Skills:</text>
 		</string>
 		<string>
 			<key>Label_Nuyen</key>
@@ -2651,8 +2699,16 @@
 			<text>Adept</text>
 		</string>
 		<string>
-			<key>Label_Attributes</key>
-			<text>Attributes</text>
+			<key>Label_MysticAdept</key>
+			<text>Mystic Adept</text>
+		</string>
+		<string>
+			<key>Label_Technomancer</key>
+			<text>Technomancer</text>
+		</string>
+		<string>
+			<key>Label_AspectedMagician</key>
+			<text>Aspected Magician</text>
 		</string>
 		<string>
 			<key>Label_Base</key>
@@ -3158,20 +3214,12 @@ Only one attribute may be at its Maximum value during character creation.</text>
 			<text>Equipped Armor and Armor Mods are factored into Armor Encumbrance and a character's highest Armor Ratings.</text>
 		</string>
 		<string>
-			<key>Tip_ArmorDegradationBPlus</key>
-			<text>Repair Ballistic Rating.</text>
+			<key>Tip_ArmorDegradationPlus</key>
+			<text>Repair Armor Rating.</text>
 		</string>
 		<string>
-			<key>Tip_ArmorDegradationBMinus</key>
-			<text>Damage Ballistic Rating.</text>
-		</string>
-		<string>
-			<key>Tip_ArmorDegradationIPlus</key>
-			<text>Repair Impact Rating.</text>
-		</string>
-		<string>
-			<key>Tip_ArmorDegradationIMinus</key>
-			<text>Damage Impact Rating.</text>
+			<key>Tip_ArmorDegradationMinus</key>
+			<text>Damage Armor Rating.</text>
 		</string>
 		<!-- Street Gear/Weapon Tab -->
 		<string>
@@ -3684,14 +3732,6 @@ Only one attribute may be at its Maximum value during character creation.</text>
 			<text>Astral Initiative Passes:</text>
 		</string>
 		<string>
-			<key>Label_OtherBallistic</key>
-			<text>Ballistic Armor:</text>
-		</string>
-		<string>
-			<key>Label_OtherImpact</key>
-			<text>Impact Armor:</text>
-		</string>
-		<string>
 			<key>Label_OtherEssence</key>
 			<text>Essence:</text>
 		</string>
@@ -3720,6 +3760,10 @@ Only one attribute may be at its Maximum value during character creation.</text>
 			<text>Fly:</text>
 		</string>
 		<string>
+			<key>Label_OtherSurprise</key>
+			<text>Surprise:</text>
+		</string>
+		<string>
 			<key>Label_OtherCmposure</key>
 			<text>Composure:</text>
 		</string>
@@ -3734,6 +3778,22 @@ Only one attribute may be at its Maximum value during character creation.</text>
 		<string>
 			<key>Label_OtherMemory</key>
 			<text>Memory:</text>
+		</string>
+		<string>
+			<key>Label_MentalLimit</key>
+			<text>Mental Limit:</text>
+		</string>
+		<string>
+			<key>Label_PhysicalLimit</key>
+			<text>Physical Limit:</text>
+		</string>
+		<string>
+			<key>Label_SocialLimit</key>
+			<text>Social Limit:</text>
+		</string>
+		<string>
+			<key>Label_AstralLimit</key>
+			<text>Astral Limit:</text>
 		</string>
 		<string>
 			<key>Tip_OtherCMPhysical</key>
@@ -3768,12 +3828,8 @@ Only one attribute may be at its Maximum value during character creation.</text>
 			<text>Characters have 3 Astral Initiative Passes.</text>
 		</string>
 		<string>
-			<key>Tip_OtherBallisticArmor</key>
-			<text>Only the highest single Ballistic value is used to determine your Armor Rating. If the total Ballistic value for all pieces worn exceeds BOD x 2, you receive a -1 penalty to AGI for every 2 points you are over.</text>
-		</string>
-		<string>
-			<key>Tip_OtherImpactArmor</key>
-			<text>Only the highest single Impact value is used to determine your Armor Rating. If the total Impact value for all pieces worn exceeds BOD x 2, you receive a -1 penalty to AGI for every 2 points you are over.</text>
+			<key>Tip_OtherArmor</key>
+			<text>Only the highest single Armor value is used to determine your Armor Rating. If the total Armor value for all pieces worn exceeds BOD x 2, you receive a -1 penalty to AGI for every 2 points you are over.</text>
 		</string>
 		<string>
 			<key>Tip_OtherEssence</key>
@@ -3800,6 +3856,10 @@ Only one attribute may be at its Maximum value during character creation.</text>
 			<text>Composure is calculated as WIL + CHA.</text>
 		</string>
 		<string>
+			<key>Tip_OtherSurprise</key>
+			<text>Surprise is calculated as REA + INT.</text>
+		</string>
+		<string>
 			<key>Tip_OtherJudgeIntentions</key>
 			<text>Judge Intentions is calculated as INT + CHA.</text>
 		</string>
@@ -3819,14 +3879,6 @@ Only one attribute may be at its Maximum value during character creation.</text>
 		<string>
 			<key>Label_CMCMPenalty</key>
 			<text>CM Penalty:</text>
-		</string>
-		<string>
-			<key>Label_CMBallistic</key>
-			<text>Ballistic Armor:</text>
-		</string>
-		<string>
-			<key>Label_CMImpact</key>
-			<text>Impact Armor:</text>
 		</string>
 		<string>
 			<key>Label_CMResistancePool</key>
@@ -4422,6 +4474,79 @@ Only one attribute may be at its Maximum value during character creation.</text>
 			<key>Label_LifestyleNuyen_ResultOf</key>
 			<text>Result of</text>
 		</string>
+		<!-- Select Priorities Window -->
+		<string>
+			<key>Title_Priorities</key>
+			<text>Select Priorities</text>
+		</string>
+		<string>
+			<key>String_Priority_A</key>
+			<text>A</text>
+		</string>
+		<string>
+			<key>String_Priority_B</key>
+			<text>B</text>
+		</string>
+		<string>
+			<key>String_Priority_C</key>
+			<text>C</text>
+		</string>
+		<string>
+			<key>String_Priority_D</key>
+			<text>D</text>
+		</string>
+		<string>
+			<key>String_Priority_E</key>
+			<text>E</text>
+		</string>
+		<string>
+			<key>String_Priorities_Metatype_Summary</key>
+			<text>Determines the number of points the character will be able to spend on Physical and Mental Attributes.</text>
+		</string>
+		<string>
+			<key>String_Priorities_Metatype</key>
+			<text>{0}:</text>
+		</string>
+		<string>
+			<key>String_Priorities_Attributes_Summary</key>
+			<text>Determines the number of points the character will be able to spend on Physical and Mental Attributes.</text>
+		</string>
+		<string>
+			<key>String_Priorities_Attributes</key>
+			<text>{0}: {1} points</text>
+		</string>
+		<string>
+			<key>String_Priorities_Special_Summary</key>
+			<text>Determines if the character has access to Magic or Resoance.</text>
+		</string>
+		<string>
+			<key>String_Priorities_Special</key>
+			<text>{0}:</text>
+		</string>
+		<string>
+			<key>String_Priorities_Skills_Summary</key>
+			<text>Determines the number of points the character will be able to spend on Skills.</text>
+		</string>
+		<string>
+			<key>String_Priorities_Skills</key>
+			<text>{0}: {1} points</text>
+		</string>
+		<string>
+			<key>String_Priorities_Nuyen_Summary</key>
+			<text>Determines the amount of Nuyen the character will be able to spend on equipment.</text>
+		</string>
+		<string>
+			<key>String_Priorities_Nuyen</key>
+			<text>{0}: {1}</text>
+		</string>
+		<string>
+			<key>MessageTitle_Priorities_UniquePriorities</key>
+			<text>Duplicate Priorities</text>
+		</string>
+		<string>
+			<key>Message_Priorities_UniquePriorities</key>
+			<text>Each Priority may only be selected once.</text>
+		</string>
 		<!-- Select Metatype Window -->
 		<string>
 			<key>Title_Metatype</key>
@@ -4965,6 +5090,10 @@ Only one attribute may be at its Maximum value during character creation.</text>
 			<text>Automatic Updates</text>
 		</string>
 		<string>
+			<key>Checkbox_Options_LocalisedUpdatesOnly</key>
+			<text>Only download updates in my selected language</text>
+		</string>
+		<string>
 			<key>Checkbox_Options_ConfirmDelete</key>
 			<text>Ask for confirmation when deleting items</text>
 		</string>
@@ -5241,10 +5370,6 @@ Only one attribute may be at its Maximum value during character creation.</text>
 			<text>More Lethal Gameplay (SR4 75)</text>
 		</string>
 		<string>
-			<key>Checkbox_Options_SingleArmorEncumbrance</key>
-			<text>No Armor Encumbrance when wearing only one piece of Armor (AR 44)</text>
-		</string>
-		<string>
 			<key>Checkbox_Options_LimitSkills</key>
 			<text>Limit Skills to 20 dice or 2 x (Natural Attribute + Skill Rating), whichever is higher (SR4 61)</text>
 		</string>
@@ -5255,42 +5380,6 @@ Only one attribute may be at its Maximum value during character creation.</text>
 		<string>
 			<key>Checkbox_Options_MetatypesCostKarma</key>
 			<text>Metatypes cost Karma equal to their BP</text>
-		</string>
-		<string>
-			<key>Checkbox_Options_FreeContactPointsKarma</key>
-			<text>Free Contact Points: CHA x</text>
-		</string>
-		<string>
-			<key>Checkbox_Options_FreeContactPointsBP</key>
-			<text>Free Contact Points BP:</text>
-		</string>
-		<string>
-			<key>Checkbox_Options_FreeKnowledgeSkills</key>
-			<text>Karma Build: Free Knowledge Skills like BP Build</text>
-		</string>
-		<string>
-			<key>Checkbox_Options_MaxSpiritForce</key>
-			<text>Max. Spirit Force and Mystic Adept Power Levels based on total MAG Attribute</text>
-		</string>
-		<string>
-			<key>Checkbox_Options_DefaultIncludeModifiers</key>
-			<text>Skill Defaulting includes Modifiers</text>
-		</string>
-		<string>
-			<key>Checkbox_Options_EssenceLossReducesMaximum</key>
-			<text>Essence loss only reduces MAG/RES maximum</text>
-		</string>
-		<string>
-			<key>Checkbox_Options_NoArmorEncumbrance</key>
-			<text>No Armor Encumbrance</text>
-		</string>
-		<string>
-			<key>Checkbox_Options_AlternateArmorEncumbrance</key>
-			<text>Alternate Armor Encumbrance Threshold (BOD+STR)</text>
-		</string>
-		<string>
-			<key>Checkbox_Options_AllowCyberwareESSDiscounts</key>
-			<text>Allow Cyberware Essence costs to be discounted</text>
 		</string>
 		<string>
 			<key>Checkbox_Options_StrengthAffectsRecoil</key>
@@ -5349,18 +5438,6 @@ Only one attribute may be at its Maximum value during character creation.</text>
 			<text>Automatically add Registration plugin to Matrix Programs (requires Unwired)</text>
 		</string>
 		<string>
-			<key>Checkbox_Options_ExceedPositiveQualities</key>
-			<text>Allow characters to exceed 35 BP worth of Positive Qualities</text>
-		</string>
-		<string>
-			<key>Checkbox_Options_ExceedNegativeQualities</key>
-			<text>Allow characters to exceed 35 BP worth of Negative Qualities</text>
-		</string>
-		<string>
-			<key>Checkbox_Options_ExceedNegativeQualitiesLimit</key>
-			<text>Characters only receive up to 35 BP from Negative Qualities</text>
-		</string>
-		<string>
 			<key>Checkbox_Options_StartupFullscreen</key>
 			<text>Start Chummer in fullscreen mode</text>
 		</string>
@@ -5371,14 +5448,6 @@ Only one attribute may be at its Maximum value during character creation.</text>
 		<string>
 			<key>Checkbox_Options_DatesIncludeTime</key>
 			<text>Expense dates should include time</text>
-		</string>
-		<string>
-			<key>Checkbox_Options_MultiplyRestrictedCost</key>
-			<text>Multiply the cost of Restricted items by</text>
-		</string>
-		<string>
-			<key>Checkbox_Options_MultiplyForbiddenCost</key>
-			<text>Multiply the cost of Forbidden items by</text>
 		</string>
 		<string>
 			<key>Checkbox_Option_EnforceCapacity</key>
@@ -5397,26 +5466,6 @@ Only one attribute may be at its Maximum value during character creation.</text>
 			<text>Create backup of character before moving them to Career Mode</text>
 		</string>
 		<string>
-			<key>Checkbox_Option_AllowExceedAttributeBP</key>
-			<text>Allow characters to exceed 50% of points in Attributes</text>
-		</string>
-		<string>
-			<key>Checkbox_Option_UnrestrictedNuyen</key>
-			<text>Characters can spend any number of points on Nuyen</text>
-		</string>
-		<string>
-			<key>Checkbox_Option_AllowHigherStackedFoci</key>
-			<text>Allow the combined Force of Stacked Foci to exceed 6</text>
-		</string>
-		<string>
-			<key>Checkbox_Option_AllowEditPartOfBaseWeapon</key>
-			<text>Allow Weapon Accessories and Mods to change their Part of Base Weapon status</text>
-		</string>
-		<string>
-			<key>Checkbox_Option_AlternateMetatypeAttributeKarma</key>
-			<text>Treat Metatype Attribute Minimum as 1 for the purpose of determining Karma costs</text>
-		</string>
-		<string>
 			<key>Checkbox_Option_PrintLeadershipAlternates</key>
 			<text>Print Leadership variation Skills (from War!)</text>
 		</string>
@@ -5425,32 +5474,16 @@ Only one attribute may be at its Maximum value during character creation.</text>
 			<text>Print Arcana variation Skills (from Street Magic)</text>
 		</string>
 		<string>
-			<key>Checkbox_Option_AllowObsolescentUpgrade</key>
-			<text>Allow Obsolescent to be removed/upgraded in the same way as Obsolete</text>
-		</string>
-		<string>
-			<key>Checkbox_Option_AllowBiowareSuites</key>
-			<text>Allow Bioware Suites</text>
-		</string>
-		<string>
 			<key>Checkbox_Option_PrintNotes</key>
 			<text>Print Notes</text>
 		</string>
 		<string>
+			<key>Checkbox_Option_PrintToFileFirst</key>
+			<text>Apply Linux printing fix</text>
+		</string>
+		<string>
 			<key>Label_Options_EssenceDecimals</key>
 			<text>Number of decimal places to round Essence to:</text>
-		</string>
-		<string>
-			<key>Checkbox_Option_FreeSpiritPowerPointsMAG</key>
-			<text>Free Spirits receive Power Points based on MAG instead of EDG</text>
-		</string>
-		<string>
-			<key>Checkbox_Option_SpecialAttributeKarmaLimit</key>
-			<text>Special Attributes do not count towards 50% Karma limit during character creation</text>
-		</string>
-		<string>
-			<key>Checkbox_Option_TechnomancerAllowAutosoft</key>
-			<text>Technomancers may select Autosofts as Complex Forms</text>
 		</string>
 		<string>
 			<key>Message_Options_RestoreDefaults</key>
@@ -5754,6 +5787,10 @@ Only one attribute may be at its Maximum value during character creation.</text>
 			<key>String_SelectItemFocus</key>
 			<text>Select a Focus to add to the Stacked Focus. Click Cancel if you are done adding Foci to the Stacked Focus.</text>
 		</string>
+		<string>
+			<key>String_SelectInherentLimit</key>
+			<text>Select an Inherent limit.</text>
+		</string>
 		<!-- Select Lifestyle Window -->
 		<string>
 			<key>Title_SelectLifestyle</key>
@@ -6022,6 +6059,10 @@ Only one attribute may be at its Maximum value during character creation.</text>
 		<string>
 			<key>Message_SelectQuality_QualityLimit</key>
 			<text>This Quality cannot be taken more than once.</text>
+		</string>
+		<string>
+			<key>Message_SelectQuality_QualityLimitMultiple</key>
+			<text>This Quality cannot be taken more than {0} times.</text>
 		</string>
 		<string>
 			<key>MessageTitle_SelectQuality_QualityLimit</key>

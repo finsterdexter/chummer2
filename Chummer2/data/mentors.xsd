@@ -89,8 +89,7 @@
 		    </xs:simpleContent>
 		  </xs:complexType>
 		</xs:element>
-        <xs:element name="initiativepass" type="xs:string" minOccurs="0" maxOccurs="1" />
-		<xs:element name="initiativepassadd" type="xs:string" minOccurs="0" maxOccurs="1" />
+        <xs:element name="initiativedice" type="xs:string" minOccurs="0" maxOccurs="1" />
 		<xs:element name="judgeintentions" type="xs:string" minOccurs="0" maxOccurs="1" />
         <xs:element name="lifestylecost" type="xs:string" minOccurs="0" maxOccurs="1" />
 		<xs:element name="liftandcarry" type="xs:string" minOccurs="0" maxOccurs="1" />
@@ -129,6 +128,13 @@
 			</xs:sequence>
 		  </xs:complexType>
 		</xs:element>
+		<xs:element name="selectinherentlimit" minOccurs="0" maxOccurs="unbounded">
+		  <xs:complexType>
+		    <xs:sequence>
+			  <xs:element name="value" type="xs:string" minOccurs="1" maxOccurs="1" />
+			</xs:sequence>
+		  </xs:complexType>
+		</xs:element>
 		<xs:element name="selectmentorspirit" type="xs:string" minOccurs="0" maxOccurs="1" />
 		<xs:element name="selectparagon" type="xs:string" minOccurs="0" maxOccurs="1" />
 		<xs:element name="selectrestricted" minOccurs="0" maxOccurs="1" />
@@ -138,6 +144,8 @@
 		    <xs:sequence>
 			  <xs:element name="max" type="xs:string" minOccurs="0" maxOccurs="1" />
 			  <xs:element name="val" type="xs:string" minOccurs="0" maxOccurs="1" />
+			  <xs:element name="accuracy" type="xs:string" minOccurs="0" maxOccurs="1" />
+			  <xs:element name="weapondv" type="xs:string" minOccurs="0" maxOccurs="1" />
 			  <xs:element name="applytorating" type="xs:string" minOccurs="0" maxOccurs="1" />
 			</xs:sequence>
 			<xs:attribute name="excludecategory" type="xs:string" use="optional" />
@@ -225,7 +233,7 @@
 		  <xs:complexType>
 		    <xs:sequence>
 			  <xs:element name="name" minOccurs="0" maxOccurs="1" />
-			  <xs:element name="bonus" type="xs:string" minOccurs="0" maxOccurs="1" />
+			  <xs:element name="value" type="xs:string" minOccurs="0" maxOccurs="1" />
 			  <xs:element name="applytorating" type="xs:string" minOccurs="0" maxOccurs="1" />
 			  <xs:element name="max" type="xs:string" minOccurs="0" maxOccurs="1" />
 			</xs:sequence>
@@ -241,7 +249,9 @@
 		  </xs:complexType>
 		</xs:element>
 		<xs:element name="spelllimit" type="xs:string" minOccurs="0" maxOccurs="1" />
+		<xs:element name="spellresistance" type="xs:string" minOccurs="0" maxOccurs="1" />
 		<xs:element name="submersion" type="xs:string" minOccurs="0" maxOccurs="1" />
+		<xs:element name="surprise" type="xs:string" minOccurs="0" maxOccurs="1" />
 		<xs:element name="swapskillattribute" minOccurs="0" maxOccurs="1">
 		  <xs:complexType>
 		    <xs:sequence>
@@ -295,11 +305,17 @@
               <xs:element name="mentor" minOccurs="0" maxOccurs="unbounded">
                 <xs:complexType>
                   <xs:sequence>
+					<xs:element name="id" type="xs:string" minOccurs="1" maxOccurs="1" />
                     <xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1" />
                     <xs:element name="category" type="xs:string" minOccurs="1" maxOccurs="1" />
                     <xs:element name="advantage" type="xs:string" minOccurs="1" maxOccurs="1" />
+					<xs:element name="magician" minOccurs="1" maxOccurs="1" />
+					<xs:element name="adept" minOccurs="1" maxOccurs="1" />
                     <xs:element name="disadvantage" type="xs:string" minOccurs="1" maxOccurs="1" />
-					<xs:element ref="bonus" minOccurs="0" maxOccurs="1" />
+					<xs:element ref="bonus" minOccurs="1" maxOccurs="1" />
+					<xs:element name="conditional" minOccurs="1" maxOccurs="1" />
+					<xs:element name="bonusm" minOccurs="1" maxOccurs="1" />
+					<xs:element name="bonusa" minOccurs="1" maxOccurs="1" />
 					<xs:element name="choices" minOccurs="0" maxOccurs="1">
 					  <xs:complexType>
 					    <xs:sequence>

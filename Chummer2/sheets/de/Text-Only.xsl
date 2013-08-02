@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- Text-Only Character Sheet -->
-<!-- Created by Keith Rudolph, krudolph@gmail.com -->
-<!-- Version -912 -->
+<!-- Created by Keith Rudolph, nebular@shaw.ca -->
+<!-- Version -999 -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	
 	<xsl:template match="/characters/character">
@@ -818,8 +818,8 @@
 		<xsl:for-each select="weapons/weapon">
 			<xsl:sort select="name" />
 			<br /><xsl:value-of select="name" />
-			<xsl:if test="weaponname != ''">
-				("<xsl:value-of select="weaponname" />")
+			<xsl:if test="givenname != ''">
+				("<xsl:value-of select="givenname" />")
 			</xsl:if>
 			<xsl:if test="accessories/accessory or mods/weaponmod">
 				<xsl:for-each select="accessories/accessory">
@@ -842,8 +842,8 @@
 		<xsl:for-each select="armors/armor">
 			<xsl:sort select="name" />
 			<br /><xsl:value-of select="name" />
-			<xsl:if test="armorname != ''">
-				("<xsl:value-of select="armorname" />")
+			<xsl:if test="givenname != ''">
+				("<xsl:value-of select="givenname" />")
 			</xsl:if>
 			<xsl:call-template name="for.loop">
 				<xsl:with-param name="i">
@@ -893,8 +893,8 @@
 		<xsl:for-each select="vehicles/vehicle">
 			<xsl:sort select="name" />
 			<br /><xsl:value-of select="name" />
-			<xsl:if test="vehiclename != ''">
-				("<xsl:value-of select="vehiclename" />")
+			<xsl:if test="givenname != ''">
+				("<xsl:value-of select="givenname" />")
 			</xsl:if>
 			<xsl:if test="mods/mod">
 				<xsl:for-each select="mods/mod">
@@ -939,8 +939,8 @@
 				<xsl:for-each select="weapons/weapon">
 					<xsl:sort select="name" />
 					<br />&#160;&#160;&#160;+<xsl:value-of select="name" />
-					<xsl:if test="weaponname != ''">
-						("<xsl:value-of select="weaponname" />")
+					<xsl:if test="givenname != ''">
+						("<xsl:value-of select="givenname" />")
 					</xsl:if>
 					<xsl:if test="accessories/accessory or mods/weaponmod">
 						<xsl:for-each select="accessories/accessory">

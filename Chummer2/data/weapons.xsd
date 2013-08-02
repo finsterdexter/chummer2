@@ -24,11 +24,13 @@
               <xs:element name="weapon" minOccurs="0" maxOccurs="unbounded">
                 <xs:complexType>
                   <xs:sequence>
+					<xs:element name="id" type="xs:string" minOccurs="1" maxOccurs="1" />
                     <xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1" />
                     <xs:element name="category" type="xs:string" minOccurs="1" maxOccurs="1" />
                     <xs:element name="type" type="xs:string" minOccurs="1" maxOccurs="1" />
 					<xs:element name="spec" type="xs:string" minOccurs="0" maxOccurs="1" />
 					<xs:element name="spec2" type="xs:string" minOccurs="0" maxOccurs="1" />
+					<xs:element name="accuracy" type="xs:string" minOccurs="1" maxOccurs="1" />
 					<xs:element name="reach" type="xs:string" minOccurs="1" maxOccurs="1" />
 					<xs:element name="damage" type="xs:string" minOccurs="1" maxOccurs="1" />
 					<xs:element name="ap" type="xs:string" minOccurs="1" maxOccurs="1" />
@@ -98,8 +100,10 @@
               <xs:element name="accessory" minOccurs="0" maxOccurs="unbounded">
                 <xs:complexType>
                   <xs:sequence>
+					<xs:element name="id" type="xs:string" minOccurs="1" maxOccurs="1" />
                     <xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1" />
                     <xs:element name="mount" type="xs:string" minOccurs="1" maxOccurs="1" />
+					<xs:element name="smartgun" type="xs:string" minOccurs="0"maxOccurs="1" />
 					<xs:element name="rc" type="xs:string" minOccurs="0" maxOccurs="1" />
 					<xs:element name="rcgroup" type="xs:integer" minOccurs="0" maxOccurs="1" />
 					<xs:element name="conceal" type="xs:integer" minOccurs="0" maxOccurs="1" />
@@ -127,10 +131,12 @@
               <xs:element name="mod" minOccurs="0" maxOccurs="unbounded">
                 <xs:complexType>
                   <xs:sequence>
+					<xs:element name="id" type="xs:string" minOccurs="1" maxOccurs="1" />
                     <xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1" />
 					<xs:element name="category" type="xs:string" minOccurs="1" maxOccurs="1" />
                     <xs:element name="rating" type="xs:string" minOccurs="1" maxOccurs="1" />
 					<xs:element name="slots" type="xs:string" minOccurs="1" maxOccurs="1" />
+					<xs:element name="smartgun" type="xs:string" minOccurs="0" maxOccurs="1" />
 					<xs:element name="rc" type="xs:string" minOccurs="0" maxOccurs="1" />
 					<xs:element name="rcgroup" type="xs:integer" minOccurs="0" maxOccurs="1" />
 					<xs:element name="dvbonus" type="xs:integer" minOccurs="0" maxOccurs="1" />

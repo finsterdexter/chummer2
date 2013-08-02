@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- Game Master character summary sheet -->
-<!-- Created by Keith Rudolph, krudolph@gmail.com -->
-<!-- Version -918 -->
+<!-- Created by Keith Rudolph, nebular@shaw.ca -->
+<!-- Version -999 -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	
 	<xsl:template match="/characters">

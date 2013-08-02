@@ -281,13 +281,15 @@
               <xs:element name="power" minOccurs="0" maxOccurs="unbounded">
                 <xs:complexType>
                   <xs:sequence>
+					<xs:element name="id" type="xs:string" minOccurs="1" maxOccurs="1" />
                     <xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1" />
                     <xs:element name="points" type="xs:string" minOccurs="1" maxOccurs="1" />
                     <xs:element name="levels" type="xs:string" minOccurs="1" maxOccurs="1" />
                     <xs:element name="limit" type="xs:string" minOccurs="1" maxOccurs="1" />
                     <xs:element name="cap" type="xs:string" minOccurs="0" maxOccurs="1" />
 					<xs:element name="doublecost" type="xs:string" minOccurs="0" maxOccurs="1" />
-					<xs:element ref="bonus" minOccurs="0" maxOccurs="1" />
+					<xs:element ref="bonus" minOccurs="1" maxOccurs="1" />
+					<xs:element name="conditional" minOccurs="1" maxOccurs="1" />
 					<xs:element name="required" minOccurs="0" maxOccurs="1">
 					  <xs:complexType>
 					    <xs:sequence>

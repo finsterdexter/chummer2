@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- Condition Monitor Box Template -->
 <!-- Created by KeyMasterOfGozer -->
-<!-- Version -998 -->
+<!-- Version -999 -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
 <!--
   **** ConditionMonitor(PenaltyBox,CMWidth,TotalBoxes,OverFlow,DamageTaken)
