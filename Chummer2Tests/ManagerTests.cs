@@ -29,7 +29,7 @@ namespace Chummer2Tests
         {
             XmlDocument objXmlDocument = XmlManager.Instance.Load("armor.xml");
             XmlDocument objXmlExpected = new XmlDocument();
-            objXmlExpected.Load("D:\\source\\Chummer2\\Chummer2\\bin\\Debug\\data\\armor.xml");
+            objXmlExpected.Load("data/armor.xml");
             Assert.AreEqual(objXmlExpected.SelectNodes("/chummer/armors/armor").Count, objXmlDocument.SelectNodes("/chummer/armors/armor").Count, "armor.xml did not load correctly from the XmlManager.");
         }
         #endregion
