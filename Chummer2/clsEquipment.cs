@@ -11524,7 +11524,7 @@ namespace Chummer
 			_intArmor = Convert.ToInt32(objXmlVehicle["armor"].InnerText);
 			_intSensor = Convert.ToInt32(objXmlVehicle["sensor"].InnerText);
 			_intDeviceRating = Convert.ToInt32(objXmlVehicle["devicerating"].InnerText);
-            _intSeats = Convert.ToInt32(objXmlVehicle["Seats"].InnerText);
+            _intSeats = Convert.ToInt32(objXmlVehicle["seats"].InnerText);
 			_strAvail = objXmlVehicle["avail"].InnerText;
 			_strSource = objXmlVehicle["source"].InnerText;
 			_strPage = objXmlVehicle["page"].InnerText;

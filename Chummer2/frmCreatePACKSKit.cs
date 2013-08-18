@@ -319,8 +319,6 @@ namespace Chummer
 						objWriter.WriteAttributeString("select", objProgram.Extra);
 					objWriter.WriteValue(objProgram.Name);
 					objWriter.WriteEndElement();
-					if (objProgram.Rating > 0)
-						objWriter.WriteElementString("rating", objProgram.Rating.ToString());
 					if (objProgram.Options.Count > 0)
 					{
 						// <options>

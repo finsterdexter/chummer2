@@ -52,7 +52,7 @@ namespace Chummer2Tests
         public void LanguageManagerLoadTest()
         {
             XmlDocument objXmlDocument = new XmlDocument();
-            objXmlDocument.Load("D:\\source\\Chummer2\\Chummer2\\bin\\Debug\\lang\\en-us.xml");
+            objXmlDocument.Load("lang\\en-us.xml");
 
             foreach (XmlNode objNode in objXmlDocument.SelectNodes("/chummer/strings/string"))
                 Assert.AreEqual(objNode["text"].InnerText.Replace("\\n", "\n"), LanguageManager.Instance.GetString(objNode["key"].InnerText), "Key " + objNode["key"].InnerText + " not loaded correctly by the LanguageManager.");

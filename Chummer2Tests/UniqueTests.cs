@@ -204,7 +204,8 @@ namespace Chummer2Tests
             // Create a new Human character.
             Character objCharacter = new Character();
             objCharacter.LoadMetatype(Guid.Parse("e28e7075-f635-4c02-937c-e4fc61c51602"));
-
+            objCharacter.AdeptEnabled = true;
+            objCharacter.MagicianEnabled = true;
             TreeNode objNode = new TreeNode();
             List<Weapon> lstWeapons = new List<Weapon>();
             List<TreeNode> lstTreeNodes = new List<TreeNode>();

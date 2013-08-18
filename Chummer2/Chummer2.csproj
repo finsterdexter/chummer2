@@ -1308,6 +1308,7 @@
     </Content>
     <Content Include="data\cyberware.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="data\echoes.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -1329,6 +1330,7 @@
     </Content>
     <Content Include="data\metamagics.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="data\metatypes.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

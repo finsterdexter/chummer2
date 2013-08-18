@@ -179,6 +179,7 @@
             this.cboChoice1.Size = new System.Drawing.Size(267, 21);
             this.cboChoice1.TabIndex = 6;
             this.cboChoice1.Visible = false;
+            this.cboChoice1.SelectedIndexChanged += new System.EventHandler(this.cboChoice1_SelectedIndexChanged);
             // 
             // cboChoice2
             // 
@@ -203,6 +204,9 @@
             // 
             this.cboAspect.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboAspect.FormattingEnabled = true;
+            this.cboAspect.Items.AddRange(new object[] {
+            "Magician",
+            "Adept"});
             this.cboAspect.Location = new System.Drawing.Point(403, 35);
             this.cboAspect.Name = "cboAspect";
             this.cboAspect.Size = new System.Drawing.Size(267, 21);
