@@ -11488,6 +11488,7 @@ namespace Chummer
 		private int _intSensor = 0;
 		private int _intAddSlots = 0;
 		private int _intDeviceRating = 3;
+        private int _intSeats = 0;
 		private bool _blnHomeNode = false;
 		private List<string> _lstLocations = new List<string>();
 
@@ -11523,6 +11524,7 @@ namespace Chummer
 			_intArmor = Convert.ToInt32(objXmlVehicle["armor"].InnerText);
 			_intSensor = Convert.ToInt32(objXmlVehicle["sensor"].InnerText);
 			_intDeviceRating = Convert.ToInt32(objXmlVehicle["devicerating"].InnerText);
+            _intSeats = Convert.ToInt32(objXmlVehicle["seats"].InnerText);
 			_strAvail = objXmlVehicle["avail"].InnerText;
 			_strSource = objXmlVehicle["source"].InnerText;
 			_strPage = objXmlVehicle["page"].InnerText;

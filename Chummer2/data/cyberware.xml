@@ -90,7 +90,7 @@
 			<conditional>
 				<skillcategory>
 					<name>Vehicle Active</name>
-					<val>Rating</val>
+					<bonus>Rating</bonus>
 				</skillcategory>
 			</conditional>
 			<source>SR5</source>
@@ -653,17 +653,6 @@
 			</conditional>
 			<source>SR5</source>
 			<page>455</page>
-		</cyberware>
-		<cyberware>
-			<id>xxxxxxxxxxxxxx</id>
-			<name>xxxxxxxxxxxxx</name>
-			<category>Bodyware</category>
-			<ess>xxxxxx</ess>
-			<capacity>[xxx]</capacity>
-			<avail>xx</avail>
-			<cost>xxxxx</cost>
-			<source>SR5</source>
-			<page>454</page>
 		</cyberware>
 	</cyberwares>
 </chummer>

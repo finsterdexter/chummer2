@@ -1,95 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
 <chummer>
-	<version>-999</version>
-	<categories>
-		<category>Personal Mobility Vehicles</category>
-		<category>Bikes</category>
-		<category>Cars</category>
-		<category>Trucks</category>
-		<category>Hovercraft</category>
-		<category>Watercraft</category>
-		<category>Gliders and FPMV</category>
-		<category>LAVs</category>
-		<category>Military, Security and Medical Craft</category>
-		<category>Boats &amp; Subs</category>
-		<category>Winged Planes</category>
-		<category>Rotorcraft</category>
-		<category>Zeppelin</category>
-		<category>VTOL/VSTOL</category>
-		<category>Drones: Micro</category>
-		<category>Drones: Mini</category>
-		<category>Drones: Small</category>
-		<category>Drones: Medium</category>
-		<category>Drones: Large</category>
-	</categories>
-	<modcategories>
-		<category>All</category>
-		<category>Standard</category>
-		<category>Minidrones</category>
-		<category>Special</category>
-	</modcategories>
-	<limits>
-		<limit>Groundcraft Only</limit>
-		<limit>Watercraft Only</limit>
-		<limit>Aircraft Only</limit>
-		<limit>Motorcycles Only</limit>
-		<limit>Naval Vessels Only</limit>
-		<limit>GridLink-Equipped Groundcraft Only</limit>
-		<limit>Medium and Smaller Drones Only</limit>
-		<limit>Wheeled Groundcraft Only</limit>
-		<limit>Groundcraft and Watercraft Only</limit>
-		<limit>Groundcraft and Aircraft Only</limit>
-		<limit>Watercraft, Hovercraft, and Amphibious Groundcraft Only</limit>
-		<limit>Body 8 or Less</limit>
-	</limits>
-	<vehicles>
-		<vehicle>
-			<id>4c18503f-3209-4ddf-b26d-8e0bb71f6aec</id>
-			<name>Daiatsu-Caterpillar Horseman with Drone Module (PMV)</name>
-			<category>Personal Mobility Vehicles</category>
-			<handling>0</handling>
-			<accel>10/20</accel>
-			<speed>75</speed>
-			<pilot>1</pilot>
-			<body>6</body>
-			<armor>4</armor>
-			<sensor>2</sensor>
-			<devicerating>3</devicerating>
-			<avail>8</avail>
-			<cost>16000</cost>
-			<mods>
-				<id>d5a38020-8128-4a6a-8cdd-0f55e82966a3</id>
-			</mods>
-			<gears>
-				<id>c852066c-a120-4caa-84cb-7d75052ad36d</id>
-			</gears>
-			<source>SR5</source>
-			<page>107</page>
-		</vehicle>
-	</vehicles>
-	<mods>
-		<mod>
-			<id>d5a38020-8128-4a6a-8cdd-0f55e82966a3</id>
-			<name>Drone Rack, Small Landing</name>
-			<category>Standard</category>
-			<rating>0</rating>
-			<slots>0</slots>
-			<avail>0</avail>
-			<cost>100</cost>
-			<source>SR5</source>
-			<page>131</page>
-		</mod>
-		<mod>
-			<id>4f3d80af-2d21-43c0-9349-b3893c487800</id>
-			<name>Modular Electronics</name>
-			<category>All</category>
-			<rating>0</rating>
-			<modularelectronics>true</modularelectronics>
-			<slots>1</slots>
-			<avail>6</avail>
-			<cost>1000</cost>
-			<source>SR5</source>
-			<page>Conv. Guide</page>
-		</mod>
-	</mods>
+  <version>-999</version>
+  <categories>
+    <category>Personal Mobility Vehicles</category>
+    <category>Bikes</category>
+    <category>Cars</category>
+    <category>Trucks</category>
+    <category>Hovercraft</category>
+    <category>Watercraft</category>
+    <category>Gliders and FPMV</category>
+    <category>LAVs</category>
+    <category>Military, Security and Medical Craft</category>
+    <category>Boats &amp; Subs</category>
+    <category>Winged Planes</category>
+    <category>Rotorcraft</category>
+    <category>Zeppelin</category>
+    <category>VTOL/VSTOL</category>
+    <category>Drones: Micro</category>
+    <category>Drones: Mini</category>
+    <category>Drones: Small</category>
+    <category>Drones: Medium</category>
+    <category>Drones: Large</category>
+  </categories>
+  <modcategories>
+    <category>All</category>
+    <category>Standard</category>
+    <category>Minidrones</category>
+    <category>Special</category>
+  </modcategories>
+  <limits>
+    <limit>Groundcraft Only</limit>
+    <limit>Watercraft Only</limit>
+    <limit>Aircraft Only</limit>
+    <limit>Motorcycles Only</limit>
+    <limit>Naval Vessels Only</limit>
+    <limit>GridLink-Equipped Groundcraft Only</limit>
+    <limit>Medium and Smaller Drones Only</limit>
+    <limit>Wheeled Groundcraft Only</limit>
+    <limit>Groundcraft and Watercraft Only</limit>
+    <limit>Groundcraft and Aircraft Only</limit>
+    <limit>Watercraft, Hovercraft, and Amphibious Groundcraft Only</limit>
+    <limit>Body 8 or Less</limit>
+  </limits>
+  <vehicles>
+    <vehicle>
+      <id>4c18503f-3209-4ddf-b26d-8e0bb71f6aec</id>
+      <name>Daiatsu-Caterpillar Horseman with Drone Module (PMV)</name>
+      <category>Personal Mobility Vehicles</category>
+      <handling>0</handling>
+      <accel>10/20</accel>
+      <speed>75</speed>
+      <pilot>1</pilot>
+      <body>6</body>
+      <armor>4</armor>
+      <sensor>2</sensor>
+      <devicerating>3</devicerating>
+      <avail>8</avail>
+      <cost>16000</cost>
+      <seats>1</seats>
+      <mods>
+        <id>d5a38020-8128-4a6a-8cdd-0f55e82966a3</id>
+      </mods>
+      <source>SR5</source>
+      <page>107</page>
+    </vehicle>
+  </vehicles>
+  <mods>
+    <mod>
+      <id>d5a38020-8128-4a6a-8cdd-0f55e82966a3</id>
+      <name>Drone Rack, Small Landing</name>
+      <category>Standard</category>
+      <rating>0</rating>
+      <slots>0</slots>
+      <avail>0</avail>
+      <cost>100</cost>
+      <source>SR5</source>
+      <page>131</page>
+    </mod>
+    <mod>
+      <id>4f3d80af-2d21-43c0-9349-b3893c487800</id>
+      <name>Modular Electronics</name>
+      <category>All</category>
+      <rating>0</rating>
+      <modularelectronics>true</modularelectronics>
+      <slots>1</slots>
+      <avail>6</avail>
+      <cost>1000</cost>
+      <source>SR5</source>
+      <page>Conv. Guide</page>
+    </mod>
+  </mods>
 </chummer>
