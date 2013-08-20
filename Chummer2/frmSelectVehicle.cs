@@ -343,6 +343,7 @@ namespace Chummer
             lblVehicleBody.Text = objVehicle.TotalBody.ToString();
             lblVehicleArmor.Text = objVehicle.TotalArmor.ToString();
             lblVehicleSensor.Text = objVehicle.CalculatedSensor.ToString();
+            lblVehicleSeats.Text = objVehicle.Seats.ToString();
 
             if (chkUsedVehicle.Checked)
             {
@@ -437,6 +438,8 @@ namespace Chummer
 			lblVehiclePilot.Left = lblVehiclePilotLabel.Left + intWidth + 6;
 			lblVehicleArmorLabel.Left = lblVehicleHandling.Left + 60;
 			lblVehicleArmor.Left = lblVehicleArmorLabel.Left + intWidth + 6;
+            lblVehicleSeatsLabel.Left = lblVehicleSensor.Left + 60;
+            lblVehicleSeats.Left = lblVehicleSeatsLabel.Left + intWidth + 6;
 
 			lblUsedVehicleDiscountLabel.Left = chkUsedVehicle.Left + chkUsedVehicle.Width + 6;
 			nudUsedVehicleDiscount.Left = lblUsedVehicleDiscountLabel.Left + lblUsedVehicleDiscountLabel.Width + 6;
