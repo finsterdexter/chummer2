@@ -18619,7 +18619,8 @@ namespace Chummer
 					lblVehicleSensor.Text = objVehicle.CalculatedSensor.ToString() + " (" + LanguageManager.Instance.GetString("Label_Signal") + " " + objVehicle.SensorSignal.ToString() + ")";
 				else
 					lblVehicleSensor.Text = objVehicle.Sensor.ToString() + " (" + LanguageManager.Instance.GetString("Label_Signal") + " " + objVehicle.SensorSignal.ToString() + ")";
-				lblVehicleSlots.Text = objVehicle.Slots.ToString() + " (" + (objVehicle.Slots - objVehicle.SlotsUsed).ToString() + " " + LanguageManager.Instance.GetString("String_Remaining") + ")";
+                lblVehicleSeats.Text = objVehicle.Seats.ToString();
+                lblVehicleSlots.Text = objVehicle.Slots.ToString() + " (" + (objVehicle.Slots - objVehicle.SlotsUsed).ToString() + " " + LanguageManager.Instance.GetString("String_Remaining") + ")";
 				string strBook = _objOptions.LanguageBookShort(objVehicle.Source);
 				string strPage = objVehicle.Page;
 				lblVehicleSource.Text = strBook + " " + strPage;
@@ -21782,8 +21783,9 @@ namespace Chummer
 			lblVehicleSensor.Left = lblVehicleSensorLabel.Left + intWidth + 6;
 			lblVehicleSystemLabel.Left = lblVehicleSpeed.Left + 35;
 			lblVehicleSystem.Left = lblVehicleSystemLabel.Left + intWidth + 6;
-
-			lblVehicleSlotsLabel.Left = lblVehicleCost.Left + 94;
+            lblVehicleSeatsLabel.Left = lblVehicleCost.Left + 53;
+            lblVehicleSeats.Left = lblVehicleSeatsLabel.Left + lblVehicleSeatsLabel.Width + 6;
+            lblVehicleSlotsLabel.Left = lblVehicleSeats.Left + 53;
 			lblVehicleSlots.Left = lblVehicleSlotsLabel.Left + lblVehicleSlotsLabel.Width + 6;
 			chkVehicleWeaponAccessoryInstalled.Left = lblVehicleDeviceLabel.Left;
 
