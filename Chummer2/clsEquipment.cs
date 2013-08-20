@@ -11758,8 +11758,9 @@ namespace Chummer
 			objWriter.WriteElementString("speed", _intSpeed.ToString());
 			objWriter.WriteElementString("pilot", _intPilot.ToString());
 			objWriter.WriteElementString("body", _intBody.ToString());
-			objWriter.WriteElementString("armor", _intArmor.ToString());
-			objWriter.WriteElementString("sensor", _intSensor.ToString());
+            objWriter.WriteElementString("armor", _intArmor.ToString());
+            objWriter.WriteElementString("sensor", _intSensor.ToString());
+            objWriter.WriteElementString("seats", _intSeats.ToString());
 			objWriter.WriteElementString("devicerating", _intDeviceRating.ToString());
 			objWriter.WriteElementString("avail", _strAvail);
 			objWriter.WriteElementString("cost", _strCost);
@@ -11832,6 +11833,7 @@ namespace Chummer
 			_intBody = Convert.ToInt32(objNode["body"].InnerText);
 			_intArmor = Convert.ToInt32(objNode["armor"].InnerText);
 			_intSensor = Convert.ToInt32(objNode["sensor"].InnerText);
+            _intSeats = Convert.ToInt32(objNode["seats"].InnerText);
 			_intDeviceRating = Convert.ToInt32(objNode["devicerating"].InnerText);
 			_strAvail = objNode["avail"].InnerText;
 			_strCost = objNode["cost"].InnerText;
@@ -11961,6 +11963,7 @@ namespace Chummer
 				objWriter.WriteElementString("sensor", CalculatedSensor.ToString());
 			else
 				objWriter.WriteElementString("sensor", _intSensor.ToString());
+            objWriter.WriteElementString("seats", _intSeats.ToString());
 			objWriter.WriteElementString("sensorsignal", SensorSignal.ToString());
 			objWriter.WriteElementString("avail", TotalAvail);
 			objWriter.WriteElementString("cost", TotalCost.ToString());
@@ -12181,6 +12184,18 @@ namespace Chummer
 				_intPhysicalCMFilled = value;
 			}
 		}
+
+        public int Seats
+        {
+            get
+            {
+                return _intSeats;
+            }
+            set 
+            { 
+                _intSeats = value; 
+            }
+        }
 
 		/// <summary>
 		/// Cost.
