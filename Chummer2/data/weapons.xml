@@ -2216,7 +2216,8 @@
 			<name>Grenade: Gas</name>
 			<category>Gear</category>
 			<type>Ranged</type>
-			<reach>0</reach>
+      <accuracy>0</accuracy>
+      <reach>0</reach>
 			<damage>Chemical (10m Radius)</damage>
 			<ap>-</ap>
 			<mode>0</mode>
@@ -2257,7 +2258,8 @@
 			<name>Grenade: Thermal Smoke</name>
 			<category>Gear</category>
 			<type>Ranged</type>
-			<reach>0</reach>
+      <accuracy>0</accuracy>
+      <reach>0</reach>
 			<damage>(10m Radius)</damage>
 			<ap>-</ap>
 			<mode>0</mode>
@@ -2361,7 +2363,8 @@
 			<name>Minigrenade: Gas</name>
 			<category>Gear</category>
 			<type>Ranged</type>
-			<reach>0</reach>
+      <accuracy>0</accuracy>
+      <reach>0</reach>
 			<damage>Chemical (10m Radius)</damage>
 			<ap>-</ap>
 			<mode>0</mode>
@@ -2402,7 +2405,8 @@
 			<name>Minigrenade: Thermal Smoke</name>
 			<category>Gear</category>
 			<type>Ranged</type>
-			<reach>0</reach>
+      <accuracy>0</accuracy>
+      <reach>0</reach>
 			<damage>(10m Radius)</damage>
 			<ap>-</ap>
 			<mode>0</mode>

@@ -115,20 +115,22 @@ namespace Chummer
 				lblAdvantage.Text = objXmlMentor["altadvantage"].InnerText;
 			else
 				lblAdvantage.Text = objXmlMentor["advantage"].InnerText;
-
-            if (cboAspect.SelectedValue.ToString() == "Magician")
+            if (cboAspect.SelectedValue != null)
             {
-                if (objXmlMentor["altmagician"] != null)
-                    lblAdvantage.Text += objXmlMentor["altmagician"].InnerText;
+                if (cboAspect.SelectedValue.ToString() == "Magician")
+                {
+                    if (objXmlMentor["altmagician"] != null)
+                        lblAdvantage.Text += objXmlMentor["altmagician"].InnerText;
+                    else
+                        lblAdvantage.Text += objXmlMentor["magician"].InnerText;
+                }
                 else
-                    lblAdvantage.Text += objXmlMentor["magician"].InnerText;
-            }
-            else
-            {
-                if (objXmlMentor["altadept"] != null)
-                    lblAdvantage.Text += objXmlMentor["altadept"].InnerText;
-                else
-                    lblAdvantage.Text += objXmlMentor["adept"].InnerText;
+                {
+                    if (objXmlMentor["altadept"] != null)
+                        lblAdvantage.Text += objXmlMentor["altadept"].InnerText;
+                    else
+                        lblAdvantage.Text += objXmlMentor["adept"].InnerText;
+                }
             }
 
 			if (objXmlMentor["altdisadvantage"] != null)
@@ -376,6 +378,11 @@ namespace Chummer
 		#endregion
 
         private void cboAspect_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cboChoice1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
