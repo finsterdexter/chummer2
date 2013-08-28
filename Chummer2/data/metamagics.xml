@@ -19,6 +19,14 @@
             <page>325</page>
         </metamagic>
         <metamagic>
+            <id>6914c5c4-0236-4205-bebb-bd47d6765ffd</id>
+            <name>Fixation</name>
+            <adept>no</adept>
+            <magician>yes</magician>
+            <source>SR5</source>
+            <page>325</page>
+        </metamagic>
+        <metamagic>
             <id>18431ff0-17d0-40d3-8697-18f5d6a5f52f</id>
             <name>Flexible Signature</name>
             <adept>yes</adept>
@@ -32,7 +40,15 @@
             <adept>yes</adept>
             <magician>yes</magician>
             <source>SR5</source>
-            <page>325</page>
+            <page>326</page>
+        </metamagic>
+        <metamagic>
+            <id>9080950f-95a9-4c20-b22e-5306a847fae5</id>
+            <name>Power Point</name>
+            <adept>yes</adept>
+            <magician>no</magician>
+            <source>SR5</source>
+            <page>326</page>
         </metamagic>
         <metamagic>
             <id>000f0535-a2a6-489e-8a9a-3a0a6460cbc5</id>
@@ -43,7 +59,15 @@
                 <quickeningmetamagic/>
             </bonus>
             <source>SR5</source>
-            <page>325</page>
+            <page>326</page>
+        </metamagic>
+        <metamagic>
+            <id>1114940e-34ac-4529-8b5d-52b68182eb8d</id>
+            <name>Spell Shaping</name>
+            <adept>no</adept>
+            <magician>yes</magician>
+            <source>SR5</source>
+            <page>326</page>
         </metamagic>
         <metamagic>
             <id>6e98d215-e6b0-4b69-a640-2f93d8410216</id>
@@ -51,7 +75,7 @@
             <adept>no</adept>
             <magician>yes</magician>
             <source>SR5</source>
-            <page>325</page>
+            <page>326</page>
         </metamagic>
     </metamagics>
 </chummer>
