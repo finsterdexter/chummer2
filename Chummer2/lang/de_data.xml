@@ -1,6 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <chummer>
     <version>-979</version>
+    <chummer file="books.xml">
+        <books>
+            <book>
+                <id>812a132d-0965-4d8e-9637-bf82114b7bda</id>
+                <translate>Shadowrun 5 Grundregelwerk</translate>
+            </book>
+        </books>
+    </chummer>
     <chummer file="lifestyles.xml">
         <lifestyles>
             <lifestyle>
