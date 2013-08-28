@@ -1,45 +1,1406 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <chummer>
-	<version>-979</version>
-	<chummer file="weapons.xml">
-		<categories>
-			<category translate="Klingenwaffen">Blades</category>
-			<category translate="Knüppel">Clubs</category>
-			<category translate="Exotische Nahkampfwaffen">Exotic Melee Weapons</category>
-			<category translate="Exotische Fernkampfwaffen">Exotic Ranged Weapons</category>
-			<category translate="Waffenlos">Unarmed</category>
-			<category translate="Bögen">Bows</category>
-			<category translate="Armbrüste">Crossbows</category>
-			<category translate="Wurfwaffen">Throwing Weapons</category>
-			<category translate="Taser">Tasers</category>
-			<category translate="Holdouts">Holdouts</category>
-			<category translate="Leichte Pistolen">Light Pistols</category>
-			<category translate="Schwere Pistolen">Heavy Pistols</category>
-			<category translate="Automatikpistolen">Machine Pistols</category>
-			<category translate="Maschinenpistolen">Submachine Guns</category>
-			<category translate="Sturmgewehre">Assault Rifles</category>
-			<category translate="Schwere Sturmgewehre">Battle Rifles</category>
-			<category translate="Sportgewehre">Sports Rifles</category>
-			<category translate="Scharfschützengewehre">Sniper Rifles</category>
-			<category translate="Schrotflinten">Shotguns</category>
-			<category translate="Spezielle Waffen">Special Weapons</category>
-			<category translate="Leichte Maschinengewehre">Light Machine Guns</category>
-			<category translate="Mittlere Maschinengewehre">Medium Machine Guns</category>
-			<category translate="Schwere Maschinengewehre">Heavy Machine Guns</category>
-			<category translate="Sturmkanonen">Assault Cannons</category>
-			<category translate="Flammenwerfer">Flamethrowers</category>
-			<category translate="Laserwaffen">Laser Weapons</category>
-			<category translate="Granatwerfer">Grenade Launchers</category>
-			<category translate="Mörser">Mortar Launchers</category>
-			<category translate="Raketenwerfer">Missile Launchers</category>
-			<category translate="Fahrzeugwaffen">Vehicle Weapons</category>
-		</categories>
-		<weapons>
-			<weapon>
-				<id>9b0d9f6f-299a-4315-b316-216c8b25cce5</id>
-				<page>14</page>
-				<translate>German: Colt America L36</translate>
-			</weapon>
-		</weapons>
-	</chummer>
+    <version>-979</version>
+    <chummer file="lifestyles.xml">
+        <lifestyles>
+            <lifestyle>
+                <id>bf7be148-f387-4214-aa61-37237d3393fd</id>
+                <translate>Auf der Straße</translate>
+                <page>79</page>
+            </lifestyle>
+            <lifestyle>
+                <id>4ba8e64b-55dd-409e-bdf3-add174da0113</id>
+                <translate>Squatter</translate>
+                <page>79</page>
+            </lifestyle>
+            <lifestyle>
+                <id>f2009ab2-65bb-4ed9-a0ce-fbbf77bdf1db</id>
+                <translate>Unterschicht</translate>
+                <page>79</page>
+            </lifestyle>
+            <lifestyle>
+                <id>25e7fe19-0dc2-4d2b-b134-035259ea321a</id>
+                <translate>Mittelschicht</translate>
+                <page>79</page>
+            </lifestyle>
+            <lifestyle>
+                <id>141d339c-d514-44e6-aab4-94768e68cac3</id>
+                <translate>Oberschicht</translate>
+                <page>79</page>
+            </lifestyle>
+            <lifestyle>
+                <id>43141722-bea8-496f-bdd6-4e4e858e1269</id>
+                <translate>Luxus</translate>
+                <page>79</page>
+            </lifestyle>
+        </lifestyles>
+    </chummer>
+    <chummer file="mentors.xml">
+        <categories>
+            <category translate="Tier">Animal</category>
+            <category translate="Anderes">Other</category>
+            <category translate="Toxisch">Toxic</category>
+        </categories>
+        <mentors>
+            <mentor>
+                <id>2afc7632-42a2-4720-8a88-55043613ce1e</id>
+                <translate>Bär</translate>
+                <page>320</page>
+            </mentor>
+            <mentor>
+                <id>0e13df63-9321-47f2-a03a-f57104c5d9d8</id>
+                <translate>Katze</translate>
+                <page>322</page>
+            </mentor>
+            <mentor>
+                <id>494790cf-e082-477d-abae-3550c57a44aa</id>
+                <translate>Hund</translate>
+                <page>321</page>
+            </mentor>
+            <mentor>
+                <id>a0a1137c-0aa2-47ae-af96-5f3bfbd17bdc</id>
+                <translate>Drachentöter</translate>
+                <page>321</page>
+            </mentor>
+            <mentor>
+                <id>6ac7754c-c3b9-4644-8957-eb258e4b70e6</id>
+                <translate>Adler</translate>
+                <page>320</page>
+            </mentor>
+            <mentor>
+                <id>9e2fc817-7e3e-4712-b5c3-700cb79a28e6</id>
+                <translate>Feuerbringer</translate>
+                <page>321</page>
+            </mentor>
+            <mentor>
+                <id>60a3d64e-ee90-4355-aaf8-9ae955ba2467</id>
+                <translate>Berg</translate>
+                <page>320</page>
+            </mentor>
+            <mentor>
+                <id>0da5c862-eed3-4498-aae1-77c004bb1a58</id>
+                <translate>Ratte</translate>
+                <page>322</page>
+            </mentor>
+            <mentor>
+                <id>e7995c96-d0df-486a-9d04-aebfbb3986f5</id>
+                <translate>Rabe</translate>
+                <page>322</page>
+            </mentor>
+            <mentor>
+                <id>f0700036-7220-4cfe-99de-d2db5fb1fdc5</id>
+                <translate>Meer</translate>
+                <page>322</page>
+            </mentor>
+            <mentor>
+                <id>2202ced8-5917-4341-bb83-fd0ff5e36d46</id>
+                <translate>Verführer</translate>
+                <page>323</page>
+            </mentor>
+            <mentor>
+                <id>0f8ca46c-d87a-46c1-91f6-ef0acca5a14f</id>
+                <translate>Hai</translate>
+                <page>321</page>
+            </mentor>
+            <mentor>
+                <id>61edd28f-de80-473f-9af1-fb5f8a594a4f</id>
+                <translate>Schlange</translate>
+                <page>323</page>
+            </mentor>
+            <mentor>
+                <id>73192c13-a550-47a7-a4e7-b0e8b217c709</id>
+                <translate>Donnervogel</translate>
+                <page>321</page>
+            </mentor>
+            <mentor>
+                <id>cfe7a29e-ee17-4a92-9c3e-65e0a371e6f6</id>
+                <translate>Weiser Krieger</translate>
+                <page>323</page>
+            </mentor>
+            <mentor>
+                <id>fb5c556b-aec8-45f1-83dc-b0a118b8cc1e</id>
+                <translate>Wolf</translate>
+                <page>323</page>
+            </mentor>
+        </mentors>
+    </chummer>
+    <chummer file="metamagics.xml">
+        <metamagics>
+            <metamagic>
+                <id>8be3dc51-8335-4c0b-ae99-fdd5ba32586b</id>
+                <translate>Zentrierung</translate>
+                <page>3245</page>
+            </metamagic>
+            <metamagic>
+                <id>1ce6e0a0-72ae-4051-9789-31f13459dd1e</id>
+                <translate>Adeptenzentrierung</translate>
+                <page>324</page>
+            </metamagic>
+            <metamagic>
+                <id>18431ff0-17d0-40d3-8697-18f5d6a5f52f</id>
+                <translate>Flexible Signatur</translate>
+                <page>324</page>
+            </metamagic>
+            <metamagic>
+                <id>13e93975-6409-454b-a5ba-63421c1c01b5</id>
+                <translate>Maskierung</translate>
+                <page>325</page>
+            </metamagic>
+            <metamagic>
+                <id>000f0535-a2a6-489e-8a9a-3a0a6460cbc5</id>
+                <translate>?Intensivierung</translate>
+                <page>324</page>
+            </metamagic>
+            <metamagic>
+                <id>6e98d215-e6b0-4b69-a640-2f93d8410216</id>
+                <translate>Abschirmung</translate>
+                <page>324</page>
+            </metamagic>
+        </metamagics>
+    </chummer>
+    <chummer file="metatypes.xml">
+        <categories>
+            <category translate="Metamenschen">Metahuman</category>
+        </categories>
+        <metatypes>
+            <metatype>
+                <id>e28e7075-f635-4c02-937c-e4fc61c51602</id>
+                <translate>Mensch</translate>
+                <page>69</page>
+            </metatype>
+            <metatype>
+                <id>cf34895a-35cc-4be8-812b-5c715952a93f</id>
+                <translate>Elf</translate>
+                <page>69</page>
+            </metatype>
+            <metatype>
+                <id>70f618bf-7e17-4e32-b2c2-70f57a0c1895</id>
+                <translate>Zwerg</translate>
+                <page>69</page>
+            </metatype>
+            <metatype>
+                <id>67472729-321e-4e00-96ab-8914a9e276a3</id>
+                <translate>Ork</translate>
+                <page>69</page>
+            </metatype>
+            <metatype>
+                <id>4824c829-52c1-4a6f-b6b0-9d47269028b6</id>
+                <translate>Troll</translate>
+                <page>69</page>
+            </metatype>
+        </metatypes>
+    </chummer>
+    <chummer file="powers.xml">
+        <powers>
+            <power>
+                <id>3fd2eb7c-6fa1-4072-8860-3c7eee46a6be</id>
+                <translate>Adrenalinschub</translate>
+                <page>308</page>
+            </power>
+            <power>
+                <id>d03f9bb6-5dee-4bf6-bcea-3dbd1e9e0625</id>
+                <translate>Astrale Wahrnehmung</translate>
+                <page>308</page>
+            </power>
+            <power>
+                <id>08156065-8df1-4363-9194-36d271c50e1b</id>
+                <translate>Attributsschub</translate>
+                <page>308</page>
+            </power>
+            <power>
+                <id>8400e5e3-7e9e-4e25-b3ba-e2c326edda1a</id>
+                <translate>Kampfsinn</translate>
+                <page>309</page>
+            </power>
+            <power>
+                <id>8cbdb29a-aec0-491c-ade2-3800602ca101</id>
+                <translate>Kritischer Schlag</translate>
+                <page>310</page>
+            </power>
+            <power>
+                <id>9cc31c39-8b68-4106-add8-06efe0d61726</id>
+                <translate>Gefahrensinn</translate>
+                <page>309</page>
+            </power>
+            <power>
+                <id>4afef98c-6341-4abd-8199-bdb1e737d0db</id>
+                <translate>Verbesserte Wahrnehmung</translate>
+                <page>311</page>
+            </power>
+            <power>
+                <id>d5f388be-b74f-4d34-a892-ff443ec1dbbc</id>
+                <translate>Erhöhte Präzision</translate>
+                <page>308</page>
+            </power>
+            <power>
+                <id>2c2135cc-c5ef-4faf-9e96-60851000eda1</id>
+                <translate>Verbesserte Fertigkeit</translate>
+                <page>311</page>
+            </power>
+            <power>
+                <id>d11bc706-66d1-44da-9043-ccfdf40950ab</id>
+                <translate>Gesteigertes Körperliches Attribut</translate>
+                <page>309</page>
+            </power>
+            <power>
+                <id>f930d243-c2b1-4da8-8658-0fca24a61e77</id>
+                <translate>Erhöhtes Potenzial</translate>
+                <page>309</page>
+            </power>
+            <power>
+                <id>a76f7321-c213-47ca-b4fb-4fe10aed8fff</id>
+                <translate>Gesteigerte Reflexe 1</translate>
+                <page>309</page>
+            </power>
+            <power>
+                <id>495f2c47-2353-4694-b0a1-3c8c72674d22</id>
+                <translate>Gesteigerte Reflexe 2</translate>
+                <page>309</page>
+            </power>
+            <power>
+                <id>83aec042-8616-4a49-8893-9374d9da805e</id>
+                <translate>Gesteigerte Reflexe 3</translate>
+                <page>309</page>
+            </power>
+            <power>
+                <id>cd3a6637-7988-4808-a783-7e1db3d7e98b</id>
+                <translate>Geschäfter Sinn</translate>
+                <page>309</page>
+            </power>
+            <power>
+                <id>6d3d1771-411a-4978-bf3d-3f7c15877b4c</id>
+                <translate>Todeskralle</translate>
+                <page>310</page>
+            </power>
+            <power>
+                <id>2fce0b88-0fed-494f-90c9-d89cf7400163</id>
+                <translate>Körpersprache</translate>
+                <page>309</page>
+            </power>
+            <power>
+                <id>18556ce7-ba7a-40f5-8bff-56397dc1f1a4</id>
+                <translate>Leichter Körper</translate>
+                <page>310</page>
+            </power>
+            <power>
+                <id>c572c25b-16be-4da0-a99e-d192383b5ca2</id>
+                <translate>Geschossparade</translate>
+                <page>309</page>
+            </power>
+            <power>
+                <id>07129b0d-c725-470d-8f24-649c65429a93</id>
+                <translate>Mystischer Panzer</translate>
+                <page>310</page>
+            </power>
+            <power>
+                <id>287116e2-5b51-4480-81eb-43b815c10378</id>
+                <translate>Natürliche Immunität</translate>
+                <page>310</page>
+            </power>
+            <power>
+                <id>3b2027ce-af75-4f68-948b-89f84c3796e0</id>
+                <translate>Schmerzresistenz</translate>
+                <page>310</page>
+            </power>
+            <power>
+                <id>69c0d6c4-f292-4c3e-be6b-c7520037696b</id>
+                <translate>Beschleunigte Heilung</translate>
+                <page>308</page>
+            </power>
+            <power>
+                <id>28d1aa46-7092-421d-857c-96e96ab817e0</id>
+                <translate>Magieresistenz</translate>
+                <page>310</page>
+            </power>
+            <power>
+                <id>0bb67c8e-4822-44d1-9554-38f1a720b9f3</id>
+                <translate>Spurenloser Schritt</translate>
+                <page>310</page>
+            </power>
+            <power>
+                <id>af249e4b-b75b-4dac-abfe-0c4e3bf3e275</id>
+                <translate>Stimmkontrolle</translate>
+                <page>310</page>
+            </power>
+            <power>
+                <id>286812a0-f887-43d3-9e00-7c7a7820ab08</id>
+                <translate>Wandlaufen</translate>
+                <page>311</page>
+            </power>
+        </powers>
+    </chummer>
+    <chummer file="programs.xml">
+        <categories>
+            <category translate="">Advanced</category>
+            <category translate="">ARE Programs</category>
+            <category translate="">Autosoft</category>
+            <category translate="Standardprogramme">Common Use</category>
+            <category translate="Hackingprogramme">Hacking</category>
+            <category translate="">Malware</category>
+            <category translate="">Sensor Software</category>
+            <category translate="">Skillsofts</category>
+            <category translate="">Tactical AR Software</category>
+        </categories>
+        <programs>
+            <program>
+                <id>535f30c9-dabf-409f-a9b1-76441163855b</id>
+                <translate>Schmöker</translate>
+                <page>242</page>
+            </program>
+            <program>
+                <id>bbb95461-9cfe-4907-9b78-a47829b6cc3b</id>
+                <translate>Konfigurator</translate>
+                <page>242</page>
+            </program>
+            <program>
+                <id>cc304ee9-9cd8-4db9-a926-b511b63bafd4</id>
+                <translate>Editieren</translate>
+                <page>242</page>
+            </program>
+            <program>
+                <id>93ea1bd8-ab88-4dd8-8b49-edcb6550e156</id>
+                <translate>Verschlüsselung</translate>
+                <page>242</page>
+            </program>
+            <program>
+                <id>c606b7f1-10e8-4685-bacf-539dba0ba131</id>
+                <translate>Signalreiniger</translate>
+                <page>242</page>
+            </program>
+            <program>
+                <id>e5c2e040-1c5a-452f-a7c4-ef2489b14287</id>
+                <translate>Toolbox</translate>
+                <page>242</page>
+            </program>
+            <program>
+                <id>e5ef0c40-214d-40fc-b6c1-07d0f5fb0f53</id>
+                <translate>Virtuelle Maschine</translate>
+                <page>242</page>
+            </program>
+            <program>
+                <id>e868d12b-366f-4a7d-989d-8984137c2c20</id>
+                <translate>Panzerung</translate>
+                <page>242</page>
+            </program>
+            <program>
+                <id>1381da94-fe3c-47f2-9ab2-07b8a0f934a3</id>
+                <translate>Biofeedback-Filter</translate>
+                <page>242</page>
+            </program>
+            <program>
+                <id>d7e84725-cc5c-425e-b29a-161ee7549fd0</id>
+                <translate>Entschlüsselung</translate>
+                <page>242</page>
+            </program>
+            <program>
+                <id>dd0fa65c-77b7-4fed-85ec-8ee1e67f73bd</id>
+                <translate>Babymonitor</translate>
+                <page>242</page>
+            </program>
+            <program>
+                <id>f67009e1-7c18-462b-b990-69c290857963</id>
+                <translate>Splitterschutz</translate>
+                <page>243</page>
+            </program>
+            <program>
+                <id>8f3b46f9-3002-484a-ad42-73a858758348</id>
+                <translate>Superbombe</translate>
+                <page>243</page>
+            </program>
+            <program>
+                <id>a5a697ac-32b6-4941-aa9f-823ff48d31ab</id>
+                <translate>Biofeedback</translate>
+                <page>242</page>
+            </program>
+            <program>
+                <id>9704d5a7-19d1-49f3-a749-d1555c083a8a</id>
+                <translate>Blackout</translate>
+                <page>242</page>
+            </program>
+            <program>
+                <id>a87c203d-2d74-420f-8fce-cd29a51d393b</id>
+                <translate>Ausnutzen</translate>
+                <page>242</page>
+            </program>
+            <program>
+                <id>f0298e6f-dc1c-498b-9f87-e4d552eeed06</id>
+                <translate>Gabel</translate>
+                <page>242</page>
+            </program>
+            <program>
+                <id>3f61e4fe-b1ac-499a-9816-705d57051a09</id>
+                <translate>Schild</translate>
+                <page>242</page>
+            </program>
+            <program>
+                <id>ede3b36b-bc1c-4680-9ada-1220f2312d95</id>
+                <translate>Hammer</translate>
+                <page>242</page>
+            </program>
+            <program>
+                <id>cb35e2a4-13a2-41fb-b076-ba81cd33ad49</id>
+                <translate>Fessel</translate>
+                <page>242</page>
+            </program>
+            <program>
+                <id>9c8d8cdc-ae03-4251-b27f-76e7569871b9</id>
+                <translate>Überfall</translate>
+                <page>243</page>
+            </program>
+            <program>
+                <id>59b54eba-38f6-4180-b572-be9b62fe8338</id>
+                <translate>Schutzschirm</translate>
+                <page>242</page>
+            </program>
+            <program>
+                <id>ceddbea2-166a-4f3c-8588-de695fdff4e2</id>
+                <translate>Irreführung</translate>
+                <page>242</page>
+            </program>
+            <program>
+                <id>a89d9880-384f-4cc7-bf4d-e25b8994fa7a</id>
+                <translate>Tarnkappe</translate>
+                <page>243</page>
+            </program>
+            <program>
+                <id>3b5d21e7-15f7-4828-90db-2bc5aa4cdeda</id>
+                <translate>Aufspüren</translate>
+                <page>242</page>
+            </program>
+            <program>
+                <id>27fd8bc3-adcc-43a7-9f6b-92bf4b3187b9</id>
+                <translate>Verwandlung</translate>
+                <page>243</page>
+            </program>
+        </programs>
+    </chummer>
+    <chummer file="qualities.xml">
+        <categories>
+            <category translate="Vorteil">Positive</category>
+            <category translate="Nachteil">Negative</category>
+        </categories>
+        <qualities>
+            <quality>
+                <id>5b934a8e-7cac-4736-af8f-cf50bc4eb229</id>
+                <translate>Beidhändigkeit</translate>
+                <page>83</page>
+            </quality>
+            <quality>
+                <id>f764a28e-a0a5-4f32-af1a-a1e7850b46cb</id>
+                <translate>Analytischer Geist</translate>
+                <page>83</page>
+            </quality>
+            <quality>
+                <id>eb740574-2401-4c33-af35-dea3f21d9cc1</id>
+                <translate>Talentiert</translate>
+                <page>86</page>
+            </quality>
+            <quality>
+                <id>949f3139-0be8-408c-8859-a592f4412dd5</id>
+                <translate>Astrales Chamäleon</translate>
+                <page>83</page>
+            </quality>
+            <quality>
+                <id>396034bb-4d2c-476b-b5e6-8da42c8f7a76</id>
+                <translate>Zweisprachig</translate>
+                <page>87</page>
+            </quality>
+            <quality>
+                <id>8d140e49-0e48-42c2-ae4a-b1445d070998</id>
+                <translate>Unauffälligkeit</translate>
+                <page>86</page>
+            </quality>
+            <quality>
+                <id>094fe4aa-02ec-440c-8ddf-d0b0cf9f91ec</id>
+                <translate>Katzenhaft</translate>
+                <page>84</page>
+            </quality>
+            <quality>
+                <id>1cac07ed-27c2-4c97-afd7-0e6450748d9e</id>
+                <translate>Programmiergenie</translate>
+                <page>85</page>
+            </quality>
+            <quality>
+                <id>b285fd48-1349-4fe2-82ed-0cba147284a5</id>
+                <translate>Gummigelenke</translate>
+                <page>84</page>
+            </quality>
+            <quality>
+                <id>36d4faa4-37a1-4299-9c3c-2688def99165</id>
+                <translate>Außergewöhnliches Attribut</translate>
+                <page>83</page>
+            </quality>
+            <quality>
+                <id>97d8acdd-07bd-4fc3-b703-f17e62610981</id>
+                <translate>Soziales Chamäleon</translate>
+                <page>86</page>
+            </quality>
+            <quality>
+                <id>c260b472-f1bd-44d7-affc-0e3b73c693cf</id>
+                <translate>Erhöhte Konzentrationsfähigkeit (Stufe 1)</translate>
+                <page>84</page>
+            </quality>
+            <quality>
+                <id>8dac7ac9-bfa1-4789-994c-fe7ac39697ea</id>
+                <translate>Erhöhte Konzentrationsfähigkeit (Stufe 2)</translate>
+                <page>84</page>
+            </quality>
+            <quality>
+                <id>8103ad18-67d8-408b-ad8a-ad4a12b08746</id>
+                <translate>Erhöhte Konzentrationsfähigkeit (Stufe 3)</translate>
+                <page>84</page>
+            </quality>
+            <quality>
+                <id>21855f5a-3d58-4fe7-849f-2fce97ecc94e</id>
+                <translate>Erhöhte Konzentrationsfähigkeit (Stufe 4)</translate>
+                <page>84</page>
+            </quality>
+            <quality>
+                <id>f73ddb73-0ac4-4a6e-acad-842332e6ab2d</id>
+                <translate>Erhöhte Konzentrationsfähigkeit (Stufe 5)</translate>
+                <page>84</page>
+            </quality>
+            <quality>
+                <id>574e2c8b-53a7-4143-8ba6-49e751d5c2f1</id>
+                <translate>Erhöhte Konzentrationsfähigkeit (Stufe 6)</translate>
+                <page>84</page>
+            </quality>
+            <quality>
+                <id>bcc8f678-5f18-43ec-a093-a0dedbc2ff76</id>
+                <translate>Technisches Improvisationstalent</translate>
+                <page>86</page>
+            </quality>
+            <quality>
+                <id>35ae6e6d-a987-4d1c-a15d-e71cfa929cd2</id>
+                <translate>Mut</translate>
+                <page>85</page>
+            </quality>
+            <quality>
+                <id>3478c518-8546-41cc-b3ab-3d49ba1fe86c</id>
+                <translate>Hohe Schmerztoleranz (Stufe 1)</translate>
+                <page>84</page>
+            </quality>
+            <quality>
+                <id>49db1332-2af0-46a2-a863-b91fbc8efb84</id>
+                <translate>Hohe Schmerztoleranz (Stufe 2)</translate>
+                <page>84</page>
+            </quality>
+            <quality>
+                <id>d379dbcb-11ed-40a0-94d1-5b8492e6a5a0</id>
+                <translate>Hohe Schmerztoleranz (Stufe 3)</translate>
+                <page>84</page>
+            </quality>
+            <quality>
+                <id>079cfd42-806d-4316-8bbc-c60482e423fa</id>
+                <translate>Vertrautes Terrain (Astrale Akklimatisierung)</translate>
+                <page>87</page>
+            </quality>
+            <quality>
+                <id>af994f0e-682c-497e-834f-f12cefbc6008</id>
+                <translate>Vertrautes Terrain (Gute Bekannte)</translate>
+                <page>87</page>
+            </quality>
+            <quality>
+                <id>18237b18-9cd9-4a49-a3cf-4566243ec8e6</id>
+                <translate>Vertrautes Terrain (Digitales Territorium)</translate>
+                <page>87</page>
+            </quality>
+            <quality>
+                <id>e674786d-06cd-471d-85f2-6ac4bb4c742a</id>
+                <translate>Vertrautes Terrain (Transporter)</translate>
+                <page>87</page>
+            </quality>
+            <quality>
+                <id>66cc3bea-090a-4d18-ad4e-02a79fe56b9c</id>
+                <translate>Vertrautes Terrain (Unauffindbar)</translate>
+                <page>87</page>
+            </quality>
+            <quality>
+                <id>816c6110-cedf-4362-9dcc-ed73e5dd019f</id>
+                <translate>Vertrautes Terrain (Straßenpolitik)</translate>
+                <page>87</page>
+            </quality>
+            <quality>
+                <id>4ac5559f-367b-44e1-b5e2-3611cd4ff2ae</id>
+                <translate>Menschliches Aussehen</translate>
+                <page>85</page>
+            </quality>
+            <quality>
+                <id>21fbb224-e37d-4773-a025-189640fb757e</id>
+                <translate>Durchsetzungskraft</translate>
+                <page>84</page>
+            </quality>
+            <quality>
+                <id>ef9285ac-0c94-41b0-972f-007a2ab8eab0</id>
+                <translate>Rennpilot</translate>
+                <page>85</page>
+            </quality>
+            <quality>
+                <id>d3c56d38-7706-4c60-86e3-c1c41d706e8b</id>
+                <translate>Glück</translate>
+                <page>84</page>
+            </quality>
+            <quality>
+                <id>9e51c30c-cb19-42c3-872d-353122215d2f</id>
+                <translate>Magieresistenz</translate>
+                <page>85</page>
+            </quality>
+            <quality>
+                <id>e8c8cae7-ef7c-4eef-87d9-5ddffde0c332</id>
+                <translate>Schutzgeist</translate>
+                <page>86</page>
+            </quality>
+            <quality>
+                <id>15ac4219-1060-43ce-9f76-07ea57638b29</id>
+                <translate>Bewegungstalent</translate>
+                <page>84</page>
+            </quality>
+            <quality>
+                <id>b0698ea8-b2fa-4c88-bccb-a24387ad350b</id>
+                <translate>Natürliche Härte</translate>
+                <page>85</page>
+            </quality>
+            <quality>
+                <id>83cbcb59-a76f-4685-941b-f40d268e157c</id>
+                <translate>Natürliche Immunität (natürlich)</translate>
+                <page>85</page>
+            </quality>
+            <quality>
+                <id>10ec494d-291e-494c-80b8-21aecda7362c</id>
+                <translate>Natürliche Immunität (synthetisch)</translate>
+                <page>85</page>
+            </quality>
+            <quality>
+                <id>89bfd0a1-18c4-4891-bb81-af9795478e58</id>
+                <translate>Fotografisches Gedächtnis</translate>
+                <page>84</page>
+            </quality>
+            <quality>
+                <id>0091cea3-7152-43d7-a702-33d8793e5de7</id>
+                <translate>Schnellheilung</translate>
+                <page>85</page>
+            </quality>
+            <quality>
+                <id>4f44dc1d-9a04-4905-9687-0f82dc5670bc</id>
+                <translate>Pathogenresistenz</translate>
+                <page>85</page>
+            </quality>
+            <quality>
+                <id>06074aaa-5968-40dc-b3d6-47797ada450e</id>
+                <translate>Toxinresistenz</translate>
+                <page>85</page>
+            </quality>
+            <quality>
+                <id>32e30fdd-5c07-41a4-ac63-25a384b9a456</id>
+                <translate>Pathogen- und Toxinresistenz</translate>
+                <page>85</page>
+            </quality>
+            <quality>
+                <id>0c75b400-2eb3-492f-9149-d536d618c263</id>
+                <translate>Freundliche Geister</translate>
+                <page>84</page>
+            </quality>
+            <quality>
+                <id>809d6470-3aa6-4285-972b-ba612fb39501</id>
+                <translate>Zähigkeit</translate>
+                <page>87</page>
+            </quality>
+            <quality>
+                <id>028b47f5-f600-4719-a0b7-86692622199e</id>
+                <translate>Überlebenswille</translate>
+                <page>86</page>
+            </quality>
+            <quality>
+                <id>a8144225-c206-48e9-8bee-a25c88f24e05</id>
+                <translate>Abhängigkeit (leicht)</translate>
+                <page>88</page>
+            </quality>
+            <quality>
+                <id>7891f8da-9409-4566-90c6-7228f82fb304</id>
+                <translate>Abhängigkeit (mittel)</translate>
+                <page>88</page>
+            </quality>
+            <quality>
+                <id>1c5337c9-1502-43fc-ae99-e557cfa24263</id>
+                <translate>Abhängigkeit (schwer)</translate>
+                <page>88</page>
+            </quality>
+            <quality>
+                <id>a3a2c59b-d3be-4620-a4e0-768878c39de7</id>
+                <translate>Abhängigkeit (ausgebrannt)</translate>
+                <page>88</page>
+            </quality>
+            <quality>
+                <id>6ab1fa68-fcd1-4413-a339-51c2e825d070</id>
+                <translate>Allergie (selten, leicht)</translate>
+                <page>88</page>
+            </quality>
+            <quality>
+                <id>93978087-7e01-4f83-9aa9-9538d361ef6c</id>
+                <translate>Allergie (selten, mittel)</translate>
+                <page>88</page>
+            </quality>
+            <quality>
+                <id>7363272a-6310-4585-a0b8-f92b7898d65d</id>
+                <translate>Allergie (selten,schwer)</translate>
+                <page>88</page>
+            </quality>
+            <quality>
+                <id>1362857b-fe83-45d3-9601-f7d8144550e7</id>
+                <translate>Allergie (selten, extrem)</translate>
+                <page>88</page>
+            </quality>
+            <quality>
+                <id>9d51964e-fd4f-445e-9ab2-e150964c773f</id>
+                <translate>Allergie (häufig, leicht)</translate>
+                <page>88</page>
+            </quality>
+            <quality>
+                <id>c9eb09be-fd77-4173-940c-db6c83147989</id>
+                <translate>Allergie (häufig, mittel)</translate>
+                <page>88</page>
+            </quality>
+            <quality>
+                <id>d7ffc741-a231-408f-bcf8-04bc31e3bdf1</id>
+                <translate>Allergie (häufig, schwer)</translate>
+                <page>88</page>
+            </quality>
+            <quality>
+                <id>a10cb943-eb08-42f1-880a-050284b78e15</id>
+                <translate>Allergie (häufig, extrem)</translate>
+                <page>88</page>
+            </quality>
+            <quality>
+                <id>e73cce27-59f8-4ad9-a6f2-aeb61ac9576d</id>
+                <translate>Astrales Leuchtfeuer</translate>
+                <page>89</page>
+            </quality>
+            <quality>
+                <id>e634f908-ecf8-437f-88cf-f5585091d460</id>
+                <translate>Unglück</translate>
+                <page>95</page>
+            </quality>
+            <quality>
+                <id>910e2fa3-4605-4e5b-bc27-f95f63053264</id>
+                <translate>Berüchtigt</translate>
+                <page>89</page>
+            </quality>
+            <quality>
+                <id>ea9e32d3-f094-40a4-8431-c5a73816ebed</id>
+                <translate>Ehrenkodex (Credo des Assassinen)</translate>
+                <page>89</page>
+            </quality>
+            <quality>
+                <id>ebaadf9d-5068-4c93-8066-b2dc80562824</id>
+                <translate>Ehrenkodex (Kriegerkodex)</translate>
+                <page>89</page>
+            </quality>
+            <quality>
+                <id>abe089ed-03c3-4e63-92f0-83b4c3127fdc</id>
+                <translate>Programmierniete</translate>
+                <page>92</page>
+            </quality>
+            <quality>
+                <id>368f2742-a3fc-4308-93ce-695df44e4355</id>
+                <translate>Kampflähmung</translate>
+                <page>92</page>
+            </quality>
+            <quality>
+                <id>25849cbf-951f-4a64-b3aa-d4bc2e8a7ef2</id>
+                <translate>Verpflichtungen (lästig)</translate>
+                <page>95</page>
+            </quality>
+            <quality>
+                <id>36015949-4ca9-4c36-8a21-60dbec6b5865</id>
+                <translate>Verpflichtungen (störend)</translate>
+                <page>95</page>
+            </quality>
+            <quality>
+                <id>0cf39ec6-960c-4ee2-bbdf-7b44c9c5a454</id>
+                <translate>Verpflichtungen (Familie)</translate>
+                <page>95</page>
+            </quality>
+            <quality>
+                <id>6db781dd-c50f-4b65-a51a-a343231366dd</id>
+                <translate>Auffälliger Stil</translate>
+                <page>89</page>
+            </quality>
+            <quality>
+                <id>aaeac209-d603-4d84-98cd-93f2d390a92f</id>
+                <translate>Elfenposer</translate>
+                <page>90</page>
+            </quality>
+            <quality>
+                <id>cc0a4791-6f45-4340-8d00-9edecb71e4de</id>
+                <translate>Gremlins</translate>
+                <page>91</page>
+            </quality>
+            <quality>
+                <id>64f10191-d382-4470-8ed9-90bf64e1bad3</id>
+                <translate>Inkompetenz</translate>
+                <page>92</page>
+            </quality>
+            <quality>
+                <id>d1f45fb5-e22c-46cc-afd4-243e9f1ccf2a</id>
+                <translate>Schlaflosigkeit (Stufe 1)</translate>
+                <page>92</page>
+            </quality>
+            <quality>
+                <id>16f6736c-feaf-44c6-9627-1c8d8b5a70a6</id>
+                <translate>Schlaflosigkeit (Stufe 2)</translate>
+                <page>92</page>
+            </quality>
+            <quality>
+                <id>d99bbd0b-7412-4fc7-bf36-e2b0fa311b39</id>
+                <translate>Verunsichert</translate>
+                <page>96</page>
+            </quality>
+            <quality>
+                <id>fba2a8ae-f426-4a08-90f5-728d14395f10</id>
+                <translate>Niedrige Schmerztoleranz</translate>
+                <page>92</page>
+            </quality>
+            <quality>
+                <id>abec8e2c-5f75-4484-a1af-13bc6630b1e7</id>
+                <translate>Orkposer</translate>
+                <page>92</page>
+            </quality>
+            <quality>
+                <id>60c1e12f-5353-4fc7-b8bf-af00e3bd5edd</id>
+                <translate>Vorurteile (weit verbreitet, voreingenommen)</translate>
+                <page>96</page>
+            </quality>
+            <quality>
+                <id>29593861-92d2-41ea-b6ae-704e22e1c62c</id>
+                <translate>Vorurteile (weit verbreitet, offen)</translate>
+                <page>96</page>
+            </quality>
+            <quality>
+                <id>bf86c9ba-d143-441a-a67f-166350f2a314</id>
+                <translate>Vorurteile (weit verbreitet, radikal)</translate>
+                <page>96</page>
+            </quality>
+            <quality>
+                <id>f74deed0-af88-450c-b6c0-ec8223f4ea13</id>
+                <translate>Vorurteile (bes. Zielgruppe, voreingenommen)</translate>
+                <page>96</page>
+            </quality>
+            <quality>
+                <id>9f33b167-95c2-4191-b4b8-9da89905780a</id>
+                <translate>Vorurteile (bes. Zielgruppe, offen)</translate>
+                <page>96</page>
+            </quality>
+            <quality>
+                <id>7c7b790d-6906-4cfa-bb03-0781a69fc34b</id>
+                <translate>Vorurteile (bes. Zielgruppe, radikal)</translate>
+                <page>96</page>
+            </quality>
+            <quality>
+                <id>5286430f-cb32-4aae-975b-4c0e01c6cb40</id>
+                <translate>Gezeichnet</translate>
+                <page>90</page>
+            </quality>
+            <quality>
+                <id>95f71120-aee7-43a9-94d7-4c87ddee4d14</id>
+                <translate>Immunabstoßung</translate>
+                <page>92</page>
+            </quality>
+            <quality>
+                <id>f3112201-5841-4860-bcc9-173596bb9f43</id>
+                <translate>SimSinn-Desorientierung</translate>
+                <page>93</page>
+            </quality>
+            <quality>
+                <id>b450d393-ae98-4159-904a-25925189ea5a</id>
+                <translate>SIN-Mensch (staatlich)</translate>
+                <page>93</page>
+            </quality>
+            <quality>
+                <id>8c9a2a07-737d-4fd5-9bb8-36f00ae06032</id>
+                <translate>SIN-Mensch (kriminell)</translate>
+                <page>93</page>
+            </quality>
+            <quality>
+                <id>ef9a5aa6-ffcb-4ebf-90c3-5b0195fc38e8</id>
+                <translate>SIN-Mensch (eingeschränkte Konzern-SIN)</translate>
+                <page>94</page>
+            </quality>
+            <quality>
+                <id>b7c98ca1-40be-4df9-a3d7-f106d4087c7f</id>
+                <translate>SIN-Mensch (Konzernbürger)</translate>
+                <page>94</page>
+            </quality>
+            <quality>
+                <id>3cabc36f-50e5-497d-b7f4-71835902acc3</id>
+                <translate>Sozialstress</translate>
+                <page>94</page>
+            </quality>
+            <quality>
+                <id>aeecffd9-1ea5-4db3-aa60-84d7f96a5f09</id>
+                <translate>Feindliche Geister</translate>
+                <page>90</page>
+            </quality>
+            <quality>
+                <id>8baf9e42-9eba-46d0-8be8-ed3f548a3c34</id>
+                <translate>Ungehobelt</translate>
+                <page>95</page>
+            </quality>
+            <quality>
+                <id>b60ef415-8688-485c-b4dc-4ec8c7412fd2</id>
+                <translate>Ungebildet</translate>
+                <page>94</page>
+            </quality>
+            <quality>
+                <id>3721e73f-ae75-4ba0-9dd9-13f607212c8a</id>
+                <translate>Händezittern</translate>
+                <page>91</page>
+            </quality>
+            <quality>
+                <id>60ead60b-7731-4ecc-bcb2-573ec2178e37</id>
+                <translate>Schwaches Immunsystem</translate>
+                <page>93</page>
+            </quality>
+            <quality>
+                <id>5e808080-f7a2-47d6-ae1d-28f027698f12</id>
+                <translate>Restlichtverstärkung</translate>
+                <page>69</page>
+            </quality>
+            <quality>
+                <id>2682b906-ab8c-496a-9281-4ada42b5b71c</id>
+                <translate>Infrarotsicht</translate>
+                <page>69</page>
+            </quality>
+        </qualities>
+    </chummer>
+    <chummer file="spells.xml">
+        <categories>
+            <category translate="Kampf">Combat</category>
+            <category translate="Wahrnehmung">Detection</category>
+            <category translate="Heilung">Health</category>
+            <category translate="Illusion">Illusion</category>
+            <category translate="Manipulation">Manipulation</category>
+        </categories>
+        <spells>
+            <spell>
+                <id>1ee1aae5-1abd-4c00-88e1-abf71966e9d0</id>
+                <translate>Säurestrahl</translate>
+                <page>287</page>
+            </spell>
+            <spell>
+                <id>23159a16-2731-416c-a2a7-3839f496e010</id>
+                <translate>Säurewelle</translate>
+                <page>287</page>
+            </spell>
+            <spell>
+                <id>024e00e2-8287-4911-93c5-813760888dbf</id>
+                <translate>Schlag</translate>
+                <page>287</page>
+            </spell>
+            <spell>
+                <id>1d001502-9589-4836-bd71-47b83f202fb1</id>
+                <translate>Stoß</translate>
+                <page>287</page>
+            </spell>
+            <spell>
+                <id>e2c877d7-a80f-4ac9-a91c-c500a57a1962</id>
+                <translate>Druckwelle</translate>
+                <page>287</page>
+            </spell>
+            <spell>
+                <id>e1b41e05-55ae-4e1f-98f8-a843ac3fd09b</id>
+                <translate>Todeshand</translate>
+                <page>287</page>
+            </spell>
+            <spell>
+                <id>27fe02d1-c4df-4b32-adb3-c473750a55c1</id>
+                <translate>Manablitz</translate>
+                <page>287</page>
+            </spell>
+            <spell>
+                <id>8f0e259d-882d-4bfb-a8d2-d4a701144444</id>
+                <translate>Manaball</translate>
+                <page>287</page>
+            </spell>
+            <spell>
+                <id>dacd4bb9-52a8-42ac-907c-3672262fa69a</id>
+                <translate>Flammenwerfer</translate>
+                <page>287</page>
+            </spell>
+            <spell>
+                <id>e2d65345-19fa-4290-85ab-157bcb5c55a0</id>
+                <translate>Feuerball</translate>
+                <page>287</page>
+            </spell>
+            <spell>
+                <id>97c28cfb-7d7d-40ca-84ad-41af3e9c0fff</id>
+                <translate>Blitzstrahl</translate>
+                <page>286</page>
+            </spell>
+            <spell>
+                <id>9c3ec0de-2497-44b3-b29b-7dc5a3a78cb0</id>
+                <translate>Kugelblitz</translate>
+                <page>286</page>
+            </spell>
+            <spell>
+                <id>53a8dffc-fca5-468c-a4d1-51a6449a91d3</id>
+                <translate>Energieschlag</translate>
+                <page>287</page>
+            </spell>
+            <spell>
+                <id>1b7a0ed1-ba1f-4d15-8b27-d3e59502be24</id>
+                <translate>Energieblitz</translate>
+                <page>287</page>
+            </spell>
+            <spell>
+                <id>a9b4cff0-1566-4b55-82d2-779fc583039c</id>
+                <translate>Energieball</translate>
+                <page>287</page>
+            </spell>
+            <spell>
+                <id>f93cb403-d02c-4a75-9386-5cf4f614d2e7</id>
+                <translate>Schockhand</translate>
+                <page>286</page>
+            </spell>
+            <spell>
+                <id>eedee790-3f8a-4760-bc51-3545fa8ce3b3</id>
+                <translate>Betäubungsblitz</translate>
+                <page>286</page>
+            </spell>
+            <spell>
+                <id>c1dfb3f5-3eaf-435f-b315-71e146a082cd</id>
+                <translate>Betäubungsball</translate>
+                <page>286</page>
+            </spell>
+            <spell>
+                <id>3da2a562-4ec3-42d1-9ce6-cb0d562d7883</id>
+                <translate>Gerät Analysieren</translate>
+                <page>292</page>
+            </spell>
+            <spell>
+                <id>c50c927e-43b1-4d50-b531-4206055f2063</id>
+                <translate>Magie Analysieren</translate>
+                <page>293</page>
+            </spell>
+            <spell>
+                <id>71d62da0-225f-4d9a-9e2a-91331ab08753</id>
+                <translate>Wahrheit Prüfen</translate>
+                <page>294</page>
+            </spell>
+            <spell>
+                <id>59cb074f-6eeb-4527-ac47-0087fb636b3e</id>
+                <translate>Hellhören</translate>
+                <page>292</page>
+            </spell>
+            <spell>
+                <id>fec2c57f-640e-4885-a648-2cc2b0d2766b</id>
+                <translate>Hellsicht</translate>
+                <page>292</page>
+            </spell>
+            <spell>
+                <id>ebd5e0ba-a00b-4a13-af0f-45838385e311</id>
+                <translate>Kampfsinn</translate>
+                <page>293</page>
+            </spell>
+            <spell>
+                <id>d04c6140-5876-411a-9249-ebfee9abd12f</id>
+                <translate>Feinde Entdecken</translate>
+                <page>291</page>
+            </spell>
+            <spell>
+                <id>755f6128-dc5d-4a8a-a8d4-bc3ebe47fb9e</id>
+                <translate>Erweitertes Feinde Entdecken</translate>
+                <page>291</page>
+            </spell>
+            <spell>
+                <id>713ea14f-12a6-41e3-86bc-69fc75706a9a</id>
+                <translate>Individuum Entdecken</translate>
+                <page>292</page>
+            </spell>
+            <spell>
+                <id>7cdde9c1-48fb-4337-a2cf-bbfc60c65711</id>
+                <translate>Leben Entdecken</translate>
+                <page>293</page>
+            </spell>
+            <spell>
+                <id>d6ab835f-81d7-4738-b38d-d40b86ba1ee2</id>
+                <translate>Erweitertes Leben Entdecken</translate>
+                <page>293</page>
+            </spell>
+            <spell>
+                <id>ef727ab0-0a01-4856-9ff3-534e213ffaec</id>
+                <translate>[Lebensform] Entdecken</translate>
+                <page>293</page>
+            </spell>
+            <spell>
+                <id>b4239bd7-5348-469a-9eec-ab5a01e638f5</id>
+                <translate>Erweitertes [Lebensform] Entdecken</translate>
+                <page>293</page>
+            </spell>
+            <spell>
+                <id>891cf390-485e-4072-9f4e-8459b7cbf4e3</id>
+                <translate>Magie Entdecken</translate>
+                <page>293</page>
+            </spell>
+            <spell>
+                <id>b4924152-cc52-4440-9951-dc2c7f00e052</id>
+                <translate>Erweitertes Magie Entdecken</translate>
+                <page>293</page>
+            </spell>
+            <spell>
+                <id>cfc923be-a5cf-43a8-9782-280a2cd82a2c</id>
+                <translate>[Objekt] Entdecken</translate>
+                <page>293</page>
+            </spell>
+            <spell>
+                <id>37d08c8e-3643-43fb-a7d8-621fc4ac48cf</id>
+                <translate>Telepathie</translate>
+                <page>293</page>
+            </spell>
+            <spell>
+                <id>62776a7b-d817-4c95-b434-31155e1e4497</id>
+                <translate>Geistessonde</translate>
+                <page>292</page>
+            </spell>
+            <spell>
+                <id>ddbbf3fd-a8cb-4268-9baf-087213fbb73c</id>
+                <translate>Gegenmittel</translate>
+                <page>282</page>
+            </spell>
+            <spell>
+                <id>0d0c3f07-2aca-4246-a3ea-fd1b36c12a1a</id>
+                <translate>Krankheit Heilen</translate>
+                <page>282</page>
+            </spell>
+            <spell>
+                <id>cde3581b-8633-4244-8404-a3d6f1fef710</id>
+                <translate>[Attribut] Senken</translate>
+                <page>281</page>
+            </spell>
+            <spell>
+                <id>e7d9e171-b18d-436c-aa9d-33eac0f57318</id>
+                <translate>Entgiftung</translate>
+                <page>281</page>
+            </spell>
+            <spell>
+                <id>cea056ea-6170-4a89-972a-7dd5224fc54c</id>
+                <translate>Heilen</translate>
+                <page>282</page>
+            </spell>
+            <spell>
+                <id>b38b4584-a119-4732-9ef5-f7b91ad1adc4</id>
+                <translate>[Attribut] Steigern</translate>
+                <page>282</page>
+            </spell>
+            <spell>
+                <id>9fa58478-2b5f-4d26-89cc-ab88940e4653</id>
+                <translate>Refelxe Steigern</translate>
+                <page>282</page>
+            </spell>
+            <spell>
+                <id>baba0bd8-5097-4de0-9490-b67e10f85aea</id>
+                <translate>Sauerstoffmaske</translate>
+                <page>282</page>
+            </spell>
+            <spell>
+                <id>3df920e0-48b2-4886-a17d-ab291be7713c</id>
+                <translate>Prophylaxe</translate>
+                <page>282</page>
+            </spell>
+            <spell>
+                <id>08433929-9d17-4fbf-b3fe-3fb25e771f88</id>
+                <translate>Schmerzresistenz</translate>
+                <page>282</page>
+            </spell>
+            <spell>
+                <id>aa946407-414c-45c9-9f38-7266cd1d85f4</id>
+                <translate>Stabilisieren</translate>
+                <page>282</page>
+            </spell>
+            <spell>
+                <id>6a1de05a-3765-47c4-ad35-9b334ae69ed3</id>
+                <translate>Schmerz</translate>
+                <page>283</page>
+            </spell>
+            <spell>
+                <id>6fa62d89-f8c4-4f35-8b23-63c488f9fc76</id>
+                <translate>Massenschmerz</translate>
+                <page>283</page>
+            </spell>
+            <spell>
+                <id>0148de7a-7ece-42fd-b4da-264751b489d9</id>
+                <translate>Viecher</translate>
+                <page>285</page>
+            </spell>
+            <spell>
+                <id>aa95a755-105d-411f-a6d9-40712a956556</id>
+                <translate>Schwarm</translate>
+                <page>285</page>
+            </spell>
+            <spell>
+                <id>6130bd35-bc52-4930-963c-51b783fbb362</id>
+                <translate>Verwirrung</translate>
+                <page>285</page>
+            </spell>
+            <spell>
+                <id>07b1508d-9033-4898-9a97-3d0b15a810a4</id>
+                <translate>Massenverwirrung</translate>
+                <page>285</page>
+            </spell>
+            <spell>
+                <id>4e11d713-29d6-412c-8b53-21b1664c5be9</id>
+                <translate>Chaos</translate>
+                <page>285</page>
+            </spell>
+            <spell>
+                <id>9c4347a8-1f95-4bac-9997-15fa02e7efbd</id>
+                <translate>Chaotische Welt</translate>
+                <page>285</page>
+            </spell>
+            <spell>
+                <id>6d44ce13-22cb-4bf1-93bb-e89ee1f833e5</id>
+                <translate>Unterhaltung</translate>
+                <page>285</page>
+            </spell>
+            <spell>
+                <id>228c85b4-1a2c-4ce6-9cff-944dc31daecc</id>
+                <translate>Trideo-Unterhaltung</translate>
+                <page>285</page>
+            </spell>
+            <spell>
+                <id>498afb4c-1740-4938-8cb5-67a5ac35820c</id>
+                <translate>Unsichtbarkeit</translate>
+                <page>284</page>
+            </spell>
+            <spell>
+                <id>55bf1904-0ae6-4892-8c13-d7030a482bbe</id>
+                <translate>Verbesserte Unsichtbarkeit</translate>
+                <page>285</page>
+            </spell>
+            <spell>
+                <id>c0edfedc-734f-4b42-ae7f-9bc8a2874ca5</id>
+                <translate>Maske</translate>
+                <page>283</page>
+            </spell>
+            <spell>
+                <id>70cda08c-b90b-4b12-8771-13a9657dbcd8</id>
+                <translate>Physische Maske</translate>
+                <page>283</page>
+            </spell>
+            <spell>
+                <id>5fec3bdd-41f4-4836-9106-bd64e1450557</id>
+                <translate>Trugbild</translate>
+                <page>284</page>
+            </spell>
+            <spell>
+                <id>98eec62d-5ef9-485d-8e5d-353a5675dcba</id>
+                <translate>Trideo-Trugbild</translate>
+                <page>284</page>
+            </spell>
+            <spell>
+                <id>b4bd0a7e-d6df-412e-9499-2ce0683a7b14</id>
+                <translate>Leiser Schritt</translate>
+                <page>283</page>
+            </spell>
+            <spell>
+                <id>c67d51ae-21bd-410e-9dcb-621d6f3168ee</id>
+                <translate>Schweigen</translate>
+                <page>284</page>
+            </spell>
+            <spell>
+                <id>9cdcace7-de7e-4330-b41c-f67bb68ac767</id>
+                <translate>Stille</translate>
+                <page>284</page>
+            </spell>
+            <spell>
+                <id>b22c785c-db8a-42cc-822c-cc567a123cd1</id>
+                <translate>Belebung</translate>
+                <page>288</page>
+            </spell>
+            <spell>
+                <id>7050e316-61b0-4a4f-8cb6-9df19266953f</id>
+                <translate>Massenbelebung</translate>
+                <page>288</page>
+            </spell>
+            <spell>
+                <id>c5ad00c2-5986-454b-8783-264b2a0de0ad</id>
+                <translate>Panzerung</translate>
+                <page>290</page>
+            </spell>
+            <spell>
+                <id>fcde1e06-041f-4d05-9134-640f70093426</id>
+                <translate>Handlungen Beherrschen</translate>
+                <page>289</page>
+            </spell>
+            <spell>
+                <id>f9c9ec68-8bbf-4f23-b91d-f9e5a51d30e7</id>
+                <translate>Mob-Kontrolle</translate>
+                <page>289</page>
+            </spell>
+            <spell>
+                <id>def4b2f4-3621-4577-9cd0-890f751e28e1</id>
+                <translate>Gedanken Beeinflussen</translate>
+                <page>289</page>
+            </spell>
+            <spell>
+                <id>b8ed3f15-58b8-4a45-a1bf-7b8b1847d5fe</id>
+                <translate>Mob-Bewusstsein</translate>
+                <page>289</page>
+            </spell>
+            <spell>
+                <id>ec2dbe1b-1b04-4c45-a59f-eddde1162c53</id>
+                <translate>Schleuder</translate>
+                <page>290</page>
+            </spell>
+            <spell>
+                <id>5ecee511-7ee8-467c-9bae-bc013341ad70</id>
+                <translate>Eisdecke</translate>
+                <page>288</page>
+            </spell>
+            <spell>
+                <id>6ce4abbb-cfb9-4a04-8b3e-6400cf39504a</id>
+                <translate>Entzünden</translate>
+                <page>289</page>
+            </spell>
+            <spell>
+                <id>f5343c96-c577-4ca7-8656-a9d5972196af</id>
+                <translate>Beeinflussen</translate>
+                <page>288</page>
+            </spell>
+            <spell>
+                <id>6f34edb5-7a52-47f0-9d20-3dfcf0253ef7</id>
+                <translate>Levitieren</translate>
+                <page>289</page>
+            </spell>
+            <spell>
+                <id>28e202a3-5e5e-450a-b20b-53c8ffb51c44</id>
+                <translate>Licht</translate>
+                <page>289</page>
+            </spell>
+            <spell>
+                <id>0fa8ab49-6659-4a0e-83ca-937d310a9d1a</id>
+                <translate>Zauberfinger</translate>
+                <page>290</page>
+            </spell>
+            <spell>
+                <id>a24b296f-494d-4fea-aec5-813bc1e9022d</id>
+                <translate>Manabarriere</translate>
+                <page>289</page>
+            </spell>
+            <spell>
+                <id>79f799e1-6676-4da0-bd69-151c6e1fc065</id>
+                <translate>Physische Barriere</translate>
+                <page>290</page>
+            </spell>
+            <spell>
+                <id>ada3ca4c-7955-4796-b8f5-b36562391421</id>
+                <translate>Poltergeist</translate>
+                <page>290</page>
+            </spell>
+            <spell>
+                <id>01a4e15f-d411-43b6-ba7a-aac84b2d2bde</id>
+                <translate>Schatten</translate>
+                <page>290</page>
+            </spell>
+        </spells>
+    </chummer>
 </chummer>
