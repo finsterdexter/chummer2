@@ -9,6 +9,256 @@
             </book>
         </books>
     </chummer>
+    <chummer file="critterpowers.xml">
+        <categories>
+            <category translate="">Allowed Optional Powers</category>
+            <category translate="">Echoes</category>
+            <category translate="">Emergent</category>
+            <category translate="">Free Spirit</category>
+            <category translate="Mundan">Mundane</category>
+            <category translate="Paranormal">Paranormal</category>
+            <category translate="">Shapeshifter</category>
+            <category translate="">Toxic Critter Powers</category>
+            <category translate="Schwäche">Weakness</category>
+        </categories>
+        <powers>
+            <power>
+                <id>8c49dafa-e931-46e5-9d08-d1d482c64fb1</id>
+                <translate>Unfall</translate>
+                <page>400</page>
+            </power>
+            <power>
+                <id>d966c5aa-eb7d-4af2-84de-d89eade82994</id>
+                <translate>Tierbeherrschung</translate>
+                <page>400</page>
+            </power>
+            <power>
+                <id>c8bfbf1f-6a3f-44fe-88e5-1868a1690f9a</id>
+                <translate>Panzer</translate>
+                <page>399</page>
+            </power>
+            <power>
+                <id>eb7e7412-476a-45e8-a026-2b5b497bb082</id>
+                <translate>Astrale Gestalt</translate>
+                <page>395</page>
+            </power>
+            <power>
+                <id>79f2a08f-36de-4bc4-ac84-3304ccab2c48</id>
+                <translate>Bindung</translate>
+                <page>395</page>
+            </power>
+            <power>
+                <id>f3fa76b1-3732-4ea1-b8f6-82fa7805e5dd</id>
+                <translate>Einfluss</translate>
+                <page>396</page>
+            </power>
+            <power>
+                <id>e8d40591-3c16-4154-82fa-b37fafcf9140</id>
+                <translate>Verschleierung</translate>
+                <page>402</page>
+            </power>
+            <power>
+                <id>d220e2cb-cc12-4d60-96e0-1fc6537720dd</id>
+                <translate>Verwirrung</translate>
+                <page>402</page>
+            </power>
+            <power>
+                <id>c2b08789-cd85-4282-885f-06216f0aca15</id>
+                <translate>Ätzender Speichel</translate>
+                <page>395</page>
+            </power>
+            <power>
+                <id>8e277be3-2ed8-4b80-9682-bc3b0fe90bc4</id>
+                <translate>Drachensprache</translate>
+                <page>395</page>
+            </power>
+            <power>
+                <id>c8920b89-9272-4218-be97-075bb9cc9839</id>
+                <translate>Dualwesen</translate>
+                <page>396</page>
+            </power>
+            <power>
+                <id>89d9ebcc-4b94-49e3-bf01-61290a5bfa31</id>
+                <translate>Elementarer Angriff</translate>
+                <page>396</page>
+            </power>
+            <power>
+                <id>8521293f-fe93-446c-90ab-79a5db86333a</id>
+                <translate>Energieaura</translate>
+                <page>296</page>
+            </power>
+            <power>
+                <id>61e8e923-7293-40e9-9163-66468759ab1c</id>
+                <translate>Verschlingen</translate>
+                <page>401</page>
+            </power>
+            <power>
+                <id>ad0eb290-1cf2-470b-9974-b2817f1f9c29</id>
+                <translate>Gesteigerte Sinne</translate>
+                <page>397</page>
+            </power>
+            <power>
+                <id>53f86baf-6647-40ce-9b2a-02aa64d514da</id>
+                <translate>Essenzentzug</translate>
+                <page>396</page>
+            </power>
+            <power>
+                <id>14a11cbc-ca04-42f1-8b0c-5754ade512ae</id>
+                <translate>Grauen</translate>
+                <page>397</page>
+            </power>
+            <power>
+                <id>227f6eda-c0e1-46c4-abf9-5301c9bffe33</id>
+                <translate>Schutz</translate>
+                <page>400</page>
+            </power>
+            <power>
+                <id>42271362-adf6-45a3-b6af-95675e83ecac</id>
+                <translate>Verstärkter Panzer</translate>
+                <page>401</page>
+            </power>
+            <power>
+                <id>41b89ba0-89bc-4143-90bb-9af8bc3dbf81</id>
+                <translate>Verstärkter Mystischer Panzer</translate>
+                <page>401</page>
+            </power>
+            <power>
+                <id>faf98f9b-a94c-48a8-93da-427a3209fc05</id>
+                <translate>Immunität</translate>
+                <page>398</page>
+            </power>
+            <power>
+                <id>fdbce55d-20d9-4992-bda0-a46b5b6a2d33</id>
+                <translate>Infektion</translate>
+                <page>398</page>
+            </power>
+            <power>
+                <id>1927e1ef-d1e5-4623-b043-934679b05e1a</id>
+                <translate>Einfluss</translate>
+                <page>396</page>
+            </power>
+            <power>
+                <id>ddabe3d5-8b45-42ea-85ee-fcdc936cea2d</id>
+                <translate>Natürlicher Zauberspruch</translate>
+                <page>399</page>
+            </power>
+            <power>
+                <id>f59a23d9-d709-485a-9e13-cdbb36186567</id>
+                <translate>Materialisierung</translate>
+                <page>398</page>
+            </power>
+            <power>
+                <id>fc9eb184-da00-47e5-8efa-4c38db942f20</id>
+                <translate>Mimikry</translate>
+                <page>398</page>
+            </power>
+            <power>
+                <id>fbb997f8-5f6d-47fa-b614-564a8ac73976</id>
+                <translate>Nebelgestalt</translate>
+                <page>399</page>
+            </power>
+            <power>
+                <id>b5199703-32ac-459f-b2f6-c33633eedcab</id>
+                <translate>Bewegung</translate>
+                <page>395</page>
+            </power>
+            <power>
+                <id>5ec74faa-b073-4400-b7b5-10754e7a95df</id>
+                <translate>Mystischer Panzer</translate>
+                <page>399</page>
+            </power>
+            <power>
+                <id>ec6444e9-4c33-455e-94fd-b78660eb3bde</id>
+                <translate>Natürliche Waffe</translate>
+                <page>399</page>
+            </power>
+            <power>
+                <id>4a524ca0-4681-47e5-96a1-e3e6f29cc812</id>
+                <translate>Gifthauch</translate>
+                <page>397</page>
+            </power>
+            <power>
+                <id>4deebb68-3374-405d-b2fc-4cafdddc14dd</id>
+                <translate>Lähmendes Heulen</translate>
+                <page>398</page>
+            </power>
+            <power>
+                <id>3a2e5f9d-c1c8-490c-a642-04a2780922d2</id>
+                <translate>Lähmende Berührung</translate>
+                <page>398</page>
+            </power>
+            <power>
+                <id>9c0372e9-2b3d-4d00-a641-66b22c53c12d</id>
+                <translate>Versteinerung</translate>
+                <page>401</page>
+            </power>
+            <power>
+                <id>872dc5a7-c646-4220-aaf0-7c87d4147b72</id>
+                <translate>Psychokinese</translate>
+                <page>399</page>
+            </power>
+            <power>
+                <id>ad5a8055-8295-4761-ae67-71f044d05dcc</id>
+                <translate>Regeneration</translate>
+                <page>399</page>
+            </power>
+            <power>
+                <id>d48cd539-7c38-4fac-8aae-e357ef61a45a</id>
+                <translate>Bewusstsein</translate>
+                <page>395</page>
+            </power>
+            <power>
+                <id>0ca020a6-48d4-47b6-b02b-c0221ba84d74</id>
+                <translate>Suche</translate>
+                <page>400</page>
+            </power>
+            <power>
+                <id>72d6e962-9f52-4af4-877b-391226b0e939</id>
+                <translate>Gift</translate>
+                <page>397</page>
+            </power>
+            <power>
+                <id>29a4e4e2-8e70-4218-b53d-152023ef1a94</id>
+                <translate>Wetterbeherrschung</translate>
+                <page>402</page>
+            </power>
+            <power>
+                <id>5cf0ea89-c2ab-4208-9682-cec070a08a8a</id>
+                <translate>Allergie</translate>
+                <page>402</page>
+            </power>
+            <power>
+                <id>8b9f3d75-f441-4799-b989-f0092acf0f00</id>
+                <translate>Nahrungsbedarf</translate>
+                <page>402</page>
+            </power>
+            <power>
+                <id>c88d1708-c0cf-4251-9593-e2fae3d7b3c7</id>
+                <translate>Essenzverlust</translate>
+                <page>402</page>
+            </power>
+            <power>
+                <id>0dfb96ce-a6d4-46aa-b109-992b5e8dbef4</id>
+                <translate>Erzwungener Schlaf</translate>
+                <page>402</page>
+            </power>
+            <power>
+                <id>960edfed-e762-45f8-867f-fefd8c18a4b9</id>
+                <translate>Reduzierte Sinne</translate>
+                <page>402</page>
+            </power>
+            <power>
+                <id>8d166393-22fc-49b0-89da-53880419a923</id>
+                <translate>Ungebildet</translate>
+                <page>403</page>
+            </power>
+            <power>
+                <id>8f1e9078-aee4-445e-b85c-2c9f3451f9dc</id>
+                <translate>Verwundbarkeit</translate>
+                <page>403</page>
+            </power>
+        </powers>
+    </chummer>
     <chummer file="lifestyles.xml">
         <lifestyles>
             <lifestyle>
