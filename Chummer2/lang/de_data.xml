@@ -9,6 +9,53 @@
             </book>
         </books>
     </chummer>
+    <chummer file="critters.xml">
+        <categories>
+            <category translate="">A.I.s</category>
+            <category translate="">Dracoforms</category>
+            <category translate="">Entropic Sprites</category>
+            <category translate="">Fey</category>
+            <category translate="">Ghosts and Haunts</category>
+            <category translate="">Harbingers</category>
+            <category translate="">Imps</category>
+            <category translate="">Infected</category>
+            <category translate="">Insect Spirits</category>
+            <category translate="">Mundane Critters</category>
+            <category translate="">Mutant Critters</category>
+            <category translate="">Paranormal Critters</category>
+            <category translate="">Primordial Spirits</category>
+            <category translate="">Protosapients</category>
+            <category translate="">Shadow Spirits</category>
+            <category translate="">Shedim</category>
+            <category translate="">Spirits</category>
+            <category translate="Sprites">Sprites</category>
+            <category translate="">Technocritters</category>
+            <category translate="">Toxic Critters</category>
+            <category translate="">Toxic Spirits</category>
+        </categories>
+        <metatypes>
+            <metatype>
+                <id>21a08d79-64fe-41fc-bcd1-56349522bfa4</id>
+                <translate>Kurier-Sprite</translate>
+                <page>255</page>
+            </metatype>
+            <metatype>
+                <id>e96f0ca8-37f0-48a5-8eae-002d457ed8e5</id>
+                <translate>Daten-Sprite</translate>
+                <page>255</page>
+            </metatype>
+            <metatype>
+                <id>a81b4fa9-1b36-4719-a650-942cd1c9ef27</id>
+                <translate>Infiltrator-Sprite</translate>
+                <page>255</page>
+            </metatype>
+            <metatype>
+                <id>7196e929-57a8-4653-9447-f8e7df800ac9</id>
+                <translate>Maschinen-Sprite</translate>
+                <page>255</page>
+            </metatype>
+        </metatypes>
+    </chummer>
     <chummer file="critterpowers.xml">
         <categories>
             <category translate="">Allowed Optional Powers</category>
