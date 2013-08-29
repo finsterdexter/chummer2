@@ -33854,6 +33854,7 @@
 			<page>180</page>
 		</metatype>
 		<metatype>
+            <id>21a08d79-64fe-41fc-bcd1-56349522bfa4</id>
 			<name>Courier Sprite</name>
 			<category>Sprites</category>
 			<forcecreature />
@@ -33927,10 +33928,11 @@
 				<complexform rating="F">Exploit</complexform>
 				<complexform rating="F">Scan</complexform>
 			</optionalcomplexforms>
-			<source>SR4</source>
-			<page>242</page>
+			<source>SR5</source>
+			<page>258</page>
 		</metatype>
 		<metatype>
+            <id>85578ac6-7133-4de7-8cc2-4a1b6bbdf5e1</id>
 			<name>Crack Sprite</name>
 			<category>Sprites</category>
 			<forcecreature />
@@ -34001,10 +34003,11 @@
 				<complexform rating="F">Scan</complexform>
 				<complexform rating="F">Spoof</complexform>
 			</optionalcomplexforms>
-			<source>SR4</source>
-			<page>242</page>
+			<source>SR5</source>
+			<page>258</page>
 		</metatype>
 		<metatype>
+            <id>e96f0ca8-37f0-48a5-8eae-002d457ed8e5</id>
 			<name>Data Sprite</name>
 			<category>Sprites</category>
 			<forcecreature />
@@ -34077,10 +34080,11 @@
 				<complexform rating="F">Stealth</complexform>
 				<complexform rating="F">Linguasoft</complexform>
 			</optionalcomplexforms>
-			<source>SR4</source>
-			<page>242</page>
+			<source>SR5</source>
+			<page>258</page>
 		</metatype>
 		<metatype>
+            <id>a81b4fa9-1b36-4719-a650-942cd1c9ef27</id>
 			<name>Fault Sprite</name>
 			<category>Sprites</category>
 			<forcecreature />
@@ -34151,10 +34155,11 @@
 				<complexform rating="F">Exploit</complexform>
 				<complexform rating="F">Medic</complexform>
 			</optionalcomplexforms>
-			<source>SR4</source>
-			<page>242</page>
+			<source>SR5</source>
+			<page>258</page>
 		</metatype>
 		<metatype>
+            <id>7196e929-57a8-4653-9447-f8e7df800ac9</id>
 			<name>Machine Sprite</name>
 			<category>Sprites</category>
 			<forcecreature />
@@ -34225,8 +34230,8 @@
 				<complexform rating="F">Medic</complexform>
 				<complexform rating="F" category="Autosoft" />
 			</optionalcomplexforms>
-			<source>SR4</source>
-			<page>242</page>
+			<source>SR5</source>
+			<page>258</page>
 		</metatype>
 		<metatype>
 			<name>Meltdown Sprite</name>
