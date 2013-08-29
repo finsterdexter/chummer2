@@ -259,6 +259,55 @@
             </power>
         </powers>
     </chummer>
+    <chummer file="echoes.xml">
+        <echoes>
+            <echo>
+                <id>83b36db0-b04e-4c06-98b9-05aa0a2c365f</id>
+                <translate>Angriffs-Upgrade</translate>
+                <page>256</page>
+            </echo>
+            <echo>
+                <id>befc928c-7fe5-49d7-96b6-7b204710dc18</id>
+                <translate>Datenverarbeitungs-Upgrade</translate>
+                <page>256</page>
+            </echo>
+            <echo>
+                <id>748dd775-e01f-4f13-b506-70bed8502a10</id>
+                <translate>Firewall-Upgrade</translate>
+                <page>256</page>
+            </echo>
+            <echo>
+                <id>2574871e-c49d-47da-bff8-671b1f0dd779</id>
+                <translate>Maschinenbeherrschung</translate>
+                <page>256</page>
+            </echo>
+            <echo>
+                <id>74cebca3-8c63-4023-a83c-d0845f23cf62</id>
+                <translate>Neurofilter</translate>
+                <page>256</page>
+            </echo>
+            <echo>
+                <id>d2de0885-204f-45e6-8c2b-cbe4b87e4ecd</id>
+                <translate>Übertakten</translate>
+                <page>256</page>
+            </echo>
+            <echo>
+                <id>7e999447-c403-496c-8f4b-48581cc4070c</id>
+                <translate>Resonanzverbindung</translate>
+                <page>256</page>
+            </echo>
+            <echo>
+                <id>ac2233f5-c470-4696-8363-d4c252579930</id>
+                <translate>Resonanz-[Programm]</translate>
+                <page>256</page>
+            </echo>
+            <echo>
+                <id>a72aa3e9-6f54-4c0e-b3db-f155b3367378</id>
+                <translate>Schleicher-Upgrade</translate>
+                <page>256</page>
+            </echo>
+        </echoes>
+    </chummer>
     <chummer file="lifestyles.xml">
         <lifestyles>
             <lifestyle>
