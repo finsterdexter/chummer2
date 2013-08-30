@@ -21554,6 +21554,7 @@
 			<page>103</page>
 		</metatype>
 		<metatype>
+            <id>885c1218-4517-4109-b738-bffd8db27709</id>
 			<name>Spirit of Air</name>
 			<category>Spirits</category>
 			<forcecreature />
@@ -21639,8 +21640,8 @@
 				<skill rating="F">Perception</skill>
 				<skill rating="F">Unarmed Combat</skill>
 			</skills>
-			<source>SR4</source>
-			<page>302</page>
+			<source>SR5</source>
+			<page>303</page>
 		</metatype>
 		<metatype>
 			<name>Spirit of Air, Greater Form</name>
@@ -21733,6 +21734,7 @@
 			<page>302</page>
 		</metatype>
 		<metatype>
+            <id>4f32c054-9a20-4a6c-9b86-201c024967fd</id>
 			<name>Spirit of Beasts</name>
 			<category>Spirits</category>
 			<forcecreature />
@@ -21815,8 +21817,8 @@
 				<skill rating="F">Perception</skill>
 				<skill rating="F">Unarmed Combat</skill>
 			</skills>
-			<source>SR4</source>
-			<page>302</page>
+			<source>SR5</source>
+			<page>303</page>
 		</metatype>
 		<metatype>
 			<name>Spirit of Beasts, Greater Form</name>
@@ -21906,6 +21908,7 @@
 			<page>302</page>
 		</metatype>
 		<metatype>
+            <id>a03c608a-d4cc-4d9b-b4bb-01b288941b5c</id>
 			<name>Spirit of Earth</name>
 			<category>Spirits</category>
 			<forcecreature />
@@ -21987,7 +21990,7 @@
 				<skill rating="F">Perception</skill>
 				<skill rating="F">Unarmed Combat</skill>
 			</skills>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>303</page>
 		</metatype>
 		<metatype>
@@ -22077,6 +22080,7 @@
 			<page>303</page>
 		</metatype>
 		<metatype>
+            <id>e887f4b2-9db4-4e64-9124-0842c7c027e1</id>
 			<name>Spirit of Fire</name>
 			<category>Spirits</category>
 			<forcecreature />
@@ -22160,7 +22164,7 @@
 				<skill rating="F">Perception</skill>
 				<skill rating="F">Unarmed Combat</skill>
 			</skills>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>303</page>
 		</metatype>
 		<metatype>
@@ -22252,6 +22256,7 @@
 			<page>303</page>
 		</metatype>
 		<metatype>
+            <id>beb9306e-5646-4c79-aa49-e406ef9f8902</id>
 			<name>Spirit of Man</name>
 			<category>Spirits</category>
 			<forcecreature />
@@ -22335,8 +22340,8 @@
 				<skill rating="F">Spellcasting</skill>
 				<skill rating="F">Unarmed Combat</skill>
 			</skills>
-			<source>SR4</source>
-			<page>303</page>
+			<source>SR5</source>
+			<page>304</page>
 		</metatype>
 		<metatype>
 			<name>Spirit of Man, Greater Form</name>
@@ -22427,6 +22432,7 @@
 			<page>303</page>
 		</metatype>
 		<metatype>
+            <id>1d0b68c7-fee4-4697-90ab-9438383ff34f</id>
 			<name>Spirit of Water</name>
 			<category>Spirits</category>
 			<forcecreature />
@@ -22511,8 +22517,8 @@
 				<skill rating="F">Perception</skill>
 				<skill rating="F">Unarmed Combat</skill>
 			</skills>
-			<source>SR4</source>
-			<page>303</page>
+			<source>SR5</source>
+			<page>304</page>
 		</metatype>
 		<metatype>
 			<name>Spirit of Water, Greater Form</name>
