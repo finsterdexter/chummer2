@@ -40,6 +40,11 @@
                 <page>255</page>
             </metatype>
             <metatype>
+                <id>85578ac6-7133-4de7-8cc2-4a1b6bbdf5e1</id>
+                <translate>Stör-Sprite</translate>
+                <page>255</page>
+            </metatype>
+            <metatype>
                 <id>e96f0ca8-37f0-48a5-8eae-002d457ed8e5</id>
                 <translate>Daten-Sprite</translate>
                 <page>255</page>
