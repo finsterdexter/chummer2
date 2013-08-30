@@ -26,6 +26,7 @@
 	</categories>
 	<metatypes>
 		<metatype>
+            <id>583b5fea-0bff-40d1-a871-f10c2076e101</id>
 			<name>Dog</name>
 			<category>Mundane Critters</category>
 			<bp>0</bp>
@@ -84,10 +85,11 @@
 				<skill rating="2">Tracking</skill>
 				<skill rating="3">Unarmed Combat</skill>
 			</skills>
-			<source>SR4</source>
-			<page>299</page>
+			<source>SR5</source>
+			<page>402</page>
 		</metatype>
 		<metatype>
+            <id>75cb9933-0e78-42ad-a446-32ccbcf19219</id>
 			<name>Great Cat</name>
 			<category>Mundane Critters</category>
 			<bp>0</bp>
@@ -146,10 +148,11 @@
 				<skill rating="2">Tracking</skill>
 				<skill rating="4">Unarmed Combat</skill>
 			</skills>
-			<source>SR4</source>
-			<page>299</page>
+			<source>SR5</source>
+			<page>402</page>
 		</metatype>
 		<metatype>
+            <id>59da3159-8e39-407e-aed3-79c863c627eb</id>
 			<name>Horse</name>
 			<category>Mundane Critters</category>
 			<bp>0</bp>
@@ -201,10 +204,11 @@
 			<skills>
 				<skill rating="3">Running</skill>
 			</skills>
-			<source>SR4</source>
-			<page>299</page>
+			<source>SR5</source>
+			<page>402</page>
 		</metatype>
 		<metatype>
+            <id>f3074417-93dc-414d-b06c-cffdb4da3c49</id>
 			<name>Shark</name>
 			<category>Mundane Critters</category>
 			<bp>0</bp>
@@ -261,10 +265,11 @@
 				<skill rating="4">Swimming</skill>
 				<skill rating="4">Unarmed Combat</skill>
 			</skills>
-			<source>SR4</source>
-			<page>299</page>
+			<source>SR5</source>
+			<page>403</page>
 		</metatype>
 		<metatype>
+            <id>a472bb7b-8ae8-4a04-b35f-d33dd1bd73bf</id>
 			<name>Wolf</name>
 			<category>Mundane Critters</category>
 			<bp>0</bp>
@@ -323,8 +328,8 @@
 				<skill rating="2">Tracking</skill>
 				<skill rating="4">Unarmed Combat</skill>
 			</skills>
-			<source>SR4</source>
-			<page>299</page>
+			<source>SR5</source>
+			<page>403</page>
 		</metatype>
 		<metatype>
 			<name>Octopus</name>
@@ -12692,6 +12697,7 @@
 			<page>99</page>
 		</metatype>
 		<metatype>
+            <id>a472bb7b-8ae8-4a04-b35f-d33dd1bd73bf</id>
 			<name>Barghest</name>
 			<category>Paranormal Critters</category>
 			<bp>0</bp>
@@ -12760,10 +12766,11 @@
 				<skill rating="3">Tracking</skill>
 				<skill rating="3">Unarmed Combat</skill>
 			</skills>
-			<source>SR4</source>
-			<page>299</page>
+			<source>SR5</source>
+			<page>403</page>
 		</metatype>
 		<metatype>
+            <id>b933d26d-1126-4a55-b23a-3846f82986b2</id>
 			<name>Devil Rat</name>
 			<category>Paranormal Critters</category>
 			<bp>0</bp>
@@ -12832,10 +12839,11 @@
 				<skill rating="2">Perception</skill>
 				<skill rating="3">Unarmed Combat</skill>
 			</skills>
-			<source>SR4</source>
-			<page>299</page>
+			<source>SR5</source>
+			<page>404</page>
 		</metatype>
 		<metatype>
+            <id>8fb7745e-b667-4893-95ac-3f149f3fde36</id>
 			<name>Ghoul</name>
 			<category>Paranormal Critters</category>
 			<bp>0</bp>
@@ -12903,10 +12911,11 @@
 				<skill rating="3">Perception</skill>
 				<skill rating="3">Unarmed Combat</skill>
 			</skills>
-			<source>SR4</source>
-			<page>299</page>
+			<source>SR5</source>
+			<page>404</page>
 		</metatype>
 		<metatype>
+            <id>aa35034a-ae97-4938-b55d-e44dbf4ba186</id>
 			<name>Hell Hound</name>
 			<category>Paranormal Critters</category>
 			<bp>0</bp>
@@ -12979,8 +12988,8 @@
 				<skill rating="5">Tracking</skill>
 				<skill rating="3">Unarmed Combat</skill>
 			</skills>
-			<source>SR4</source>
-			<page>300</page>
+			<source>SR5</source>
+			<page>405</page>
 		</metatype>
 		<metatype>
 			<name>Merrow</name>
@@ -13128,6 +13137,7 @@
 			<page>300</page>
 		</metatype>
 		<metatype>
+            <id>4fe1e046-27be-4cb0-869b-daddbf8020b3</id>
 			<name>Sasquatch</name>
 			<category>Paranormal Critters</category>
 			<bp>0</bp>
@@ -13197,8 +13207,8 @@
 				<group rating="2">Athletics</group>
 				<knowledge rating="5" category="Professional">Animal Calls</knowledge>
 			</skills>
-			<source>SR4</source>
-			<page>300</page>
+			<source>SR5</source>
+			<page>406</page>
 		</metatype>
 		<metatype>
 			<name>Thunderbird</name>
@@ -13273,6 +13283,7 @@
 			<page>300</page>
 		</metatype>
 		<metatype>
+            <id>5a39d2e4-0426-4793-b5e7-c10c2aee47d8</id>
 			<name>Vampire</name>
 			<category>Paranormal Critters</category>
 			<bp>0</bp>
@@ -13349,8 +13360,8 @@
 				<skill rating="4">Shadowing</skill>
 				<skill rating="3">Unarmed Combat</skill>
 			</skills>
-			<source>SR4</source>
-			<page>301</page>
+			<source>SR5</source>
+			<page>406</page>
 		</metatype>
 		<metatype>
 			<name>Wendigo</name>
@@ -29310,6 +29321,7 @@
 			<page>182</page>
 		</metatype>
 		<metatype>
+            <id>31ce4e8a-7b2f-453b-8dad-13f07a54c99f</id>
 			<name>Eastern Dragon</name>
 			<category>Dracoforms</category>
 			<bp>0</bp>
@@ -29398,10 +29410,11 @@
 				<group rating="6">Conjuring</group>
 				<group rating="8">Sorcery</group>
 			</skills>
-			<source>SR4</source>
-			<page>303</page>
+			<source>SR5</source>
+			<page>407</page>
 		</metatype>
 		<metatype>
+            <id>154e6a08-9a01-4184-b2e4-bcfdb9d98e3f</id>
 			<name>Feathered Serpent</name>
 			<category>Dracoforms</category>
 			<bp>0</bp>
@@ -29490,8 +29503,8 @@
 				<group rating="6">Conjuring</group>
 				<group rating="8">Sorcery</group>
 			</skills>
-			<source>SR4</source>
-			<page>304</page>
+			<source>SR5</source>
+			<page>407</page>
 		</metatype>
 		<metatype>
 			<name>Leviathan</name>
@@ -29586,6 +29599,7 @@
 			<page>304</page>
 		</metatype>
 		<metatype>
+            <id>754154f6-4d9e-48a6-9c7a-fa9ef003b261</id>
 			<name>Western Dragon</name>
 			<category>Dracoforms</category>
 			<bp>0</bp>
@@ -29674,8 +29688,8 @@
 				<group rating="6">Conjuring</group>
 				<group rating="8">Sorcery</group>
 			</skills>
-			<source>SR4</source>
-			<page>303</page>
+			<source>SR5</source>
+			<page>407</page>
 		</metatype>
 		<metatype>
 			<name>Great Eastern Dragon</name>
