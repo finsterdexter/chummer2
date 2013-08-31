@@ -515,6 +515,245 @@
             </power>
         </powers>
     </chummer>
+    <chummer file="cyberware.xml">
+        <categories>
+            <category translate="Headware">Headware</category>
+            <category translate="Augen-Cyberware">Eyeware</category>
+            <category translate="Ohren-Cyberware">Earware</category>
+            <category translate="">Biodrone Control</category>
+            <category translate="Bodyware">Bodyware</category>
+            <category translate="Cybergliedmaßen">Cyberlimb</category>
+            <category translate="">Cyberlimb Enhancement</category>
+            <category translate="">Cyberlimb Accessory</category>
+            <category translate="">Cyberweapon</category>
+            <category translate="">Cosmetic Modification</category>
+            <category translate="">Cosmetic Implant</category>
+            <category translate="">Modular Plug-In</category>
+            <category translate="">Nanocybernetics</category>
+        </categories>
+        <cyberwares>
+            <cyberware>
+                <id>5205d227-0a55-40cd-9846-4119206e795b</id>
+                <translate>Kommlink</translate>
+                <page>457</page>
+            </cyberware>
+            <cyberware>
+                <id>e5fef29b-8a5d-4633-a3f4-977b8ca8bfab</id>
+                <translate>Riggerkontrolle</translate>
+                <page>457</page>
+            </cyberware>
+            <cyberware>
+                <id>91599fd0-49ca-47d0-aef3-1adab2dcb8a2</id>
+                <translate>Cortexbombe, Spleenbombe</translate>
+                <page>456</page>
+            </cyberware>
+            <cyberware>
+                <id>c350310f-0565-4202-ba32-73f3a8449219</id>
+                <translate>Cortexbombe, Mikrobombe</translate>
+                <page>456</page>
+            </cyberware>
+            <cyberware>
+                <id>1b7e1318-52bf-4976-966a-335d289a1d21</id>
+                <translate>Cortexbombe, Flächenbombe</translate>
+                <page>456</page>
+            </cyberware>
+            <cyberware>
+                <id>c17411a7-a90d-4443-8eb2-1f5ab8c79393</id>
+                <translate>Cyberdeck</translate>
+                <page>456</page>
+            </cyberware>
+            <cyberware>
+                <id>e669d46a-2b72-4c44-85cb-96e2c66cc17a</id>
+                <translate>Datenbuchse</translate>
+                <page>456</page>
+            </cyberware>
+            <cyberware>
+                <id>3339a98e-9f7b-49ce-8d9d-b4ae935f0cca</id>
+                <translate>Datenschloss</translate>
+                <page>456</page>
+            </cyberware>
+            <cyberware>
+                <id>d5726fed-a080-4140-9937-09ab6295ea4a</id>
+                <translate>Geruchsbooster</translate>
+                <page>456</page>
+            </cyberware>
+            <cyberware>
+                <id>f4ead240-4f0f-4ec8-86c9-b798d8f49a6c</id>
+                <translate>Simrig</translate>
+                <page>457</page>
+            </cyberware>
+            <cyberware>
+                <id>55b79ebe-d4e3-4014-b30c-c2618779a701</id>
+                <translate>Talentbuchse</translate>
+                <page>457</page>
+            </cyberware>
+            <cyberware>
+                <id>b6fb5110-0e23-4874-b91e-96a451b04d82</id>
+                <translate>Geschmacksbooster</translate>
+                <page>457</page>
+            </cyberware>
+            <cyberware>
+                <id>9db1f0c9-dc8b-4e15-ab48-fde478e37a1b</id>
+                <translate>Zahnbehälter</translate>
+                <page>458</page>
+            </cyberware>
+            <cyberware>
+                <id>950eb7d6-ee3d-4b75-b25a-1240eda89d9f</id>
+                <translate>Ultraschallsensor</translate>
+                <page>457</page>
+            </cyberware>
+            <cyberware>
+                <id>2b6dc170-e09c-4750-95b2-75d423e84d79</id>
+                <translate>Stimmenmodulator</translate>
+                <page>457</page>
+            </cyberware>
+            <cyberware>
+                <id>dcc992bd-7353-4879-9c1b-3a8fb60c7fe8</id>
+                <translate>Cyberaugen</translate>
+                <page>457</page>
+            </cyberware>
+            <cyberware>
+                <id>b47233c5-a5a7-4787-a797-fe4437a9441d</id>
+                <translate>Blitzkompensation</translate>
+                <page>458</page>
+            </cyberware>
+            <cyberware>
+                <id>5aefd635-5523-4c3a-9dd6-028c4c302d51</id>
+                <translate>Bildverbindung</translate>
+                <page>458</page>
+            </cyberware>
+            <cyberware>
+                <id>b5a9f24e-7a24-4c8d-b1f5-db8c7a9bf086</id>
+                <translate>Restlichtverstärkung</translate>
+                <page>458</page>
+            </cyberware>
+            <cyberware>
+                <id>92eb6b5d-a256-4f9b-bf39-dfab526c077f</id>
+                <translate>Okulardrohne</translate>
+                <page>458</page>
+            </cyberware>
+            <cyberware>
+                <id>d8c27971-e8c1-48a7-9d96-791f0318ea74</id>
+                <translate>Retinaduplikat</translate>
+                <page>458</page>
+            </cyberware>
+            <cyberware>
+                <id>72f48207-04a0-4019-a92d-0d5d8361bf3f</id>
+                <translate>Smartlink</translate>
+                <page>458</page>
+            </cyberware>
+            <cyberware>
+                <id>7366713d-a9fd-438c-8e4a-445c011f987d</id>
+                <translate>Infrarotsicht</translate>
+                <page>458</page>
+            </cyberware>
+            <cyberware>
+                <id>ca718515-b583-4385-bf06-175acf94575a</id>
+                <translate>Sichtverbesserung</translate>
+                <page>458</page>
+            </cyberware>
+            <cyberware>
+                <id>f3ce7b3b-afed-4b1c-b988-425f5a78c0e9</id>
+                <translate>Sichtvergrößerung</translate>
+                <page>458</page>
+            </cyberware>
+            <cyberware>
+                <id>9955f08d-c35f-4954-b11c-90c9dbfe5178</id>
+                <translate>Cyberohren</translate>
+                <page>459</page>
+            </cyberware>
+            <cyberware>
+                <id>da7ea9f0-03e9-4773-b2b6-1b4cbbe17c30</id>
+                <translate>Audioverbesserung</translate>
+                <page>459</page>
+            </cyberware>
+            <cyberware>
+                <id>31b46800-081e-4470-aebe-e2b46f1ed3bd</id>
+                <translate>Balanceverstärker</translate>
+                <page>459</page>
+            </cyberware>
+            <cyberware>
+                <id>97367282-2f99-4398-96ea-424aabed92d6</id>
+                <translate>Dämpfer</translate>
+                <page>459</page>
+            </cyberware>
+            <cyberware>
+                <id>d9ee8b52-8e16-4b65-9a06-8ed856a37348</id>
+                <translate>Selektiver Geräuschfilter</translate>
+                <page>459</page>
+            </cyberware>
+            <cyberware>
+                <id>ee3a77b1-0e90-465c-8da0-0e9a3e8027a8</id>
+                <translate>Audioverbindung</translate>
+                <page>459</page>
+            </cyberware>
+            <cyberware>
+                <id>502319c6-bd65-4d90-9843-5fb65d350c36</id>
+                <translate>Richtungsdetektor</translate>
+                <page>459</page>
+            </cyberware>
+            <cyberware>
+                <id>df905d96-4632-47f0-9791-7c8ba56887de</id>
+                <translate>Kompositknochen, Aluminium</translate>
+                <page>460</page>
+            </cyberware>
+            <cyberware>
+                <id>7f16febf-b7e9-4adf-8418-3822f4e9ee1d</id>
+                <translate>Kompositknochen, Kunststoff</translate>
+                <page>460</page>
+            </cyberware>
+            <cyberware>
+                <id>7f8c633b-9503-4777-b480-03e486f64576</id>
+                <translate>Kompositknochen, Titan</translate>
+                <page>460</page>
+            </cyberware>
+            <cyberware>
+                <id>c4982001-d35d-40a6-bc55-f90d930a66aa</id>
+                <translate>Dermalpanzerung</translate>
+                <page>459</page>
+            </cyberware>
+            <cyberware>
+                <id>5f0c7c63-6b84-4755-a79b-074ccefbee11</id>
+                <translate>Fingerkuppenbehälter</translate>
+                <page>459</page>
+            </cyberware>
+            <cyberware>
+                <id>21439e0e-d119-4950-9246-5174bfdda5ef</id>
+                <translate>Enterhakenkanone</translate>
+                <page>459</page>
+            </cyberware>
+            <cyberware>
+                <id>9adbee84-d517-4359-b379-41ba06f6ec57</id>
+                <translate>Interner Lufttank</translate>
+                <page>459</page>
+            </cyberware>
+            <cyberware>
+                <id>f92a3ba5-0d0a-4d5a-b8ce-1ef1b7e8cc54</id>
+                <translate>Kunstmuskeln</translate>
+                <page>460</page>
+            </cyberware>
+            <cyberware>
+                <id>ac91cc72-44ca-44f0-a108-0f98d3ae95f1</id>
+                <translate>Reaktionsverbesserung</translate>
+                <page>460</page>
+            </cyberware>
+            <cyberware>
+                <id>a7dd2b69-8090-4699-9543-79cea753d753</id>
+                <translate>Talentleitungen</translate>
+                <page>461</page>
+            </cyberware>
+            <cyberware>
+                <id>b8c295cb-0d7c-4d51-b1ff-7331b7bb4ff3</id>
+                <translate>Schmuggelbehälter</translate>
+                <page>461</page>
+            </cyberware>
+            <cyberware>
+                <id>38c0e48d-8095-42af-b119-3c433d481ecd</id>
+                <translate>Reflexbooster</translate>
+                <page>460</page>
+            </cyberware>
+        </cyberwares>
+    </chummer>
     <chummer file="echoes.xml">
         <echoes>
             <echo>
