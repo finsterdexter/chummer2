@@ -12,7 +12,7 @@
     <chummer file="critters.xml">
         <categories>
             <category translate="">A.I.s</category>
-            <category translate="">Dracoforms</category>
+            <category translate="Dracoformen">Dracoforms</category>
             <category translate="">Entropic Sprites</category>
             <category translate="">Fey</category>
             <category translate="">Ghosts and Haunts</category>
@@ -20,9 +20,9 @@
             <category translate="">Imps</category>
             <category translate="">Infected</category>
             <category translate="">Insect Spirits</category>
-            <category translate="">Mundane Critters</category>
+            <category translate="Mundane Critter">Mundane Critters</category>
             <category translate="">Mutant Critters</category>
-            <category translate="">Paranormal Critters</category>
+            <category translate="Paracritter">Paranormal Critters</category>
             <category translate="">Primordial Spirits</category>
             <category translate="">Protosapients</category>
             <category translate="">Shadow Spirits</category>
@@ -34,6 +34,126 @@
             <category translate="">Toxic Spirits</category>
         </categories>
         <metatypes>
+            <metatype>
+                <id>583b5fea-0bff-40d1-a871-f10c2076e101</id>
+                <translate>Hund</translate>
+                <page>404</page>
+            </metatype>
+            <metatype>
+                <id>75cb9933-0e78-42ad-a446-32ccbcf19219</id>
+                <translate>Großkatze</translate>
+                <page>404</page>
+            </metatype>
+            <metatype>
+                <id>59da3159-8e39-407e-aed3-79c863c627eb</id>
+                <translate>Pferd</translate>
+                <page>404</page>
+            </metatype>
+            <metatype>
+                <id>f3074417-93dc-414d-b06c-cffdb4da3c49</id>
+                <translate>Hai</translate>
+                <page>404</page>
+            </metatype>
+            <metatype>
+                <id>786795fd-3922-460c-9b79-b41db5006af6</id>
+                <translate>Wolf</translate>
+                <page>404</page>
+            </metatype>
+            <metatype>
+                <id>a472bb7b-8ae8-4a04-b35f-d33dd1bd73bf</id>
+                <translate>Barghest</translate>
+                <page>404</page>
+            </metatype>
+            <metatype>
+                <id>b933d26d-1126-4a55-b23a-3846f82986b2</id>
+                <translate>Teufelsratte</translate>
+                <page>407</page>
+            </metatype>
+            <metatype>
+                <id>8fb7745e-b667-4893-95ac-3f149f3fde36</id>
+                <translate>Ghul</translate>
+                <page>406</page>
+            </metatype>
+            <metatype>
+                <id>aa35034a-ae97-4938-b55d-e44dbf4ba186</id>
+                <translate>Höllenhund</translate>
+                <page>406</page>
+            </metatype>
+            <metatype>
+                <id>4fe1e046-27be-4cb0-869b-daddbf8020b3</id>
+                <translate>Sasquatch</translate>
+                <page>406</page>
+            </metatype>
+            <metatype>
+                <id>5a39d2e4-0426-4793-b5e7-c10c2aee47d8</id>
+                <translate>Vampir</translate>
+                <page>407</page>
+            </metatype>
+            <metatype>
+                <id>a7777407-717b-4a45-907e-2570c6b17078</id>
+                <translate>Schreckhahn</translate>
+                <page>407</page>
+            </metatype>
+            <metatype>
+                <id>54464f89-161c-4572-86d4-582d163b7b80</id>
+                <translate>Basilisk</translate>
+                <page>405</page>
+            </metatype>
+            <metatype>
+                <id>885c1218-4517-4109-b738-bffd8db27709</id>
+                <translate>Luftgeist</translate>
+                <page>302</page>
+            </metatype>
+            <metatype>
+                <id>4f32c054-9a20-4a6c-9b86-201c024967fd</id>
+                <translate>Geist des Tieres</translate>
+                <page>303</page>
+            </metatype>
+            <metatype>
+                <id>a03c608a-d4cc-4d9b-b4bb-01b288941b5c</id>
+                <translate>Erdgeist</translate>
+                <page>302</page>
+            </metatype>
+            <metatype>
+                <id>e887f4b2-9db4-4e64-9124-0842c7c027e1</id>
+                <translate>Feuergeist</translate>
+                <page>302</page>
+            </metatype>
+            <metatype>
+                <id>beb9306e-5646-4c79-aa49-e406ef9f8902</id>
+                <translate>Geist des Menschen</translate>
+                <page>303</page>
+            </metatype>
+            <metatype>
+                <id>1d0b68c7-fee4-4697-90ab-9438383ff34f</id>
+                <translate>Wassergeist</translate>
+                <page>303</page>
+            </metatype>
+            <metatype>
+                <id>c2e6e2e2-9c53-408e-9ac6-307fd9035d0e</id>
+                <translate>Watcher</translate>
+                <page>297</page>
+            </metatype>
+            <metatype>
+                <id>7597174e-22b3-41ec-8156-031b8b242c7c</id>
+                <translate>Homunkulus</translate>
+                <page>297</page>
+            </metatype>
+            <metatype>
+                <id>31ce4e8a-7b2f-453b-8dad-13f07a54c99f</id>
+                <translate>Östlicher Drache</translate>
+                <page>409</page>
+            </metatype>
+            <metatype>
+                <id>154e6a08-9a01-4184-b2e4-bcfdb9d98e3f</id>
+                <translate>Gefiederte Schlange</translate>
+                <page>408</page>
+            </metatype>
+            <metatype>
+                <id>754154f6-4d9e-48a6-9c7a-fa9ef003b261</id>
+                <translate>Westlicher Drache</translate>
+                <page>409</page>
+            </metatype>
             <metatype>
                 <id>21a08d79-64fe-41fc-bcd1-56349522bfa4</id>
                 <translate>Kurier-Sprite</translate>
