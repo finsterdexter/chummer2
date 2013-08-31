@@ -9,6 +9,90 @@
             </book>
         </books>
     </chummer>
+    <chummer file="armor.xml">
+        <categories>
+            <category translate="Panzerung">Armor</category>
+            <category translate="Kleidung">Clothing</category>
+            <category translate="Helme und Schilde">Helmets and Shields</category>
+        </categories>
+        <armors>
+            <armor>
+                <id>858e99e0-4df4-4175-9fe7-7881caa05bb6</id>
+                <translate>Kleidung</translate>
+                <page>439</page>
+            </armor>
+            <armor>
+                <id>d8b41d2a-0ff7-4fa2-9e3c-43a400aa40c3</id>
+                <translate>Lederkleidung</translate>
+                <page>439</page>
+            </armor>
+            <armor>
+                <id>347de12d-261a-46d1-8eb3-8732f1f73877</id>
+                <translate>Actioneer Geschäftskleidung</translate>
+                <page>440</page>
+            </armor>
+            <armor>
+                <id>fd839c3a-db9e-40b9-9c87-1fd8f8c40316</id>
+                <translate>Panzerkleidung</translate>
+                <page>440</page>
+            </armor>
+            <armor>
+                <id>f69ba6e4-c3c7-4d64-8831-467e3b3b6051</id>
+                <translate>Panzerjacke</translate>
+                <page>440</page>
+            </armor>
+            <armor>
+                <id>26cde1f7-57ca-4030-a6d7-e09380980506</id>
+                <translate>Panzerweste</translate>
+                <page>440</page>
+            </armor>
+            <armor>
+                <id>7eef876f-4646-4b98-aa3d-60777e89021b</id>
+                <translate>Chamäleonanzug</translate>
+                <page>440</page>
+            </armor>
+            <armor>
+                <id>f3016c85-eb8d-4b6a-84c7-f89e777af9a3</id>
+                <translate>Ganzkörperpanzerung</translate>
+                <page>440</page>
+            </armor>
+            <armor>
+                <id>f0d669be-e673-49b3-8701-5468e6ba1dc2</id>
+                <translate>Gefütterter Mantel</translate>
+                <page>440</page>
+            </armor>
+            <armor>
+                <id>714797b2-e0b6-4d0d-b7fe-c7e3073b2501</id>
+                <translate>Urban Explorer Overall</translate>
+                <page>441</page>
+            </armor>
+            <armor>
+                <id>3c7f2f08-b544-4c43-91c0-8364dade0c4a</id>
+                <translate>Helm</translate>
+                <page>441</page>
+            </armor>
+            <armor>
+                <id>dc05082b-6a2d-4228-ab7c-e4e98fe7a03f</id>
+                <translate>Ballistischer Schild</translate>
+                <page>441</page>
+            </armor>
+            <armor>
+                <id>6f70a42d-de8c-4d8d-8c46-c12eba82b30a</id>
+                <translate>Schutzschild</translate>
+                <page>441</page>
+            </armor>
+            <armor>
+                <id>85a4a228-7b6f-478d-8f59-c9dc7a109a98</id>
+                <translate>Ganzkörperpanzerung Helm</translate>
+                <page>440</page>
+            </armor>
+            <armor>
+                <id>5dabe57b-85ca-4fbc-9d17-0ab61616d342</id>
+                <translate>Urban Explorer Overall Helm</translate>
+                <page>441</page>
+            </armor>
+        </armors>
+    </chummer>
     <chummer file="critters.xml">
         <categories>
             <category translate="">A.I.s</category>
