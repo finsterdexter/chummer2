@@ -15946,6 +15946,7 @@
 			<page>118</page>
 		</metatype>
 		<metatype>
+            <id>a7777407-717b-4a45-907e-2570c6b17078</id>
 			<name>Cockatrice</name>
 			<category>Paranormal Critters</category>
 			<bp>0</bp>
@@ -16013,8 +16014,8 @@
 				<skill rating="2">Shadowing</skill>
 				<skill rating="4">Unarmed Combat</skill>
 			</skills>
-			<source>RW</source>
-			<page>118</page>
+			<source>SR5</source>
+			<page>404</page>
 		</metatype>
 		<metatype>
 			<name>Juggernaut</name>
@@ -18737,6 +18738,7 @@
 			<page>140</page>
 		</metatype>
 		<metatype>
+            <id>54464f89-161c-4572-86d4-582d163b7b80</id>
 			<name>Basilisk</name>
 			<category>Paranormal Critters</category>
 			<bp>0</bp>
@@ -18805,8 +18807,8 @@
 				<skill rating="4">Swimming</skill>
 				<skill rating="4">Unarmed Combat</skill>
 			</skills>
-			<source>RW</source>
-			<page>140</page>
+			<source>SR5</source>
+			<page>403</page>
 		</metatype>
 		<metatype>
 			<name>Birdman</name>
@@ -22610,7 +22612,8 @@
 			<page>303</page>
 		</metatype>
 		<metatype>
-			<name>Watcher Spirit</name>
+            <id>c2e6e2e2-9c53-408e-9ac6-307fd9035d0e</id>
+			<name>Watcher</name>
 			<category>Spirits</category>
 			<forcecreature />
 			<bp>0</bp>
@@ -22669,16 +22672,89 @@
 			</bonus>
 			<powers>
 				<power>Astral Form</power>
+                <power>Manifest</power>
 				<power>Search</power>
+                <power>Sapience</power>
 			</powers>
 			<skills>
 				<skill rating="1">Assensing</skill>
 				<skill rating="1">Astral Combat</skill>
-				<skill rating="1">Dodge</skill>
+				<skill rating="1">Perception</skill>
 			</skills>
-			<source>SR4</source>
-			<page>303</page>
+			<source>SR5</source>
+			<page>298</page>
 		</metatype>
+        <metatype>
+            <id>7597174e-22b3-41ec-8156-031b8b242c7c</id>
+            <name>Homunculus</name>
+            <category>Spirits</category>
+            <forcecreature />
+            <bp>0</bp>
+            <bodmin>1</bodmin>
+            <bodmax>1</bodmax>
+            <bodaug>1</bodaug>
+            <agimin>1</agimin>
+            <agimax>1</agimax>
+            <agiaug>1</agiaug>
+            <reamin>1</reamin>
+            <reamax>1</reamax>
+            <reaaug>1</reaaug>
+            <strmin>1</strmin>
+            <strmax>1</strmax>
+            <straug>1</straug>
+            <chamin>1</chamin>
+            <chamax>1</chamax>
+            <chaaug>1</chaaug>
+            <intmin>1</intmin>
+            <intmax>1</intmax>
+            <intaug>1</intaug>
+            <logmin>1</logmin>
+            <logmax>1</logmax>
+            <logaug>1</logaug>
+            <wilmin>1</wilmin>
+            <wilmax>1</wilmax>
+            <wilaug>1</wilaug>
+            <inimin>2</inimin>
+            <inimax>2</inimax>
+            <iniaug>2</iniaug>
+            <edgmin>0</edgmin>
+            <edgmax>0</edgmax>
+            <edgaug>0</edgaug>
+            <magmin>1</magmin>
+            <magmax>1</magmax>
+            <magaug>1</magaug>
+            <resmin>0</resmin>
+            <resmax>6</resmax>
+            <resaug>6</resaug>
+            <essmin>0</essmin>
+            <essmax>6</essmax>
+            <essaug>6</essaug>
+            <movement>0/0</movement>
+            <bonus>
+                <addattribute>
+                    <name>MAG</name>
+                    <min>1</min>
+                    <max>1</max>
+                    <aug>1</aug>
+                    <val>1</val>
+                </addattribute>
+                <enabletab>
+                    <name>critter</name>
+                </enabletab>
+                <initiativepass>2</initiativepass>
+            </bonus>
+            <powers>
+                <power>Sapience</power>
+            </powers>
+            <skills>
+                <skill rating="1">Assensing</skill>
+                <skill rating="1">Astral Combat</skill>
+                <skill rating="1">Perception</skill>
+                <skill rating="1">Unarmed Combat</skill>
+            </skills>
+            <source>SR5</source>
+            <page>298</page>
+        </metatype>
 		<metatype>
 			<name>Guardian Spirit</name>
 			<category>Spirits</category>
