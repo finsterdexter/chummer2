@@ -564,6 +564,1254 @@
             </echo>
         </echoes>
     </chummer>
+    <chummer file="gear.xml">
+        <categories>
+            <category translate="Munition">Ammunition</category>
+            <category translate="Audiogeräte">Audio Devices</category>
+            <category translate="Audioverstärkung">Audio Enhancements</category>
+            <category translate="Einbruchswerkzeug">B&amp;E Gear</category>
+            <category translate="Biotech">Biotech</category>
+            <category translate="BTLs">BTLs</category>
+            <category translate="Chemikalien">Chemicals</category>
+            <category translate="Kommlink">Commlink</category>
+            <category translate="Kommlink-Zubehör">Commlink Accessories</category>
+            <category translate="Kommunikation">Communications</category>
+            <category translate="Zünder">Detonators</category>
+            <category translate="DocWagon-Vertrag">DocWagon Contract</category>
+            <category translate="Drogen">Drugs</category>
+            <category translate="Elektronikzubehör">Electronics Accessories</category>
+            <category translate="Sprengstoffe">Explosives</category>
+            <category translate="Enterhakenkanone">Grapple Gun</category>
+            <category translate="IDs/Credsticks">ID/Credsticks</category>
+            <category translate="Optische Geräte">Optical &amp; Imaging Devices</category>
+            <category translate="Handschellen">Restraints</category>
+            <category translate="RFID-Marker">RFID Tags</category>
+            <category translate="Sicherheitsgeräte">Security Devices</category>
+            <category translate="Sensor-Funktionen">Sensor Functions</category>
+            <category translate="Sensorgehäuse">Sensor Housings</category>
+            <category translate="Sensorpakete">Sensors</category>
+            <category translate="Talentsofts">Skillsofts</category>
+            <category translate="Slap-Patches">Slap Patches</category>
+            <category translate="Software">Software</category>
+            <category translate="Überlebensausrüstung">Survival Gear</category>
+            <category translate="Werkzeug">Tools</category>
+            <category translate="Toxine">Toxins</category>
+            <category translate="Sichtverstärkung">Vision Enhancements</category>
+            <category translate="Tiere">Animals</category>
+            <category translate="Spezielle Pfeilspitzen">Arrowheads</category>
+            <category translate="ARE-Software">ARE Programs</category>
+            <category translate="Audiogeräte">Audio Enhancers</category>
+            <category translate="Autosofts">Autosofts</category>
+            <category translate="Autosofts, Agent">Autosofts, Agent</category>
+            <category translate="Autosofts, Drone">Autosofts, Drone</category>
+            <category translate="Erwachte Drogen">Awakened Drugs</category>
+            <category translate="Erwachte Mineralien">Awakened Minerals</category>
+            <category translate="Getränke">Beverages</category>
+            <category translate="Biomedikamente">Biomeds</category>
+            <category translate="Tarnausrüstung">Camouflage Gear</category>
+            <category translate="Camping- und Überlebensausrüstung">Camping and Survival Gear</category>
+            <category translate="Chemsniffer-Abwehr">Chem-Sniffer Defenses</category>
+            <category translate="Chemtech">Chemtech</category>
+            <category translate="Kommlink-Module">Commlink Modules</category>
+            <category translate="Betriebssysteme">Commlink Operating System</category>
+            <category translate="Betriebssystem-Upgrades">Commlink Operating System Upgrade</category>
+            <category translate="Kommlink-Modifikationen">Commlink Option</category>
+            <category translate="Kommlink-Upgrades">Commlink Upgrade</category>
+            <category translate="Chemische Verbindungen">Compounds</category>
+            <category translate="Cyberdecks">Cyberdecks</category>
+            <category translate="Cyberdeckoptionen">Cyberdeck Options</category>
+            <category translate="Cyberterminals">Cyberterminals</category>
+            <category translate="Datensoftware">Data Software</category>
+            <category translate="Wüstenüberlebensausrüstung">Desert Survival Equipment</category>
+            <category translate="Lasersinteranlagen">Desktop Forges</category>
+            <category translate="Verkleidung">Disguise</category>
+            <category translate="Getarnte Ausrüstung">Disguised Equipment</category>
+            <category translate="Optionen für Elektronik und Sensoren">Electronics and Sensor Options</category>
+            <category translate="Verzauberungsgerät">Enchanting Tools</category>
+            <category translate="Sprengstoffzubehör">Explosives Accessories</category>
+            <category translate="Fetische">Fetishes</category>
+            <category translate="Foki">Foci</category>
+            <category translate="Fokusformeln">Focus Formulae</category>
+            <category translate="Genetische Infusionen">Genetic Infusions</category>
+            <category translate="Enterhakenkanone und Zubehör">Grapple Gun and Accessories</category>
+            <category translate="Schweres Mörsergeschoss">Heavy Mortar Heads</category>
+            <category translate="Koffer">Luggage</category>
+            <category translate="Magische Präparate">Magical Compounds</category>
+            <category translate="Magische Güter">Magical Supplies</category>
+            <category translate="Magnetdiffusionsabschirmung">Magnetic Diffusion Shielding</category>
+            <category translate="Malware">Malware</category>
+            <category translate="Magische Verbindungen">Magical Alloys</category>
+            <category translate="Manatech">Manatech</category>
+            <category translate="Matrixprogramme">Matrix Programs</category>
+            <category translate="Metamagische Foki">Metamagic Foci</category>
+            <category translate="Sonstige Elektronik">Miscellaneous Electronics</category>
+            <category translate="Raketenköpfe">Missile &amp; Rocket Heads</category>
+            <category translate="Mörsergeschoss">Mortar Heads</category>
+            <category translate="Nanowaffen">Nanoinfectors</category>
+            <category translate="Nanotech">Nanotech</category>
+            <category translate="Nanoware">Nanoware</category>
+            <category translate="Nanofax-Produkte">Nanofax Products</category>
+            <category translate="Dies und das">Odds and Ends</category>
+            <category translate="PAB-Geräte">PAB Units</category>
+            <category translate="Fallschirme">Parachutes</category>
+            <category translate="Peripheriegeräte">Peripherals</category>
+            <category translate="Medikamente">Pharmaceuticals</category>
+            <category translate="Fotoausrüstung">Photographic Equipment</category>
+            <category translate="Pflanzen">Plants</category>
+            <category translate="Post-Mortem-Modifikationen">Post-Mortem Modifications</category>
+            <category translate="Serienmäßiges IC">Pre-Packaged IC</category>
+            <category translate="Serienmäßige Nexus">Pre-Packaged Nexi</category>
+            <category translate="Programmoption">Program Options</category>
+            <category translate="Programmpakete">Program Packages</category>
+            <category translate="Realitätsverstärker">Reality Amplifiers</category>
+            <category translate="Sensorsoftware">Sensor Software</category>
+            <category translate="SimSinn">Simsense</category>
+            <category translate="Simsinn-Drogen">Simsense Drugs</category>
+            <category translate="Talentsoftcluster">Skillsoft Clusters</category>
+            <category translate="Software programmieren">Software Coding</category>
+            <category translate="Softwaresuiten">Software Suites</category>
+            <category translate="Weltraumausrüstung">Space Gear</category>
+            <category translate="Zauberformeln">Spell Formulae</category>
+            <category translate="Spionagespielzeug">Spy Toys</category>
+            <category translate="Speichermedien">Storage Media</category>
+            <category translate="Überwachungs- und Sicherheitsausrüstung">Surveillance and Security Devices</category>
+            <category translate="Überlebensausrüstung">Surveillance Gear</category>
+            <category translate="Taktische AR-Software">Tactical AR Software</category>
+            <category translate="Telematische Infrastruktur-Software">Telematics Infrastructure Software</category>
+            <category translate="Ausrüstung für toxische Umgebungen">Toxic Environment Gear</category>
+            <category translate="Echte Elemente">True Elements</category>
+            <category translate="Unterwasserausrüstung">Underwater Gear</category>
+            <category translate="Optische Geräte">Vision Enhancers</category>
+            <category translate="WiFi-Abschirmung">Wireless Negation</category>
+        </categories>
+        <gears>
+            <gear>
+                <id>2399f5b3-b4d5-4023-afc6-1389dea145a8</id>
+                <translate>Wurfwaffe: Shuriken</translate>
+                <page>426</page>
+            </gear>
+            <gear>
+                <id>400d9169-d162-4afe-9087-325d6117f679</id>
+                <translate>Wurfwaffe: Wurfmesser</translate>
+                <page>426</page>
+            </gear>
+            <gear>
+                <id>1474be5e-ba93-4b61-afde-28b57c7e72e3</id>
+                <translate>Munition: Pfeil</translate>
+                <page>426</page>
+            </gear>
+            <gear>
+                <id>d9a78b03-0a07-407b-b89b-ec36ba198420</id>
+                <translate>Munition: Injektionspfeil</translate>
+                <page>426</page>
+            </gear>
+            <gear>
+                <id>a97be7a2-7318-4c81-9e9a-9f34fbcce77b</id>
+                <translate>Munition: Bolzen</translate>
+                <page>426</page>
+            </gear>
+            <gear>
+                <id>c45e867e-fecd-42d9-bd38-b7342e1a5591</id>
+                <translate>Munition: Injektionsbolzen</translate>
+                <page>426</page>
+            </gear>
+            <gear>
+                <id>7bcb23dd-c2df-4b50-b095-ba62c131ee86</id>
+                <translate>Munition: APDS</translate>
+                <page>436</page>
+            </gear>
+            <gear>
+                <id>e9b91961-66e7-41ef-b29f-9c490e34c806</id>
+                <translate>Munition: Sturmkanonenmunition</translate>
+                <page>437</page>
+            </gear>
+            <gear>
+                <id>774393f0-40a0-4332-9d7d-9d749750b10b</id>
+                <translate>Munition: Explosivmunition</translate>
+                <page>436</page>
+            </gear>
+            <gear>
+                <id>a787091c-5e7c-44d1-899c-2de7629f0f57</id>
+                <translate>Munition: Flechettemunition</translate>
+                <page>436</page>
+            </gear>
+            <gear>
+                <id>68ded2d1-af35-4b53-b44c-9264ba1f4f62</id>
+                <translate>Munition: Gelmunition</translate>
+                <page>436</page>
+            </gear>
+            <gear>
+                <id>ecc569ab-c9a2-45af-87e9-6c2b72176cf7</id>
+                <translate>Munition: Hohlspitzmunition</translate>
+                <page>436</page>
+            </gear>
+            <gear>
+                <id>fa96c922-fee7-4016-986b-ba94191f4d57</id>
+                <translate>Munition: Injektionspfeile</translate>
+                <page>436</page>
+            </gear>
+            <gear>
+                <id>2d7a4fea-b539-4d85-9e48-70c571f76ff0</id>
+                <translate>Munition: Standardmunition</translate>
+                <page>437</page>
+            </gear>
+            <gear>
+                <id>938722f3-28f4-4524-856f-b5a42c1b30df</id>
+                <translate>Munition: Schockermunition</translate>
+                <page>437</page>
+            </gear>
+            <gear>
+                <id>4e9148c7-1326-43e7-bbd7-cac9e7bcae94</id>
+                <translate>Munition: Leuchtspurmunition</translate>
+                <page>437</page>
+            </gear>
+            <gear>
+                <id>52c12aa0-1a33-473f-800b-c858f9fc14b4</id>
+                <translate>Munition: Taserpfeile</translate>
+                <page>437</page>
+            </gear>
+            <gear>
+                <id>c6e0bdf3-712d-48f8-ba72-89467cdebdc9</id>
+                <translate>Granate: Schock</translate>
+                <page>438</page>
+            </gear>
+            <gear>
+                <id>504d6935-8e8c-4f1b-830a-43a60bacea88</id>
+                <translate>Granate: Flash-Pack</translate>
+                <page>437</page>
+            </gear>
+            <gear>
+                <id>ea2ac9d0-600a-4b15-8989-46d51f5b5a28</id>
+                <translate>Granate: Splitter</translate>
+                <page>438</page>
+            </gear>
+            <gear>
+                <id>3dd2bffd-f5d9-47b4-93e9-e6a927a113b3</id>
+                <translate>Granate: Spreng</translate>
+                <page>438</page>
+            </gear>
+            <gear>
+                <id>bc6e4388-6a96-4f51-862d-6c6507383556</id>
+                <translate>Granate: Gas</translate>
+                <page>437</page>
+            </gear>
+            <gear>
+                <id>5dd328d7-4dd5-4eea-8a1d-a29f5e9be405</id>
+                <translate>Granate: Rauch</translate>
+                <page>438</page>
+            </gear>
+            <gear>
+                <id>a2c78a73-eca4-4710-95cd-ff51d5fe5a4b</id>
+                <translate>Granate: IR-Rauch</translate>
+                <page>437</page>
+            </gear>
+            <gear>
+                <id>47548637-1b36-4fcd-b7d2-b63460e3d356</id>
+                <translate>Minigranate: Schock</translate>
+                <page>438</page>
+            </gear>
+            <gear>
+                <id>86e5e83f-5b68-46e4-b100-23c5df0ccb33</id>
+                <translate>Minigranate: Flash-Pack</translate>
+                <page>437</page>
+            </gear>
+            <gear>
+                <id>7addffcd-713e-44fd-a15b-904df3ed18c7</id>
+                <translate>Minigranate: Splitter</translate>
+                <page>438</page>
+            </gear>
+            <gear>
+                <id>b105867d-d958-4eaa-bc93-a1e27e5231a5</id>
+                <translate>Minigranate: Spreng</translate>
+                <page>438</page>
+            </gear>
+            <gear>
+                <id>cdd93020-395b-402e-94c3-9d7075c2ff0e</id>
+                <translate>Minigranate: Gas</translate>
+                <page>437</page>
+            </gear>
+            <gear>
+                <id>a6b07f91-f914-4ec1-9e29-b2a6bf8d1bcf</id>
+                <translate>Minigranate: Rauch</translate>
+                <page>438</page>
+            </gear>
+            <gear>
+                <id>4ac5b08b-9247-4843-a232-90d184f4a3c3</id>
+                <translate>Minigranate: IR-Rauch</translate>
+                <page>437</page>
+            </gear>
+            <gear>
+                <id>eb735bb6-d0ab-494b-a1a4-c772bab73d24</id>
+                <translate>Rakete: Anti-Fahrzeug</translate>
+                <page>438</page>
+            </gear>
+            <gear>
+                <id>09b8fb8f-a6e1-4f71-a249-9311b6d26b0b</id>
+                <translate>Rakete: Splitter</translate>
+                <page>438</page>
+            </gear>
+            <gear>
+                <id>46f87df9-7bb1-4bf8-a91e-9f4ccc752ef3</id>
+                <translate>Rakete: Spreng</translate>
+                <page>438</page>
+            </gear>
+            <gear>
+                <id>b9161c6a-025c-423b-aee4-3ef751c651f3</id>
+                <translate>Lenkrakete: Anti-Fahrzeug</translate>
+                <page>438</page>
+            </gear>
+            <gear>
+                <id>4fdfc026-7612-40be-8889-6aee5adc0cd0</id>
+                <translate>Lenkrakete: Splitter</translate>
+                <page>438</page>
+            </gear>
+            <gear>
+                <id>d617d03a-7c65-4dbc-bd99-0acf5fb93382</id>
+                <translate>Lenkrakete: Spreng</translate>
+                <page>438</page>
+            </gear>
+            <gear>
+                <id>1b4a7f69-cbd0-4739-8bc1-959977e51ac7</id>
+                <translate>Kommerzieller Sprengstoff</translate>
+                <page>439</page>
+            </gear>
+            <gear>
+                <id>b075a504-dfb0-43f0-8f61-a600c2fd3d77</id>
+                <translate>Sprengschaum</translate>
+                <page>439</page>
+            </gear>
+            <gear>
+                <id>a89f347d-8c85-4116-ae10-ef585e39d163</id>
+                <translate>Plastiksprengstoff</translate>
+                <page>439</page>
+            </gear>
+            <gear>
+                <id>9e4dc530-c734-4cee-801e-197ead36e9fd</id>
+                <translate>Sprengkapsel</translate>
+                <page>439</page>
+            </gear>
+            <gear>
+                <id>c25bcc4e-31fe-4702-9c56-c5446dc1a6da</id>
+                <translate>Sim-Modul (Kalt)</translate>
+                <page>442</page>
+            </gear>
+            <gear>
+                <id>55126720-21c4-4d3d-969a-58bee7b62151</id>
+                <translate>Sim-Modul (Heiß)</translate>
+                <page>442</page>
+            </gear>
+            <gear>
+                <id>73882e4e-fbc7-44a4-b26a-fb63249d6074</id>
+                <translate>Meta Link</translate>
+                <page>442</page>
+            </gear>
+            <gear>
+                <id>3246484d-1007-4718-b7b3-150af398e7e1</id>
+                <translate>Sony Emperor</translate>
+                <page>442</page>
+            </gear>
+            <gear>
+                <id>9b684cfb-8bd9-4c53-a230-52e040cc305b</id>
+                <translate>Renraku Sensei</translate>
+                <page>442</page>
+            </gear>
+            <gear>
+                <id>53d5bd35-60de-417c-9dd9-af0f0b83d696</id>
+                <translate>Erika Elite</translate>
+                <page>442</page>
+            </gear>
+            <gear>
+                <id>0969e4ff-01d9-448e-b45d-073bdcdcf541</id>
+                <translate>Hermes Ikon</translate>
+                <page>442</page>
+            </gear>
+            <gear>
+                <id>7e2996ed-697a-4359-b3e7-1bdbc65ae574</id>
+                <translate>Transys Avalon</translate>
+                <page>442</page>
+            </gear>
+            <gear>
+                <id>cad7d442-3166-4099-9ea2-9713e7747f8b</id>
+                <translate>Fairlight Caliban</translate>
+                <page>442</page>
+            </gear>
+            <gear>
+                <id>6179493a-7dcd-4354-8292-408a16be2b92</id>
+                <translate>AR-Handschuhe</translate>
+                <page>443</page>
+            </gear>
+            <gear>
+                <id>2e69f544-231b-48ef-988a-539ec7868bd5</id>
+                <translate>Biometrischer Scanner</translate>
+                <page>443</page>
+            </gear>
+            <gear>
+                <id>dc7288df-5066-43f9-b322-0def5becf403</id>
+                <translate>Elektronisches Papier</translate>
+                <page>443</page>
+            </gear>
+            <gear>
+                <id>f6cc1011-eead-4ee6-924b-5e88b85ffb48</id>
+                <translate>Drucker</translate>
+                <page>443</page>
+            </gear>
+            <gear>
+                <id>ce8843d3-93bc-4212-b9a5-d27f4971555f</id>
+                <translate>Satellitenverbindung</translate>
+                <page>443</page>
+            </gear>
+            <gear>
+                <id>0f644f8f-6960-4f42-a83d-7236335b7817</id>
+                <translate>Simrig</translate>
+                <page>443</page>
+            </gear>
+            <gear>
+                <id>4fdc60f9-b558-4c14-a4be-9080d80ae703</id>
+                <translate>Subvokales Mikrofon</translate>
+                <page>443</page>
+            </gear>
+            <gear>
+                <id>382b1ac7-3721-42ef-9af5-3537c5ff7dba</id>
+                <translate>Trideoprojektor</translate>
+                <page>443</page>
+            </gear>
+            <gear>
+                <id>1374db67-f9e1-4d55-acd3-a7fe6e50a8be</id>
+                <translate>Troden</translate>
+                <page>443</page>
+            </gear>
+            <gear>
+                <id>cd07837f-aa9c-4003-95b1-8e0edcd4d858</id>
+                <translate>RFID-Chip, Standard</translate>
+                <page>444</page>
+            </gear>
+            <gear>
+                <id>6c70ccf5-e18a-4e79-8f92-0cad6852b162</id>
+                <translate>Datenchip</translate>
+                <page>444</page>
+            </gear>
+            <gear>
+                <id>e12ead9a-02dc-4283-bb5f-c7f483af38e3</id>
+                <translate>Sicherheits-Chip</translate>
+                <page>444</page>
+            </gear>
+            <gear>
+                <id>1e641473-38c5-43a5-a3e8-3c1ca006a1a5</id>
+                <translate>Sensor-Chip</translate>
+                <page>444</page>
+            </gear>
+            <gear>
+                <id>22c17ba2-d9f5-4ac1-8326-df1005e0fc20</id>
+                <translate>Spionage-Chip</translate>
+                <page>444</page>
+            </gear>
+            <gear>
+                <id>418f0b84-8977-4abc-af1e-bc49e23c8a74</id>
+                <translate>Wanzenscanner</translate>
+                <page>445</page>
+            </gear>
+            <gear>
+                <id>8d7d83a0-8b8f-4cd2-8405-d74a281d17cf</id>
+                <translate>Datenwanze</translate>
+                <page>444</page>
+            </gear>
+            <gear>
+                <id>20816856-3eb6-4ccb-8f7a-705b72b1b5e6</id>
+                <translate>Headkom-Blocker</translate>
+                <page>444</page>
+            </gear>
+            <gear>
+                <id>00f5d689-c1fd-4bcd-a911-2d3239afca32</id>
+                <translate>Störsender (Bereich)</translate>
+                <page>445</page>
+            </gear>
+            <gear>
+                <id>f328a4b2-5641-4a68-8855-42159b968de5</id>
+                <translate>Störsender (Zielgerichtet)</translate>
+                <page>445</page>
+            </gear>
+            <gear>
+                <id>b72542f0-e5de-4817-b0e5-9df012bd67d3</id>
+                <translate>Mikro-Transceiver</translate>
+                <page>444</page>
+            </gear>
+            <gear>
+                <id>49afc1d1-a100-42c9-be16-721fc657cdce</id>
+                <translate>RFID-Löscher</translate>
+                <page>445</page>
+            </gear>
+            <gear>
+                <id>ebf789a5-d71b-4985-9787-6995dcc444e7</id>
+                <translate>White-Noise-Generator</translate>
+                <page>445</page>
+            </gear>
+            <gear>
+                <id>b0bca016-ee1f-430e-b568-a670f0386c8b</id>
+                <translate>Agent</translate>
+                <page>445</page>
+            </gear>
+            <gear>
+                <id>211dfaa0-5517-4e47-9b7a-684ea7d724df</id>
+                <translate>Datensoft</translate>
+                <page>445</page>
+            </gear>
+            <gear>
+                <id>c7bdf18a-c987-43d5-bc37-3cb9b1bb8091</id>
+                <translate>Kartensoft</translate>
+                <page>445</page>
+            </gear>
+            <gear>
+                <id>56fa0adf-3c50-4952-ba99-e7e6aa8e908d</id>
+                <translate>Shopsoft</translate>
+                <page>446</page>
+            </gear>
+            <gear>
+                <id>e6e300e6-880d-42aa-b58b-00d656608c16</id>
+                <translate>Lehrsoft</translate>
+                <page>445</page>
+            </gear>
+            <gear>
+                <id>13cbaab5-0cc8-4afe-bba1-f8d03a5cd7a0</id>
+                <translate>Aktionssoft</translate>
+                <page>446</page>
+            </gear>
+            <gear>
+                <id>1d02e9af-d3e2-4537-88bb-e214075a1e57</id>
+                <translate>Wissenssoft</translate>
+                <page>446</page>
+            </gear>
+            <gear>
+                <id>7ecf23c5-9173-41ec-b2e2-4cbca3bf2cb3</id>
+                <translate>Linguasoft</translate>
+                <page>446</page>
+            </gear>
+            <gear>
+                <id>5a0a7a64-4eda-47d5-af15-27fd2bd8dfff</id>
+                <translate>Beglaubigter Credstick, Standard</translate>
+                <page>446</page>
+            </gear>
+            <gear>
+                <id>d90c9a13-c9fc-496a-a3b4-6179d757f1dc</id>
+                <translate>Beglaubigter Credstick, Silber</translate>
+                <page>446</page>
+            </gear>
+            <gear>
+                <id>91b87af6-f227-4ac0-9a15-2846efd48d58</id>
+                <translate>Beglaubigter Credstick, Gold</translate>
+                <page>446</page>
+            </gear>
+            <gear>
+                <id>ed455874-dbd7-4943-ad37-6e6ea5670518</id>
+                <translate>Beglaubigter Credstick, Platin</translate>
+                <page>446</page>
+            </gear>
+            <gear>
+                <id>d732ac34-021f-4ad0-bd2c-3995268da31a</id>
+                <translate>Beglaubigter Credstick, Ebenholz</translate>
+                <page>446</page>
+            </gear>
+            <gear>
+                <id>95bad993-cfd1-492d-b2b0-9dd2d939adfb</id>
+                <translate>Gefälschte SIN</translate>
+                <page>446</page>
+            </gear>
+            <gear>
+                <id>2a9f8508-d3a8-47bf-aa68-a2afe99ad4c3</id>
+                <translate>Gefälschte Lizenz</translate>
+                <page>447</page>
+            </gear>
+            <gear>
+                <id>f57d133f-ded5-4c60-99a2-38c8d802dbed</id>
+                <translate>Kiste</translate>
+                <page>447</page>
+            </gear>
+            <gear>
+                <id>c0edbe49-2fc4-4ca0-be0c-6f3684b25ce6</id>
+                <translate>Laden</translate>
+                <page>447</page>
+            </gear>
+            <gear>
+                <id>369fe36a-3d4e-43e5-a8bf-03c586551363</id>
+                <translate>Werkstatt</translate>
+                <page>447</page>
+            </gear>
+            <gear>
+                <id>97f37f23-8b1a-44ce-8978-e019a19bf3b4</id>
+                <translate>Fernglas</translate>
+                <page>447</page>
+            </gear>
+            <gear>
+                <id>6ee469ff-9f52-4bff-b4c0-cfdb3c086c8e</id>
+                <translate>Fernglas (optisch)</translate>
+                <page>447</page>
+            </gear>
+            <gear>
+                <id>f76d7f9d-3fd5-4947-8cbf-cebcb3b9c105</id>
+                <translate>Kamera</translate>
+                <page>447</page>
+            </gear>
+            <gear>
+                <id>d01c7333-d1f7-44fd-a04b-2ed0e352ca41</id>
+                <translate>Mikrokamera</translate>
+                <page>447</page>
+            </gear>
+            <gear>
+                <id>de8ebcab-0d45-4d64-9b02-2ee6994db33d</id>
+                <translate>Kontaktlinsen</translate>
+                <page>447</page>
+            </gear>
+            <gear>
+                <id>3fe0a091-8e77-47a3-833b-684231a95e05</id>
+                <translate>Brille</translate>
+                <page>447</page>
+            </gear>
+            <gear>
+                <id>98d34d7b-f201-4d9d-93a8-7a318a8cd8ce</id>
+                <translate>Sichtgerät</translate>
+                <page>448</page>
+            </gear>
+            <gear>
+                <id>5412e194-d587-4f31-8d5b-9826c76a79ad</id>
+                <translate>Endoskop</translate>
+                <page>448</page>
+            </gear>
+            <gear>
+                <id>0c35489f-8aa9-429c-bb55-33d223c28cc8</id>
+                <translate>Zielfernrohr</translate>
+                <page>448</page>
+            </gear>
+            <gear>
+                <id>c05f45ef-4bf0-4efa-9c7a-8eedc155589f</id>
+                <translate>Periskop</translate>
+                <page>448</page>
+            </gear>
+            <gear>
+                <id>40428ed0-ea10-45f7-b0b7-a360703ead55</id>
+                <translate>Mage-Sight-Brille</translate>
+                <page>448</page>
+            </gear>
+            <gear>
+                <id>e1b506f1-54fb-46e0-840d-aef3d12ce111</id>
+                <translate>Monokel</translate>
+                <page>448</page>
+            </gear>
+            <gear>
+                <id>26cbfaad-f862-410e-a39d-6a5fd21e9326</id>
+                <translate>Restlichtverstärkung</translate>
+                <page>448</page>
+            </gear>
+            <gear>
+                <id>e00794ce-a8bf-4baf-80ed-7b6f17a76967</id>
+                <translate>Blitzkompensation</translate>
+                <page>448</page>
+            </gear>
+            <gear>
+                <id>93b4bb5f-0968-40da-ae7c-6d005f648ba2</id>
+                <translate>Bildverbindung</translate>
+                <page>448</page>
+            </gear>
+            <gear>
+                <id>af7bf1b8-eee6-45ff-8c06-2baaa02f8a69</id>
+                <translate>Smartlink</translate>
+                <page>448</page>
+            </gear>
+            <gear>
+                <id>6463ae23-4dea-4d0a-b2de-79344e26a683</id>
+                <translate>Infrarotsicht</translate>
+                <page>448</page>
+            </gear>
+            <gear>
+                <id>bf02ea1f-1d8e-4f85-a852-c529b15eab13</id>
+                <translate>Sichtverbesserung</translate>
+                <page>448</page>
+            </gear>
+            <gear>
+                <id>a78320ab-e9ac-4b3b-bb42-bc8bd6891973</id>
+                <translate>Sichtvergrößerung</translate>
+                <page>448</page>
+            </gear>
+            <gear>
+                <id>49275e63-ce02-4f90-bb5a-de9ecc6eb532</id>
+                <translate>Richtmikrofon</translate>
+                <page>449</page>
+            </gear>
+            <gear>
+                <id>9b55d091-f213-4525-8133-25d5d91627f3</id>
+                <translate>Ohrstöpsel</translate>
+                <page>449</page>
+            </gear>
+            <gear>
+                <id>6c5dc186-20bf-47ff-83f3-70d241db287c</id>
+                <translate>Kopfhörer</translate>
+                <page>449</page>
+            </gear>
+            <gear>
+                <id>d04e3f71-0e3c-4093-b9cc-d7d9aa507538</id>
+                <translate>Lasermikrofon</translate>
+                <page>449</page>
+            </gear>
+            <gear>
+                <id>1823619b-bb02-4ea0-aa7c-e38c61708446</id>
+                <translate>Mikrofon</translate>
+                <page>449</page>
+            </gear>
+            <gear>
+                <id>09bd8599-4762-43ad-b954-f6fc674b1947</id>
+                <translate>Audioverbesserung</translate>
+                <page>449</page>
+            </gear>
+            <gear>
+                <id>b08ba350-1ee6-4541-8ac7-be89499446bb</id>
+                <translate>Selektiver Geräuschfilter</translate>
+                <page>449</page>
+            </gear>
+            <gear>
+                <id>9fe472b5-090e-40d4-804c-0020a0270cff</id>
+                <translate>Richtungsdetektor</translate>
+                <page>449</page>
+            </gear>
+            <gear>
+                <id>6eefb237-e0b1-400f-b2ec-9185fa96d047</id>
+                <translate>RFID Sensorgehäuse</translate>
+                <page>450</page>
+            </gear>
+            <gear>
+                <id>1139bfa9-35fd-4d23-a99c-c398ba1a918c</id>
+                <translate>Audio- oder Sichtgerät Sensorgehäuse</translate>
+                <page>450</page>
+            </gear>
+            <gear>
+                <id>56836686-6300-4731-8f28-c6085b078952</id>
+                <translate>Headware Sensorgehäuse</translate>
+                <page>450</page>
+            </gear>
+            <gear>
+                <id>84670d7b-9c75-466d-9a5b-1fbb4c0d4f3a</id>
+                <translate>Handgerät Sensorgehäuse</translate>
+                <page>450</page>
+            </gear>
+            <gear>
+                <id>c5a8764b-da1d-45e8-86df-41640b41534b</id>
+                <translate>Kleine Drone Sensorgehäuse</translate>
+                <page>450</page>
+            </gear>
+            <gear>
+                <id>5dada605-3a5b-4544-a50b-0979660a0e7a</id>
+                <translate>Wandmontiertes Gerät Sensorgehäuse</translate>
+                <page>450</page>
+            </gear>
+            <gear>
+                <id>66150ca9-23a9-4971-a4e0-50226bbd44d8</id>
+                <translate>Mittlere Drohne Sensorgehäuse</translate>
+                <page>450</page>
+            </gear>
+            <gear>
+                <id>7a4805c8-1417-4210-b240-ad9a16d1f9e4</id>
+                <translate>Große Drohne Sensorgehäuse</translate>
+                <page>450</page>
+            </gear>
+            <gear>
+                <id>2a1d214d-ebea-4393-a962-1cbf2c62b9d2</id>
+                <translate>Cybergliedmaße Sensorgehäuse</translate>
+                <page>450</page>
+            </gear>
+            <gear>
+                <id>dc6fe909-42b3-4121-994f-bac599638be6</id>
+                <translate>Motorrad Sensorgehäuse</translate>
+                <page>450</page>
+            </gear>
+            <gear>
+                <id>5081ce7b-7664-43f1-a5de-260d525eb22d</id>
+                <translate>Fahrzeug Sensorgehäuse</translate>
+                <page>450</page>
+            </gear>
+            <gear>
+                <id>a0f7bc7a-bce2-41b3-85fa-20e86ed82446</id>
+                <translate>Gebäude Sensorgehäuse</translate>
+                <page>450</page>
+            </gear>
+            <gear>
+                <id>1b6ca2aa-80cb-4344-a1fc-6e6f13b5338f</id>
+                <translate>Sensorarray</translate>
+                <page>449</page>
+            </gear>
+            <gear>
+                <id>c5cc4190-ba5f-4d4e-9f15-4292d96af7ba</id>
+                <translate>Einzelsensor</translate>
+                <page>449</page>
+            </gear>
+            <gear>
+                <id>993c21a3-1945-4d50-b47c-15ce7d7ea8e5</id>
+                <translate>Atmosphärensensor</translate>
+                <page>450</page>
+            </gear>
+            <gear>
+                <id>ad11e37d-a647-476e-9456-3fe60ce395a3</id>
+                <translate>Kamera</translate>
+                <page>447</page>
+            </gear>
+            <gear>
+                <id>ca789666-72c8-4056-a056-d6cf8fdc6082</id>
+                <translate>Cyberwarescanner</translate>
+                <page>450</page>
+            </gear>
+            <gear>
+                <id>72f73ecb-423a-410e-8e16-9531e16bd62b</id>
+                <translate>Richtmikrofon</translate>
+                <page>449</page>
+            </gear>
+            <gear>
+                <id>c34d084d-7c39-46c6-b55f-191ad5e08f42</id>
+                <translate>Geigerzähler</translate>
+                <page>450</page>
+            </gear>
+            <gear>
+                <id>bbba442d-6aed-48a6-a9ef-7e74d7d42e87</id>
+                <translate>Laser-Entfernungsmesser</translate>
+                <page>450</page>
+            </gear>
+            <gear>
+                <id>e8601f91-8ea5-4de6-b68d-4973f9ce96e6</id>
+                <translate>MAD-Scanner</translate>
+                <page>450</page>
+            </gear>
+            <gear>
+                <id>9eb02a9f-1f56-4ee5-ad7d-fd171e25cfa5</id>
+                <translate>Bewegungsmelder</translate>
+                <page>450</page>
+            </gear>
+            <gear>
+                <id>54bc729d-57ad-447c-810a-cd49cc27e33e</id>
+                <translate>Geruchsscanner</translate>
+                <page>450</page>
+            </gear>
+            <gear>
+                <id>be50b0e9-21e6-45b0-b308-b26f0417e5b0</id>
+                <translate>Mikrofon</translate>
+                <page>449</page>
+            </gear>
+            <gear>
+                <id>bb72e045-9088-48cc-bb3f-bc76a650907c</id>
+                <translate>Radiosignalscanner</translate>
+                <page>450</page>
+            </gear>
+            <gear>
+                <id>e99a5acf-2fd0-40bb-baec-f5c4b2c10015</id>
+                <translate>Ultraschall</translate>
+                <page>450</page>
+            </gear>
+            <gear>
+                <id>d05f129c-c22b-4df2-89b3-ee1700a4d568</id>
+                <translate>Lasermikrofon</translate>
+                <page>449</page>
+            </gear>
+            <gear>
+                <id>e0503e17-d2dd-494f-a777-d87049116712</id>
+                <translate>Zylinderschloss</translate>
+                <page>451</page>
+            </gear>
+            <gear>
+                <id>4372f936-42da-4295-b5ff-4c6939c27606</id>
+                <translate>Kombinationsschloss</translate>
+                <page>451</page>
+            </gear>
+            <gear>
+                <id>ca6c0d77-27c8-4bc6-abc6-f1f4b1d0b6f2</id>
+                <translate>Magschloss</translate>
+                <page>451</page>
+            </gear>
+            <gear>
+                <id>88e8db60-db86-4dc1-b913-f3f117e17c74</id>
+                <translate>Tastatur</translate>
+                <page>451</page>
+            </gear>
+            <gear>
+                <id>4690db58-5852-4b32-8d83-e54d5b6b4a10</id>
+                <translate>Kartenleser</translate>
+                <page>451</page>
+            </gear>
+            <gear>
+                <id>e23d09d7-5836-4699-9cc6-419ebd8f74b0</id>
+                <translate>Anti-Manipulations-System</translate>
+                <page>451</page>
+            </gear>
+            <gear>
+                <id>efa265ca-a13a-44db-90e6-ed3c266b45c4</id>
+                <translate>Biometrischer Scanner</translate>
+                <page>451</page>
+            </gear>
+            <gear>
+                <id>437df96e-80ff-4f17-8939-acfa1cdb1944</id>
+                <translate>Metallhandschellen</translate>
+                <page>451</page>
+            </gear>
+            <gear>
+                <id>0b9084e8-b8e9-429e-ac11-8592dbd8821a</id>
+                <translate>Plasstahlhandschellen</translate>
+                <page>451</page>
+            </gear>
+            <gear>
+                <id>f835b580-19a8-4482-a587-dc519af0a35a</id>
+                <translate>Plastikhandschellen</translate>
+                <page>451</page>
+            </gear>
+            <gear>
+                <id>42f0117b-5e53-4a0a-8da3-142fda95ed55</id>
+                <translate>Cyberwareblocker</translate>
+                <page>451</page>
+            </gear>
+            <gear>
+                <id>c3368f25-09df-4907-9fc6-d5cad5befd53</id>
+                <translate>Automatischer Dietrich</translate>
+                <page>451</page>
+            </gear>
+            <gear>
+                <id>86e1cfa8-a05a-4518-8b9f-a652e5a05287</id>
+                <translate>Gussform fu?r Abdruckhandschuh</translate>
+                <page>452</page>
+            </gear>
+            <gear>
+                <id>fd8c20a9-4bdf-44b0-a9fc-91caaa09b40c</id>
+                <translate>Handmeißel</translate>
+                <page>452</page>
+            </gear>
+            <gear>
+                <id>f70c68d5-4b05-4136-91fc-7c7b5405655e</id>
+                <translate>Brecheisen</translate>
+                <page>452</page>
+            </gear>
+            <gear>
+                <id>c0d3905f-69a2-4263-b008-760b8e216419</id>
+                <translate>Magschlosskarten-Kopierer</translate>
+                <page>452</page>
+            </gear>
+            <gear>
+                <id>3e90242c-4001-43b2-89f2-33596bfc1cb2</id>
+                <translate>Dietrich-Set</translate>
+                <page>452</page>
+            </gear>
+            <gear>
+                <id>8124a1b0-b613-494f-91eb-452d1be35e27</id>
+                <translate>Magschlossknacker</translate>
+                <page>452</page>
+            </gear>
+            <gear>
+                <id>fc382a5d-10ab-45b5-9682-0994da08f929</id>
+                <translate>Mini-Schweißgerät</translate>
+                <page>452</page>
+            </gear>
+            <gear>
+                <id>7ca01a6d-dc76-4d52-ab4e-4ce3db03f845</id>
+                <translate>Treibstoffkanister fu?r Mini-Schweißgerät</translate>
+                <page>452</page>
+            </gear>
+            <gear>
+                <id>11d631aa-6c9c-47e9-937c-16cbe2a7a075</id>
+                <translate>Monofilamentkettensäge</translate>
+                <page>452</page>
+            </gear>
+            <gear>
+                <id>367b1f7e-cfbc-456e-88f7-6f8531f12228</id>
+                <translate>Sequencer</translate>
+                <page>452</page>
+            </gear>
+            <gear>
+                <id>5097e821-fff1-4984-802b-123afc5e5d5b</id>
+                <translate>Kleber-Lösungsmittel</translate>
+                <page>452</page>
+            </gear>
+            <gear>
+                <id>fc9fb927-bf14-495c-9309-a4ac44ecb4fe</id>
+                <translate>Spru?hkleber</translate>
+                <page>452</page>
+            </gear>
+            <gear>
+                <id>95325f61-6e40-4896-9760-58224c3a0359</id>
+                <translate>Thermit-Brennstab</translate>
+                <page>452</page>
+            </gear>
+            <gear>
+                <id>c396a9e8-557d-421b-b65c-6b74cad1f146</id>
+                <translate>Chemoanzug</translate>
+                <page>453</page>
+            </gear>
+            <gear>
+                <id>cdfbb3e1-d9df-4469-a99e-114c532e209b</id>
+                <translate>Kletterausru?stung</translate>
+                <page>453</page>
+            </gear>
+            <gear>
+                <id>ff4091d4-27ed-42cb-bd83-08759847e923</id>
+                <translate>Taucherausru?stung</translate>
+                <page>453</page>
+            </gear>
+            <gear>
+                <id>94f61861-21f2-4852-9ea2-a9a00c81d0c9</id>
+                <translate>Taschenlampe</translate>
+                <page>453</page>
+            </gear>
+            <gear>
+                <id>3ee156dc-d545-44ee-9c6a-7146095708ec</id>
+                <translate>Gasmaske</translate>
+                <page>453</page>
+            </gear>
+            <gear>
+                <id>8cae5c69-c9fc-4c7a-b047-65f3e21e50fd</id>
+                <translate>Geckotape-Handschuhe</translate>
+                <page>453</page>
+            </gear>
+            <gear>
+                <id>808ee5e1-dc4b-45c2-b377-aff868afe4ec</id>
+                <translate>Hazmat-Anzug</translate>
+                <page>453</page>
+            </gear>
+            <gear>
+                <id>d1ba4d3e-a4c4-4a57-b284-d34bc448b2a7</id>
+                <translate>Leuchtstab</translate>
+                <page>453</page>
+            </gear>
+            <gear>
+                <id>d77fe595-8ad6-4ef1-85a9-7fe7651058b7</id>
+                <translate>Magnesiumfackel</translate>
+                <page>453</page>
+            </gear>
+            <gear>
+                <id>ded3f162-377e-4bcb-b6f4-d764b9809384</id>
+                <translate>Mini-Signalraketenkanone</translate>
+                <page>453</page>
+            </gear>
+            <gear>
+                <id>ccba873b-572a-4ec6-8138-8f5c609faf7c</id>
+                <translate>Mini-Signalrakete</translate>
+                <page>453</page>
+            </gear>
+            <gear>
+                <id>52ed21c6-4976-4ff6-9e4f-15ca93738e63</id>
+                <translate>Kletterhandschuhe</translate>
+                <page>453</page>
+            </gear>
+            <gear>
+                <id>13ff151c-ef08-4915-ae72-47c0c549cd97</id>
+                <translate>Atemschutzmaske</translate>
+                <page>453</page>
+            </gear>
+            <gear>
+                <id>6923e3ff-a0cb-4270-83e1-53b5e5f60952</id>
+                <translate>Survival-Kit</translate>
+                <page>453</page>
+            </gear>
+            <gear>
+                <id>64b27941-417f-4c77-a7d1-6180f253f663</id>
+                <translate>Enterhakenkanone</translate>
+                <page>454</page>
+            </gear>
+            <gear>
+                <id>b364fa1e-16f2-43b0-a666-673ee7c6c078</id>
+                <translate>Katalysatorstab</translate>
+                <page>454</page>
+            </gear>
+            <gear>
+                <id>522e65d4-4ea9-483b-bdcb-caa6128be530</id>
+                <translate>Microwire (100 m)</translate>
+                <page>454</page>
+            </gear>
+            <gear>
+                <id>c7882812-f312-4a4a-9cbf-c23c961eaab5</id>
+                <translate>Myomerisches Seil (10 m)</translate>
+                <page>454</page>
+            </gear>
+            <gear>
+                <id>e7f28526-060e-438a-8445-bcb507ccfce0</id>
+                <translate>Standardseil (100 m)</translate>
+                <page>454</page>
+            </gear>
+            <gear>
+                <id>e4029eea-3a69-4775-a1a1-f4ce8e036e15</id>
+                <translate>Camouflageseil</translate>
+                <page>454</page>
+            </gear>
+            <gear>
+                <id>2d3770dc-272a-4591-af51-a6cc0b61bc29</id>
+                <translate>Vitalmonitor</translate>
+                <page>454</page>
+            </gear>
+            <gear>
+                <id>ff4d47ad-2b00-413d-bfb7-7d9d47e10751</id>
+                <translate>Einweg-Spritze</translate>
+                <page>454</page>
+            </gear>
+            <gear>
+                <id>07012f7a-203f-4b31-8b01-885bb1a84d83</id>
+                <translate>Medkit</translate>
+                <page>454</page>
+            </gear>
+            <gear>
+                <id>1eb7870a-d628-4cb5-892e-2702036a9986</id>
+                <translate>Medkit-Nachfu?llpack</translate>
+                <page>454</page>
+            </gear>
+            <gear>
+                <id>26c57c02-ce82-48bb-a48b-1ec6e383f96b</id>
+                <translate>DocWagon-Vertrag, Standard</translate>
+                <page>454</page>
+            </gear>
+            <gear>
+                <id>05ad3a25-3100-4a59-b83d-87fa8e48baf5</id>
+                <translate>DocWagon-Vertrag, Gold</translate>
+                <page>454</page>
+            </gear>
+            <gear>
+                <id>c4f2b2fd-ab58-406b-8383-30a3db8024d1</id>
+                <translate>DocWagon-Vertrag, Platin</translate>
+                <page>454</page>
+            </gear>
+            <gear>
+                <id>bd418423-c7ab-4055-b3c2-bd28652acc93</id>
+                <translate>DocWagon-Vertrag, Superplatin</translate>
+                <page>454</page>
+            </gear>
+            <gear>
+                <id>727018a4-c3c3-420a-b848-6df7592ede02</id>
+                <translate>Antidot-Patch</translate>
+                <page>455</page>
+            </gear>
+            <gear>
+                <id>01e57fd7-b020-4276-a4b7-2c3d58557389</id>
+                <translate>Chem-Patch</translate>
+                <page>455</page>
+            </gear>
+            <gear>
+                <id>7d2f7985-1cfd-4b3d-aa34-3defea62113e</id>
+                <translate>Stim-Patch</translate>
+                <page>455</page>
+            </gear>
+            <gear>
+                <id>bc440aa1-8329-47c9-984a-45b101c49c68</id>
+                <translate>Tranq-Patch</translate>
+                <page>455</page>
+            </gear>
+            <gear>
+                <id>cb9a2f32-48b1-4f24-810b-b6fcdc996db8</id>
+                <translate>Trauma-Patch</translate>
+                <page>455</page>
+            </gear>
+            <gear>
+                <id>d90bfd44-a91f-40aa-aafb-63ea1d5ae5ea</id>
+                <translate>CS-/Tränengas</translate>
+                <page>411</page>
+            </gear>
+            <gear>
+                <id>8039d7ab-b250-4af4-933f-870cd3455438</id>
+                <translate>Gamma-Skopolamin</translate>
+                <page>412</page>
+            </gear>
+            <gear>
+                <id>f8efdc03-f08c-4158-96a8-1cadcba0d297</id>
+                <translate>Narcoject</translate>
+                <page>412</page>
+            </gear>
+            <gear>
+                <id>e7b73ca5-eccb-463e-898e-46b241fffb46</id>
+                <translate>Brechreiz-Gas</translate>
+                <page>411</page>
+            </gear>
+            <gear>
+                <id>d9b64679-a0b8-48c4-883a-5c564cc73b58</id>
+                <translate>Neuro-Stun VIII</translate>
+                <page>412</page>
+            </gear>
+            <gear>
+                <id>913ddfc5-165f-4410-ace5-70795b9173e7</id>
+                <translate>Neuro-Stun IX</translate>
+                <page>412</page>
+            </gear>
+            <gear>
+                <id>bec220e0-1050-48e7-8d81-7db9bb05945a</id>
+                <translate>Neuro-Stun X</translate>
+                <page>412</page>
+            </gear>
+            <gear>
+                <id>ff86ca67-9faf-4664-b74e-be1bb98d92fa</id>
+                <translate>Pepper Punch</translate>
+                <page>412</page>
+            </gear>
+            <gear>
+                <id>58586c60-19cb-4d7c-aec1-0ba388c7c524</id>
+                <translate>Seven-7</translate>
+                <page>412</page>
+            </gear>
+            <gear>
+                <id>7bc6c710-e3fd-4f45-9a85-bdb90bfb5f6b</id>
+                <translate>Bliss</translate>
+                <page>413</page>
+            </gear>
+            <gear>
+                <id>84a81b7c-20d9-4bc7-80bd-8643f99f5ab8</id>
+                <translate>Cram</translate>
+                <page>413</page>
+            </gear>
+            <gear>
+                <id>a3fa0347-394c-4567-9e0c-b5c4bcf7c322</id>
+                <translate>Deepweed</translate>
+                <page>413</page>
+            </gear>
+            <gear>
+                <id>bca4172d-8001-45bb-85fa-48993c06b5a9</id>
+                <translate>Jazz</translate>
+                <page>413</page>
+            </gear>
+            <gear>
+                <id>4c3ec01d-5f4d-4c70-9299-48b4866cb3f5</id>
+                <translate>Kamikaze</translate>
+                <page>413</page>
+            </gear>
+            <gear>
+                <id>b443e5ed-77f0-4a1b-9f06-9b693f53fb83</id>
+                <translate>Long Haul</translate>
+                <page>414</page>
+            </gear>
+            <gear>
+                <id>4873a8bc-62f8-471b-9e44-d28955820ca0</id>
+                <translate>Nitro</translate>
+                <page>414</page>
+            </gear>
+            <gear>
+                <id>78ee4a1b-73ee-4fd4-b13b-09a696f2f5a8</id>
+                <translate>Novacoke</translate>
+                <page>414</page>
+            </gear>
+            <gear>
+                <id>1b79c288-3e2d-4eae-9ed1-42d12290b716</id>
+                <translate>Psyche</translate>
+                <page>414</page>
+            </gear>
+            <gear>
+                <id>5f2daabd-a220-4e0c-8f02-ff9d80c94798</id>
+                <translate>Zen</translate>
+                <page>414</page>
+            </gear>
+            <gear>
+                <id>5f8d61fc-0ce6-467c-97c7-f39e1c326407</id>
+                <translate>Dreamchip</translate>
+                <page>415</page>
+            </gear>
+            <gear>
+                <id>4b418abb-e8e2-42c0-ad8e-8e1be761c706</id>
+                <translate>Moodchip</translate>
+                <page>415</page>
+            </gear>
+            <gear>
+                <id>9b717da1-acd3-4250-a9cb-dafca1b7e67e</id>
+                <translate>Personafix</translate>
+                <page>415</page>
+            </gear>
+            <gear>
+                <id>33c6e1b4-aa5f-4dd9-9218-07f9d27dbebb</id>
+                <translate>Tripchip</translate>
+                <page>415</page>
+            </gear>
+        </gears>
+    </chummer>
     <chummer file="lifestyles.xml">
         <lifestyles>
             <lifestyle>
