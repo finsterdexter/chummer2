@@ -1585,7 +1585,7 @@
 		</weapon>
 		<weapon>
 			<id>4093b716-8aee-4a7c-a104-f94c3d3a097a</id>
-			<name>Ares Desert Strike</name>
+			<name>Cavalier Arms Crockett EBR</name>
 			<category>Sniper Rifles</category>
 			<type>Ranged</type>
 			<accuracy>6</accuracy>
@@ -1899,7 +1899,7 @@
 		</weapon>
 		<weapon>
 			<id>19cd3d5b-1992-4737-aa9f-259ad3c6e633</id>
-			<name>Ingrma Valiant</name>
+			<name>Ingram Valiant</name>
 			<category>Light Machine Guns</category>
 			<type>Ranged</type>
 			<spec>Machine Guns</spec>
