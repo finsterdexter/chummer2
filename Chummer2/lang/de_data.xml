@@ -1897,4 +1897,615 @@
             </spell>
         </spells>
     </chummer>
+    <chummer file="weapons.xml">
+        <categories>
+            <category translate="Klingenwaffen">Blades</category>
+            <category translate="Knüppel">Clubs</category>
+            <category translate="Exotische Nahkampfwaffen">Exotic Melee Weapons</category>
+            <category translate="Exotische Fernkampfwaffen">Exotic Ranged Weapons</category>
+            <category translate="Waffenlos">Unarmed</category>
+            <category translate="Bögen">Bows</category>
+            <category translate="Armbrüste">Crossbows</category>
+            <category translate="Wurfwaffen">Throwing Weapons</category>
+            <category translate="Taser">Tasers</category>
+            <category translate="Holdouts">Holdouts</category>
+            <category translate="Leichte Pistolen">Light Pistols</category>
+            <category translate="Schwere Pistolen">Heavy Pistols</category>
+            <category translate="Automatikpistolen">Machine Pistols</category>
+            <category translate="Maschinenpistolen">Submachine Guns</category>
+            <category translate="Sturmgewehre">Assault Rifles</category>
+            <category translate="Schwere Sturmgewehre">Battle Rifles</category>
+            <category translate="Sportgewehre">Sports Rifles</category>
+            <category translate="Scharfschützengewehre">Sniper Rifles</category>
+            <category translate="Schrotflinten">Shotguns</category>
+            <category translate="Spezielle Waffen">Special Weapons</category>
+            <category translate="Leichte Maschinengewehre">Light Machine Guns</category>
+            <category translate="Mittlere Maschinengewehre">Medium Machine Guns</category>
+            <category translate="Schwere Maschinengewehre">Heavy Machine Guns</category>
+            <category translate="Sturmkanonen">Assault Cannons</category>
+            <category translate="Flammenwerfer">Flamethrowers</category>
+            <category translate="Laserwaffen">Laser Weapons</category>
+            <category translate="Granatwerfer">Grenade Launchers</category>
+            <category translate="Mörser">Mortar Launchers</category>
+            <category translate="Raketenwerfer">Missile Launchers</category>
+            <category translate="Fahrzeugwaffen">Vehicle Weapons</category>
+        </categories>
+        <weapons>
+            <weapon>
+                <id>bd98213d-2abd-43ac-934d-f6ba5aa9d69b</id>
+                <translate>Kampfaxt</translate>
+                <page>424</page>
+            </weapon>
+            <weapon>
+                <id>b9792786-b3e8-41a3-94ef-92d7b5c71871</id>
+                <translate>Kampfmesser</translate>
+                <page>424</page>
+            </weapon>
+            <weapon>
+                <id>ea2a8aa1-0f64-4016-ae85-a8b1bf3f35d7</id>
+                <translate>Unterarmschnappklingen</translate>
+                <page>425</page>
+            </weapon>
+            <weapon>
+                <id>9809adf2-d402-4285-984c-8f62d69e001b</id>
+                <translate>Katana</translate>
+                <page>424</page>
+            </weapon>
+            <weapon>
+                <id>0846ddf0-943e-4cfe-92a2-f7c672797962</id>
+                <translate>Messer</translate>
+                <page>424</page>
+            </weapon>
+            <weapon>
+                <id>43eb4edf-7303-40e3-8aa2-dee82f414930</id>
+                <translate>Stangenwaffe</translate>
+                <page>424</page>
+            </weapon>
+            <weapon>
+                <id>95ec4853-f495-4520-b2bd-b40df2ca7806</id>
+                <translate>Überlebensmesser</translate>
+                <page>424</page>
+            </weapon>
+            <weapon>
+                <id>e8383eb8-0e5a-4925-a696-f25a47942f71</id>
+                <translate>Schwert</translate>
+                <page>424</page>
+            </weapon>
+            <weapon>
+                <id>9b80abb2-c6bb-4932-aa6c-b476cd88f138</id>
+                <translate>Knüppel</translate>
+                <page>425</page>
+            </weapon>
+            <weapon>
+                <id>5f677da5-662c-4e3b-9165-082933386178</id>
+                <translate>Teleskopschlagstock</translate>
+                <page>425</page>
+            </weapon>
+            <weapon>
+                <id>9cc13df9-587d-4023-b149-bb1bbe244e72</id>
+                <translate>Totschläger</translate>
+                <page>425</page>
+            </weapon>
+            <weapon>
+                <id>4c589047-3af3-421a-9b12-c0fbeb996a67</id>
+                <translate>Stab</translate>
+                <page>425</page>
+            </weapon>
+            <weapon>
+                <id>6b09679d-0e06-4255-871d-e564fcb6e968</id>
+                <translate>Betäubungsschlagstock</translate>
+                <page>425</page>
+            </weapon>
+            <weapon>
+                <id>1baabec0-293f-4d94-a194-6864f103b904</id>
+                <translate>Teleskopstab</translate>
+                <page>425</page>
+            </weapon>
+            <weapon>
+                <id>740b067e-001c-4da2-a68d-80687424d565</id>
+                <translate>Schlagring</translate>
+                <page>426</page>
+            </weapon>
+            <weapon>
+                <id>0f215339-1470-491f-b609-27c41580a2b2</id>
+                <translate>Monofilamentpeitsche</translate>
+                <page>425</page>
+            </weapon>
+            <weapon>
+                <id>66501179-487b-4b9e-be3f-1de5c3bdfcda</id>
+                <translate>Schockhandschuhe</translate>
+                <page>426</page>
+            </weapon>
+            <weapon>
+                <id>0d36375f-0bc0-4d7e-af44-eccd5b7e57bb</id>
+                <translate>Bogen (Stufe 1)</translate>
+                <page>426</page>
+            </weapon>
+            <weapon>
+                <id>96e4ae5d-303a-49c5-bbc2-c6e3c8dad348</id>
+                <translate>Bogen (Stufe 2)</translate>
+                <page>426</page>
+            </weapon>
+            <weapon>
+                <id>2b85851f-ed7d-48cd-9e07-5b79df0d65d4</id>
+                <translate>Bogen (Stufe 3)</translate>
+                <page>426</page>
+            </weapon>
+            <weapon>
+                <id>5792fa43-19da-44e4-881f-6d35b055bc5a</id>
+                <translate>Bogen (Stufe 4)</translate>
+                <page>426</page>
+            </weapon>
+            <weapon>
+                <id>86c46c29-52b6-45f1-8816-cb006ef6c6a8</id>
+                <translate>Bogen (Stufe 5)</translate>
+                <page>426</page>
+            </weapon>
+            <weapon>
+                <id>47a3ce6f-53a6-420d-8b9b-2ba52f2eb18f</id>
+                <translate>Bogen (Stufe 6)</translate>
+                <page>426</page>
+            </weapon>
+            <weapon>
+                <id>fde9b4ee-3a96-4285-9ce3-4373b935a7ac</id>
+                <translate>Bogen (Stufe 7)</translate>
+                <page>426</page>
+            </weapon>
+            <weapon>
+                <id>2dfd1df0-93d4-43d8-b6a0-2a70a3ad5b2d</id>
+                <translate>Bogen (Stufe 8)</translate>
+                <page>426</page>
+            </weapon>
+            <weapon>
+                <id>157b295e-f598-494b-bc8b-017a6da856b6</id>
+                <translate>Bogen (Stufe 9)</translate>
+                <page>426</page>
+            </weapon>
+            <weapon>
+                <id>c7d3821b-d501-4365-846c-acc4ef85673b</id>
+                <translate>Bogen (Stufe 10)</translate>
+                <page>426</page>
+            </weapon>
+            <weapon>
+                <id>2c4b2a90-ec12-48f3-8f26-838b49a2e763</id>
+                <translate>Bogen (Stufe 11)</translate>
+                <page>426</page>
+            </weapon>
+            <weapon>
+                <id>fc119724-ac06-4336-bfaf-8c8dc612ff61</id>
+                <translate>Bogen (Stufe 12)</translate>
+                <page>426</page>
+            </weapon>
+            <weapon>
+                <id>d30541b2-8c4f-4834-be99-5fc68ee30d66</id>
+                <translate>Leichte Armbrust</translate>
+                <page>426</page>
+            </weapon>
+            <weapon>
+                <id>86d652a4-7900-4ea9-8931-cb24953b8a89</id>
+                <translate>Mittlere Armbrust</translate>
+                <page>426</page>
+            </weapon>
+            <weapon>
+                <id>17b90d5f-22b5-47db-8ff3-91d99629055b</id>
+                <translate>Schwere Armbrust</translate>
+                <page>426</page>
+            </weapon>
+            <weapon>
+                <id>7f1779dd-dcc8-4f74-abaf-40883f62b7c2</id>
+                <translate>Shuriken</translate>
+                <page>426</page>
+            </weapon>
+            <weapon>
+                <id>edd0fee8-5393-4cd9-9084-814e0b458b1c</id>
+                <translate>Wurfmesser</translate>
+                <page>426</page>
+            </weapon>
+            <weapon>
+                <id>d0ec9de5-cbac-4e94-a96a-b4fa30f25ab2</id>
+                <translate>Defiance EX-Shocker</translate>
+                <page>427</page>
+            </weapon>
+            <weapon>
+                <id>7e2cfe5f-b91e-45d2-bf15-a03560e96486</id>
+                <translate>Yamaha Pulsar</translate>
+                <page>427</page>
+            </weapon>
+            <weapon>
+                <id>7897ee2b-c7a5-48a8-9a9e-58a441eeb364</id>
+                <translate>Fichetti Tiffani Needler</translate>
+                <page>427</page>
+            </weapon>
+            <weapon>
+                <id>3bd59b8c-8182-4af9-8833-55c38dcbad91</id>
+                <translate>Streetline Special</translate>
+                <page>427</page>
+            </weapon>
+            <weapon>
+                <id>9f56351d-d36a-4feb-a5cf-bb52ba7cd584</id>
+                <translate>Walther Palm Pistol</translate>
+                <page>428</page>
+            </weapon>
+            <weapon>
+                <id>bcc8b134-ea5f-49d4-b1e8-961a5df67761</id>
+                <translate>Ares Light Fire 75</translate>
+                <page>428</page>
+            </weapon>
+            <weapon>
+                <id>24027611-da12-4f34-958d-0cb682494e85</id>
+                <translate>Ares Light Fire 70</translate>
+                <page>428</page>
+            </weapon>
+            <weapon>
+                <id>c6eb4144-9a41-4d62-b51d-f8284ecb4271</id>
+                <translate>Beretta 201T</translate>
+                <page>428</page>
+            </weapon>
+            <weapon>
+                <id>9b0d9f6f-299a-4315-b316-216c8b25cce5</id>
+                <translate>Colt America L36</translate>
+                <page>428</page>
+            </weapon>
+            <weapon>
+                <id>8b25da5f-2872-43d2-b437-d35c2a55d452</id>
+                <translate>Fichetti Security 600</translate>
+                <page>428</page>
+            </weapon>
+            <weapon>
+                <id>cb518902-00c5-4ea6-880b-ccecad37fdc1</id>
+                <translate>Taurus Omni-6 (Leichte Pistolen Munition)</translate>
+                <page>428</page>
+            </weapon>
+            <weapon>
+                <id>acb1ef97-432d-4db6-a540-9619b5ded3a0</id>
+                <translate>Taurus Omni-6 (Schwere Pistolen Munition)</translate>
+                <page>428</page>
+            </weapon>
+            <weapon>
+                <id>18cfaf8e-4b42-463e-833b-6c529dffcb1b</id>
+                <translate>Ares Predator V</translate>
+                <page>429</page>
+            </weapon>
+            <weapon>
+                <id>35e5f8c0-2e37-4380-b65c-60e814b30c56</id>
+                <translate>Ares Viper Slivergun</translate>
+                <page>429</page>
+            </weapon>
+            <weapon>
+                <id>1443b987-b758-4fa8-a231-7bf4fcddae8a</id>
+                <translate>Browning Ultra-Power</translate>
+                <page>429</page>
+            </weapon>
+            <weapon>
+                <id>90a44a21-c28d-4841-8d60-99df2a203263</id>
+                <translate>Colt Government 2066</translate>
+                <page>429</page>
+            </weapon>
+            <weapon>
+                <id>7af98a64-40f4-46a9-a1b5-58584d88daf5</id>
+                <translate>Remington Roomsweeper</translate>
+                <page>429</page>
+            </weapon>
+            <weapon>
+                <id>983d5bd8-e222-4841-9cb6-6f582b99f573</id>
+                <translate>Ruger Super Warhawk</translate>
+                <page>429</page>
+            </weapon>
+            <weapon>
+                <id>2b217523-f762-4806-b9b2-928f25d796cd</id>
+                <translate>Ares Crusader II</translate>
+                <page>429</page>
+            </weapon>
+            <weapon>
+                <id>e70f8f06-3165-4016-b2b2-cab686b12ef0</id>
+                <translate>Ceska Black Scorpion</translate>
+                <page>430</page>
+            </weapon>
+            <weapon>
+                <id>4962fa2b-9070-4de2-81fe-f6064846ff5c</id>
+                <translate>Steyr TMP</translate>
+                <page>430</page>
+            </weapon>
+            <weapon>
+                <id>2611790e-3a12-4f3e-bbf1-3053a7a79af4</id>
+                <translate>Colt Cobra TZ-120</translate>
+                <page>430</page>
+            </weapon>
+            <weapon>
+                <id>28ff3d86-e392-4564-9706-c8365c40ba33</id>
+                <translate>FN P93 Praetor</translate>
+                <page>430</page>
+            </weapon>
+            <weapon>
+                <id>ed1a4fdc-dd7a-4033-87bb-84642b9e8502</id>
+                <translate>HK-227</translate>
+                <page>430</page>
+            </weapon>
+            <weapon>
+                <id>d2a26e51-b379-4cb3-a152-c3fed0e21583</id>
+                <translate>Ingram Smartgun X</translate>
+                <page>430</page>
+            </weapon>
+            <weapon>
+                <id>a1d52a67-0376-4ff4-bfe4-1f122329d28f</id>
+                <translate>SCK Model 100</translate>
+                <page>430</page>
+            </weapon>
+            <weapon>
+                <id>b13308d3-d6d5-425e-ab6f-6d883d33935f</id>
+                <translate>Uzi IV</translate>
+                <page>431</page>
+            </weapon>
+            <weapon>
+                <id>d0ae648c-2448-4eb8-afb6-ff1df7f4faac</id>
+                <translate>AK-97</translate>
+                <page>431</page>
+            </weapon>
+            <weapon>
+                <id>d1936e34-164b-4b6e-874e-9bfcc04a446e</id>
+                <translate>Ares Alpha</translate>
+                <page>431</page>
+            </weapon>
+            <weapon>
+                <id>60cc450f-e138-416d-b921-59f07e04e895</id>
+                <translate>Ares Alpha Granatwerfer</translate>
+                <page>431</page>
+            </weapon>
+            <weapon>
+                <id>c378b89d-1f79-43b8-9021-12f9177950af</id>
+                <translate>Colt M23</translate>
+                <page>431</page>
+            </weapon>
+            <weapon>
+                <id>c58f6070-8d43-42d1-ba64-a28e06aa79f3</id>
+                <translate>FN HAR</translate>
+                <page>431</page>
+            </weapon>
+            <weapon>
+                <id>9d634361-51d0-43cf-9c48-7f6f25ee24ef</id>
+                <translate>Yamaha Raiden</translate>
+                <page>431</page>
+            </weapon>
+            <weapon>
+                <id>a3e9b5bc-c957-4da5-afeb-ecf50b59e8bf</id>
+                <translate>Ares Desert Strike</translate>
+                <page>431</page>
+            </weapon>
+            <weapon>
+                <id>4093b716-8aee-4a7c-a104-f94c3d3a097a</id>
+                <translate>Cavalier Arms Crockett EBR</translate>
+                <page>431</page>
+            </weapon>
+            <weapon>
+                <id>f4a54215-9510-4aba-ab4e-9d11ce19af15</id>
+                <translate>Ranger Arms SM-5</translate>
+                <page>431</page>
+            </weapon>
+            <weapon>
+                <id>7e4760da-0281-438c-bea9-25c7bc06f645</id>
+                <translate>Remington 950</translate>
+                <page>432</page>
+            </weapon>
+            <weapon>
+                <id>efed2dac-e64e-4d8c-836f-be4d1f7ef0ad</id>
+                <translate>Ruger 100</translate>
+                <page>432</page>
+            </weapon>
+            <weapon>
+                <id>4c151b90-ca63-4f10-abbd-90746391a1be</id>
+                <translate>Defiance T-250</translate>
+                <page>432</page>
+            </weapon>
+            <weapon>
+                <id>616196f6-916c-43e6-b189-2ca65c95beca</id>
+                <translate>Defiance T-250, Kurzer Lauf</translate>
+                <page>432</page>
+            </weapon>
+            <weapon>
+                <id>85ecd08e-7197-4417-a06a-70a4901751d3</id>
+                <translate>Enfield AS-7</translate>
+                <page>432</page>
+            </weapon>
+            <weapon>
+                <id>a28a4ccc-b853-47c8-a717-f36f4f202661</id>
+                <translate>PJSS Model 55</translate>
+                <page>432</page>
+            </weapon>
+            <weapon>
+                <id>8a597715-a7cf-4eb0-b1e0-66db3c82294e</id>
+                <translate>Ares S-III Super Squirt</translate>
+                <page>432</page>
+            </weapon>
+            <weapon>
+                <id>a793894f-04f3-4bbc-b2bc-4696fbeaa524</id>
+                <translate>Fichetti Pain Inducer</translate>
+                <page>432</page>
+            </weapon>
+            <weapon>
+                <id>615a48a4-d54a-4f49-9a0b-a6f2a94b0932</id>
+                <translate>Parashield Pfeilpistole</translate>
+                <page>432</page>
+            </weapon>
+            <weapon>
+                <id>dfd5403d-2cc6-4a27-9e10-c40e23c91a56</id>
+                <translate>Parashield Pfeilgewehr</translate>
+                <page>433</page>
+            </weapon>
+            <weapon>
+                <id>19cd3d5b-1992-4737-aa9f-259ad3c6e633</id>
+                <translate>Ingram Valiant</translate>
+                <page>433</page>
+            </weapon>
+            <weapon>
+                <id>4b789382-b3e0-490d-a6c3-9a477282718f</id>
+                <translate>Stoner-Ares M202</translate>
+                <page>433</page>
+            </weapon>
+            <weapon>
+                <id>7732a443-7910-4c05-aa4d-c51c35585bfe</id>
+                <translate>RPK SMG</translate>
+                <page>433</page>
+            </weapon>
+            <weapon>
+                <id>c97a3b10-8829-4581-af7b-d7d43078ebd8</id>
+                <translate>Ares Antioch-2</translate>
+                <page>433</page>
+            </weapon>
+            <weapon>
+                <id>bc63f0cd-aff6-416f-941c-e3341f3e0b26</id>
+                <translate>ArmTech MGL-12</translate>
+                <page>433</page>
+            </weapon>
+            <weapon>
+                <id>0a75baa4-56dd-406c-8976-f66a8d77b23c</id>
+                <translate>Aztechnology Striker</translate>
+                <page>433</page>
+            </weapon>
+            <weapon>
+                <id>ca4f7a0c-8006-4331-889b-2f6c5db0e976</id>
+                <translate>Krime Cannon</translate>
+                <page>433</page>
+            </weapon>
+            <weapon>
+                <id>020ab8c3-a734-4f7b-8c38-324b92260ec4</id>
+                <translate>Onotari Interceptor</translate>
+                <page>433</page>
+            </weapon>
+            <weapon>
+                <id>f465abe0-eb78-43d1-bb28-de6c87235b76</id>
+                <translate>Panther XXL</translate>
+                <page>433</page>
+            </weapon>
+            <weapon>
+                <id>9e4cc05c-be61-4acb-b2b6-6babf9373524</id>
+                <translate>Granate: Schock</translate>
+                <page>438</page>
+            </weapon>
+            <weapon>
+                <id>4b3d1f19-34aa-4619-b355-fb1a796cc462</id>
+                <translate>Granate: Flash-Pack</translate>
+                <page>437</page>
+            </weapon>
+            <weapon>
+                <id>b23e3d3d-bf26-4873-8f4c-8cdf4dc0957b</id>
+                <translate>Granate: Splitter</translate>
+                <page>438</page>
+            </weapon>
+            <weapon>
+                <id>8566067c-1f86-4136-8a21-790091cd6bbf</id>
+                <translate>Granate: Spreng</translate>
+                <page>438</page>
+            </weapon>
+            <weapon>
+                <id>564c35e2-de9f-46c9-9cc5-d05e1501147e</id>
+                <translate>Granate: Gas</translate>
+                <page>437</page>
+            </weapon>
+            <weapon>
+                <id>b99dd9bc-1912-49c0-ad3d-fb7399958647</id>
+                <translate>Granate: Rauch</translate>
+                <page>438</page>
+            </weapon>
+            <weapon>
+                <id>dbffb664-17da-4ad4-9403-bdd554d3089a</id>
+                <translate>Granate: IR-Rauch</translate>
+                <page>437</page>
+            </weapon>
+            <weapon>
+                <id>81b848c1-48bd-4163-8a18-8cebef6416ab</id>
+                <translate>Minigranate: Schock</translate>
+                <page>438</page>
+            </weapon>
+            <weapon>
+                <id>091d742b-3125-4315-aa11-f923bf18df71</id>
+                <translate>Minigranate: Flash-Pack</translate>
+                <page>437</page>
+            </weapon>
+            <weapon>
+                <id>a0eb2235-9e47-415a-85dc-6a3c0cc3cb4e</id>
+                <translate>Minigranate: Splitter</translate>
+                <page>438</page>
+            </weapon>
+            <weapon>
+                <id>b2e7876b-a3be-4761-91c7-df02b6aa0f4f</id>
+                <translate>Minigranate: Spreng</translate>
+                <page>438</page>
+            </weapon>
+            <weapon>
+                <id>7e4541cb-3663-4941-8007-34c0f18c6402</id>
+                <translate>Minigranate: Gas</translate>
+                <page>437</page>
+            </weapon>
+            <weapon>
+                <id>ea0347fd-eac7-4881-a386-c8eabb7f78d3</id>
+                <translate>Minigranate: Rauch</translate>
+                <page>438</page>
+            </weapon>
+            <weapon>
+                <id>183bc781-0450-4d76-aecc-839b8c73fee2</id>
+                <translate>Minigranate: IR-Rauch</translate>
+                <page>437</page>
+            </weapon>
+            <weapon>
+                <id>2ea5e33c-bb40-473c-ba87-3bc6a2ff0c57</id>
+                <translate>Rakete: Anti-Fahrzeug</translate>
+                <page>438</page>
+            </weapon>
+            <weapon>
+                <id>8e96b547-a7c2-4271-b2d5-94cc3d891644</id>
+                <translate>Rakete: Splitter</translate>
+                <page>438</page>
+            </weapon>
+            <weapon>
+                <id>8f13fe41-c5a1-4a7f-a8bc-ab2b77ec8389</id>
+                <translate>Rakete: Spreng</translate>
+                <page>438</page>
+            </weapon>
+            <weapon>
+                <id>5c97061d-fb3d-4cf9-a36b-63c66d37969e</id>
+                <translate>Lenkrakete: Anti-Fahrzeug</translate>
+                <page>438</page>
+            </weapon>
+            <weapon>
+                <id>41a0542f-d177-471b-a20e-0f665bc21af9</id>
+                <translate>Lenkrakete: Splitter</translate>
+                <page>438</page>
+            </weapon>
+            <weapon>
+                <id>7b75f3d1-8959-43f3-b4bd-de2391040b1b</id>
+                <translate>Lenkrakete: Spreng</translate>
+                <page>438</page>
+            </weapon>
+            <weapon>
+                <id>4c6ac8e2-6313-4681-b2cf-63dbbb2af987</id>
+                <translate>Monofilamentkettensäge</translate>
+                <page>452</page>
+            </weapon>
+            <weapon>
+                <id>dfadf1ba-df15-4217-b7bd-51e01b6fa088</id>
+                <translate>Mini-Signalraketenkanone</translate>
+                <page>453</page>
+            </weapon>
+            <weapon>
+                <id>70480064-d7ad-442b-a8b7-fff36e6d257b</id>
+                <translate>Enterhakenkanone</translate>
+                <page>454</page>
+            </weapon>
+            <weapon>
+                <id>89b6b641-208b-4eed-a28c-992688a9cda5</id>
+                <translate>Kompositknochen, Kunststoff</translate>
+                <page>460</page>
+            </weapon>
+            <weapon>
+                <id>7a4298db-ec3a-41b2-94ca-f4c1adda2940</id>
+                <translate>Kompositknochen, Aluminium</translate>
+                <page>460</page>
+            </weapon>
+            <weapon>
+                <id>de05f0ab-969c-43f1-9e55-56694796943b</id>
+                <translate>Kompositknochen, Titan</translate>
+                <page>460</page>
+            </weapon>
+        </weapons>
+    </chummer>
 </chummer>
