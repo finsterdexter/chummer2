@@ -3468,6 +3468,231 @@
             </spell>
         </spells>
     </chummer>
+    <chummer file="vehicles.xml">
+        <categories>
+            <category translate="">Personal Mobility Vehicle</category>
+            <category translate="Motorrad">Bike</category>
+            <category translate="Auto">Car</category>
+            <category translate="LKW">Truck</category>
+            <category translate="">Hovercraft</category>
+            <category translate="">Watercraft</category>
+            <category translate="">Glider and FPMV</category>
+            <category translate="">LAV</category>
+            <category translate="">Military, Security and Medical Craft</category>
+            <category translate="Boot oder U-Boot">Boat or Sub</category>
+            <category translate="Starrflügler">Winged Plane</category>
+            <category translate="Rotormaschinen">Rotorcraft</category>
+            <category translate="">Zeppelin</category>
+            <category translate="VTOL/VSTOL">VTOL/VSTOL</category>
+            <category translate="Drohne: Mikro">Drone: Micro</category>
+            <category translate="Drohne: Mini">Drone: Mini</category>
+            <category translate="Drohne: Klein">Drone: Small</category>
+            <category translate="Drohne: Mittel">Drone: Medium</category>
+            <category translate="Drohne: Groß">Drone: Large</category>
+        </categories>
+        <vehicles>
+            <vehicle>
+                <id>6870dd42-87e9-48c7-95b0-b94449c95dea</id>
+                <translate>Dodge Scoot</translate>
+                <page>467</page>
+            </vehicle>
+            <vehicle>
+                <id>4c04de8e-c735-44c9-b35d-93f18b0add8b</id>
+                <translate>Harley-Davidson Scorpion</translate>
+                <page>467</page>
+            </vehicle>
+            <vehicle>
+                <id>a9fd5990-51e4-4e0b-a4b5-7784b6d0deeb</id>
+                <translate>Yamaha Growler</translate>
+                <page>468</page>
+            </vehicle>
+            <vehicle>
+                <id>d4c2af8e-4db9-43cc-a0d9-679b8ca6ef91</id>
+                <translate>Suzuki Mirage</translate>
+                <page>467</page>
+            </vehicle>
+            <vehicle>
+                <id>3db4720f-4641-4f4d-80b9-660b84eb0dc8</id>
+                <translate>Chrysler-Nissan Jackrabbit</translate>
+                <page>468</page>
+            </vehicle>
+            <vehicle>
+                <id>231881dc-7fd9-41e2-9ecd-03dc70d63d0d</id>
+                <translate>Honda Spirit</translate>
+                <page>469</page>
+            </vehicle>
+            <vehicle>
+                <id>c1bbef8e-60c9-4b1b-b259-132d13cf1671</id>
+                <translate>Hyundai Shin-Hyung</translate>
+                <page>469</page>
+            </vehicle>
+            <vehicle>
+                <id>b2de2477-452a-47ff-b7a7-6830c08b76a9</id>
+                <translate>Eurocar Westwind 3000</translate>
+                <page>468</page>
+            </vehicle>
+            <vehicle>
+                <id>9a9c16e6-4fff-435e-8eee-a32f6220424a</id>
+                <translate>Ford Americar</translate>
+                <page>468</page>
+            </vehicle>
+            <vehicle>
+                <id>02fc6400-5631-406f-aebb-6efb290479eb</id>
+                <translate>Saeder-Krupp-Bentley Concordat</translate>
+                <page>469</page>
+            </vehicle>
+            <vehicle>
+                <id>09d21219-5157-4a4c-bd2d-4ec15337c96a</id>
+                <translate>Mitsubishi Nightsky</translate>
+                <page>469</page>
+            </vehicle>
+            <vehicle>
+                <id>2c8d285e-7edb-49d1-af8f-c7173af5fb3f</id>
+                <translate>Toyota Gopher</translate>
+                <page>470</page>
+            </vehicle>
+            <vehicle>
+                <id>2120de02-1f5e-4a5f-925c-e0be13fe1b6c</id>
+                <translate>GMC Bulldog Step-Van</translate>
+                <page>469</page>
+            </vehicle>
+            <vehicle>
+                <id>6baef4f7-933b-469f-b130-fb221c017439</id>
+                <translate>Rover Model 2072</translate>
+                <page>470</page>
+            </vehicle>
+            <vehicle>
+                <id>8dfc94cb-85fd-4f25-b5fc-6bcd57f3a9a3</id>
+                <translate>Ares Roadmaster</translate>
+                <page>469</page>
+            </vehicle>
+            <vehicle>
+                <id>4a01ee57-3dfb-4dcb-bfa5-871603012462</id>
+                <translate>Samuvani Criscraft Otter</translate>
+                <page>470</page>
+            </vehicle>
+            <vehicle>
+                <id>de9aebfe-d0a4-47f6-b813-240c2046ffef</id>
+                <translate>Yongkang Gala Trinity</translate>
+                <page>470</page>
+            </vehicle>
+            <vehicle>
+                <id>d342dad7-8a92-4666-9f4e-f8365ca2a72d</id>
+                <translate>Morgan Cutlass</translate>
+                <page>470</page>
+            </vehicle>
+            <vehicle>
+                <id>68ed8c10-ff1d-40d5-8fd5-0e0d4be1fc16</id>
+                <translate>Proteus Lamprey</translate>
+                <page>470</page>
+            </vehicle>
+            <vehicle>
+                <id>0a474b0d-8931-4903-ac9e-8661a7e44d72</id>
+                <translate>Vulkan Electronaut</translate>
+                <page>470</page>
+            </vehicle>
+            <vehicle>
+                <id>31257efa-0bef-496a-8b34-7d2a1d59cc45</id>
+                <translate>Artemis Industries Nightwing</translate>
+                <page>470</page>
+            </vehicle>
+            <vehicle>
+                <id>ec814df7-2d04-4265-ac85-bf693b3aae59</id>
+                <translate>Cessna C750</translate>
+                <page>471</page>
+            </vehicle>
+            <vehicle>
+                <id>16722101-c649-4e0e-9c50-06921808232c</id>
+                <translate>Renault-Fiat Fokker Tundra-9</translate>
+                <page>471</page>
+            </vehicle>
+            <vehicle>
+                <id>03f6bce0-d961-4aa1-ace1-d617ab65c414</id>
+                <translate>Ares Dragon</translate>
+                <page>471</page>
+            </vehicle>
+            <vehicle>
+                <id>04a4e577-8fdb-4347-970c-76be7e0346a1</id>
+                <translate>Nissan Hound</translate>
+                <page>471</page>
+            </vehicle>
+            <vehicle>
+                <id>e766f323-56d7-4ada-afd4-df2567347b10</id>
+                <translate>Northrup Wasp</translate>
+                <page>471</page>
+            </vehicle>
+            <vehicle>
+                <id>408d98be-3e26-43f8-ab66-71bec26da002</id>
+                <translate>Ares Venture</translate>
+                <page>471</page>
+            </vehicle>
+            <vehicle>
+                <id>2921cc99-d625-4a13-b43f-09b011040303</id>
+                <translate>GMC Banshee</translate>
+                <page>472</page>
+            </vehicle>
+            <vehicle>
+                <id>2f8eac50-2794-4364-89b9-ae7b51b00a9e</id>
+                <translate>Federated Boeing Commuter</translate>
+                <page>472</page>
+            </vehicle>
+            <vehicle>
+                <id>9305ccd7-d1e1-4c09-8827-ba0a19a46716</id>
+                <translate>Shiawase Kanmushi</translate>
+                <page>472</page>
+            </vehicle>
+            <vehicle>
+                <id>bbac6be6-7628-4d8e-9581-ffbc96cf24cf</id>
+                <translate>Sikorsky-Bell Microskimmer</translate>
+                <page>472</page>
+            </vehicle>
+            <vehicle>
+                <id>1c17e7c0-8909-4e90-a96f-56c4dd62004f</id>
+                <translate>Horizon Flying Eye</translate>
+                <page>472</page>
+            </vehicle>
+            <vehicle>
+                <id>49cc79e7-89c5-4a97-9405-11eb817bf97e</id>
+                <translate>MCT Fly-Spy</translate>
+                <page>472</page>
+            </vehicle>
+            <vehicle>
+                <id>c83126b4-1b74-471e-9578-83b0ab451190</id>
+                <translate>Aztechnology Crawler</translate>
+                <page>472</page>
+            </vehicle>
+            <vehicle>
+                <id>4128d715-8bbd-4d08-92e8-71ff705763f4</id>
+                <translate>Lockheed Optic-X2</translate>
+                <page>472</page>
+            </vehicle>
+            <vehicle>
+                <id>a0e3a887-999e-4aeb-bdde-928af7c7e60e</id>
+                <translate>Ares Duelist</translate>
+                <page>472</page>
+            </vehicle>
+            <vehicle>
+                <id>6ceca942-38bf-4042-8179-36836d6daffc</id>
+                <translate>GM-Nissan Dobermann</translate>
+                <page>473</page>
+            </vehicle>
+            <vehicle>
+                <id>b5f6f209-3601-4108-a7e3-b6b274dc7e5e</id>
+                <translate>MCT-Nissan Roto-Drohne</translate>
+                <page>473</page>
+            </vehicle>
+            <vehicle>
+                <id>01b548bc-6a75-4fae-af7c-008244c16904</id>
+                <translate>Cyberspace Designs Dalmatian</translate>
+                <page>473</page>
+            </vehicle>
+            <vehicle>
+                <id>693a7423-0f31-4066-931c-84fd1261d4d5</id>
+                <translate>Steel Lynx</translate>
+                <page>473</page>
+            </vehicle>
+        </vehicles>
+    </chummer>
     <chummer file="weapons.xml">
         <categories>
             <category translate="Klingenwaffen">Blades</category>
