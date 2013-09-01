@@ -93,6 +93,143 @@
             </armor>
         </armors>
     </chummer>
+    <chummer file="bioware.xml">
+        <categories>
+            <category translate="Standard">Basic</category>
+            <category translate="">Biosculpting</category>
+            <category translate="">Cosmetic</category>
+            <category translate="Kultiviert">Cultured</category>
+            <category translate="">Endosymbiont</category>
+            <category translate="">Genetech: Genetic Restoration</category>
+            <category translate="">Genetech: Phenotype Adjustments</category>
+            <category translate="">Genetech: Transgenics</category>
+            <category translate="">Genetic Infusions</category>
+            <category translate="">Organs and Limbs</category>
+            <category translate="">Symbiont</category>
+        </categories>
+        <biowares>
+            <bioware>
+                <id>b4c38ac9-ba87-49e0-b313-bc2a7bebd470</id>
+                <translate>Essenzloch</translate>
+                <page>0</page>
+            </bioware>
+            <bioware>
+                <id>e9a95c79-710e-46a7-96ff-3b22d8dc459b</id>
+                <translate>Adrenalinpumpe</translate>
+                <page>464</page>
+            </bioware>
+            <bioware>
+                <id>d3c1d948-2c95-4eec-8d96-899ca7f0e49d</id>
+                <translate>Knochenverstärkung</translate>
+                <page>464</page>
+            </bioware>
+            <bioware>
+                <id>d0e2a6b0-a41e-4b98-a903-39cdb1f63e4f</id>
+                <translate>Katzenaugen</translate>
+                <page>464</page>
+            </bioware>
+            <bioware>
+                <id>feced75a-0416-4cf4-8f37-14d4944d2d9e</id>
+                <translate>Hochleistungsgelenke</translate>
+                <page>464</page>
+            </bioware>
+            <bioware>
+                <id>3fc49185-8737-4501-8c7b-6d54f7846fac</id>
+                <translate>Muskelverstärkung</translate>
+                <page>465</page>
+            </bioware>
+            <bioware>
+                <id>88d6c54c-0eed-4c2a-9e97-9fd811dffd8d</id>
+                <translate>Muskelstraffung</translate>
+                <page>465</page>
+            </bioware>
+            <bioware>
+                <id>bea62f20-88b3-41e3-9cbc-9cd99a42210c</id>
+                <translate>Orthoskin</translate>
+                <page>465</page>
+            </bioware>
+            <bioware>
+                <id>b9770f39-f813-402b-b286-67b323b9afb7</id>
+                <translate>Pathogenabwehr</translate>
+                <page>466</page>
+            </bioware>
+            <bioware>
+                <id>9aade7ed-81a3-4cf6-9338-5b8a1bf17740</id>
+                <translate>Thrombozytenfabrik</translate>
+                <page>466</page>
+            </bioware>
+            <bioware>
+                <id>59c0923b-707d-4390-acf6-198ff1131d74</id>
+                <translate>Hauttasche</translate>
+                <page>464</page>
+            </bioware>
+            <bioware>
+                <id>326a657c-8c5a-4fc4-8509-7eaca9fd7ea5</id>
+                <translate>Hyperschilddru?se</translate>
+                <page>464</page>
+            </bioware>
+            <bioware>
+                <id>4066d8cc-221e-4df9-b156-2bf20938e4c2</id>
+                <translate>Symbionten</translate>
+                <page>466</page>
+            </bioware>
+            <bioware>
+                <id>56bfca2f-0d33-46f3-aa5b-919b9761ac18</id>
+                <translate>Synthacardium</translate>
+                <page>466</page>
+            </bioware>
+            <bioware>
+                <id>b201bb54-14ff-46ea-b871-20fb3edd95b5</id>
+                <translate>Maßgeschneiderte Pheromone</translate>
+                <page>465</page>
+            </bioware>
+            <bioware>
+                <id>e5b81596-f412-4f97-bfe5-a1c313192c7c</id>
+                <translate>Toxinextraktor</translate>
+                <page>466</page>
+            </bioware>
+            <bioware>
+                <id>5229b7a2-cd8b-45ec-84ac-073ffcb3543d</id>
+                <translate>Luftröhrenfilter</translate>
+                <page>465</page>
+            </bioware>
+            <bioware>
+                <id>63b0b849-cfa6-48d2-a34c-ec58a36acf21</id>
+                <translate>Zerebralbooster</translate>
+                <page>466</page>
+            </bioware>
+            <bioware>
+                <id>20cf44b6-6b57-4091-91b2-bc0210710c56</id>
+                <translate>Schadenskompensator</translate>
+                <page>466</page>
+            </bioware>
+            <bioware>
+                <id>f34e005d-c16d-43d0-beaa-26d5045593c0</id>
+                <translate>Mnemoverstärker</translate>
+                <page>466</page>
+            </bioware>
+            <bioware>
+                <id>8528802c-4bc8-49b1-95b7-4d2fd7dab559</id>
+                <translate>Schmerzeditor</translate>
+                <page>466</page>
+            </bioware>
+            <bioware>
+                <id>8a39112c-4a50-448f-a5b8-f2898ada289b</id>
+                <translate>Reflexrekorder</translate>
+                <page>466</page>
+            </bioware>
+            <bioware>
+                <id>3ae2fc71-c0a5-431f-842a-19687ec54b09</id>
+                <translate>Schlafregulator</translate>
+                <page>466</page>
+            </bioware>
+            <bioware>
+                <id>282c468f-7eb0-4573-ace5-af7bde270118</id>
+                <translate>Synapsenbeschleuniger</translate>
+                <page>466</page>
+            </bioware>
+        </biowares>
+    </chummer>
     <chummer file="critters.xml">
         <categories>
             <category translate="">A.I.s</category>
