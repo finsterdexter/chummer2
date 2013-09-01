@@ -3998,6 +3998,20 @@
             </spell>
         </spells>
     </chummer>
+    <chummer file="traditions.xml">
+        <traditions>
+            <tradition>
+                <id>fba3644c-30ee-4103-8c92-8423e1ce37d1</id>
+                <translate>Hermetischer Magier</translate>
+                <page>277</page>
+            </tradition>
+            <tradition>
+                <id>2e4d130c-86e0-42a6-8a0b-d6f25a3276e1</id>
+                <translate>Schamane</translate>
+                <page>277</page>
+            </tradition>
+        </traditions>
+    </chummer>
     <chummer file="vehicles.xml">
         <categories>
             <category translate="">Personal Mobility Vehicle</category>
