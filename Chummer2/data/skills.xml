@@ -34,6 +34,7 @@
 	</categories>
 	<skills>
 		<skill>
+            <id>a04e9235-e13a-418c-be09-e7631595d63c</id>
 			<name>Archery</name>
 			<attribute>AGI</attribute>
 			<category>Combat Active</category>
@@ -49,6 +50,7 @@
 			<page>130</page>
 		</skill>
 		<skill>
+            <id>a54bb1c7-9920-4276-ad18-311e390ca96c</id>
 			<name>Automatics</name>
 			<attribute>AGI</attribute>
 			<category>Combat Active</category>
@@ -64,6 +66,7 @@
 			<page>130</page>
 		</skill>
 		<skill>
+            <id>fdaa958a-7097-4280-bf26-995298fec618</id>
 			<name>Blades</name>
 			<attribute>AGI</attribute>
 			<category>Combat Active</category>
@@ -79,6 +82,7 @@
 			<page>130</page>
 		</skill>
 		<skill>
+            <id>40d7f9de-64be-4393-8c31-437194395a43</id>
 			<name>Clubs</name>
 			<attribute>AGI</attribute>
 			<category>Combat Active</category>
@@ -95,6 +99,7 @@
 			<page>131</page>
 		</skill>
 		<skill>
+            <id>60207c52-47a4-415d-b516-6d048ccdf940</id>
 			<name>Exotic Melee Weapon</name>
 			<attribute>AGI</attribute>
 			<category>Combat Active</category>
@@ -106,6 +111,7 @@
 			<page>131</page>
 		</skill>
 		<skill>
+            <id>9f84eebb-9325-447c-85f9-bdccdc2da3af</id>
 			<name>Exotic Ranged Weapon</name>
 			<attribute>AGI</attribute>
 			<category>Combat Active</category>
@@ -120,6 +126,7 @@
 			<page>131</page>
 		</skill>
 		<skill>
+            <id>fbf14392-ee78-4bae-9426-6db422fe2ecf</id>
 			<name>Heavy Weapons</name>
 			<attribute>AGI</attribute>
 			<category>Combat Active</category>
@@ -136,6 +143,7 @@
 			<page>132</page>
 		</skill>
 		<skill>
+            <id>c28cb807-174d-4645-9a9d-791eb1bed2b4</id>
 			<name>Longarms</name>
 			<attribute>AGI</attribute>
 			<category>Combat Active</category>
@@ -151,6 +159,7 @@
 			<page>132</page>
 		</skill>
 		<skill>
+            <id>24f9aad8-4106-4f1c-859b-8641ad387a3a</id>
 			<name>Pistols</name>
 			<attribute>AGI</attribute>
 			<category>Combat Active</category>
@@ -166,7 +175,8 @@
 			<page>132</page>
 		</skill>
 		<skill>
-			<name>Throwing Weapons</name>
+            <id>deac9d05-1e57-4206-b6a8-4ddfdc1a34bd</id>
+            <name>Throwing Weapons</name>
 			<attribute>AGI</attribute>
 			<category>Combat Active</category>
 			<default>Yes</default>
@@ -180,6 +190,7 @@
 			<page>132</page>
 		</skill>
 		<skill>
+            <id>961e8f0c-3adb-4565-a3a6-bf91da22cf45</id>
 			<name>Unarmed Combat</name>
 			<attribute>AGI</attribute>
 			<category>Combat Active</category>
@@ -195,6 +206,7 @@
 			<page>132</page>
 		</skill>
 		<skill>
+            <id>27a14fde-ea4e-495d-a20b-c5c1ed80bcef</id>
 			<name>Disguise</name>
 			<attribute>INT</attribute>
 			<category>Physical Active</category>
@@ -210,6 +222,7 @@
 			<page>133</page>
 		</skill>
 		<skill>
+            <id>5cf88193-2f56-4065-b983-54d5ded4f646</id>
 			<name>Diving</name>
 			<attribute>BOD</attribute>
 			<category>Physical Active</category>
@@ -230,6 +243,7 @@
 			<page>133</page>
 		</skill>
 		<skill>
+            <id>f5320a62-2aa2-4801-9163-d87df85ef84d</id>
 			<name>Escape Artist</name>
 			<attribute>AGI</attribute>
 			<category>Physical Active</category>
@@ -245,6 +259,7 @@
 			<page>133</page>
 		</skill>
 		<skill>
+            <id>a02f9bbe-e8f3-490c-b190-1adad3fc0dc3</id>
 			<name>Free-Fall</name>
 			<attribute>BOD</attribute>
 			<category>Physical Active</category>
@@ -265,6 +280,7 @@
 			<page>133</page>
 		</skill>
 		<skill>
+            <id>5ebbd04b-a61a-4562-88c7-395a8db1ef28</id>
 			<name>Gymnastics</name>
 			<attribute>AGI</attribute>
 			<category>Physical Active</category>
@@ -282,6 +298,7 @@
 			<page>133</page>
 		</skill>
 		<skill>
+            <id>017b6cd2-67a4-4061-aca9-6040cf00b58e</id>
 			<name>Palming</name>
 			<attribute>AGI</attribute>
 			<category>Physical Active</category>
@@ -296,6 +313,7 @@
 			<page>133</page>
 		</skill>
 		<skill>
+            <id>132783c1-780e-4021-875c-c8763e729e2d</id>
 			<name>Perception</name>
 			<attribute>INT</attribute>
 			<category>Physical Active</category>
@@ -313,6 +331,7 @@
 			<page>133</page>
 		</skill>
 		<skill>
+            <id>579ecc0c-ffc9-4f2d-ac84-23e21002bd16</id>
 			<name>Running</name>
 			<attribute>STR</attribute>
 			<category>Physical Active</category>
@@ -329,6 +348,7 @@
 			<page>133</page>
 		</skill>
 		<skill>
+            <id>c385ecde-f451-4352-a5ef-2c3a244e23d3</id>
 			<name>Sneaking</name>
 			<attribute>AGI</attribute>
 			<category>Physical Active</category>
@@ -343,6 +363,7 @@
 			<page>133</page>
 		</skill>
 		<skill>
+            <id>e540c341-096a-48c8-9781-d8c3e50e4a0b</id>
 			<name>Survival</name>
 			<attribute>WIL</attribute>
 			<category>Physical Active</category>
@@ -360,6 +381,7 @@
 			<page>133</page>
 		</skill>
 		<skill>
+            <id>8c0ca3b6-6df2-47f8-8486-645a9cee89ec</id>
 			<name>Swimming</name>
 			<attribute>STR</attribute>
 			<category>Physical Active</category>
@@ -373,6 +395,7 @@
 			<page>134</page>
 		</skill>
 		<skill>
+            <id>daf38469-2e85-4b44-9a9f-48139340dd8e</id>
 			<name>Tracking</name>
 			<attribute>INT</attribute>
 			<category>Physical Active</category>
@@ -390,6 +413,7 @@
 			<page>134</page>
 		</skill>
 		<skill>
+            <id>3a2be401-36e3-4800-919b-b6368d792ac8</id>
 			<name>Con</name>
 			<attribute>CHA</attribute>
 			<category>Social Active</category>
@@ -403,6 +427,7 @@
 			<page>138</page>
 		</skill>
 		<skill>
+            <id>659ff775-c985-4e7d-bbb9-8be088b9104c</id>
 			<name>Etiquette</name>
 			<attribute>CHA</attribute>
 			<category>Social Active</category>
@@ -420,6 +445,7 @@
 			<page>138</page>
 		</skill>
 		<skill>
+            <id>48545eae-c110-4183-a0fa-d6e8afb09959</id>
 			<name>Impersonation</name>
 			<attribute>CHA</attribute>
 			<category>Social Active</category>
@@ -436,6 +462,7 @@
 			<page>138</page>
 		</skill>
 		<skill>
+            <id>51543222-95e4-4458-9753-bd65f3bb5335</id>
 			<name>Instruction</name>
 			<attribute>CHA</attribute>
 			<category>Social Active</category>
@@ -452,6 +479,7 @@
 			<page>138</page>
 		</skill>
 		<skill>
+            <id>eb617b99-6024-45f4-9cf4-7a01ac3070d5</id>
 			<name>Intimidation</name>
 			<attribute>CHA</attribute>
 			<category>Social Active</category>
@@ -467,6 +495,7 @@
 			<page>139</page>
 		</skill>
 		<skill>
+            <id>32c1b8a5-799a-4960-b481-e321b9a9135e</id>
 			<name>Leadership</name>
 			<attribute>CHA</attribute>
 			<category>Social Active</category>
@@ -482,6 +511,7 @@
 			<page>139</page>
 		</skill>
 		<skill>
+            <id>ade1bdc4-62db-4621-b199-bb188145cb77</id>
 			<name>Negotiation</name>
 			<attribute>CHA</attribute>
 			<category>Social Active</category>
@@ -496,6 +526,7 @@
 			<page>139</page>
 		</skill>
 		<skill>
+            <id>064222a7-9cb4-49e3-b8ee-3748522b2038</id>
 			<name>Performance</name>
 			<attribute>CHA</attribute>
 			<category>Social Active</category>
@@ -511,6 +542,7 @@
 			<page>139</page>
 		</skill>
 		<skill>
+            <id>bfefba18-d889-436e-b70f-582add2bfb01</id>
 			<name>Alchemy</name>
 			<attribute>MAG</attribute>
 			<category>Magical Active</category>
@@ -527,6 +559,7 @@
 			<page>142</page>
 		</skill>
 		<skill>
+            <id>ba5c0556-20c1-42f0-bca7-347a265e4733</id>
 			<name>Arcana</name>
 			<attribute>LOG</attribute>
 			<category>Magical Active</category>
@@ -541,6 +574,7 @@
 			<page>142</page>
 		</skill>
 		<skill>
+            <id>8c1b958a-bc77-41a8-9b89-cf32f3d4514e</id>
 			<name>Artificing</name>
 			<attribute>LOG</attribute>
 			<category>Magical Active</category>
@@ -554,6 +588,7 @@
 			<page>142</page>
 		</skill>
 		<skill>
+            <id>e944f9cd-d7f2-4291-9edf-06a405ee335c</id>
 			<name>Assensing</name>
 			<attribute>INT</attribute>
 			<category>Magical Active</category>
@@ -568,6 +603,7 @@
 			<page>142</page>
 		</skill>
 		<skill>
+            <id>42b12381-1fb1-4b41-9cf8-8b8d31277a8c</id>
 			<name>Astral Combat</name>
 			<attribute>WIL</attribute>
 			<category>Magical Active</category>
@@ -580,6 +616,7 @@
 			<page>142</page>
 		</skill>
 		<skill>
+            <id>8a60fc70-2338-4918-b34c-9d6f76e4cd4e</id>
 			<name>Banishing</name>
 			<attribute>MAG</attribute>
 			<category>Magical Active</category>
@@ -592,6 +629,7 @@
 			<page>142</page>
 		</skill>
 		<skill>
+            <id>0c5aee60-5bd9-4333-8be6-90d7e36017b8</id>
 			<name>Binding</name>
 			<attribute>MAG</attribute>
 			<category>Magical Active</category>
@@ -604,6 +642,7 @@
 			<page>142</page>
 		</skill>
 		<skill>
+            <id>8f9c9f42-41e4-4e4e-bfbd-ec96febd1900</id>
 			<name>Counterspelling</name>
 			<attribute>MAG</attribute>
 			<category>Magical Active</category>
@@ -616,6 +655,7 @@
 			<page>142</page>
 		</skill>
 		<skill>
+            <id>8abac0b6-7339-4553-8cc4-62f66374b4a8</id>
 			<name>Disenchanting</name>
 			<attribute>MAG</attribute>
 			<category>Magical Active</category>
@@ -628,6 +668,7 @@
 			<page>142</page>
 		</skill>
 		<skill>
+            <id>e7e387c4-5cf4-4fe1-a98a-63b2034ea0a2</id>
 			<name>Ritual Spellcasting</name>
 			<attribute>MAG</attribute>
 			<category>Magical Active</category>
@@ -640,6 +681,7 @@
 			<page>142</page>
 		</skill>
 		<skill>
+            <id>082628b4-b58e-4bf2-8d01-81a7bff27722</id>
 			<name>Spellcasting</name>
 			<attribute>MAG</attribute>
 			<category>Magical Active</category>
@@ -656,6 +698,7 @@
 			<page>143</page>
 		</skill>
 		<skill>
+            <id>79ae54da-5c22-4f51-9177-c2fd055995ef</id>
 			<name>Summoning</name>
 			<attribute>MAG</attribute>
 			<category>Magical Active</category>
@@ -668,6 +711,7 @@
 			<page>143</page>
 		</skill>
 		<skill>
+            <id>3528f23d-1c21-4056-9994-ce0ff13f9d63</id>
 			<name>Compiling</name>
 			<attribute>RES</attribute>
 			<category>Resonance Active</category>
@@ -680,6 +724,7 @@
 			<page>143</page>
 		</skill>
 		<skill>
+            <id>39a4866c-0a36-493e-be16-4265e9cbb329</id>
 			<name>Decompiling</name>
 			<attribute>RES</attribute>
 			<category>Resonance Active</category>
@@ -692,6 +737,7 @@
 			<page>143</page>
 		</skill>
 		<skill>
+            <id>dcb5a6fc-06a5-4872-936d-955a8033840c</id>
 			<name>Registering</name>
 			<attribute>RES</attribute>
 			<category>Resonance Active</category>
@@ -704,6 +750,7 @@
 			<page>143</page>
 		</skill>
 		<skill>
+            <id>a254bf07-0ca3-4667-9b3a-4eb4f2a0813a</id>
 			<name>Aeronautics Mechanic</name>
 			<attribute>LOG</attribute>
 			<category>Technical Active</category>
@@ -721,6 +768,7 @@
 			<page>143</page>
 		</skill>
 		<skill>
+            <id>ca24e8fc-8306-4a5b-b4eb-efcfe7359dad</id>
 			<name>Animal Handling</name>
 			<attribute>CHA</attribute>
 			<category>Technical Active</category>
@@ -736,6 +784,7 @@
 			<page>143</page>
 		</skill>
 		<skill>
+            <id>aa836afc-384b-48d7-a3b5-6044a8433ed5</id>
 			<name>Armorer</name>
 			<attribute>LOG</attribute>
 			<category>Technical Active</category>
@@ -753,6 +802,7 @@
 			<page>143</page>
 		</skill>
 		<skill>
+            <id>29a002d1-4d0d-4661-be53-86bbed5e9ecb</id>
 			<name>Automotive Mechanic</name>
 			<attribute>LOG</attribute>
 			<category>Technical Active</category>
@@ -768,6 +818,7 @@
 			<page>143</page>
 		</skill>
 		<skill>
+            <id>50a224fa-0c39-400f-860e-309ba7566aaa</id>
 			<name>Biotechnology</name>
 			<attribute>LOG</attribute>
 			<category>Technical Active</category>
@@ -784,6 +835,7 @@
 			<page>144</page>
 		</skill>
 		<skill>
+            <id>6a04816e-9e8f-48c8-9580-57565bd2351a</id>
 			<name>Chemistry</name>
 			<attribute>LOG</attribute>
 			<category>Technical Active</category>
@@ -800,6 +852,7 @@
 			<page>144</page>
 		</skill>
 		<skill>
+            <id>9a5d492b-3384-46c5-b7d1-b180beec0ddc</id>
 			<name>Computer</name>
 			<attribute>LOG</attribute>
 			<category>Technical Active</category>
@@ -812,6 +865,7 @@
 			<page>144</page>
 		</skill>
 		<skill>
+            <id>b2ebb1c2-9501-4f31-8372-578026c14c00</id>
 			<name>Cybercombat</name>
 			<attribute>LOG</attribute>
 			<category>Technical Active</category>
@@ -828,6 +882,7 @@
 			<page>144</page>
 		</skill>
 		<skill>
+            <id>22b2fd15-e99e-410f-badb-0557b49f0a0f</id>
 			<name>Cybertechnology</name>
 			<attribute>LOG</attribute>
 			<category>Technical Active</category>
@@ -843,6 +898,7 @@
 			<page>144</page>
 		</skill>
 		<skill>
+            <id>96f79d15-952d-477c-b3a5-a77ad436ff29</id>
 			<name>Demolitions</name>
 			<attribute>LOG</attribute>
 			<category>Technical Active</category>
@@ -858,6 +914,7 @@
 			<page>144</page>
 		</skill>
 		<skill>
+            <id>87e641e8-7683-4d70-9e39-cdea468f2311</id>
 			<name>Electronic Warfare</name>
 			<attribute>LOG</attribute>
 			<category>Technical Active</category>
@@ -873,6 +930,7 @@
 			<page>144</page>
 		</skill>
 		<skill>
+            <id>1dd70db3-d5a0-4c98-8db0-15efeb549928</id>
 			<name>First Aid</name>
 			<attribute>LOG</attribute>
 			<category>Technical Active</category>
@@ -888,6 +946,7 @@
 			<page>144</page>
 		</skill>
 		<skill>
+            <id>5b8944bf-2ad8-4833-aec5-5ef19cfab5a0</id>
 			<name>Forgery</name>
 			<attribute>LOG</attribute>
 			<category>Technical Active</category>
@@ -904,6 +963,7 @@
 			<page>144</page>
 		</skill>
 		<skill>
+            <id>c8a30e3e-7b8b-4c3e-8b0a-aca666ef2048</id>
 			<name>Hacking</name>
 			<attribute>LOG</attribute>
 			<category>Technical Active</category>
@@ -919,6 +979,7 @@
 			<page>145</page>
 		</skill>
 		<skill>
+            <id>6300e6d5-c552-4ec2-8b2f-de2567132e36</id>
 			<name>Hardware</name>
 			<attribute>LOG</attribute>
 			<category>Technical Active</category>
@@ -933,6 +994,7 @@
 			<page>145</page>
 		</skill>
 		<skill>
+            <id>a67bd085-cf2e-4b1c-9100-a83af6df7266</id>
 			<name>Industrial Mechanic</name>
 			<attribute>LOG</attribute>
 			<category>Technical Active</category>
@@ -950,6 +1012,7 @@
 			<page>145</page>
 		</skill>
 		<skill>
+            <id>449c91bb-3647-4493-bd5d-058c336598e0</id>
 			<name>Locksmith</name>
 			<attribute>AGI</attribute>
 			<category>Technical Active</category>
@@ -966,6 +1029,7 @@
 			<page>145</page>
 		</skill>
 		<skill>
+            <id>686d0e0c-7cb1-4cb3-8c0e-85d04408e06a</id>
 			<name>Medicine</name>
 			<attribute>LOG</attribute>
 			<category>Technical Active</category>
@@ -983,6 +1047,7 @@
 			<page>145</page>
 		</skill>
 		<skill>
+            <id>8e5a489d-0bf4-44e0-82e1-fe511346b3cf</id>
 			<name>Nautical Mechanic</name>
 			<attribute>LOG</attribute>
 			<category>Technical Active</category>
@@ -998,6 +1063,7 @@
 			<page>145</page>
 		</skill>
 		<skill>
+            <id>db67a4a8-c26d-4a60-9822-136014243c06</id>
 			<name>Navigation</name>
 			<attribute>INT</attribute>
 			<category>Technical Active</category>
@@ -1014,6 +1080,7 @@
 			<page>145</page>
 		</skill>
 		<skill>
+            <id>7d311e97-bd29-4ffd-a500-a301ced17852</id>
 			<name>Software</name>
 			<attribute>LOG</attribute>
 			<category>Technical Active</category>
@@ -1027,6 +1094,7 @@
 			<page>145</page>
 		</skill>
 		<skill>
+            <id>28560489-2105-4ec1-9eb5-867e7248c910</id>
 			<name>Gunnery</name>
 			<attribute>AGI</attribute>
 			<category>Vehicle Active</category>
@@ -1043,6 +1111,7 @@
 			<page>146</page>
 		</skill>
 		<skill>
+            <id>4a9cf51b-fd0b-4af6-87ea-db5359e3da95</id>
 			<name>Pilot Aerospace</name>
 			<attribute>REA</attribute>
 			<category>Vehicle Active</category>
@@ -1059,6 +1128,7 @@
 			<page>146</page>
 		</skill>
 		<skill>
+            <id>494966f7-7121-4fc6-8250-6d4ea1e620b0</id>
 			<name>Pilot Aircraft</name>
 			<attribute>REA</attribute>
 			<category>Vehicle Active</category>
@@ -1076,6 +1146,7 @@
 			<page>147</page>
 		</skill>
 		<skill>
+            <id>253d9422-7785-4d0b-a1ab-b303893a3286</id>
 			<name>Pilot Walker</name>
 			<attribute>REA</attribute>
 			<category>Vehicle Active</category>
@@ -1091,6 +1162,7 @@
 			<page>147</page>
 		</skill>
 		<skill>
+            <id>6b55e164-47d1-4e77-8768-2ad9e0fef1b4</id>
 			<name>Pilot Exotic Vehicle</name>
 			<attribute>REA</attribute>
 			<category>Vehicle Active</category>
@@ -1102,6 +1174,7 @@
 			<page>147</page>
 		</skill>
 		<skill>
+            <id>6eadf912-7ad8-4bff-b59a-a983d6199aad</id>
 			<name>Pilot Ground Craft</name>
 			<attribute>REA</attribute>
 			<category>Vehicle Active</category>
@@ -1118,6 +1191,7 @@
 			<page>147</page>
 		</skill>
 		<skill>
+            <id>2944cf85-72d6-4b9d-9df8-6fc86d8721bf</id>
 			<name>Pilot Watercraft</name>
 			<attribute>REA</attribute>
 			<category>Vehicle Active</category>
@@ -1137,6 +1211,7 @@
 	</skills>
 	<knowledgeskills>
 		<skill>
+            <id>167c74b5-4432-46ed-b778-87b01a9efaa1</id>
 			<name>Arabic</name>
 			<attribute>INT</attribute>
 			<category>Language</category>
@@ -1150,6 +1225,7 @@
 			</specs>
 		</skill>
 		<skill>
+            <id>9f199a03-f069-438e-b5b7-6e146e24a32d</id>
 			<name>Bengali</name>
 			<attribute>INT</attribute>
 			<category>Language</category>
@@ -1163,6 +1239,7 @@
 			</specs>
 		</skill>
 		<skill>
+            <id>311e25da-6068-48f0-b372-212e04894314</id>
 			<name>Bulgarian</name>
 			<attribute>INT</attribute>
 			<category>Language</category>
@@ -1176,6 +1253,7 @@
 			</specs>
 		</skill>
 		<skill>
+            <id>9a89bfa8-6a2e-4c09-8e2b-72578065619d</id>
 		<name>Croatian</name>
 			<attribute>INT</attribute>
 			<category>Language</category>
@@ -1189,6 +1267,7 @@
 			</specs>
 		</skill>
 		<skill>
+            <id>b00a01ba-1f1b-4a60-b5ee-3329c625c59d</id>
 			<name>Cantonese</name>
 			<attribute>INT</attribute>
 			<category>Language</category>
@@ -1202,6 +1281,7 @@
 			</specs>
 		</skill>
 		<skill>
+            <id>48ea6a11-dd03-4307-88c8-58f0a8b935aa</id>
 			<name>Danish</name>
 			<attribute>INT</attribute>
 			<category>Language</category>
@@ -1215,6 +1295,7 @@
 			</specs>
 		</skill>
 		<skill>
+            <id>3f3fec5f-d653-4a64-9830-3bee369a8548</id>
 			<name>English</name>
 			<attribute>INT</attribute>
 			<category>Language</category>
@@ -1228,6 +1309,7 @@
 			</specs>
 		</skill>
 		<skill>
+            <id>f7d82cf6-15ea-48e7-a533-fbcc86744086</id>
 		<name>French</name>
 			<attribute>INT</attribute>
 			<category>Language</category>
@@ -1241,6 +1323,7 @@
 			</specs>
 		</skill>
 		<skill>
+            <id>366f160a-dc0e-4b18-9bf2-698a5143262d</id>
 		<name>German</name>
 			<attribute>INT</attribute>
 			<category>Language</category>
@@ -1254,6 +1337,7 @@
 			</specs>
 		</skill>
 		<skill>
+            <id>52f343fd-4ed0-47c9-83f1-71a10eb3bfad</id>
 			<name>Hebrew</name>
 			<attribute>INT</attribute>
 			<category>Language</category>
@@ -1267,6 +1351,7 @@
 			</specs>
 		</skill>
 		<skill>
+            <id>d32ca3e7-014d-438e-ac32-15c85f271544</id>
 			<name>Hindi-Urdu</name>
 			<attribute>INT</attribute>
 			<category>Language</category>
@@ -1280,6 +1365,7 @@
 			</specs>
 		</skill>
 		<skill>
+            <id>e8480e02-5152-4b6c-acc1-5b72b25d286a</id>
 			<name>Indonesian</name>
 			<attribute>INT</attribute>
 			<category>Language</category>
@@ -1293,6 +1379,7 @@
 			</specs>
 		</skill>
 		<skill>
+            <id>966c843d-53d9-47bf-a9f7-d052738923e9</id>
 			<name>Italian</name>
 			<attribute>INT</attribute>
 			<category>Language</category>
@@ -1306,6 +1393,7 @@
 			</specs>
 		</skill>
 		<skill>
+            <id>542bb99d-db7c-476e-8c97-6c63744a97fc</id>
 			<name>Japanese</name>
 			<attribute>INT</attribute>
 			<category>Language</category>
@@ -1319,6 +1407,7 @@
 			</specs>
 		</skill>
 		<skill>
+            <id>059e8613-a94b-4ff0-8a0a-35376b8f5d17</id>
 			<name>Korean</name>
 			<attribute>INT</attribute>
 			<category>Language</category>
@@ -1332,6 +1421,7 @@
 			</specs>
 		</skill>
 		<skill>
+            <id>20e29074-3fa2-42c1-9e6f-26716b72b196</id>
 			<name>Latin</name>
 			<attribute>INT</attribute>
 			<category>Language</category>
@@ -1345,6 +1435,7 @@
 			</specs>
 		</skill>
 		<skill>
+            <id>fe61fd9a-7de0-4617-8bbc-a05cee3ebfed</id>
 			<name>Mandarin</name>
 			<attribute>INT</attribute>
 			<category>Language</category>
@@ -1358,6 +1449,7 @@
 			</specs>
 		</skill>
 		<skill>
+            <id>aa09da1b-8136-4705-aba4-8ec46d496437</id>
 			<name>Or'zet</name>
 			<attribute>INT</attribute>
 			<category>Language</category>
@@ -1371,6 +1463,7 @@
 			</specs>
 		</skill>
 		<skill>
+            <id>63de927f-91d2-43f5-b6b3-4a41a9997c2c</id>
 			<name>Persian</name>
 			<attribute>INT</attribute>
 			<category>Language</category>
@@ -1384,6 +1477,7 @@
 			</specs>
 		</skill>
 		<skill>
+            <id>ba710ceb-b0a3-4d89-b775-6b37478376b4</id>
 			<name>Portuguese</name>
 			<attribute>INT</attribute>
 			<category>Language</category>
@@ -1397,6 +1491,7 @@
 			</specs>
 		</skill>
 		<skill>
+            <id>7392d686-cd36-42df-af66-d43bb7db6c2f</id>
 			<name>Punjabi</name>
 			<attribute>INT</attribute>
 			<category>Language</category>
@@ -1410,6 +1505,7 @@
 			</specs>
 		</skill>
 		<skill>
+            <id>95580879-c19f-4d41-93b3-ea28844bbd29</id>
 			<name>Polish</name>
 			<attribute>INT</attribute>
 			<category>Language</category>
@@ -1423,6 +1519,7 @@
 			</specs>
 		</skill>
 		<skill>
+            <id>ddcea3db-c006-4783-947a-97e6e5c3dc39</id>
 			<name>Russian</name>
 			<attribute>INT</attribute>
 			<category>Language</category>
@@ -1436,6 +1533,7 @@
 			</specs>
 		</skill>
 		<skill>
+            <id>85df88f7-0ab8-41dd-89d0-a9fad10dcfef</id>
 			<name>Sioux</name>
 			<attribute>INT</attribute>
 			<category>Language</category>
@@ -1449,6 +1547,7 @@
 			</specs>
 		</skill>
 		<skill>
+            <id>0b0e29af-74b2-4674-8bb5-7faa13368b89</id>
 			<name>Spanish</name>
 			<attribute>INT</attribute>
 			<category>Language</category>
@@ -1462,6 +1561,7 @@
 			</specs>
 		</skill>
 		<skill>
+            <id>bf3eb4ed-6679-4124-9890-d3fcc7056b08</id>
 			<name>Sperethiel</name>
 			<attribute>INT</attribute>
 			<category>Language</category>
@@ -1475,6 +1575,7 @@
 			</specs>
 		</skill>
 		<skill>
+            <id>8e7dc8d5-c6e2-4b20-8039-c8b965b92966</id>
 			<name>Thai</name>
 			<attribute>INT</attribute>
 			<category>Language</category>
@@ -1488,6 +1589,7 @@
 			</specs>
 		</skill>
 		<skill>
+            <id>26276cfa-6c14-4d44-82a6-acbccd25db3a</id>
 			<name>Turkish</name>
 			<attribute>INT</attribute>
 			<category>Language</category>
@@ -1501,6 +1603,7 @@
 			</specs>
 		</skill>
 		<skill>
+            <id>a6f319bf-68e3-410e-9764-85acfa3dd0b0</id>
 			<name>Wu</name>
 			<attribute>INT</attribute>
 			<category>Language</category>
@@ -1514,6 +1617,7 @@
 			</specs>
 		</skill>
 		<skill>
+            <id>96993b2a-0fbd-49ea-beb0-516ad7a25fa5</id>
 			<name>Xiang</name>
 			<attribute>INT</attribute>
 			<category>Language</category>
