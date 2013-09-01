@@ -801,6 +801,19 @@
 			<source>SR5</source>
 			<page>143</page>
 		</skill>
+        <skill>
+            <id>cc5b608d-f128-4b00-9a1f-ca073484a1d0</id>
+            <name>Artisian</name>
+            <attribute>INT</attribute>
+            <category>Technical Active</category>
+            <default>No</default>
+            <skillgroup />
+            <specs>
+                <spec>Discipline</spec>
+            </specs>
+            <source>SR5</source>
+            <page>143</page>
+        </skill>
 		<skill>
             <id>29a002d1-4d0d-4661-be53-86bbed5e9ecb</id>
 			<name>Automotive Mechanic</name>
