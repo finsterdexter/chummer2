@@ -2,17 +2,17 @@
 <chummer>
     <version>-999</version>
     <categories>
-        <category>Personal Mobility Vehicles</category>
+        <category>Personal Mobility Vehicle</category>
         <category>Bike</category>
         <category>Car</category>
         <category>Truck</category>
         <category>Hovercraft</category>
         <category>Watercraft</category>
-        <category>Gliders and FPMV</category>
+        <category>Glider and FPMV</category>
         <category>LAV</category>
         <category>Military, Security and Medical Craft</category>
-        <category>Boats &amp; Subs</category>
-        <category>Winged Planes</category>
+        <category>Boat or Sub</category>
+        <category>Winged Plane</category>
         <category>Rotorcraft</category>
         <category>Zeppelin</category>
         <category>VTOL/VSTOL</category>
@@ -25,7 +25,7 @@
     <modcategories>
         <category>All</category>
         <category>Standard</category>
-        <category>Minidrones</category>
+        <category>Minidrone</category>
         <category>Special</category>
     </modcategories>
     <limits>
@@ -331,7 +331,7 @@
         <vehicle>
             <id>4a01ee57-3dfb-4dcb-bfa5-871603012462</id>
             <name>Samuvani Criscraft Otter</name>
-            <category>Boats</category>
+            <category>Boat or Sub</category>
             <handling></handling>
             <accel></accel>
             <speed></speed>
@@ -350,7 +350,7 @@
         <vehicle>
             <id>de9aebfe-d0a4-47f6-b813-240c2046ffef</id>
             <name>Yongkang Gala Trinity</name>
-            <category>Boats</category>
+            <category>Boat or Sub</category>
             <handling></handling>
             <accel></accel>
             <speed></speed>
@@ -369,7 +369,7 @@
         <vehicle>
             <id>d342dad7-8a92-4666-9f4e-f8365ca2a72d</id>
             <name>Morgan Cutlass</name>
-            <category>Boats</category>
+            <category>Boat or Sub</category>
             <handling></handling>
             <accel></accel>
             <speed></speed>
@@ -388,7 +388,7 @@
         <vehicle>
             <id>68ed8c10-ff1d-40d5-8fd5-0e0d4be1fc16</id>
             <name>Proteus Lamprey</name>
-            <category>Submarines</category>
+            <category>Boat or Sub</category>
             <handling></handling>
             <accel></accel>
             <speed></speed>
@@ -407,7 +407,7 @@
         <vehicle>
             <id>0a474b0d-8931-4903-ac9e-8661a7e44d72</id>
             <name>Vulkan Electronaut</name>
-            <category>Submarines</category>
+            <category>Boat or Sub</category>
             <handling></handling>
             <accel></accel>
             <speed></speed>
@@ -426,7 +426,7 @@
         <vehicle>
             <id>31257efa-0bef-496a-8b34-7d2a1d59cc45</id>
             <name>Artemis Industries Nightwing</name>
-            <category>Winged Planes</category>
+            <category>Winged Plane</category>
             <handling></handling>
             <accel></accel>
             <speed></speed>
@@ -445,7 +445,7 @@
         <vehicle>
             <id>ec814df7-2d04-4265-ac85-bf693b3aae59</id>
             <name>Cessna C750</name>
-            <category>Winged Planes</category>
+            <category>Winged Plane</category>
             <handling></handling>
             <accel></accel>
             <speed></speed>
@@ -464,7 +464,7 @@
         <vehicle>
             <id>16722101-c649-4e0e-9c50-06921808232c</id>
             <name>Renault-Fiat Fokker Tundra-9</name>
-            <category>Winged Planes</category>
+            <category>Winged Plane</category>
             <handling></handling>
             <accel></accel>
             <speed></speed>
