@@ -26,6 +26,7 @@
 	</categories>
 	<metatypes>
 		<metatype>
+            <id>583b5fea-0bff-40d1-a871-f10c2076e101</id>
 			<name>Dog</name>
 			<category>Mundane Critters</category>
 			<bp>0</bp>
@@ -84,10 +85,11 @@
 				<skill rating="2">Tracking</skill>
 				<skill rating="3">Unarmed Combat</skill>
 			</skills>
-			<source>SR4</source>
-			<page>299</page>
+			<source>SR5</source>
+			<page>402</page>
 		</metatype>
 		<metatype>
+            <id>75cb9933-0e78-42ad-a446-32ccbcf19219</id>
 			<name>Great Cat</name>
 			<category>Mundane Critters</category>
 			<bp>0</bp>
@@ -146,10 +148,11 @@
 				<skill rating="2">Tracking</skill>
 				<skill rating="4">Unarmed Combat</skill>
 			</skills>
-			<source>SR4</source>
-			<page>299</page>
+			<source>SR5</source>
+			<page>402</page>
 		</metatype>
 		<metatype>
+            <id>59da3159-8e39-407e-aed3-79c863c627eb</id>
 			<name>Horse</name>
 			<category>Mundane Critters</category>
 			<bp>0</bp>
@@ -201,10 +204,11 @@
 			<skills>
 				<skill rating="3">Running</skill>
 			</skills>
-			<source>SR4</source>
-			<page>299</page>
+			<source>SR5</source>
+			<page>402</page>
 		</metatype>
 		<metatype>
+            <id>f3074417-93dc-414d-b06c-cffdb4da3c49</id>
 			<name>Shark</name>
 			<category>Mundane Critters</category>
 			<bp>0</bp>
@@ -261,10 +265,11 @@
 				<skill rating="4">Swimming</skill>
 				<skill rating="4">Unarmed Combat</skill>
 			</skills>
-			<source>SR4</source>
-			<page>299</page>
+			<source>SR5</source>
+			<page>403</page>
 		</metatype>
 		<metatype>
+            <id>786795fd-3922-460c-9b79-b41db5006af6</id>
 			<name>Wolf</name>
 			<category>Mundane Critters</category>
 			<bp>0</bp>
@@ -323,8 +328,8 @@
 				<skill rating="2">Tracking</skill>
 				<skill rating="4">Unarmed Combat</skill>
 			</skills>
-			<source>SR4</source>
-			<page>299</page>
+			<source>SR5</source>
+			<page>403</page>
 		</metatype>
 		<metatype>
 			<name>Octopus</name>
@@ -12692,6 +12697,7 @@
 			<page>99</page>
 		</metatype>
 		<metatype>
+            <id>a472bb7b-8ae8-4a04-b35f-d33dd1bd73bf</id>
 			<name>Barghest</name>
 			<category>Paranormal Critters</category>
 			<bp>0</bp>
@@ -12760,10 +12766,11 @@
 				<skill rating="3">Tracking</skill>
 				<skill rating="3">Unarmed Combat</skill>
 			</skills>
-			<source>SR4</source>
-			<page>299</page>
+			<source>SR5</source>
+			<page>403</page>
 		</metatype>
 		<metatype>
+            <id>b933d26d-1126-4a55-b23a-3846f82986b2</id>
 			<name>Devil Rat</name>
 			<category>Paranormal Critters</category>
 			<bp>0</bp>
@@ -12832,10 +12839,11 @@
 				<skill rating="2">Perception</skill>
 				<skill rating="3">Unarmed Combat</skill>
 			</skills>
-			<source>SR4</source>
-			<page>299</page>
+			<source>SR5</source>
+			<page>404</page>
 		</metatype>
 		<metatype>
+            <id>8fb7745e-b667-4893-95ac-3f149f3fde36</id>
 			<name>Ghoul</name>
 			<category>Paranormal Critters</category>
 			<bp>0</bp>
@@ -12903,10 +12911,11 @@
 				<skill rating="3">Perception</skill>
 				<skill rating="3">Unarmed Combat</skill>
 			</skills>
-			<source>SR4</source>
-			<page>299</page>
+			<source>SR5</source>
+			<page>404</page>
 		</metatype>
 		<metatype>
+            <id>aa35034a-ae97-4938-b55d-e44dbf4ba186</id>
 			<name>Hell Hound</name>
 			<category>Paranormal Critters</category>
 			<bp>0</bp>
@@ -12979,8 +12988,8 @@
 				<skill rating="5">Tracking</skill>
 				<skill rating="3">Unarmed Combat</skill>
 			</skills>
-			<source>SR4</source>
-			<page>300</page>
+			<source>SR5</source>
+			<page>405</page>
 		</metatype>
 		<metatype>
 			<name>Merrow</name>
@@ -13128,6 +13137,7 @@
 			<page>300</page>
 		</metatype>
 		<metatype>
+            <id>4fe1e046-27be-4cb0-869b-daddbf8020b3</id>
 			<name>Sasquatch</name>
 			<category>Paranormal Critters</category>
 			<bp>0</bp>
@@ -13197,8 +13207,8 @@
 				<group rating="2">Athletics</group>
 				<knowledge rating="5" category="Professional">Animal Calls</knowledge>
 			</skills>
-			<source>SR4</source>
-			<page>300</page>
+			<source>SR5</source>
+			<page>406</page>
 		</metatype>
 		<metatype>
 			<name>Thunderbird</name>
@@ -13273,6 +13283,7 @@
 			<page>300</page>
 		</metatype>
 		<metatype>
+            <id>5a39d2e4-0426-4793-b5e7-c10c2aee47d8</id>
 			<name>Vampire</name>
 			<category>Paranormal Critters</category>
 			<bp>0</bp>
@@ -13349,8 +13360,8 @@
 				<skill rating="4">Shadowing</skill>
 				<skill rating="3">Unarmed Combat</skill>
 			</skills>
-			<source>SR4</source>
-			<page>301</page>
+			<source>SR5</source>
+			<page>406</page>
 		</metatype>
 		<metatype>
 			<name>Wendigo</name>
@@ -15935,6 +15946,7 @@
 			<page>118</page>
 		</metatype>
 		<metatype>
+            <id>a7777407-717b-4a45-907e-2570c6b17078</id>
 			<name>Cockatrice</name>
 			<category>Paranormal Critters</category>
 			<bp>0</bp>
@@ -16002,8 +16014,8 @@
 				<skill rating="2">Shadowing</skill>
 				<skill rating="4">Unarmed Combat</skill>
 			</skills>
-			<source>RW</source>
-			<page>118</page>
+			<source>SR5</source>
+			<page>404</page>
 		</metatype>
 		<metatype>
 			<name>Juggernaut</name>
@@ -18726,6 +18738,7 @@
 			<page>140</page>
 		</metatype>
 		<metatype>
+            <id>54464f89-161c-4572-86d4-582d163b7b80</id>
 			<name>Basilisk</name>
 			<category>Paranormal Critters</category>
 			<bp>0</bp>
@@ -18794,8 +18807,8 @@
 				<skill rating="4">Swimming</skill>
 				<skill rating="4">Unarmed Combat</skill>
 			</skills>
-			<source>RW</source>
-			<page>140</page>
+			<source>SR5</source>
+			<page>403</page>
 		</metatype>
 		<metatype>
 			<name>Birdman</name>
@@ -21543,6 +21556,7 @@
 			<page>103</page>
 		</metatype>
 		<metatype>
+            <id>885c1218-4517-4109-b738-bffd8db27709</id>
 			<name>Spirit of Air</name>
 			<category>Spirits</category>
 			<forcecreature />
@@ -21628,8 +21642,8 @@
 				<skill rating="F">Perception</skill>
 				<skill rating="F">Unarmed Combat</skill>
 			</skills>
-			<source>SR4</source>
-			<page>302</page>
+			<source>SR5</source>
+			<page>303</page>
 		</metatype>
 		<metatype>
 			<name>Spirit of Air, Greater Form</name>
@@ -21722,6 +21736,7 @@
 			<page>302</page>
 		</metatype>
 		<metatype>
+            <id>4f32c054-9a20-4a6c-9b86-201c024967fd</id>
 			<name>Spirit of Beasts</name>
 			<category>Spirits</category>
 			<forcecreature />
@@ -21804,8 +21819,8 @@
 				<skill rating="F">Perception</skill>
 				<skill rating="F">Unarmed Combat</skill>
 			</skills>
-			<source>SR4</source>
-			<page>302</page>
+			<source>SR5</source>
+			<page>303</page>
 		</metatype>
 		<metatype>
 			<name>Spirit of Beasts, Greater Form</name>
@@ -21895,6 +21910,7 @@
 			<page>302</page>
 		</metatype>
 		<metatype>
+            <id>a03c608a-d4cc-4d9b-b4bb-01b288941b5c</id>
 			<name>Spirit of Earth</name>
 			<category>Spirits</category>
 			<forcecreature />
@@ -21976,7 +21992,7 @@
 				<skill rating="F">Perception</skill>
 				<skill rating="F">Unarmed Combat</skill>
 			</skills>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>303</page>
 		</metatype>
 		<metatype>
@@ -22066,6 +22082,7 @@
 			<page>303</page>
 		</metatype>
 		<metatype>
+            <id>e887f4b2-9db4-4e64-9124-0842c7c027e1</id>
 			<name>Spirit of Fire</name>
 			<category>Spirits</category>
 			<forcecreature />
@@ -22149,7 +22166,7 @@
 				<skill rating="F">Perception</skill>
 				<skill rating="F">Unarmed Combat</skill>
 			</skills>
-			<source>SR4</source>
+			<source>SR5</source>
 			<page>303</page>
 		</metatype>
 		<metatype>
@@ -22241,6 +22258,7 @@
 			<page>303</page>
 		</metatype>
 		<metatype>
+            <id>beb9306e-5646-4c79-aa49-e406ef9f8902</id>
 			<name>Spirit of Man</name>
 			<category>Spirits</category>
 			<forcecreature />
@@ -22324,8 +22342,8 @@
 				<skill rating="F">Spellcasting</skill>
 				<skill rating="F">Unarmed Combat</skill>
 			</skills>
-			<source>SR4</source>
-			<page>303</page>
+			<source>SR5</source>
+			<page>304</page>
 		</metatype>
 		<metatype>
 			<name>Spirit of Man, Greater Form</name>
@@ -22416,6 +22434,7 @@
 			<page>303</page>
 		</metatype>
 		<metatype>
+            <id>1d0b68c7-fee4-4697-90ab-9438383ff34f</id>
 			<name>Spirit of Water</name>
 			<category>Spirits</category>
 			<forcecreature />
@@ -22500,8 +22519,8 @@
 				<skill rating="F">Perception</skill>
 				<skill rating="F">Unarmed Combat</skill>
 			</skills>
-			<source>SR4</source>
-			<page>303</page>
+			<source>SR5</source>
+			<page>304</page>
 		</metatype>
 		<metatype>
 			<name>Spirit of Water, Greater Form</name>
@@ -22593,7 +22612,8 @@
 			<page>303</page>
 		</metatype>
 		<metatype>
-			<name>Watcher Spirit</name>
+            <id>c2e6e2e2-9c53-408e-9ac6-307fd9035d0e</id>
+			<name>Watcher</name>
 			<category>Spirits</category>
 			<forcecreature />
 			<bp>0</bp>
@@ -22652,16 +22672,89 @@
 			</bonus>
 			<powers>
 				<power>Astral Form</power>
+                <power>Manifest</power>
 				<power>Search</power>
+                <power>Sapience</power>
 			</powers>
 			<skills>
 				<skill rating="1">Assensing</skill>
 				<skill rating="1">Astral Combat</skill>
-				<skill rating="1">Dodge</skill>
+				<skill rating="1">Perception</skill>
 			</skills>
-			<source>SR4</source>
-			<page>303</page>
+			<source>SR5</source>
+			<page>298</page>
 		</metatype>
+        <metatype>
+            <id>7597174e-22b3-41ec-8156-031b8b242c7c</id>
+            <name>Homunculus</name>
+            <category>Spirits</category>
+            <forcecreature />
+            <bp>0</bp>
+            <bodmin>1</bodmin>
+            <bodmax>1</bodmax>
+            <bodaug>1</bodaug>
+            <agimin>1</agimin>
+            <agimax>1</agimax>
+            <agiaug>1</agiaug>
+            <reamin>1</reamin>
+            <reamax>1</reamax>
+            <reaaug>1</reaaug>
+            <strmin>1</strmin>
+            <strmax>1</strmax>
+            <straug>1</straug>
+            <chamin>1</chamin>
+            <chamax>1</chamax>
+            <chaaug>1</chaaug>
+            <intmin>1</intmin>
+            <intmax>1</intmax>
+            <intaug>1</intaug>
+            <logmin>1</logmin>
+            <logmax>1</logmax>
+            <logaug>1</logaug>
+            <wilmin>1</wilmin>
+            <wilmax>1</wilmax>
+            <wilaug>1</wilaug>
+            <inimin>2</inimin>
+            <inimax>2</inimax>
+            <iniaug>2</iniaug>
+            <edgmin>0</edgmin>
+            <edgmax>0</edgmax>
+            <edgaug>0</edgaug>
+            <magmin>1</magmin>
+            <magmax>1</magmax>
+            <magaug>1</magaug>
+            <resmin>0</resmin>
+            <resmax>6</resmax>
+            <resaug>6</resaug>
+            <essmin>0</essmin>
+            <essmax>6</essmax>
+            <essaug>6</essaug>
+            <movement>0/0</movement>
+            <bonus>
+                <addattribute>
+                    <name>MAG</name>
+                    <min>1</min>
+                    <max>1</max>
+                    <aug>1</aug>
+                    <val>1</val>
+                </addattribute>
+                <enabletab>
+                    <name>critter</name>
+                </enabletab>
+                <initiativepass>2</initiativepass>
+            </bonus>
+            <powers>
+                <power>Sapience</power>
+            </powers>
+            <skills>
+                <skill rating="1">Assensing</skill>
+                <skill rating="1">Astral Combat</skill>
+                <skill rating="1">Perception</skill>
+                <skill rating="1">Unarmed Combat</skill>
+            </skills>
+            <source>SR5</source>
+            <page>298</page>
+        </metatype>
 		<metatype>
 			<name>Guardian Spirit</name>
 			<category>Spirits</category>
@@ -29310,6 +29403,7 @@
 			<page>182</page>
 		</metatype>
 		<metatype>
+            <id>31ce4e8a-7b2f-453b-8dad-13f07a54c99f</id>
 			<name>Eastern Dragon</name>
 			<category>Dracoforms</category>
 			<bp>0</bp>
@@ -29398,10 +29492,11 @@
 				<group rating="6">Conjuring</group>
 				<group rating="8">Sorcery</group>
 			</skills>
-			<source>SR4</source>
-			<page>303</page>
+			<source>SR5</source>
+			<page>407</page>
 		</metatype>
 		<metatype>
+            <id>154e6a08-9a01-4184-b2e4-bcfdb9d98e3f</id>
 			<name>Feathered Serpent</name>
 			<category>Dracoforms</category>
 			<bp>0</bp>
@@ -29490,8 +29585,8 @@
 				<group rating="6">Conjuring</group>
 				<group rating="8">Sorcery</group>
 			</skills>
-			<source>SR4</source>
-			<page>304</page>
+			<source>SR5</source>
+			<page>407</page>
 		</metatype>
 		<metatype>
 			<name>Leviathan</name>
@@ -29586,6 +29681,7 @@
 			<page>304</page>
 		</metatype>
 		<metatype>
+            <id>754154f6-4d9e-48a6-9c7a-fa9ef003b261</id>
 			<name>Western Dragon</name>
 			<category>Dracoforms</category>
 			<bp>0</bp>
@@ -29674,8 +29770,8 @@
 				<group rating="6">Conjuring</group>
 				<group rating="8">Sorcery</group>
 			</skills>
-			<source>SR4</source>
-			<page>303</page>
+			<source>SR5</source>
+			<page>407</page>
 		</metatype>
 		<metatype>
 			<name>Great Eastern Dragon</name>
@@ -33854,6 +33950,7 @@
 			<page>180</page>
 		</metatype>
 		<metatype>
+            <id>21a08d79-64fe-41fc-bcd1-56349522bfa4</id>
 			<name>Courier Sprite</name>
 			<category>Sprites</category>
 			<forcecreature />
@@ -33927,10 +34024,11 @@
 				<complexform rating="F">Exploit</complexform>
 				<complexform rating="F">Scan</complexform>
 			</optionalcomplexforms>
-			<source>SR4</source>
-			<page>242</page>
+			<source>SR5</source>
+			<page>258</page>
 		</metatype>
 		<metatype>
+            <id>85578ac6-7133-4de7-8cc2-4a1b6bbdf5e1</id>
 			<name>Crack Sprite</name>
 			<category>Sprites</category>
 			<forcecreature />
@@ -34001,10 +34099,11 @@
 				<complexform rating="F">Scan</complexform>
 				<complexform rating="F">Spoof</complexform>
 			</optionalcomplexforms>
-			<source>SR4</source>
-			<page>242</page>
+			<source>SR5</source>
+			<page>258</page>
 		</metatype>
 		<metatype>
+            <id>e96f0ca8-37f0-48a5-8eae-002d457ed8e5</id>
 			<name>Data Sprite</name>
 			<category>Sprites</category>
 			<forcecreature />
@@ -34077,10 +34176,11 @@
 				<complexform rating="F">Stealth</complexform>
 				<complexform rating="F">Linguasoft</complexform>
 			</optionalcomplexforms>
-			<source>SR4</source>
-			<page>242</page>
+			<source>SR5</source>
+			<page>258</page>
 		</metatype>
 		<metatype>
+            <id>a81b4fa9-1b36-4719-a650-942cd1c9ef27</id>
 			<name>Fault Sprite</name>
 			<category>Sprites</category>
 			<forcecreature />
@@ -34151,10 +34251,11 @@
 				<complexform rating="F">Exploit</complexform>
 				<complexform rating="F">Medic</complexform>
 			</optionalcomplexforms>
-			<source>SR4</source>
-			<page>242</page>
+			<source>SR5</source>
+			<page>258</page>
 		</metatype>
 		<metatype>
+            <id>7196e929-57a8-4653-9447-f8e7df800ac9</id>
 			<name>Machine Sprite</name>
 			<category>Sprites</category>
 			<forcecreature />
@@ -34225,8 +34326,8 @@
 				<complexform rating="F">Medic</complexform>
 				<complexform rating="F" category="Autosoft" />
 			</optionalcomplexforms>
-			<source>SR4</source>
-			<page>242</page>
+			<source>SR5</source>
+			<page>258</page>
 		</metatype>
 		<metatype>
 			<name>Meltdown Sprite</name>
