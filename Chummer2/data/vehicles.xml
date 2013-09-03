@@ -1,93 +1,832 @@
 <?xml version="1.0" encoding="utf-8"?>
 <chummer>
-  <version>-999</version>
-  <categories>
-    <category>Personal Mobility Vehicles</category>
-    <category>Bikes</category>
-    <category>Cars</category>
-    <category>Trucks</category>
-    <category>Hovercraft</category>
-    <category>Watercraft</category>
-    <category>Gliders and FPMV</category>
-    <category>LAVs</category>
-    <category>Military, Security and Medical Craft</category>
-    <category>Boats &amp; Subs</category>
-    <category>Winged Planes</category>
-    <category>Rotorcraft</category>
-    <category>Zeppelin</category>
-    <category>VTOL/VSTOL</category>
-    <category>Drones: Micro</category>
-    <category>Drones: Mini</category>
-    <category>Drones: Small</category>
-    <category>Drones: Medium</category>
-    <category>Drones: Large</category>
-  </categories>
-  <modcategories>
-    <category>All</category>
-    <category>Standard</category>
-    <category>Minidrones</category>
-    <category>Special</category>
-  </modcategories>
-  <limits>
-    <limit>Groundcraft Only</limit>
-    <limit>Watercraft Only</limit>
-    <limit>Aircraft Only</limit>
-    <limit>Motorcycles Only</limit>
-    <limit>Naval Vessels Only</limit>
-    <limit>GridLink-Equipped Groundcraft Only</limit>
-    <limit>Medium and Smaller Drones Only</limit>
-    <limit>Wheeled Groundcraft Only</limit>
-    <limit>Groundcraft and Watercraft Only</limit>
-    <limit>Groundcraft and Aircraft Only</limit>
-    <limit>Watercraft, Hovercraft, and Amphibious Groundcraft Only</limit>
-    <limit>Body 8 or Less</limit>
-  </limits>
-  <vehicles>
-    <vehicle>
-      <id>4c18503f-3209-4ddf-b26d-8e0bb71f6aec</id>
-      <name>Daiatsu-Caterpillar Horseman with Drone Module (PMV)</name>
-      <category>Personal Mobility Vehicles</category>
-      <handling>0</handling>
-      <accel>10/20</accel>
-      <speed>75</speed>
-      <pilot>1</pilot>
-      <body>6</body>
-      <armor>4</armor>
-      <sensor>2</sensor>
-      <devicerating>3</devicerating>
-      <avail>8</avail>
-      <cost>16000</cost>
-      <seats>1</seats>
-      <mods>
-        <id>d5a38020-8128-4a6a-8cdd-0f55e82966a3</id>
-      </mods>
-      <source>SR5</source>
-      <page>107</page>
-    </vehicle>
-  </vehicles>
-  <mods>
-    <mod>
-      <id>d5a38020-8128-4a6a-8cdd-0f55e82966a3</id>
-      <name>Drone Rack, Small Landing</name>
-      <category>Standard</category>
-      <rating>0</rating>
-      <slots>0</slots>
-      <avail>0</avail>
-      <cost>100</cost>
-      <source>SR5</source>
-      <page>131</page>
-    </mod>
-    <mod>
-      <id>4f3d80af-2d21-43c0-9349-b3893c487800</id>
-      <name>Modular Electronics</name>
-      <category>All</category>
-      <rating>0</rating>
-      <modularelectronics>true</modularelectronics>
-      <slots>1</slots>
-      <avail>6</avail>
-      <cost>1000</cost>
-      <source>SR5</source>
-      <page>Conv. Guide</page>
-    </mod>
-  </mods>
+    <version>-999</version>
+    <categories>
+        <category>Personal Mobility Vehicle</category>
+        <category>Bike</category>
+        <category>Car</category>
+        <category>Truck</category>
+        <category>Hovercraft</category>
+        <category>Watercraft</category>
+        <category>Glider and FPMV</category>
+        <category>LAV</category>
+        <category>Military, Security and Medical Craft</category>
+        <category>Boat or Sub</category>
+        <category>Winged Plane</category>
+        <category>Rotorcraft</category>
+        <category>Zeppelin</category>
+        <category>VTOL/VSTOL</category>
+        <category>Drone: Micro</category>
+        <category>Drone: Mini</category>
+        <category>Drone: Small</category>
+        <category>Drone: Medium</category>
+        <category>Drone: Large</category>
+    </categories>
+    <modcategories>
+        <category>All</category>
+        <category>Standard</category>
+        <category>Minidrone</category>
+        <category>Special</category>
+    </modcategories>
+    <limits>
+        <limit>Groundcraft Only</limit>
+        <limit>Watercraft Only</limit>
+        <limit>Aircraft Only</limit>
+        <limit>Motorcycles Only</limit>
+        <limit>Naval Vessels Only</limit>
+        <limit>GridLink-Equipped Groundcraft Only</limit>
+        <limit>Medium and Smaller Drones Only</limit>
+        <limit>Wheeled Groundcraft Only</limit>
+        <limit>Groundcraft and Watercraft Only</limit>
+        <limit>Groundcraft and Aircraft Only</limit>
+        <limit>Watercraft, Hovercraft, and Amphibious Groundcraft Only</limit>
+        <limit>Body 8 or Less</limit>
+    </limits>
+    <vehicles>
+        <vehicle>
+            <id>6870dd42-87e9-48c7-95b0-b94449c95dea</id>
+            <name>Dodge Scoot</name>
+            <category>Bike</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>462</page>
+        </vehicle>
+        <vehicle>
+            <id>4c04de8e-c735-44c9-b35d-93f18b0add8b</id>
+            <name>Harley-Davidson Scorpion</name>
+            <category>Bike</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>462</page>
+        </vehicle>
+        <vehicle>
+            <id>a9fd5990-51e4-4e0b-a4b5-7784b6d0deeb</id>
+            <name>Yamaha Growler</name>
+            <category>Bike</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>462</page>
+        </vehicle>
+        <vehicle>
+            <id>d4c2af8e-4db9-43cc-a0d9-679b8ca6ef91</id>
+            <name>Suzuki Mirage</name>
+            <category>Bike</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>462</page>
+        </vehicle>
+        <vehicle>
+            <id>3db4720f-4641-4f4d-80b9-660b84eb0dc8</id>
+            <name>Chrysler-Nissan Jackrabbit</name>
+            <category>Car</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>462</page>
+        </vehicle>
+        <vehicle>
+            <id>231881dc-7fd9-41e2-9ecd-03dc70d63d0d</id>
+            <name>Honda Spirit</name>
+            <category>Car</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>463</page>
+        </vehicle>
+        <vehicle>
+            <id>c1bbef8e-60c9-4b1b-b259-132d13cf1671</id>
+            <name>Hyundai Shin-Hyung</name>
+            <category>Car</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>463</page>
+        </vehicle>
+        <vehicle>
+            <id>b2de2477-452a-47ff-b7a7-6830c08b76a9</id>
+            <name>Eurocar Westwind 3000</name>
+            <category>Car</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>463</page>
+        </vehicle>
+        <vehicle>
+            <id>9a9c16e6-4fff-435e-8eee-a32f6220424a</id>
+            <name>Ford Americar</name>
+            <category>Car</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>463</page>
+        </vehicle>
+        <vehicle>
+            <id>02fc6400-5631-406f-aebb-6efb290479eb</id>
+            <name>Saeder-Krupp-Bentley Concordat</name>
+            <category>Car</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>463</page>
+        </vehicle>
+        <vehicle>
+            <id>09d21219-5157-4a4c-bd2d-4ec15337c96a</id>
+            <name>Mitsubishi Nightsky</name>
+            <category>Car</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>463</page>
+        </vehicle>
+        <vehicle>
+            <id>2c8d285e-7edb-49d1-af8f-c7173af5fb3f</id>
+            <name>Toyota Gopher</name>
+            <category>Truck</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>463</page>
+        </vehicle>
+        <vehicle>
+            <id>2120de02-1f5e-4a5f-925c-e0be13fe1b6c</id>
+            <name>GMC Bulldog Step-Van</name>
+            <category>Truck</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>463</page>
+        </vehicle>
+        <vehicle>
+            <id>6baef4f7-933b-469f-b130-fb221c017439</id>
+            <name>Rover Model 2072</name>
+            <category>Truck</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>464</page>
+        </vehicle>
+        <vehicle>
+            <id>8dfc94cb-85fd-4f25-b5fc-6bcd57f3a9a3</id>
+            <name>Ares Roadmaster</name>
+            <category>Truck</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>464</page>
+        </vehicle>
+        <vehicle>
+            <id>4a01ee57-3dfb-4dcb-bfa5-871603012462</id>
+            <name>Samuvani Criscraft Otter</name>
+            <category>Boat or Sub</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>464</page>
+        </vehicle>
+        <vehicle>
+            <id>de9aebfe-d0a4-47f6-b813-240c2046ffef</id>
+            <name>Yongkang Gala Trinity</name>
+            <category>Boat or Sub</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>464</page>
+        </vehicle>
+        <vehicle>
+            <id>d342dad7-8a92-4666-9f4e-f8365ca2a72d</id>
+            <name>Morgan Cutlass</name>
+            <category>Boat or Sub</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>464</page>
+        </vehicle>
+        <vehicle>
+            <id>68ed8c10-ff1d-40d5-8fd5-0e0d4be1fc16</id>
+            <name>Proteus Lamprey</name>
+            <category>Boat or Sub</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>464</page>
+        </vehicle>
+        <vehicle>
+            <id>0a474b0d-8931-4903-ac9e-8661a7e44d72</id>
+            <name>Vulkan Electronaut</name>
+            <category>Boat or Sub</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>464</page>
+        </vehicle>
+        <vehicle>
+            <id>31257efa-0bef-496a-8b34-7d2a1d59cc45</id>
+            <name>Artemis Industries Nightwing</name>
+            <category>Winged Plane</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>464</page>
+        </vehicle>
+        <vehicle>
+            <id>ec814df7-2d04-4265-ac85-bf693b3aae59</id>
+            <name>Cessna C750</name>
+            <category>Winged Plane</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>464</page>
+        </vehicle>
+        <vehicle>
+            <id>16722101-c649-4e0e-9c50-06921808232c</id>
+            <name>Renault-Fiat Fokker Tundra-9</name>
+            <category>Winged Plane</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>464</page>
+        </vehicle>
+        <vehicle>
+            <id>03f6bce0-d961-4aa1-ace1-d617ab65c414</id>
+            <name>Ares Dragon</name>
+            <category>Rotorcraft</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>464</page>
+        </vehicle>
+        <vehicle>
+            <id>04a4e577-8fdb-4347-970c-76be7e0346a1</id>
+            <name>Nissan Hound</name>
+            <category>Rotorcraft</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>464</page>
+        </vehicle>
+        <vehicle>
+            <id>e766f323-56d7-4ada-afd4-df2567347b10</id>
+            <name>Northrup Wasp</name>
+            <category>Rotorcraft</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>465</page>
+        </vehicle>
+        <vehicle>
+            <id>408d98be-3e26-43f8-ab66-71bec26da002</id>
+            <name>Ares Venture</name>
+            <category>VTOL/VSTOL</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>465</page>
+        </vehicle>
+        <vehicle>
+            <id>2921cc99-d625-4a13-b43f-09b011040303</id>
+            <name>GMC Banshee</name>
+            <category>VTOL/VSTOL</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>465</page>
+        </vehicle>
+        <vehicle>
+            <id>2f8eac50-2794-4364-89b9-ae7b51b00a9e</id>
+            <name>Federated Boeing Commuter</name>
+            <category>VTOL/VSTOL</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>465</page>
+        </vehicle>
+        <vehicle>
+            <id>9305ccd7-d1e1-4c09-8827-ba0a19a46716</id>
+            <name>Shiawase Kanmushi</name>
+            <category>Drone: Micro</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>465</page>
+        </vehicle>
+        <vehicle>
+            <id>bbac6be6-7628-4d8e-9581-ffbc96cf24cf</id>
+            <name>Sikorsky-Bell Microskimmer</name>
+            <category>Drone: Micro</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>465</page>
+        </vehicle>
+        <vehicle>
+            <id>1c17e7c0-8909-4e90-a96f-56c4dd62004f</id>
+            <name>Horizon Flying Eye</name>
+            <category>Drone: Mini</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>465</page>
+        </vehicle>
+        <vehicle>
+            <id>49cc79e7-89c5-4a97-9405-11eb817bf97e</id>
+            <name>MCT Fly-Spy</name>
+            <category>Drone: Mini</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>466</page>
+        </vehicle>
+        <vehicle>
+            <id>c83126b4-1b74-471e-9578-83b0ab451190</id>
+            <name>Aztechnology Crawler</name>
+            <category>Drone: Small</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>466</page>
+        </vehicle>
+        <vehicle>
+            <id>4128d715-8bbd-4d08-92e8-71ff705763f4</id>
+            <name>Lockheed Optic-X2</name>
+            <category>Drone: Small</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>466</page>
+        </vehicle>
+        <vehicle>
+            <id>a0e3a887-999e-4aeb-bdde-928af7c7e60e</id>
+            <name>Ares Duelist</name>
+            <category>Drone: Medium</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>466</page>
+        </vehicle>
+        <vehicle>
+            <id>6ceca942-38bf-4042-8179-36836d6daffc</id>
+            <name>GM-Nissan Doberman</name>
+            <category>Drone: Medium</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>466</page>
+        </vehicle>
+        <vehicle>
+            <id>b5f6f209-3601-4108-a7e3-b6b274dc7e5e</id>
+            <name>MCT-Nissan Roto-Drone</name>
+            <category>Drone: Medium</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>466</page>
+        </vehicle>
+        <vehicle>
+            <id>01b548bc-6a75-4fae-af7c-008244c16904</id>
+            <name>Cyberspace Designs Dalmatian</name>
+            <category>Drone: Large</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>466</page>
+        </vehicle>
+        <vehicle>
+            <id>693a7423-0f31-4066-931c-84fd1261d4d5</id>
+            <name>Steel Lynx Combat Drone</name>
+            <category>Drone: Large</category>
+            <handling></handling>
+            <accel></accel>
+            <speed></speed>
+            <pilot></pilot>
+            <body></body>
+            <armor></armor>
+            <sensor></sensor>
+            <devicerating></devicerating>
+            <avail></avail>
+            <cost></cost>
+            <seats></seats>
+            <mods></mods>
+            <source>SR5</source>
+            <page>466</page>
+        </vehicle>
+    </vehicles>
+    <mods>
+        <mod>
+            <id>d5a38020-8128-4a6a-8cdd-0f55e82966a3</id>
+            <name>Drone Rack, Small Landing</name>
+            <category>Standard</category>
+            <rating>0</rating>
+            <slots>0</slots>
+            <avail>0</avail>
+            <cost>100</cost>
+            <source>SR5</source>
+            <page>131</page>
+        </mod>
+        <mod>
+            <id>4f3d80af-2d21-43c0-9349-b3893c487800</id>
+            <name>Modular Electronics</name>
+            <category>All</category>
+            <rating>0</rating>
+            <modularelectronics>true</modularelectronics>
+            <slots>1</slots>
+            <avail>6</avail>
+            <cost>1000</cost>
+            <source>SR5</source>
+            <page>Conv. Guide</page>
+        </mod>
+    </mods>
 </chummer>
