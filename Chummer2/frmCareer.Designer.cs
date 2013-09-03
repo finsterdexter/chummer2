@@ -235,6 +235,7 @@
             this.cmdAddKnowledgeSkill = new System.Windows.Forms.Button();
             this.panKnowledgeSkills = new System.Windows.Forms.Panel();
             this.tabMartialArts = new System.Windows.Forms.TabPage();
+            this.cmdAddMartialArt = new SplitButton();
             this.cmsMartialArts = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.tsMartialArtsAddAdvantage = new System.Windows.Forms.ToolStripMenuItem();
             this.tsMartialArtsNotes = new System.Windows.Forms.ToolStripMenuItem();
@@ -279,6 +280,7 @@
             this.panSpirits = new System.Windows.Forms.Panel();
             this.cmdRollDrain = new System.Windows.Forms.Button();
             this.cmdRollSpell = new System.Windows.Forms.Button();
+            this.cmdAddSpell = new SplitButton();
             this.cmsSpellButton = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.tsCreateSpell = new System.Windows.Forms.ToolStripMenuItem();
             this.tabAdept = new System.Windows.Forms.TabPage();
@@ -323,6 +325,7 @@
             this.cmdAddSprite = new System.Windows.Forms.Button();
             this.panSprites = new System.Windows.Forms.Panel();
             this.nudComplexFormRating = new System.Windows.Forms.NumericUpDown();
+            this.cmdAddComplexForm = new SplitButton();
             this.cmsComplexForm = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.tsAddComplexFormOption = new System.Windows.Forms.ToolStripMenuItem();
             this.tsComplexFormNotes = new System.Windows.Forms.ToolStripMenuItem();
@@ -394,10 +397,12 @@
             this.lblCyberwareName = new System.Windows.Forms.Label();
             this.lblCyberwareNameLabel = new System.Windows.Forms.Label();
             this.treCyberware = new System.Windows.Forms.TreeView();
+            this.cmdAddCyberware = new SplitButton();
             this.cmsCyberware = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.tsCyberwareAddAsPlugin = new System.Windows.Forms.ToolStripMenuItem();
             this.tsCyberwareAddGear = new System.Windows.Forms.ToolStripMenuItem();
             this.tsCyberwareNotes = new System.Windows.Forms.ToolStripMenuItem();
+            this.cmdDeleteCyberware = new SplitButton();
             this.cmsDeleteCyberware = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.tsCyberwareSell = new System.Windows.Forms.ToolStripMenuItem();
             this.tabStreetGear = new System.Windows.Forms.TabPage();
@@ -415,6 +420,7 @@
             this.lblLifestyleEntertainmentLabel = new System.Windows.Forms.Label();
             this.lblLifestyleComforts = new System.Windows.Forms.Label();
             this.lblLifestyleComfortsLabel = new System.Windows.Forms.Label();
+            this.cmdAddLifestyle = new SplitButton();
             this.cmsLifestyle = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.tsAdvancedLifestyle = new System.Windows.Forms.ToolStripMenuItem();
             this.tsBoltHole = new System.Windows.Forms.ToolStripMenuItem();
@@ -447,14 +453,18 @@
             this.lblArmorAvailLabel = new System.Windows.Forms.Label();
             this.lblArmorValueLabel = new System.Windows.Forms.Label();
             this.lblArmorValue = new System.Windows.Forms.Label();
+            this.cmdAddArmor = new SplitButton();
             this.cmsArmor = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.tsAddArmorMod = new System.Windows.Forms.ToolStripMenuItem();
             this.tsAddArmorGear = new System.Windows.Forms.ToolStripMenuItem();
             this.tsArmorName = new System.Windows.Forms.ToolStripMenuItem();
             this.tsArmorNotes = new System.Windows.Forms.ToolStripMenuItem();
+            this.cmdDeleteArmor = new SplitButton();
             this.cmsDeleteArmor = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.tsArmorSell = new System.Windows.Forms.ToolStripMenuItem();
             this.tabWeapons = new System.Windows.Forms.TabPage();
+            this.lblWeaponAcc = new System.Windows.Forms.Label();
+            this.lblWeaponAccLabel = new System.Windows.Forms.Label();
             this.cmdAddWeaponLocation = new System.Windows.Forms.Button();
             this.cboWeaponAmmo = new System.Windows.Forms.ComboBox();
             this.lblWeaponDicePool = new System.Windows.Forms.Label();
@@ -501,6 +511,7 @@
             this.lblWeaponRC = new System.Windows.Forms.Label();
             this.lblWeaponAvailLabel = new System.Windows.Forms.Label();
             this.cmdRollWeapon = new System.Windows.Forms.Button();
+            this.cmdAddWeapon = new SplitButton();
             this.cmsWeapon = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.tsCreateNaturalWeapon = new System.Windows.Forms.ToolStripMenuItem();
             this.tsWeaponAddAccessory = new System.Windows.Forms.ToolStripMenuItem();
@@ -508,8 +519,10 @@
             this.tsWeaponAddUnderbarrel = new System.Windows.Forms.ToolStripMenuItem();
             this.tsWeaponName = new System.Windows.Forms.ToolStripMenuItem();
             this.tsWeaponNotes = new System.Windows.Forms.ToolStripMenuItem();
+            this.cmdDeleteWeapon = new SplitButton();
             this.cmsDeleteWeapon = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.tsWeaponSell = new System.Windows.Forms.ToolStripMenuItem();
+            this.cmdFireWeapon = new SplitButton();
             this.cmsAmmoExpense = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.cmsAmmoSingleShot = new System.Windows.Forms.ToolStripMenuItem();
             this.cmsAmmoShortBurst = new System.Windows.Forms.ToolStripMenuItem();
@@ -552,9 +565,11 @@
             this.lblGearNameLabel = new System.Windows.Forms.Label();
             this.lblGearRatingLabel = new System.Windows.Forms.Label();
             this.treGear = new System.Windows.Forms.TreeView();
+            this.cmdAddGear = new SplitButton();
             this.cmsGearButton = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.tsGearButtonAddAccessory = new System.Windows.Forms.ToolStripMenuItem();
             this.tsGearAddNexus = new System.Windows.Forms.ToolStripMenuItem();
+            this.cmdDeleteGear = new SplitButton();
             this.cmsDeleteGear = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.sellItemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabPets = new System.Windows.Forms.TabPage();
@@ -676,6 +691,7 @@
             this.lblVehicleHandlingLabel = new System.Windows.Forms.Label();
             this.treVehicles = new System.Windows.Forms.TreeView();
             this.cmdRollVehicleWeapon = new System.Windows.Forms.Button();
+            this.cmdAddVehicle = new SplitButton();
             this.cmsVehicle = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.tsVehicleAddMod = new System.Windows.Forms.ToolStripMenuItem();
             this.tsVehicleAddCyberware = new System.Windows.Forms.ToolStripMenuItem();
@@ -690,12 +706,14 @@
             this.tsVehicleAddUnderbarrelWeapon = new System.Windows.Forms.ToolStripMenuItem();
             this.tsVehicleName = new System.Windows.Forms.ToolStripMenuItem();
             this.tsVehicleNotes = new System.Windows.Forms.ToolStripMenuItem();
+            this.cmdFireVehicleWeapon = new SplitButton();
             this.cmdVehicleAmmoExpense = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.cmsVehicleAmmoSingleShot = new System.Windows.Forms.ToolStripMenuItem();
             this.cmsVehicleAmmoShortBurst = new System.Windows.Forms.ToolStripMenuItem();
             this.cmsVehicleAmmoLongBurst = new System.Windows.Forms.ToolStripMenuItem();
             this.cmsVehicleAmmoFullBurst = new System.Windows.Forms.ToolStripMenuItem();
             this.cmsVehicleAmmoSuppressiveFire = new System.Windows.Forms.ToolStripMenuItem();
+            this.cmdDeleteVehicle = new SplitButton();
             this.cmsDeleteVehicle = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.tsVehicleSell = new System.Windows.Forms.ToolStripMenuItem();
             this.tabCharacterInfo = new System.Windows.Forms.TabPage();
@@ -822,6 +840,16 @@
             this.chkPhysicalCM1 = new System.Windows.Forms.CheckBox();
             this.tabInfo = new System.Windows.Forms.TabControl();
             this.tabOtherInfo = new System.Windows.Forms.TabPage();
+            this.lblAstralLimit = new System.Windows.Forms.Label();
+            this.lblAstralLimitLabel = new System.Windows.Forms.Label();
+            this.lblSocialLimit = new System.Windows.Forms.Label();
+            this.lblSocialLimitLabel = new System.Windows.Forms.Label();
+            this.lblPhysicalLimit = new System.Windows.Forms.Label();
+            this.lblPhysicalLimitLabel = new System.Windows.Forms.Label();
+            this.lblMentalLimit = new System.Windows.Forms.Label();
+            this.lblMentalLimitLabel = new System.Windows.Forms.Label();
+            this.lblSurprise = new System.Windows.Forms.Label();
+            this.lblSurpriseLabel = new System.Windows.Forms.Label();
             this.lblCareerNuyen = new System.Windows.Forms.Label();
             this.lblFly = new System.Windows.Forms.Label();
             this.lblFlyLabel = new System.Windows.Forms.Label();
@@ -951,34 +979,8 @@
             this.tsVehicleWeaponModNotes = new System.Windows.Forms.ToolStripMenuItem();
             this.cmsWeaponLocation = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.tsWeaponRenameLocation = new System.Windows.Forms.ToolStripMenuItem();
-            this.lblSurpriseLabel = new System.Windows.Forms.Label();
-            this.lblSurprise = new System.Windows.Forms.Label();
-            this.lblAstralLimit = new System.Windows.Forms.Label();
-            this.lblAstralLimitLabel = new System.Windows.Forms.Label();
-            this.lblSocialLimit = new System.Windows.Forms.Label();
-            this.lblSocialLimitLabel = new System.Windows.Forms.Label();
-            this.lblPhysicalLimit = new System.Windows.Forms.Label();
-            this.lblPhysicalLimitLabel = new System.Windows.Forms.Label();
-            this.lblMentalLimit = new System.Windows.Forms.Label();
-            this.lblMentalLimitLabel = new System.Windows.Forms.Label();
-            this.cmdAddMartialArt = new SplitButton();
-            this.cmdAddSpell = new SplitButton();
-            this.cmdAddComplexForm = new SplitButton();
-            this.cmdAddCyberware = new SplitButton();
-            this.cmdDeleteCyberware = new SplitButton();
-            this.cmdAddLifestyle = new SplitButton();
-            this.cmdAddArmor = new SplitButton();
-            this.cmdDeleteArmor = new SplitButton();
-            this.cmdAddWeapon = new SplitButton();
-            this.cmdDeleteWeapon = new SplitButton();
-            this.cmdFireWeapon = new SplitButton();
-            this.cmdAddGear = new SplitButton();
-            this.cmdDeleteGear = new SplitButton();
-            this.cmdAddVehicle = new SplitButton();
-            this.cmdFireVehicleWeapon = new SplitButton();
-            this.cmdDeleteVehicle = new SplitButton();
-            this.lblWeaponAcc = new System.Windows.Forms.Label();
-            this.lblWeaponAccLabel = new System.Windows.Forms.Label();
+            this.lblVehicleSeatsLabel = new System.Windows.Forms.Label();
+            this.lblVehicleSeats = new System.Windows.Forms.Label();
             this.StatusStrip.SuspendLayout();
             this.panAttributes.SuspendLayout();
             this.tabCharacterTabs.SuspendLayout();
@@ -3152,6 +3154,20 @@
             this.tabMartialArts.Tag = "Tab_MartialArts";
             this.tabMartialArts.Text = "Martial Arts";
             // 
+            // cmdAddMartialArt
+            // 
+            this.cmdAddMartialArt.AutoSize = true;
+            this.cmdAddMartialArt.ContextMenuStrip = this.cmsMartialArts;
+            this.cmdAddMartialArt.Location = new System.Drawing.Point(8, 7);
+            this.cmdAddMartialArt.Name = "cmdAddMartialArt";
+            this.cmdAddMartialArt.Size = new System.Drawing.Size(107, 23);
+            this.cmdAddMartialArt.SplitMenuStrip = this.cmsMartialArts;
+            this.cmdAddMartialArt.TabIndex = 65;
+            this.cmdAddMartialArt.Tag = "Button_AddMartialArt";
+            this.cmdAddMartialArt.Text = "&Add Martial Art";
+            this.cmdAddMartialArt.UseVisualStyleBackColor = true;
+            this.cmdAddMartialArt.Click += new System.EventHandler(this.cmdAddMartialArt_Click);
+            // 
             // cmsMartialArts
             // 
             this.cmsMartialArts.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -3675,6 +3691,20 @@
             this.cmdRollSpell.UseVisualStyleBackColor = true;
             this.cmdRollSpell.Visible = false;
             this.cmdRollSpell.Click += new System.EventHandler(this.cmdRollSpell_Click);
+            // 
+            // cmdAddSpell
+            // 
+            this.cmdAddSpell.AutoSize = true;
+            this.cmdAddSpell.ContextMenuStrip = this.cmsSpellButton;
+            this.cmdAddSpell.Location = new System.Drawing.Point(8, 26);
+            this.cmdAddSpell.Name = "cmdAddSpell";
+            this.cmdAddSpell.Size = new System.Drawing.Size(80, 23);
+            this.cmdAddSpell.SplitMenuStrip = this.cmsSpellButton;
+            this.cmdAddSpell.TabIndex = 103;
+            this.cmdAddSpell.Tag = "Button_AddSpell";
+            this.cmdAddSpell.Text = "&Add Spell";
+            this.cmdAddSpell.UseVisualStyleBackColor = true;
+            this.cmdAddSpell.Click += new System.EventHandler(this.cmdAddSpell_Click);
             // 
             // cmsSpellButton
             // 
@@ -4205,6 +4235,20 @@
             0});
             this.nudComplexFormRating.Visible = false;
             this.nudComplexFormRating.ValueChanged += new System.EventHandler(this.nudComplexFormRating_ValueChanged);
+            // 
+            // cmdAddComplexForm
+            // 
+            this.cmdAddComplexForm.AutoSize = true;
+            this.cmdAddComplexForm.ContextMenuStrip = this.cmsComplexForm;
+            this.cmdAddComplexForm.Location = new System.Drawing.Point(8, 25);
+            this.cmdAddComplexForm.Name = "cmdAddComplexForm";
+            this.cmdAddComplexForm.Size = new System.Drawing.Size(123, 23);
+            this.cmdAddComplexForm.SplitMenuStrip = this.cmsComplexForm;
+            this.cmdAddComplexForm.TabIndex = 105;
+            this.cmdAddComplexForm.Tag = "Button_AddComplexForm";
+            this.cmdAddComplexForm.Text = "Add Complex Form";
+            this.cmdAddComplexForm.UseVisualStyleBackColor = true;
+            this.cmdAddComplexForm.Click += new System.EventHandler(this.cmdAddComplexForm_Click);
             // 
             // cmsComplexForm
             // 
@@ -5017,6 +5061,20 @@
             this.treCyberware.KeyDown += new System.Windows.Forms.KeyEventHandler(this.treCyberware_KeyDown);
             this.treCyberware.MouseDown += new System.Windows.Forms.MouseEventHandler(this.TreeView_MouseDown);
             // 
+            // cmdAddCyberware
+            // 
+            this.cmdAddCyberware.AutoSize = true;
+            this.cmdAddCyberware.ContextMenuStrip = this.cmsCyberware;
+            this.cmdAddCyberware.Location = new System.Drawing.Point(8, 7);
+            this.cmdAddCyberware.Name = "cmdAddCyberware";
+            this.cmdAddCyberware.Size = new System.Drawing.Size(107, 23);
+            this.cmdAddCyberware.SplitMenuStrip = this.cmsCyberware;
+            this.cmdAddCyberware.TabIndex = 52;
+            this.cmdAddCyberware.Tag = "Button_AddCyberware";
+            this.cmdAddCyberware.Text = "&Add Cyberware";
+            this.cmdAddCyberware.UseVisualStyleBackColor = true;
+            this.cmdAddCyberware.Click += new System.EventHandler(this.cmdAddCyberware_Click);
+            // 
             // cmsCyberware
             // 
             this.cmsCyberware.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -5053,6 +5111,20 @@
             this.tsCyberwareNotes.Tag = "Menu_Notes";
             this.tsCyberwareNotes.Text = "&Notes";
             this.tsCyberwareNotes.Click += new System.EventHandler(this.tsCyberwareNotes_Click);
+            // 
+            // cmdDeleteCyberware
+            // 
+            this.cmdDeleteCyberware.AutoSize = true;
+            this.cmdDeleteCyberware.ContextMenuStrip = this.cmsDeleteCyberware;
+            this.cmdDeleteCyberware.Location = new System.Drawing.Point(217, 7);
+            this.cmdDeleteCyberware.Name = "cmdDeleteCyberware";
+            this.cmdDeleteCyberware.Size = new System.Drawing.Size(80, 23);
+            this.cmdDeleteCyberware.SplitMenuStrip = this.cmsDeleteCyberware;
+            this.cmdDeleteCyberware.TabIndex = 51;
+            this.cmdDeleteCyberware.Tag = "String_Delete";
+            this.cmdDeleteCyberware.Text = "Delete";
+            this.cmdDeleteCyberware.UseVisualStyleBackColor = true;
+            this.cmdDeleteCyberware.Click += new System.EventHandler(this.cmdDeleteCyberware_Click);
             // 
             // cmsDeleteCyberware
             // 
@@ -5245,6 +5317,20 @@
             this.lblLifestyleComfortsLabel.TabIndex = 104;
             this.lblLifestyleComfortsLabel.Tag = "Label_SelectAdvancedLifestyle_Comforts";
             this.lblLifestyleComfortsLabel.Text = "Comforts:";
+            // 
+            // cmdAddLifestyle
+            // 
+            this.cmdAddLifestyle.AutoSize = true;
+            this.cmdAddLifestyle.ContextMenuStrip = this.cmsLifestyle;
+            this.cmdAddLifestyle.Location = new System.Drawing.Point(6, 7);
+            this.cmdAddLifestyle.Name = "cmdAddLifestyle";
+            this.cmdAddLifestyle.Size = new System.Drawing.Size(95, 23);
+            this.cmdAddLifestyle.SplitMenuStrip = this.cmsLifestyle;
+            this.cmdAddLifestyle.TabIndex = 94;
+            this.cmdAddLifestyle.Tag = "Button_AddLifestyle";
+            this.cmdAddLifestyle.Text = "&Add Lifestyle";
+            this.cmdAddLifestyle.UseVisualStyleBackColor = true;
+            this.cmdAddLifestyle.Click += new System.EventHandler(this.cmdAddLifestyle_Click);
             // 
             // cmsLifestyle
             // 
@@ -5616,6 +5702,20 @@
             this.lblArmorValue.TabIndex = 71;
             this.lblArmorValue.Text = "[Value]";
             // 
+            // cmdAddArmor
+            // 
+            this.cmdAddArmor.AutoSize = true;
+            this.cmdAddArmor.ContextMenuStrip = this.cmsArmor;
+            this.cmdAddArmor.Location = new System.Drawing.Point(6, 7);
+            this.cmdAddArmor.Name = "cmdAddArmor";
+            this.cmdAddArmor.Size = new System.Drawing.Size(88, 23);
+            this.cmdAddArmor.SplitMenuStrip = this.cmsArmor;
+            this.cmdAddArmor.TabIndex = 86;
+            this.cmdAddArmor.Tag = "Button_AddArmor";
+            this.cmdAddArmor.Text = "&Add Armor";
+            this.cmdAddArmor.UseVisualStyleBackColor = true;
+            this.cmdAddArmor.Click += new System.EventHandler(this.cmdAddArmor_Click);
+            // 
             // cmsArmor
             // 
             this.cmsArmor.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -5662,6 +5762,20 @@
             this.tsArmorNotes.Tag = "Menu_Notes";
             this.tsArmorNotes.Text = "&Notes";
             this.tsArmorNotes.Click += new System.EventHandler(this.tsArmorNotes_Click);
+            // 
+            // cmdDeleteArmor
+            // 
+            this.cmdDeleteArmor.AutoSize = true;
+            this.cmdDeleteArmor.ContextMenuStrip = this.cmsDeleteArmor;
+            this.cmdDeleteArmor.Location = new System.Drawing.Point(100, 7);
+            this.cmdDeleteArmor.Name = "cmdDeleteArmor";
+            this.cmdDeleteArmor.Size = new System.Drawing.Size(80, 23);
+            this.cmdDeleteArmor.SplitMenuStrip = this.cmsDeleteArmor;
+            this.cmdDeleteArmor.TabIndex = 83;
+            this.cmdDeleteArmor.Tag = "String_Delete";
+            this.cmdDeleteArmor.Text = "Delete";
+            this.cmdDeleteArmor.UseVisualStyleBackColor = true;
+            this.cmdDeleteArmor.Click += new System.EventHandler(this.cmdDeleteArmor_Click);
             // 
             // cmsDeleteArmor
             // 
@@ -5743,6 +5857,25 @@
             this.tabWeapons.TabIndex = 2;
             this.tabWeapons.Tag = "Tab_Weapons";
             this.tabWeapons.Text = "Weapons";
+            // 
+            // lblWeaponAcc
+            // 
+            this.lblWeaponAcc.AutoSize = true;
+            this.lblWeaponAcc.Location = new System.Drawing.Point(640, 59);
+            this.lblWeaponAcc.Name = "lblWeaponAcc";
+            this.lblWeaponAcc.Size = new System.Drawing.Size(32, 13);
+            this.lblWeaponAcc.TabIndex = 120;
+            this.lblWeaponAcc.Text = "[Acc]";
+            // 
+            // lblWeaponAccLabel
+            // 
+            this.lblWeaponAccLabel.AutoSize = true;
+            this.lblWeaponAccLabel.Location = new System.Drawing.Point(583, 59);
+            this.lblWeaponAccLabel.Name = "lblWeaponAccLabel";
+            this.lblWeaponAccLabel.Size = new System.Drawing.Size(29, 13);
+            this.lblWeaponAccLabel.TabIndex = 119;
+            this.lblWeaponAccLabel.Tag = "Label_Accuracy";
+            this.lblWeaponAccLabel.Text = "Acc:";
             // 
             // cmdAddWeaponLocation
             // 
@@ -6212,6 +6345,20 @@
             this.cmdRollWeapon.Visible = false;
             this.cmdRollWeapon.Click += new System.EventHandler(this.cmdRollWeapon_Click);
             // 
+            // cmdAddWeapon
+            // 
+            this.cmdAddWeapon.AutoSize = true;
+            this.cmdAddWeapon.ContextMenuStrip = this.cmsWeapon;
+            this.cmdAddWeapon.Location = new System.Drawing.Point(6, 7);
+            this.cmdAddWeapon.Name = "cmdAddWeapon";
+            this.cmdAddWeapon.Size = new System.Drawing.Size(98, 23);
+            this.cmdAddWeapon.SplitMenuStrip = this.cmsWeapon;
+            this.cmdAddWeapon.TabIndex = 103;
+            this.cmdAddWeapon.Tag = "Button_AddWeapon";
+            this.cmdAddWeapon.Text = "&Add Weapon";
+            this.cmdAddWeapon.UseVisualStyleBackColor = true;
+            this.cmdAddWeapon.Click += new System.EventHandler(this.cmdAddWeapon_Click);
+            // 
             // cmsWeapon
             // 
             this.cmsWeapon.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -6279,6 +6426,20 @@
             this.tsWeaponNotes.Text = "&Notes";
             this.tsWeaponNotes.Click += new System.EventHandler(this.tsWeaponNotes_Click);
             // 
+            // cmdDeleteWeapon
+            // 
+            this.cmdDeleteWeapon.AutoSize = true;
+            this.cmdDeleteWeapon.ContextMenuStrip = this.cmsDeleteWeapon;
+            this.cmdDeleteWeapon.Location = new System.Drawing.Point(110, 7);
+            this.cmdDeleteWeapon.Name = "cmdDeleteWeapon";
+            this.cmdDeleteWeapon.Size = new System.Drawing.Size(80, 23);
+            this.cmdDeleteWeapon.SplitMenuStrip = this.cmsDeleteWeapon;
+            this.cmdDeleteWeapon.TabIndex = 55;
+            this.cmdDeleteWeapon.Tag = "String_Delete";
+            this.cmdDeleteWeapon.Text = "Delete";
+            this.cmdDeleteWeapon.UseVisualStyleBackColor = true;
+            this.cmdDeleteWeapon.Click += new System.EventHandler(this.cmdDeleteWeapon_Click);
+            // 
             // cmsDeleteWeapon
             // 
             this.cmsDeleteWeapon.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -6295,6 +6456,21 @@
             this.tsWeaponSell.Tag = "Menu_SellItem";
             this.tsWeaponSell.Text = "&Sell Item";
             this.tsWeaponSell.Click += new System.EventHandler(this.tsWeaponSell_Click);
+            // 
+            // cmdFireWeapon
+            // 
+            this.cmdFireWeapon.AutoSize = true;
+            this.cmdFireWeapon.ContextMenuStrip = this.cmsAmmoExpense;
+            this.cmdFireWeapon.Enabled = false;
+            this.cmdFireWeapon.Location = new System.Drawing.Point(529, 280);
+            this.cmdFireWeapon.Name = "cmdFireWeapon";
+            this.cmdFireWeapon.Size = new System.Drawing.Size(79, 23);
+            this.cmdFireWeapon.SplitMenuStrip = this.cmsAmmoExpense;
+            this.cmdFireWeapon.TabIndex = 75;
+            this.cmdFireWeapon.Tag = "Button_Fire";
+            this.cmdFireWeapon.Text = "FIRE!";
+            this.cmdFireWeapon.UseVisualStyleBackColor = true;
+            this.cmdFireWeapon.Click += new System.EventHandler(this.cmdFireWeapon_Click);
             // 
             // cmsAmmoExpense
             // 
@@ -6765,6 +6941,20 @@
             this.treGear.KeyDown += new System.Windows.Forms.KeyEventHandler(this.treGear_KeyDown);
             this.treGear.MouseDown += new System.Windows.Forms.MouseEventHandler(this.TreeView_MouseDown);
             // 
+            // cmdAddGear
+            // 
+            this.cmdAddGear.AutoSize = true;
+            this.cmdAddGear.ContextMenuStrip = this.cmsGearButton;
+            this.cmdAddGear.Location = new System.Drawing.Point(6, 7);
+            this.cmdAddGear.Name = "cmdAddGear";
+            this.cmdAddGear.Size = new System.Drawing.Size(80, 23);
+            this.cmdAddGear.SplitMenuStrip = this.cmsGearButton;
+            this.cmdAddGear.TabIndex = 104;
+            this.cmdAddGear.Tag = "Button_AddGear";
+            this.cmdAddGear.Text = "&Add Gear";
+            this.cmdAddGear.UseVisualStyleBackColor = true;
+            this.cmdAddGear.Click += new System.EventHandler(this.cmdAddGear_Click);
+            // 
             // cmsGearButton
             // 
             this.cmsGearButton.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -6791,6 +6981,20 @@
             this.tsGearAddNexus.Tag = "Menu_AddNexus";
             this.tsGearAddNexus.Text = "A&dd Nexus";
             this.tsGearAddNexus.Click += new System.EventHandler(this.tsGearAddNexus_Click);
+            // 
+            // cmdDeleteGear
+            // 
+            this.cmdDeleteGear.AutoSize = true;
+            this.cmdDeleteGear.ContextMenuStrip = this.cmsDeleteGear;
+            this.cmdDeleteGear.Location = new System.Drawing.Point(92, 7);
+            this.cmdDeleteGear.Name = "cmdDeleteGear";
+            this.cmdDeleteGear.Size = new System.Drawing.Size(80, 23);
+            this.cmdDeleteGear.SplitMenuStrip = this.cmsDeleteGear;
+            this.cmdDeleteGear.TabIndex = 94;
+            this.cmdDeleteGear.Tag = "String_Delete";
+            this.cmdDeleteGear.Text = "Delete";
+            this.cmdDeleteGear.UseVisualStyleBackColor = true;
+            this.cmdDeleteGear.Click += new System.EventHandler(this.cmdDeleteGear_Click);
             // 
             // cmsDeleteGear
             // 
@@ -6849,6 +7053,8 @@
             // tabVehicles
             // 
             this.tabVehicles.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.tabVehicles.Controls.Add(this.lblVehicleSeats);
+            this.tabVehicles.Controls.Add(this.lblVehicleSeatsLabel);
             this.tabVehicles.Controls.Add(this.cmdAddVehicleLocation);
             this.tabVehicles.Controls.Add(this.chkVehicleHomeNode);
             this.tabVehicles.Controls.Add(this.lblVehicleWeaponDicePool);
@@ -6899,6 +7105,8 @@
             this.tabVehicles.Controls.Add(this.lblVehicleSourceLabel);
             this.tabVehicles.Controls.Add(this.lblVehicleSlots);
             this.tabVehicles.Controls.Add(this.lblVehicleSlotsLabel);
+            this.tabVehicles.Controls.Add(this.lblVehicleSeats);
+            this.tabVehicles.Controls.Add(this.lblVehicleSeatsLabel);
             this.tabVehicles.Controls.Add(this.lblVehicleRatingLabel);
             this.tabVehicles.Controls.Add(this.lblVehicleNameLabel);
             this.tabVehicles.Controls.Add(this.lblVehicleName);
@@ -7932,7 +8140,7 @@
             // lblVehicleSlots
             // 
             this.lblVehicleSlots.AutoSize = true;
-            this.lblVehicleSlots.Location = new System.Drawing.Point(709, 150);
+            this.lblVehicleSlots.Location = new System.Drawing.Point(667, 150);
             this.lblVehicleSlots.Name = "lblVehicleSlots";
             this.lblVehicleSlots.Size = new System.Drawing.Size(36, 13);
             this.lblVehicleSlots.TabIndex = 58;
@@ -7941,7 +8149,7 @@
             // lblVehicleSlotsLabel
             // 
             this.lblVehicleSlotsLabel.AutoSize = true;
-            this.lblVehicleSlotsLabel.Location = new System.Drawing.Point(670, 150);
+            this.lblVehicleSlotsLabel.Location = new System.Drawing.Point(628, 150);
             this.lblVehicleSlotsLabel.Name = "lblVehicleSlotsLabel";
             this.lblVehicleSlotsLabel.Size = new System.Drawing.Size(33, 13);
             this.lblVehicleSlotsLabel.TabIndex = 57;
@@ -8203,6 +8411,20 @@
             this.cmdRollVehicleWeapon.Visible = false;
             this.cmdRollVehicleWeapon.Click += new System.EventHandler(this.cmdRollVehicleWeapon_Click);
             // 
+            // cmdAddVehicle
+            // 
+            this.cmdAddVehicle.AutoSize = true;
+            this.cmdAddVehicle.ContextMenuStrip = this.cmsVehicle;
+            this.cmdAddVehicle.Location = new System.Drawing.Point(8, 7);
+            this.cmdAddVehicle.Name = "cmdAddVehicle";
+            this.cmdAddVehicle.Size = new System.Drawing.Size(92, 23);
+            this.cmdAddVehicle.SplitMenuStrip = this.cmsVehicle;
+            this.cmdAddVehicle.TabIndex = 113;
+            this.cmdAddVehicle.Tag = "Button_AddVehicle";
+            this.cmdAddVehicle.Text = "&Add Vehicle";
+            this.cmdAddVehicle.UseVisualStyleBackColor = true;
+            this.cmdAddVehicle.Click += new System.EventHandler(this.cmdAddVehicle_Click);
+            // 
             // cmsVehicle
             // 
             this.cmsVehicle.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -8342,6 +8564,21 @@
             this.tsVehicleNotes.Text = "&Notes";
             this.tsVehicleNotes.Click += new System.EventHandler(this.tsVehicleNotes_Click);
             // 
+            // cmdFireVehicleWeapon
+            // 
+            this.cmdFireVehicleWeapon.AutoSize = true;
+            this.cmdFireVehicleWeapon.ContextMenuStrip = this.cmdVehicleAmmoExpense;
+            this.cmdFireVehicleWeapon.Enabled = false;
+            this.cmdFireVehicleWeapon.Location = new System.Drawing.Point(638, 405);
+            this.cmdFireVehicleWeapon.Name = "cmdFireVehicleWeapon";
+            this.cmdFireVehicleWeapon.Size = new System.Drawing.Size(79, 23);
+            this.cmdFireVehicleWeapon.SplitMenuStrip = this.cmdVehicleAmmoExpense;
+            this.cmdFireVehicleWeapon.TabIndex = 81;
+            this.cmdFireVehicleWeapon.Tag = "Button_Fire";
+            this.cmdFireVehicleWeapon.Text = "FIRE!";
+            this.cmdFireVehicleWeapon.UseVisualStyleBackColor = true;
+            this.cmdFireVehicleWeapon.Click += new System.EventHandler(this.cmdFireVehicleWeapon_Click);
+            // 
             // cmdVehicleAmmoExpense
             // 
             this.cmdVehicleAmmoExpense.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -8391,6 +8628,20 @@
             this.cmsVehicleAmmoSuppressiveFire.Size = new System.Drawing.Size(219, 22);
             this.cmsVehicleAmmoSuppressiveFire.Text = "Suppressive Fire (20 bullets)";
             this.cmsVehicleAmmoSuppressiveFire.Click += new System.EventHandler(this.cmsVehicleAmmoSuppressiveFire_Click);
+            // 
+            // cmdDeleteVehicle
+            // 
+            this.cmdDeleteVehicle.AutoSize = true;
+            this.cmdDeleteVehicle.ContextMenuStrip = this.cmsDeleteVehicle;
+            this.cmdDeleteVehicle.Location = new System.Drawing.Point(104, 7);
+            this.cmdDeleteVehicle.Name = "cmdDeleteVehicle";
+            this.cmdDeleteVehicle.Size = new System.Drawing.Size(80, 23);
+            this.cmdDeleteVehicle.SplitMenuStrip = this.cmsDeleteVehicle;
+            this.cmdDeleteVehicle.TabIndex = 62;
+            this.cmdDeleteVehicle.Tag = "String_Delete";
+            this.cmdDeleteVehicle.Text = "Delete";
+            this.cmdDeleteVehicle.UseVisualStyleBackColor = true;
+            this.cmdDeleteVehicle.Click += new System.EventHandler(this.cmdDeleteVehicle_Click);
             // 
             // cmsDeleteVehicle
             // 
@@ -9931,6 +10182,101 @@
             this.tabOtherInfo.Tag = "Tab_OtherInfo";
             this.tabOtherInfo.Text = "Other Info";
             // 
+            // lblAstralLimit
+            // 
+            this.lblAstralLimit.AutoSize = true;
+            this.lblAstralLimit.Location = new System.Drawing.Point(139, 588);
+            this.lblAstralLimit.Name = "lblAstralLimit";
+            this.lblAstralLimit.Size = new System.Drawing.Size(13, 13);
+            this.lblAstralLimit.TabIndex = 85;
+            this.lblAstralLimit.Text = "0";
+            // 
+            // lblAstralLimitLabel
+            // 
+            this.lblAstralLimitLabel.AutoSize = true;
+            this.lblAstralLimitLabel.Location = new System.Drawing.Point(6, 588);
+            this.lblAstralLimitLabel.Name = "lblAstralLimitLabel";
+            this.lblAstralLimitLabel.Size = new System.Drawing.Size(60, 13);
+            this.lblAstralLimitLabel.TabIndex = 84;
+            this.lblAstralLimitLabel.Tag = "Label_AstralLimit";
+            this.lblAstralLimitLabel.Text = "Astral Limit:";
+            // 
+            // lblSocialLimit
+            // 
+            this.lblSocialLimit.AutoSize = true;
+            this.lblSocialLimit.Location = new System.Drawing.Point(139, 565);
+            this.lblSocialLimit.Name = "lblSocialLimit";
+            this.lblSocialLimit.Size = new System.Drawing.Size(13, 13);
+            this.lblSocialLimit.TabIndex = 83;
+            this.lblSocialLimit.Text = "0";
+            // 
+            // lblSocialLimitLabel
+            // 
+            this.lblSocialLimitLabel.AutoSize = true;
+            this.lblSocialLimitLabel.Location = new System.Drawing.Point(6, 565);
+            this.lblSocialLimitLabel.Name = "lblSocialLimitLabel";
+            this.lblSocialLimitLabel.Size = new System.Drawing.Size(63, 13);
+            this.lblSocialLimitLabel.TabIndex = 82;
+            this.lblSocialLimitLabel.Tag = "Label_SocialLimit";
+            this.lblSocialLimitLabel.Text = "Social Limit:";
+            // 
+            // lblPhysicalLimit
+            // 
+            this.lblPhysicalLimit.AutoSize = true;
+            this.lblPhysicalLimit.Location = new System.Drawing.Point(139, 542);
+            this.lblPhysicalLimit.Name = "lblPhysicalLimit";
+            this.lblPhysicalLimit.Size = new System.Drawing.Size(13, 13);
+            this.lblPhysicalLimit.TabIndex = 81;
+            this.lblPhysicalLimit.Text = "0";
+            // 
+            // lblPhysicalLimitLabel
+            // 
+            this.lblPhysicalLimitLabel.AutoSize = true;
+            this.lblPhysicalLimitLabel.Location = new System.Drawing.Point(6, 542);
+            this.lblPhysicalLimitLabel.Name = "lblPhysicalLimitLabel";
+            this.lblPhysicalLimitLabel.Size = new System.Drawing.Size(73, 13);
+            this.lblPhysicalLimitLabel.TabIndex = 80;
+            this.lblPhysicalLimitLabel.Tag = "Label_PhysicalLimit";
+            this.lblPhysicalLimitLabel.Text = "Physical Limit:";
+            // 
+            // lblMentalLimit
+            // 
+            this.lblMentalLimit.AutoSize = true;
+            this.lblMentalLimit.Location = new System.Drawing.Point(139, 519);
+            this.lblMentalLimit.Name = "lblMentalLimit";
+            this.lblMentalLimit.Size = new System.Drawing.Size(13, 13);
+            this.lblMentalLimit.TabIndex = 79;
+            this.lblMentalLimit.Text = "0";
+            // 
+            // lblMentalLimitLabel
+            // 
+            this.lblMentalLimitLabel.AutoSize = true;
+            this.lblMentalLimitLabel.Location = new System.Drawing.Point(6, 519);
+            this.lblMentalLimitLabel.Name = "lblMentalLimitLabel";
+            this.lblMentalLimitLabel.Size = new System.Drawing.Size(63, 13);
+            this.lblMentalLimitLabel.TabIndex = 78;
+            this.lblMentalLimitLabel.Tag = "Label_MentalLimit";
+            this.lblMentalLimitLabel.Text = "Mental Limit";
+            // 
+            // lblSurprise
+            // 
+            this.lblSurprise.AutoSize = true;
+            this.lblSurprise.Location = new System.Drawing.Point(139, 486);
+            this.lblSurprise.Name = "lblSurprise";
+            this.lblSurprise.Size = new System.Drawing.Size(13, 13);
+            this.lblSurprise.TabIndex = 67;
+            this.lblSurprise.Text = "0";
+            // 
+            // lblSurpriseLabel
+            // 
+            this.lblSurpriseLabel.AutoSize = true;
+            this.lblSurpriseLabel.Location = new System.Drawing.Point(6, 486);
+            this.lblSurpriseLabel.Name = "lblSurpriseLabel";
+            this.lblSurpriseLabel.Size = new System.Drawing.Size(48, 13);
+            this.lblSurpriseLabel.TabIndex = 66;
+            this.lblSurpriseLabel.Tag = "Label_OtherSurprise";
+            this.lblSurpriseLabel.Text = "Surprise:";
+            // 
             // lblCareerNuyen
             // 
             this.lblCareerNuyen.AutoSize = true;
@@ -11147,345 +11493,23 @@
             this.tsWeaponRenameLocation.Text = "&Rename Location";
             this.tsWeaponRenameLocation.Click += new System.EventHandler(this.tsWeaponRenameLocation_Click);
             // 
-            // lblSurpriseLabel
+            // lblVehicleSeatsLabel
             // 
-            this.lblSurpriseLabel.AutoSize = true;
-            this.lblSurpriseLabel.Location = new System.Drawing.Point(6, 486);
-            this.lblSurpriseLabel.Name = "lblSurpriseLabel";
-            this.lblSurpriseLabel.Size = new System.Drawing.Size(48, 13);
-            this.lblSurpriseLabel.TabIndex = 66;
-            this.lblSurpriseLabel.Tag = "Label_OtherSurprise";
-            this.lblSurpriseLabel.Text = "Surprise:";
+            this.lblVehicleSeatsLabel.AutoSize = true;
+            this.lblVehicleSeatsLabel.Location = new System.Drawing.Point(725, 150);
+            this.lblVehicleSeatsLabel.Name = "lblVehicleSeatsLabel";
+            this.lblVehicleSeatsLabel.Size = new System.Drawing.Size(37, 13);
+            this.lblVehicleSeatsLabel.TabIndex = 139;
+            this.lblVehicleSeatsLabel.Text = "Seats:";
             // 
-            // lblSurprise
+            // lblVehicleSeats
             // 
-            this.lblSurprise.AutoSize = true;
-            this.lblSurprise.Location = new System.Drawing.Point(139, 486);
-            this.lblSurprise.Name = "lblSurprise";
-            this.lblSurprise.Size = new System.Drawing.Size(13, 13);
-            this.lblSurprise.TabIndex = 67;
-            this.lblSurprise.Text = "0";
-            // 
-            // lblAstralLimit
-            // 
-            this.lblAstralLimit.AutoSize = true;
-            this.lblAstralLimit.Location = new System.Drawing.Point(139, 588);
-            this.lblAstralLimit.Name = "lblAstralLimit";
-            this.lblAstralLimit.Size = new System.Drawing.Size(13, 13);
-            this.lblAstralLimit.TabIndex = 85;
-            this.lblAstralLimit.Text = "0";
-            // 
-            // lblAstralLimitLabel
-            // 
-            this.lblAstralLimitLabel.AutoSize = true;
-            this.lblAstralLimitLabel.Location = new System.Drawing.Point(6, 588);
-            this.lblAstralLimitLabel.Name = "lblAstralLimitLabel";
-            this.lblAstralLimitLabel.Size = new System.Drawing.Size(60, 13);
-            this.lblAstralLimitLabel.TabIndex = 84;
-            this.lblAstralLimitLabel.Tag = "Label_AstralLimit";
-            this.lblAstralLimitLabel.Text = "Astral Limit:";
-            // 
-            // lblSocialLimit
-            // 
-            this.lblSocialLimit.AutoSize = true;
-            this.lblSocialLimit.Location = new System.Drawing.Point(139, 565);
-            this.lblSocialLimit.Name = "lblSocialLimit";
-            this.lblSocialLimit.Size = new System.Drawing.Size(13, 13);
-            this.lblSocialLimit.TabIndex = 83;
-            this.lblSocialLimit.Text = "0";
-            // 
-            // lblSocialLimitLabel
-            // 
-            this.lblSocialLimitLabel.AutoSize = true;
-            this.lblSocialLimitLabel.Location = new System.Drawing.Point(6, 565);
-            this.lblSocialLimitLabel.Name = "lblSocialLimitLabel";
-            this.lblSocialLimitLabel.Size = new System.Drawing.Size(63, 13);
-            this.lblSocialLimitLabel.TabIndex = 82;
-            this.lblSocialLimitLabel.Tag = "Label_SocialLimit";
-            this.lblSocialLimitLabel.Text = "Social Limit:";
-            // 
-            // lblPhysicalLimit
-            // 
-            this.lblPhysicalLimit.AutoSize = true;
-            this.lblPhysicalLimit.Location = new System.Drawing.Point(139, 542);
-            this.lblPhysicalLimit.Name = "lblPhysicalLimit";
-            this.lblPhysicalLimit.Size = new System.Drawing.Size(13, 13);
-            this.lblPhysicalLimit.TabIndex = 81;
-            this.lblPhysicalLimit.Text = "0";
-            // 
-            // lblPhysicalLimitLabel
-            // 
-            this.lblPhysicalLimitLabel.AutoSize = true;
-            this.lblPhysicalLimitLabel.Location = new System.Drawing.Point(6, 542);
-            this.lblPhysicalLimitLabel.Name = "lblPhysicalLimitLabel";
-            this.lblPhysicalLimitLabel.Size = new System.Drawing.Size(73, 13);
-            this.lblPhysicalLimitLabel.TabIndex = 80;
-            this.lblPhysicalLimitLabel.Tag = "Label_PhysicalLimit";
-            this.lblPhysicalLimitLabel.Text = "Physical Limit:";
-            // 
-            // lblMentalLimit
-            // 
-            this.lblMentalLimit.AutoSize = true;
-            this.lblMentalLimit.Location = new System.Drawing.Point(139, 519);
-            this.lblMentalLimit.Name = "lblMentalLimit";
-            this.lblMentalLimit.Size = new System.Drawing.Size(13, 13);
-            this.lblMentalLimit.TabIndex = 79;
-            this.lblMentalLimit.Text = "0";
-            // 
-            // lblMentalLimitLabel
-            // 
-            this.lblMentalLimitLabel.AutoSize = true;
-            this.lblMentalLimitLabel.Location = new System.Drawing.Point(6, 519);
-            this.lblMentalLimitLabel.Name = "lblMentalLimitLabel";
-            this.lblMentalLimitLabel.Size = new System.Drawing.Size(63, 13);
-            this.lblMentalLimitLabel.TabIndex = 78;
-            this.lblMentalLimitLabel.Tag = "Label_MentalLimit";
-            this.lblMentalLimitLabel.Text = "Mental Limit";
-            // 
-            // cmdAddMartialArt
-            // 
-            this.cmdAddMartialArt.AutoSize = true;
-            this.cmdAddMartialArt.ContextMenuStrip = this.cmsMartialArts;
-            this.cmdAddMartialArt.Location = new System.Drawing.Point(8, 7);
-            this.cmdAddMartialArt.Name = "cmdAddMartialArt";
-            this.cmdAddMartialArt.Size = new System.Drawing.Size(107, 23);
-            this.cmdAddMartialArt.SplitMenuStrip = this.cmsMartialArts;
-            this.cmdAddMartialArt.TabIndex = 65;
-            this.cmdAddMartialArt.Tag = "Button_AddMartialArt";
-            this.cmdAddMartialArt.Text = "&Add Martial Art";
-            this.cmdAddMartialArt.UseVisualStyleBackColor = true;
-            this.cmdAddMartialArt.Click += new System.EventHandler(this.cmdAddMartialArt_Click);
-            // 
-            // cmdAddSpell
-            // 
-            this.cmdAddSpell.AutoSize = true;
-            this.cmdAddSpell.ContextMenuStrip = this.cmsSpellButton;
-            this.cmdAddSpell.Location = new System.Drawing.Point(8, 26);
-            this.cmdAddSpell.Name = "cmdAddSpell";
-            this.cmdAddSpell.Size = new System.Drawing.Size(80, 23);
-            this.cmdAddSpell.SplitMenuStrip = this.cmsSpellButton;
-            this.cmdAddSpell.TabIndex = 103;
-            this.cmdAddSpell.Tag = "Button_AddSpell";
-            this.cmdAddSpell.Text = "&Add Spell";
-            this.cmdAddSpell.UseVisualStyleBackColor = true;
-            this.cmdAddSpell.Click += new System.EventHandler(this.cmdAddSpell_Click);
-            // 
-            // cmdAddComplexForm
-            // 
-            this.cmdAddComplexForm.AutoSize = true;
-            this.cmdAddComplexForm.ContextMenuStrip = this.cmsComplexForm;
-            this.cmdAddComplexForm.Location = new System.Drawing.Point(8, 25);
-            this.cmdAddComplexForm.Name = "cmdAddComplexForm";
-            this.cmdAddComplexForm.Size = new System.Drawing.Size(123, 23);
-            this.cmdAddComplexForm.SplitMenuStrip = this.cmsComplexForm;
-            this.cmdAddComplexForm.TabIndex = 105;
-            this.cmdAddComplexForm.Tag = "Button_AddComplexForm";
-            this.cmdAddComplexForm.Text = "Add Complex Form";
-            this.cmdAddComplexForm.UseVisualStyleBackColor = true;
-            this.cmdAddComplexForm.Click += new System.EventHandler(this.cmdAddComplexForm_Click);
-            // 
-            // cmdAddCyberware
-            // 
-            this.cmdAddCyberware.AutoSize = true;
-            this.cmdAddCyberware.ContextMenuStrip = this.cmsCyberware;
-            this.cmdAddCyberware.Location = new System.Drawing.Point(8, 7);
-            this.cmdAddCyberware.Name = "cmdAddCyberware";
-            this.cmdAddCyberware.Size = new System.Drawing.Size(107, 23);
-            this.cmdAddCyberware.SplitMenuStrip = this.cmsCyberware;
-            this.cmdAddCyberware.TabIndex = 52;
-            this.cmdAddCyberware.Tag = "Button_AddCyberware";
-            this.cmdAddCyberware.Text = "&Add Cyberware";
-            this.cmdAddCyberware.UseVisualStyleBackColor = true;
-            this.cmdAddCyberware.Click += new System.EventHandler(this.cmdAddCyberware_Click);
-            // 
-            // cmdDeleteCyberware
-            // 
-            this.cmdDeleteCyberware.AutoSize = true;
-            this.cmdDeleteCyberware.ContextMenuStrip = this.cmsDeleteCyberware;
-            this.cmdDeleteCyberware.Location = new System.Drawing.Point(217, 7);
-            this.cmdDeleteCyberware.Name = "cmdDeleteCyberware";
-            this.cmdDeleteCyberware.Size = new System.Drawing.Size(80, 23);
-            this.cmdDeleteCyberware.SplitMenuStrip = this.cmsDeleteCyberware;
-            this.cmdDeleteCyberware.TabIndex = 51;
-            this.cmdDeleteCyberware.Tag = "String_Delete";
-            this.cmdDeleteCyberware.Text = "Delete";
-            this.cmdDeleteCyberware.UseVisualStyleBackColor = true;
-            this.cmdDeleteCyberware.Click += new System.EventHandler(this.cmdDeleteCyberware_Click);
-            // 
-            // cmdAddLifestyle
-            // 
-            this.cmdAddLifestyle.AutoSize = true;
-            this.cmdAddLifestyle.ContextMenuStrip = this.cmsLifestyle;
-            this.cmdAddLifestyle.Location = new System.Drawing.Point(6, 7);
-            this.cmdAddLifestyle.Name = "cmdAddLifestyle";
-            this.cmdAddLifestyle.Size = new System.Drawing.Size(95, 23);
-            this.cmdAddLifestyle.SplitMenuStrip = this.cmsLifestyle;
-            this.cmdAddLifestyle.TabIndex = 94;
-            this.cmdAddLifestyle.Tag = "Button_AddLifestyle";
-            this.cmdAddLifestyle.Text = "&Add Lifestyle";
-            this.cmdAddLifestyle.UseVisualStyleBackColor = true;
-            this.cmdAddLifestyle.Click += new System.EventHandler(this.cmdAddLifestyle_Click);
-            // 
-            // cmdAddArmor
-            // 
-            this.cmdAddArmor.AutoSize = true;
-            this.cmdAddArmor.ContextMenuStrip = this.cmsArmor;
-            this.cmdAddArmor.Location = new System.Drawing.Point(6, 7);
-            this.cmdAddArmor.Name = "cmdAddArmor";
-            this.cmdAddArmor.Size = new System.Drawing.Size(88, 23);
-            this.cmdAddArmor.SplitMenuStrip = this.cmsArmor;
-            this.cmdAddArmor.TabIndex = 86;
-            this.cmdAddArmor.Tag = "Button_AddArmor";
-            this.cmdAddArmor.Text = "&Add Armor";
-            this.cmdAddArmor.UseVisualStyleBackColor = true;
-            this.cmdAddArmor.Click += new System.EventHandler(this.cmdAddArmor_Click);
-            // 
-            // cmdDeleteArmor
-            // 
-            this.cmdDeleteArmor.AutoSize = true;
-            this.cmdDeleteArmor.ContextMenuStrip = this.cmsDeleteArmor;
-            this.cmdDeleteArmor.Location = new System.Drawing.Point(100, 7);
-            this.cmdDeleteArmor.Name = "cmdDeleteArmor";
-            this.cmdDeleteArmor.Size = new System.Drawing.Size(80, 23);
-            this.cmdDeleteArmor.SplitMenuStrip = this.cmsDeleteArmor;
-            this.cmdDeleteArmor.TabIndex = 83;
-            this.cmdDeleteArmor.Tag = "String_Delete";
-            this.cmdDeleteArmor.Text = "Delete";
-            this.cmdDeleteArmor.UseVisualStyleBackColor = true;
-            this.cmdDeleteArmor.Click += new System.EventHandler(this.cmdDeleteArmor_Click);
-            // 
-            // cmdAddWeapon
-            // 
-            this.cmdAddWeapon.AutoSize = true;
-            this.cmdAddWeapon.ContextMenuStrip = this.cmsWeapon;
-            this.cmdAddWeapon.Location = new System.Drawing.Point(6, 7);
-            this.cmdAddWeapon.Name = "cmdAddWeapon";
-            this.cmdAddWeapon.Size = new System.Drawing.Size(98, 23);
-            this.cmdAddWeapon.SplitMenuStrip = this.cmsWeapon;
-            this.cmdAddWeapon.TabIndex = 103;
-            this.cmdAddWeapon.Tag = "Button_AddWeapon";
-            this.cmdAddWeapon.Text = "&Add Weapon";
-            this.cmdAddWeapon.UseVisualStyleBackColor = true;
-            this.cmdAddWeapon.Click += new System.EventHandler(this.cmdAddWeapon_Click);
-            // 
-            // cmdDeleteWeapon
-            // 
-            this.cmdDeleteWeapon.AutoSize = true;
-            this.cmdDeleteWeapon.ContextMenuStrip = this.cmsDeleteWeapon;
-            this.cmdDeleteWeapon.Location = new System.Drawing.Point(110, 7);
-            this.cmdDeleteWeapon.Name = "cmdDeleteWeapon";
-            this.cmdDeleteWeapon.Size = new System.Drawing.Size(80, 23);
-            this.cmdDeleteWeapon.SplitMenuStrip = this.cmsDeleteWeapon;
-            this.cmdDeleteWeapon.TabIndex = 55;
-            this.cmdDeleteWeapon.Tag = "String_Delete";
-            this.cmdDeleteWeapon.Text = "Delete";
-            this.cmdDeleteWeapon.UseVisualStyleBackColor = true;
-            this.cmdDeleteWeapon.Click += new System.EventHandler(this.cmdDeleteWeapon_Click);
-            // 
-            // cmdFireWeapon
-            // 
-            this.cmdFireWeapon.AutoSize = true;
-            this.cmdFireWeapon.ContextMenuStrip = this.cmsAmmoExpense;
-            this.cmdFireWeapon.Enabled = false;
-            this.cmdFireWeapon.Location = new System.Drawing.Point(529, 280);
-            this.cmdFireWeapon.Name = "cmdFireWeapon";
-            this.cmdFireWeapon.Size = new System.Drawing.Size(79, 23);
-            this.cmdFireWeapon.SplitMenuStrip = this.cmsAmmoExpense;
-            this.cmdFireWeapon.TabIndex = 75;
-            this.cmdFireWeapon.Tag = "Button_Fire";
-            this.cmdFireWeapon.Text = "FIRE!";
-            this.cmdFireWeapon.UseVisualStyleBackColor = true;
-            this.cmdFireWeapon.Click += new System.EventHandler(this.cmdFireWeapon_Click);
-            // 
-            // cmdAddGear
-            // 
-            this.cmdAddGear.AutoSize = true;
-            this.cmdAddGear.ContextMenuStrip = this.cmsGearButton;
-            this.cmdAddGear.Location = new System.Drawing.Point(6, 7);
-            this.cmdAddGear.Name = "cmdAddGear";
-            this.cmdAddGear.Size = new System.Drawing.Size(80, 23);
-            this.cmdAddGear.SplitMenuStrip = this.cmsGearButton;
-            this.cmdAddGear.TabIndex = 104;
-            this.cmdAddGear.Tag = "Button_AddGear";
-            this.cmdAddGear.Text = "&Add Gear";
-            this.cmdAddGear.UseVisualStyleBackColor = true;
-            this.cmdAddGear.Click += new System.EventHandler(this.cmdAddGear_Click);
-            // 
-            // cmdDeleteGear
-            // 
-            this.cmdDeleteGear.AutoSize = true;
-            this.cmdDeleteGear.ContextMenuStrip = this.cmsDeleteGear;
-            this.cmdDeleteGear.Location = new System.Drawing.Point(92, 7);
-            this.cmdDeleteGear.Name = "cmdDeleteGear";
-            this.cmdDeleteGear.Size = new System.Drawing.Size(80, 23);
-            this.cmdDeleteGear.SplitMenuStrip = this.cmsDeleteGear;
-            this.cmdDeleteGear.TabIndex = 94;
-            this.cmdDeleteGear.Tag = "String_Delete";
-            this.cmdDeleteGear.Text = "Delete";
-            this.cmdDeleteGear.UseVisualStyleBackColor = true;
-            this.cmdDeleteGear.Click += new System.EventHandler(this.cmdDeleteGear_Click);
-            // 
-            // cmdAddVehicle
-            // 
-            this.cmdAddVehicle.AutoSize = true;
-            this.cmdAddVehicle.ContextMenuStrip = this.cmsVehicle;
-            this.cmdAddVehicle.Location = new System.Drawing.Point(8, 7);
-            this.cmdAddVehicle.Name = "cmdAddVehicle";
-            this.cmdAddVehicle.Size = new System.Drawing.Size(92, 23);
-            this.cmdAddVehicle.SplitMenuStrip = this.cmsVehicle;
-            this.cmdAddVehicle.TabIndex = 113;
-            this.cmdAddVehicle.Tag = "Button_AddVehicle";
-            this.cmdAddVehicle.Text = "&Add Vehicle";
-            this.cmdAddVehicle.UseVisualStyleBackColor = true;
-            this.cmdAddVehicle.Click += new System.EventHandler(this.cmdAddVehicle_Click);
-            // 
-            // cmdFireVehicleWeapon
-            // 
-            this.cmdFireVehicleWeapon.AutoSize = true;
-            this.cmdFireVehicleWeapon.ContextMenuStrip = this.cmdVehicleAmmoExpense;
-            this.cmdFireVehicleWeapon.Enabled = false;
-            this.cmdFireVehicleWeapon.Location = new System.Drawing.Point(638, 405);
-            this.cmdFireVehicleWeapon.Name = "cmdFireVehicleWeapon";
-            this.cmdFireVehicleWeapon.Size = new System.Drawing.Size(79, 23);
-            this.cmdFireVehicleWeapon.SplitMenuStrip = this.cmdVehicleAmmoExpense;
-            this.cmdFireVehicleWeapon.TabIndex = 81;
-            this.cmdFireVehicleWeapon.Tag = "Button_Fire";
-            this.cmdFireVehicleWeapon.Text = "FIRE!";
-            this.cmdFireVehicleWeapon.UseVisualStyleBackColor = true;
-            this.cmdFireVehicleWeapon.Click += new System.EventHandler(this.cmdFireVehicleWeapon_Click);
-            // 
-            // cmdDeleteVehicle
-            // 
-            this.cmdDeleteVehicle.AutoSize = true;
-            this.cmdDeleteVehicle.ContextMenuStrip = this.cmsDeleteVehicle;
-            this.cmdDeleteVehicle.Location = new System.Drawing.Point(104, 7);
-            this.cmdDeleteVehicle.Name = "cmdDeleteVehicle";
-            this.cmdDeleteVehicle.Size = new System.Drawing.Size(80, 23);
-            this.cmdDeleteVehicle.SplitMenuStrip = this.cmsDeleteVehicle;
-            this.cmdDeleteVehicle.TabIndex = 62;
-            this.cmdDeleteVehicle.Tag = "String_Delete";
-            this.cmdDeleteVehicle.Text = "Delete";
-            this.cmdDeleteVehicle.UseVisualStyleBackColor = true;
-            this.cmdDeleteVehicle.Click += new System.EventHandler(this.cmdDeleteVehicle_Click);
-            // 
-            // lblWeaponAcc
-            // 
-            this.lblWeaponAcc.AutoSize = true;
-            this.lblWeaponAcc.Location = new System.Drawing.Point(640, 59);
-            this.lblWeaponAcc.Name = "lblWeaponAcc";
-            this.lblWeaponAcc.Size = new System.Drawing.Size(32, 13);
-            this.lblWeaponAcc.TabIndex = 120;
-            this.lblWeaponAcc.Text = "[Acc]";
-            // 
-            // lblWeaponAccLabel
-            // 
-            this.lblWeaponAccLabel.AutoSize = true;
-            this.lblWeaponAccLabel.Location = new System.Drawing.Point(583, 59);
-            this.lblWeaponAccLabel.Name = "lblWeaponAccLabel";
-            this.lblWeaponAccLabel.Size = new System.Drawing.Size(29, 13);
-            this.lblWeaponAccLabel.TabIndex = 119;
-            this.lblWeaponAccLabel.Tag = "Label_Accuracy";
-            this.lblWeaponAccLabel.Text = "Acc:";
+            this.lblVehicleSeats.AutoSize = true;
+            this.lblVehicleSeats.Location = new System.Drawing.Point(774, 150);
+            this.lblVehicleSeats.Name = "lblVehicleSeats";
+            this.lblVehicleSeats.Size = new System.Drawing.Size(40, 13);
+            this.lblVehicleSeats.TabIndex = 140;
+            this.lblVehicleSeats.Text = "[Seats]";
             // 
             // frmCareer
             // 
@@ -12569,6 +12593,8 @@
         private System.Windows.Forms.Label lblMentalLimitLabel;
         private System.Windows.Forms.Label lblWeaponAcc;
         private System.Windows.Forms.Label lblWeaponAccLabel;
+        private System.Windows.Forms.Label lblVehicleSeats;
+        private System.Windows.Forms.Label lblVehicleSeatsLabel;
     }
 }
 

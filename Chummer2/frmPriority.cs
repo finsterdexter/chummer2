@@ -20,49 +20,23 @@ namespace Chummer
             _objXmlDocument = XmlManager.Instance.Load("priorities.xml");
 
             // Create the list of Priorities (A - E).
-            List<ListItem> lstPriorities = new List<ListItem>();
-            
-            ListItem objA = new ListItem();
-            objA.Value = "A";
-            objA.Name = LanguageManager.Instance.GetString("String_Priority_A");
+            List<ListItem> lstPriorities = new List<ListItem>{
+                new ListItem("A", LanguageManager.Instance.GetString("String_Priority_A")),
+                new ListItem("B", LanguageManager.Instance.GetString("String_Priority_B")),
+                new ListItem("C", LanguageManager.Instance.GetString("String_Priority_C")),
+                new ListItem("D", LanguageManager.Instance.GetString("String_Priority_D")),
+                new ListItem("E", LanguageManager.Instance.GetString("String_Priority_E")),
+            };
 
-            ListItem objB = new ListItem();
-            objB.Value = "B";
-            objB.Name = LanguageManager.Instance.GetString("String_Priority_B");
-
-            ListItem objC = new ListItem();
-            objC.Value = "C";
-            objC.Name = LanguageManager.Instance.GetString("String_Priority_C");
-
-            ListItem objD = new ListItem();
-            objD.Value = "D";
-            objD.Name = LanguageManager.Instance.GetString("String_Priority_D");
-
-            ListItem objE = new ListItem();
-            objE.Value = "E";
-            objE.Name = LanguageManager.Instance.GetString("String_Priority_E");
-
-            lstPriorities.Add(objA);
-            lstPriorities.Add(objB);
-            lstPriorities.Add(objC);
-            lstPriorities.Add(objD);
-            lstPriorities.Add(objE);
 
             // Create a unique list for each category.
-            List<ListItem> lstMetatype = new List<ListItem>();
-            List<ListItem> lstAttribute = new List<ListItem>();
-            List<ListItem> lstSpecial = new List<ListItem>();
-            List<ListItem> lstSkill = new List<ListItem>();
-            List<ListItem> lstNuyen = new List<ListItem>();
+            List<ListItem> lstMetatype = new List<ListItem>(lstPriorities);
+            List<ListItem> lstAttribute = new List<ListItem>(lstPriorities);
+            List<ListItem> lstSpecial = new List<ListItem>(lstPriorities);
+            List<ListItem> lstSkill = new List<ListItem>(lstPriorities);
+            List<ListItem> lstNuyen = new List<ListItem>(lstPriorities);
 
-            foreach (ListItem objItem in lstPriorities)
-            {
-                lstMetatype.Add(objItem);
-                lstAttribute.Add(objItem);
-                lstSpecial.Add(objItem);
-                lstSkill.Add(objItem);
-                lstNuyen.Add(objItem);
-            }
+  
 
             cboPriorityMetatype.DisplayMember = "Name";
             cboPriorityMetatype.ValueMember = "Value";
@@ -248,7 +222,7 @@ namespace Chummer
         {
             // Make sure that each Priority has only been selected once.
             bool blnValid = true;
-
+            
             if (cboPriorityMetatype.SelectedValue == cboPriorityAttributes.SelectedValue)
                 blnValid = false;
             if (cboPriorityMetatype.SelectedValue == cboPrioritySpecial.SelectedValue)
@@ -335,7 +309,7 @@ namespace Chummer
                 }
             }
 
-            lblSummary.Text = strSummary;     
+            lblSummary.Text = strSummary;
         }
 
         private void ShowAttributesSummary()
